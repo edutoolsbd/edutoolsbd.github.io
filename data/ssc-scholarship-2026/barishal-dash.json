@@ -1,0 +1,2434 @@
+{
+  "credit": {
+    "source": "Board Official Notice",
+    "@data-preprocessed-and-visulaize-by": "Mahib Abrar"
+  },
+  "summary": {
+    "total_students": 1118,
+    "total_schools": 403,
+    "total_talentpool": 80,
+    "total_general": 1038
+  },
+  "top_schools": [
+    {
+      "school": "BARISHAL GOVT. GIRLS' HIGH SCHOOL",
+      "total": 55,
+      "talentpool": 6,
+      "general": 49
+    },
+    {
+      "school": "BARISHAL ZILLA SCHOOL",
+      "total": 41,
+      "talentpool": 9,
+      "general": 32
+    },
+    {
+      "school": "BARISHAL CADET COLLEGE",
+      "total": 34,
+      "talentpool": 4,
+      "general": 30
+    },
+    {
+      "school": "BHOLA GOVT. SECONDARY GIRLS'SCHOOL",
+      "total": 27,
+      "talentpool": 2,
+      "general": 25
+    },
+    {
+      "school": "PATUAKHALI GOVT. GIRLS' HIGH SCHOOL",
+      "total": 24,
+      "talentpool": 2,
+      "general": 22
+    },
+    {
+      "school": "JHALAKATHI GOVT. BOYS' SECONDARYSCHOOL",
+      "total": 19,
+      "talentpool": 1,
+      "general": 18
+    },
+    {
+      "school": "BHOLA GOVT. SECONDARY SCHOOL",
+      "total": 16,
+      "talentpool": 0,
+      "general": 16
+    },
+    {
+      "school": "HALIMA KHATUN SECONDARY GIRLS'SCHOOL",
+      "total": 15,
+      "talentpool": 3,
+      "general": 12
+    },
+    {
+      "school": "PATUAKHALI GOVT. JUBILEE HIGHSCHOOL",
+      "total": 15,
+      "talentpool": 0,
+      "general": 15
+    },
+    {
+      "school": "KHAS MAHAL LATIF INSTITUTION",
+      "total": 15,
+      "talentpool": 0,
+      "general": 15
+    },
+    {
+      "school": "KAUNIA GOVT. SECONDARY SCHOOL",
+      "total": 15,
+      "talentpool": 0,
+      "general": 15
+    },
+    {
+      "school": "UDAYAN SECONDARY SCHOOL",
+      "total": 14,
+      "talentpool": 1,
+      "general": 13
+    },
+    {
+      "school": "BARISHAL GOVT. MODEL SCHOOL ANDCOLLEGE",
+      "total": 14,
+      "talentpool": 2,
+      "general": 12
+    },
+    {
+      "school": "GALACHIPA GOVT. MODEL SECONDARYSCHOOL",
+      "total": 13,
+      "talentpool": 2,
+      "general": 11
+    },
+    {
+      "school": "GALACHIPA SECONDARY GIRLS' SCHOOL",
+      "total": 13,
+      "talentpool": 3,
+      "general": 10
+    },
+    {
+      "school": "BETAGI GOVT. PILOT HIGH SCHOOL",
+      "total": 13,
+      "talentpool": 2,
+      "general": 11
+    },
+    {
+      "school": "JHALAKATHI HARACHANDRA GOVT. GIRLS'SCHOOL",
+      "total": 13,
+      "talentpool": 0,
+      "general": 13
+    },
+    {
+      "school": "AMTALI GOVT. A. K. PILOT HIGH SCHOOL",
+      "total": 12,
+      "talentpool": 1,
+      "general": 11
+    },
+    {
+      "school": "PIROJPUR GOVT. GIRLS' SCHOOL",
+      "total": 11,
+      "talentpool": 2,
+      "general": 9
+    },
+    {
+      "school": "TASLIMA MEMORIAL ACADEMY",
+      "total": 11,
+      "talentpool": 0,
+      "general": 11
+    },
+    {
+      "school": "PIROJPUR GOVT. SECONDARYSCHOOL",
+      "total": 11,
+      "talentpool": 0,
+      "general": 11
+    },
+    {
+      "school": "PATUAKHALI COLLECTORATE SCHOOLAND COLLEGE",
+      "total": 11,
+      "talentpool": 0,
+      "general": 11
+    },
+    {
+      "school": "LALMOHAN SECONDARY GIRLS' SCHOOL",
+      "total": 11,
+      "talentpool": 0,
+      "general": 11
+    },
+    {
+      "school": "COLLEGIATE SECONDARY SCHOOL",
+      "total": 10,
+      "talentpool": 1,
+      "general": 9
+    },
+    {
+      "school": "BARGUNA GOVT. SECONDARY GIRLS'SCHOOL",
+      "total": 10,
+      "talentpool": 0,
+      "general": 10
+    },
+    {
+      "school": "LALMOHAN HA-MIM RESIDENTIAL SCHOOLAND COLLEGE",
+      "total": 10,
+      "talentpool": 0,
+      "general": 10
+    },
+    {
+      "school": "KHEPUPARA GOVT. MODEL SECONDARYSCHOOL",
+      "total": 9,
+      "talentpool": 1,
+      "general": 8
+    },
+    {
+      "school": "CHARFASHON GOVT. T. BARRET MODELSECONDARY SCHOOL",
+      "total": 9,
+      "talentpool": 0,
+      "general": 9
+    },
+    {
+      "school": "RUPATOLI GOVT. SECONDARYSCHOOL",
+      "total": 9,
+      "talentpool": 0,
+      "general": 9
+    },
+    {
+      "school": "GOVT. PATARHAT MUSLIM MODELHIGH SCHOOL",
+      "total": 8,
+      "talentpool": 0,
+      "general": 8
+    },
+    {
+      "school": "S. B. GOVT. SECONDARY GIRLS'SCHOOL",
+      "total": 8,
+      "talentpool": 0,
+      "general": 8
+    },
+    {
+      "school": "GOVT. SWARUPKATI PILOTSECONDARY SCHOOL",
+      "total": 8,
+      "talentpool": 0,
+      "general": 8
+    },
+    {
+      "school": "KALAIA SECONDARY SCHOOL",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "RAJAPUR GOVT. PILOT GIRLS' HIGHSCHOOL",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "SRIJANEE BIDYANIKETAN",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "BARISHAL CANTONMENT PUBLICSCHOOL AND COLLEGE",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "BHANDARIA BANDAR GOVT. GIRLS'SCHOOL",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "KUTUBA SECONDARY SCHOOL",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "GOVT. NALCHHITI MERCHANTS' MODELSECONDARY SCHOOL",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "LALMOHAN HA-MIM RESIDENTIALSCHOOL AND COLLEGE",
+      "total": 5,
+      "talentpool": 3,
+      "general": 2
+    },
+    {
+      "school": "CHAR PANGASIA HIGH SCHOOL",
+      "total": 5,
+      "talentpool": 1,
+      "general": 4
+    },
+    {
+      "school": "GAURICHANNA NAWAB SALIMULLAHSECONDARY SCHOOL",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "DAULATKHAN GOVT. SECONDARYSCHOOL",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "GOHAIL BARI J. M. SECONDARY SCHOOL",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "MOHIPUR CO-OPERATIVE SECONDARYSCHOOL",
+      "total": 4,
+      "talentpool": 1,
+      "general": 3
+    },
+    {
+      "school": "BARGUNA ZILLA SCHOOL",
+      "total": 4,
+      "talentpool": 1,
+      "general": 3
+    },
+    {
+      "school": "HAZIRHAT GOVT. MODEL HIGH SCHOOL",
+      "total": 4,
+      "talentpool": 1,
+      "general": 3
+    },
+    {
+      "school": "AMTALI GOVT. A. K. PILOT HIGHSCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "MULADI GOVT. MAHAMUDJAN MODELSECONDARY SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "GOVT. SANGHATI PILOT MODELSECONDARY SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "SWARAJGANJ SECONDARY SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "LALMOHAN GOVT. MODEL SECONDARYSCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "MOUKARAN SECONDARY SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "JHATIBUNIA M. E. SECONDARY SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "KALISHURI S. A. INSTITUTION",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "EVERGREEN PUBLIC MODEL SCHOOL ANDCOLLEGE",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "ASMATUNESSA PILOT SECONDARY GIRLS'SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "BARISHAL COLLECTORATE SCHOOLAND COLLEGE",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "A. R. S. SECONDARY GIRLS' SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "BAKERGANJ JIBON SHINGHA UNIONMODEL HIGH SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "KAMARKATI N. K. INSTITUTION",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "ABDUL HANNAN HAWLADAR HIGHSCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "CHARFASHION SECONDARY GIRLS'SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "NIZAM UDDIN SECONDARY SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "PALARDI SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
+    },
+    {
+      "school": "NABARUN SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
+    },
+    {
+      "school": "JHALAKATHI HARACHANDRA GOVT.GIRLS' SCHOOL",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
+    },
+    {
+      "school": "KHEPUPARA GOVT. MODELSECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "NAZIRPUR SECONDARY GIRLS'SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "PAIK-KHALI HAJEE S. N. ZAMANSECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "ULANIA HAT SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "KANAKDIA S. S. SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "FAZLUL KARIM MOLLAH HIGH SCHOOL -BHAILA",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "BAUPHAL GOVT. MODEL SECONDARYSCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "DASHMINA GOVT. MODEL SECONDARYSCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "BADURAHAT SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "PATHARGHATA ADARSHA GIRLS'SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "HARITANA ADARSHA SECONDARYSCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "NOORIA SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "HIJALTALA MOULAVIR HATSECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "SHAHEED SMARANIKA SECONDARYSCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "BAMRAIL A. B. SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "MAMATAZ MAZIDUNNESA SECONDARYGIRLS' SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "JAGADISH SARASWAT SECONDARYGIRLS' SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "PIROJPUR TOWN SECONDARYSCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "BHANDARIA VEHARI LAL MITRA PILOTSECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "BHITABARIA MODEL SECONDARYSCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "BORHANUDDIN GOVT. SECONDARYSCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "SHASHI BHUSHAN SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "CHARJANGALIA SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "AMUA BANDAR AMIR MOLLA SECONDARYSCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "KATHALIA GOVT. PILOT MODEL HIGHSCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "KACHA BALIA B. K. SECONDARY SCHOOL",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "BASHBARIA SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "ASMATUNESSA PILOT SECONDARYGIRLS' SCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "BABUGANJ GOVT. PILOT SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "NALCHIRA SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "PARERHAT SAMMILITA SECONDARYGIRLS' SCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "CHANDPUR GOVT. SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "BORHAN UDDIN SECONDARY GIRLS'SCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "NALCHHITI SECONDARY GIRLS' SCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "KANUDASKATHI NALBUNIA SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "BAZEMAHAL SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "BAUPHAL ADARSHA GIRLS'SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "ALIPURA UNION SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "CHIKNI KANDI SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "RANGABALI SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MOKAMIA SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GOVT. SARWARJAN PILOT MODELHIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "BARISHAL GOVT. GIRLS' HIGHSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "RAHMATPUR SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GOVT. BANARIPARA MODEL UNIONINSTITUTION (PILOT)",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "B. C. D. SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GOVT. K. G. UNION SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MAHAMUDKATHI ICHHAM UDDINSECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "INDURKANI MEHEUDDIN MODELSECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "PANCHAPALLI SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SHAMBHUPUR SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "JOYNAGAR SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "DAULATKHAN GOVT. SECONDARY GIRLS'SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "RAJAPUR PILOT HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "KATHALIA GOVT. PILOT MODEL HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "AMUA CHALITABUNIA SECONDARY GIRLS'SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "TALUKDAR HAT SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "CHHITKA MOHSIN SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "BOGA UNION SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "BAUPHAL ADARSHA GIRLS' SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "NUR MOHAMMAD SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "KATHALTALI SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "KHEPUPARA GIRLS' SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "KALMEGHA MUSLIM SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GOVT. SARWARJAN PILOT MODEL HIGHSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "BASHBUNIA SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "B. L. B. HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "TOWN SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "HABIBPUR SECONDARY GIRLS'SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "NAZIRPUR PRAGATI SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "KALIKAPUR RAMIZ UDDIN SMRITISECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SALIABAKPUR F. H. SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MEHENDIGONJ ADARSHA GIRLS'SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "OXFORD MISSION HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SHOLAK VICTORIA SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "CHANDRAHAR K. R. SHIKKHAYATAN",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SAFA SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "BOTHLA SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "CHAND MIA SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "TUSHKHALI SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "ALGI PATAKATA SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MIRUKHALI HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "BHOLA TOWN SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "LALMOHAN HA-MIM RESIDENTIAL SCHOOL AND COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "BHOLA ABDUR ROB SCHOOL ANDCOLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "BANKERHAT CO-OPERATIVE SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "RAMAGANJ SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "ANJURHAT SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MANIKA SECONDARY SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "JAYNUL ABDEEN LABORATORY HIGHSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "ABDUL MANNAN MIA SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GANGAPUR ADARSHA HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "OBAEDUL HAQUE BABUL SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MANPASHA SHER-E-BANGLA SECONDARYSCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "PATUAKHALI GOVT. JUBILEE HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "SUBIDKHALI GOVT. RAHMAN ISHAQUEPILOT HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "NACHNAPARA MANIKKHALI SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "CHANDKHALI ISHAK SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "HANUA MATIJAN SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "GOVT. WAZIRPUR BAROPAIKA(W.B)UNION MODEL INSTITUTION",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "GUTHIA MAHESHCHANDRA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "A. WAHED SECONDARY GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "HABIBPUR SECONDARY GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "KANDAPASHA GIRLS' SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "MUKTIJODDA MOSTOFA KAMALSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "PIROJPUR GOVT. SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "GOVT. K. G. UNION SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "KARIMUNNESSA SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "NAZIRPUR SECONDARY GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "KALARDOANIA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "PURBA JALABARI ADARSHA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "S. B. GOVT. SECONDARY GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "DEBIRCHAR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "LATIF MUNICIPAL SEMINARY",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PATUAKHALI COLLECTORATESCHOOL AND COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PATUAKHALI GOVT. GIRLS' HIGHSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "LALUA JANATA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SUBIDKHALI GOVT. RAHMANISHAQUE PILOT HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SAMABAY SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SUBIDKHALI R. K. GIRLS'SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MIRZAGANJ UNION DARGAH SHARIFSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GULI AULIAPUR MODEL SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DASHMINA GOVT. MODELSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHALITABUNIA MAMTAJ UDDINSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARO BAISHDIA A. HAKIMSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARGUNA ADARSHA SECONDARYGIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARGUNA GOVT. SECONDARYGIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BETAGI SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ZAFRAKHALI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KALMEGHA MUSLIM SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TALTALI GOVT. MODELSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BEHALA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "LAUPARA SAGAR SAYKOTSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BAGIR HAT SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARISHAL COLLECTORATESCHOOL AND COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "RASHED KHAN MENON MODELHIGHER SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PURBA MALUHAR ZASIM UDDINSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BAISHARI SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BANARIPARA SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MAHILARA A. N. SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TARKI BANDAR SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GOURNADI SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KATADIA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BAKERGANJ GOVT. GIRLS'SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DHAMURA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SATLA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BAROKOTHA UNION SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ABDUL MAJID SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NAZIRPUR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BAKAL NIRANJAN BAIRAGI HIGHSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AGAILJHARA BHEGAI HALDERPUBLIC ACADEMY",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "RAJIHAR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AGAILJHARA SREEMATI MATREEMANGAL SECONDARY GIRLSSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KAURIA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "E. G. S. SHIKKHA NIKETAN,RAGHUNATHPUR",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "LARA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TRIGRAM SAMMILANI SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "HAZI ABDUL GANI SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SWARUPKATHI COLLEGIATEACADEMY",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AKALAM MUSLIM SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BHANDARIA VEHARI LAL MITRA PILOT SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SETARA SMRITI GOVT. SECONDARYGIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "LALMOHAN SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KORALMARA BANGLABAZARSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AHAMMEDPUR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KERAMATGANJ SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "UTTAR SHAKUCHIA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BEGUM RAZIA GIRLS SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHANDRAMOHAN R. M. SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MAMATAZ MAZIDUNNESA SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NABA ADARSHA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KHALISHAKHALI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PATUAKHALI COLLECTORATE SCHOOL AND COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PAN PATTEE SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KACHHIPARA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KHASERHAT SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "JOYGUNNESSA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHAHEED SMRITI BIDDYANIKETON",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AMKHOLA HAT SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BIGHAI HAT SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AULIAPUR ADARSHA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AGRANI VIDYAPITH ( NURAINPUR )",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DASHMINA GOVT. MODEL SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHHOTOBIGHAI OFISERHAT SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARAGOPALDI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHOYTA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GACHANI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GHOPKHALI LALMIA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NEHALGANJ SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PAKHIMARA PRAFULLA BHOWMIKSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DHULIA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KISMAT SREENAGAR ADARSHASECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BEGUM AREFATUNNESSA GIRLS'SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ATKHALI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHER-E-BANGLA SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KALAIA HAYATUNNESA GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "B. S. SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BAZITA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "POLICE LINE HIGH SCHOOL, BARGUNA",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GAZIPUR BANDAR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BORGUNA COLLEGIATE SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARGUNA GOVT. SECONDARY GIRLS'",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BURIRCHAR A. M. G. SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "LEMUA ADARSHA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MADARTALI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KADVANU MEMORIAL SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHANDKHALI ISHAK SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TALUKDER PARA HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARGUNA GOVT. SECONDARY GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "HALTA DOUATALA SAMABAY SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARI AZAD SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "RAMNA SHER-E-BANGLA SAMABAYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SOUTH JHARAKHALI SESDP MODEL HIGHSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "RUPDHAN BANDAR AMIRIA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ITBARIA KADAMTALA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KAKCHIRA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "HOSNABAD ADARSHA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KAZIRHAT SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "HATEMPUR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TETULBARIA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHILA HASHEM BISWAS SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MANIKKHALI RAHMANIA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "JAHANARA ISRAIL SCHOOL & COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "A. WAHED SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KALASKATI B. M. ACADEMY",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHER-E-BANGLA NAGAR SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHARKALEKHAN UNION HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PANI UNNAYAN BOARD MADHYAMIKVIDYALAYA",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ULANIA CORONATION SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AZIZUL HAQUE SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHAKHAR FAZLUL HUQ INSTITUTION",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "B. K. SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHAHUTPUR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ASMAT ALI KHAN ( A. K.) INSTITUTION",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PUSPA RANI CHOWDHURANIINSTITUTION",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ASKAR KALIBARI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SAESTABAD MOAZZEM HOSSAINSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHANDSHI ISHWARCHANDRASECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MAHESHPUR HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KUTUBPUR SESDP MODEL HIGHSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHER-E-BANGLA GIRLS' SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHER-E-BANGLA SECONDARY GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PATARHAT SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BAISHARI SECONDARY GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ILUHAR BIHARI LAL ACADEMYSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KAZIRCHAR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BUKHAI NAGAR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "THAKUR MALLIK SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHHAYGRAM SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SONAR BANGLA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PANCHAGRAM SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BAHADURPUR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHANDPURA UNION SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MAULTALA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "JOYSREE MUNDAPASHA S. A. B. M.SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DURGAPUR HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TEMAR MALEKA KHATUN SECONDARYGIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ST. ALFRED'S HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "RAKUDIA SECONDARY GIRLS SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KALIKAPUR RAMIZ UDDIN SMRITI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MAHABAJ SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "B. B. S. G. HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BHALUKSHI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARAMASUA UNITED HIGHINSTITUTION",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NANDUHAR ILUHAR UNITEDINSTITUTION",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BAROIBUNIA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PARERHAT R. L. SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SAPLEZA MODEL HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "JUZKHOLA UNITED MULTILATERALHIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SUTIAKATI PILOT SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "THAKURHOWLA AMTALA HIGHSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ARAMKATHI HAZI IBRAHIMSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SOHAGDAL ADARSHA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SREERAMKATHI U. J. K. SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GOVT. SWARUPKATI PILOT SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHIKDAR MALLIK SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TELIKHALI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BALDIA CENTRAL HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ALKIRHAT R. A. HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "S. S. SHEIKHMATIA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BALIHARI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHAMSUNNAHAR HALIM SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TEJDASKATHI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DIGHIRJAN SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DAKSHIN GABTALA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHIALKATHI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NANDUHAR ILUHAR UNITED INSTITUTION",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "HALTA KUMIRMARA ABU ZAFARSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SUTIAKATI UNION HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ABDUL HAMID SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BUKHAITALA BANDHABPARA S.SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AMRAGACHHIA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "UTTAR PASHCHIM SOHAGDAL HIGHSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TUSHKHALI GIRLS' HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHANKAR PASHA UNION G. HAIDARSECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GAZARIA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PASCHIM BEPTA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MONPURA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "HASANGANJ ISLAMIA HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KORALMARA BANGLABAZAR SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "RATANPUR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SONAPUR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KASSOPIA NILIMA JAKOB HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SAMEDPUR BANGLABAZAR SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SATANI BADIUZZAMAN SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BANKERHAT CO-OPERATIVE SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KASHEMGANJ SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GAFUR GANJ SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KACHIA SAHA MOTHER SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ILISHA UNION COUNCIL SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "WEST KACHIA RATANPUR HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ALIGAON A. GAFUR SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TAYABA KHATUN MODEL ACADEMY",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GAZARIA GIRLS' SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHARNOABAD MUSLIM SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AZHAR ALI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GHOSHER HAT SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GALUA S. K. GIRLS' SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "K. B. K. SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TIMIRKATI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KATHALIA SECONDARY GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TETUL BARIA ISLAMIA SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "JHALAKATHI HARACHANDRA GOVT. GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHAIT PAKIA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MATHBARI UNION SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PANCHAGRAM ADARSHA HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BEGUM RAZIA GIRLS SECONDARYSCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AFSAR MEMORIAL SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BANAI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHANDRAKANDA SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BHARUKATHI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DHANSHIRI SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHIRJUG AZIMUNNESA SECONDARY GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHEKHERHAT ROKEYA KHATUNSECONDARY GIRLS' SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NORTH CHHITKEE SECONDARY GIRLS'SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "UDBODHAN SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    }
+  ],
+  "is_mark": false,
+  "is_group": false
+}
