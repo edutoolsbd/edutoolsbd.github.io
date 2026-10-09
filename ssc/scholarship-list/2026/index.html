@@ -34,11 +34,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <style>
-        body { font-family: 'Hind Siliguri', sans-serif; }
+        @font-face {
+  font-family: 'BeautifulBengaliNumbers';
+  src: src: local('Noto Sans Bengali'), 
+       local('NotoSansBengali-Regular'),;
+  
+  /* বাংলা সংখ্যা ০, ১, ২, ৩, ৪, ৫, ৬, ৭, ৮, ৯ এর ইউনিকোড রেঞ্জ */
+  unicode-range: U+09E6-09EF; 
+  font-weight: 400;
+}body { font-family: 'BeautifulBengaliNumbers','Hind Siliguri', sans-serif !important; }
     </style>
 
     
@@ -379,6 +389,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             
                             
                             
+                                <option value="cumilla" data-json="cumilla">Cumilla Board</option>
+                                
                             
                             
                             
@@ -570,8 +582,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     cumilla
                                 </span>
                                 
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-warning">
-                                        <span class="w-2 h-2 rounded-full bg-warning"></span> অপেক্ষমাণ
+                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-success">
+                                        <span class="w-2 h-2 rounded-full bg-success animate-pulse"></span> সচল (Available)
                                     </span>
                                 
                             </div>
@@ -587,9 +599,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <!-- Action Links -->
                         <div class="grid grid-cols-2 gap-2 pt-2 border-t border-base-300/60">
                             
-                                <button class="btn btn-sm btn-disabled w-full col-span-2">
-                                    শীঘ্রই আসছে
-                                </button>
+                                <a href="./cumilla" class="btn btn-sm btn-primary text-white font-medium w-full">
+                                    রেজাল্ট দেখুন
+                                </a>
+                                <a href="./cumilla/analysis" class="btn btn-sm btn-outline btn-neutral w-full">
+                                    অ্যানালিসিস & বৃত্তি
+                                </a>
                             
                         </div>
 
