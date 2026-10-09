@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://edutoolsbd.github.io/sitemap.xml
+Sitemap: https://edutoolsbd.vercel.app/sitemap.xml
