@@ -50,7 +50,15 @@
   
   /* বাংলা সংখ্যা ০, ১, ২, ৩, ৪, ৫, ৬, ৭, ৮, ৯ এর ইউনিকোড রেঞ্জ */
   unicode-range: U+09E6-09EF; 
-}body { font-family: 'BeautifulBengaliNumbers','Hind Siliguri', sans-serif !important; }
+}body { font-family: 'BeautifulBengaliNumbers','Hind Siliguri', sans-serif !important; }/* Remove default disclosure triangle/arrow in WebKit and standard browsers */
+summary::-webkit-details-marker {
+    display: none !important;
+}
+
+summary {
+    list-style: none !important; /* For Firefox and modern browsers */
+}
+
     </style>
 
     
@@ -88,186 +96,95 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<!-- Main Navbar Markup -->
-<nav class="sticky top-0 z-50 bg-base-100/90 backdrop-blur-md border-b border-base-200 transition-colors duration-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="navbar min-h-16 px-0">
-            
-            <!-- Navbar Start (Logo & Mobile Menu Trigger) -->
-            <div class="navbar-start gap-2">
-                <!-- Mobile Drawer Toggle Button -->
-                <div class="dropdown lg:hidden">
-                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle btn-sm" aria-label="Toggle Navigation">
-                        <svg class="w-5 h-5 text-base-content" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
+
+
+<!-- Full Page PWA Drawer Wrapper -->
+<div class="drawer drawer-start">
+    <input id="mobile-nav-drawer" type="checkbox" class="drawer-toggle" />
+    
+    <div class="drawer-content flex flex-col">
+        <!-- Main Navbar Header -->
+        <header class="sticky top-0 z-40 w-full bg-base-100/80 backdrop-blur-xl border-b border-base-200/70 transition-colors duration-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="navbar min-h-16 px-0 gap-2">
+                    
+                    <!-- Navbar Start: Logo & PWA Mobile Menu Trigger -->
+                    <div class="navbar-start gap-2">
+                        <label for="mobile-nav-drawer" class="btn btn-ghost btn-circle btn-sm lg:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-primary" aria-label="Open Mobile Menu">
+                            <svg class="w-5 h-5 text-base-content" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </label>
+
+                        <!-- Brand & Logo -->
+                        <a href="/" class="text-xl font-black tracking-tight text-primary flex items-center gap-2.5 group">
+                            <div class="relative w-8 h-8 rounded-xl bg-primary/10 flex items-center justify-center overflow-hidden border border-primary/20 group-hover:scale-105 transition-transform duration-200">
+                                <img src="/favicon-96x96.png" alt="EduToolsBD Icon" class="w-6 h-6 object-contain" />
+                            </div>
+                            <span class="text-base-content font-extrabold text-lg sm:text-xl">EduTools<span class="text-primary">BD</span></span>
+                        </a>
                     </div>
-                    <!-- Mobile Menu Flyout -->
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[100] p-3 shadow-2xl bg-base-100 rounded-3xl border border-base-200 w-72 space-y-1 text-base-content">
+
+                    <!-- Navbar Center: Desktop Horizontal Navigation -->
+                    <div class="navbar-center hidden lg:flex items-center gap-1">
                         
                             
-    
-        <!-- Mobile Direct Link -->
-        <li>
-            <a href="/" class="font-medium text-base-content hover:text-primary flex justify-between items-center py-2">
-                <span>হোম</span>
-                
-            </a>
-        </li>
-    
-
-                        
-                            
-    
-        <!-- Mobile Expandable Accordion Item -->
-        <li>
-            <details>
-                <summary class="font-bold text-base-content">
-                    <span>এসএসসি (SSC)</span>
-                    
-                </summary>
-                <ul class="pl-4 space-y-1 border-l-2 border-base-300 my-1">
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion Item -->
-        <li>
-            <details>
-                <summary class="font-bold text-base-content">
-                    <span>SSC বোর্ড বৃত্তি</span>
-                    
-                </summary>
-                <ul class="pl-4 space-y-1 border-l-2 border-base-300 my-1">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li>
-            <a href="/ssc/scholarship-list/2026/chattogram" class="font-medium text-base-content hover:text-primary flex justify-between items-center py-2">
-                <span>Chattogram Board</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li>
-            <a href="/ssc/scholarship-list/2026/sylhet" class="font-medium text-base-content hover:text-primary flex justify-between items-center py-2">
-                <span>Sylhet Board</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                        
-                            
-    
-        <!-- Mobile Expandable Accordion Item -->
-        <li>
-            <details>
-                <summary class="font-bold text-base-content">
-                    <span>এইচএসসি (HSC)</span>
-                    
-                </summary>
-                <ul class="pl-4 space-y-1 border-l-2 border-base-300 my-1">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li>
-            <a href="/hsc/2026/result" class="font-medium text-base-content hover:text-primary flex justify-between items-center py-2">
-                <span>রেজাল্ট ২০২৬</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                        
-                    </ul>
-                </div>
-
-                <!-- Brand / Logo -->
-                <a href="/" class="text-xl font-black tracking-tight text-primary flex items-center gap-2">
-                    <span class="bg-primary text-primary-content p-1.5 rounded-xl text-sm font-bold">ET</span>
-                    <span class="text-base-content">EduTools<span class="text-primary">BD</span></span>
-                </a>
-            </div>
-
-            <!-- Navbar Center (Desktop Horizontal Links) -->
-            <div class="navbar-center hidden lg:flex items-center gap-1">
-                
-                    
     
         <!-- Standalone Desktop Link -->
-        <a href="/" class="btn btn-ghost btn-sm rounded-xl font-bold text-base-content hover:bg-base-200">
-            হোম
+        <a href="/" class="btn btn-ghost btn-sm rounded-xl font-bold text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200">
+            <span>হোম</span>
             
         </a>
     
 
-                
-                    
+                        
+                            
     
-        <!-- Desktop Dropdown Parent -->
+        <!-- Desktop Hover Dropdown (Level 1) -->
         <div class="dropdown dropdown-hover dropdown-bottom">
-            <div tabindex="0" role="button" class="btn btn-ghost btn-sm rounded-xl font-bold flex items-center gap-1.5 text-base-content hover:bg-base-200 group">
+            <div tabindex="0" role="button" aria-haspopup="true" class="btn btn-ghost btn-sm rounded-xl font-bold flex items-center gap-1.5 text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200 group">
                 <span>এসএসসি (SSC)</span>
                 
-                <svg class="w-4 h-4 opacity-70 transition-transform duration-200 group-hover:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                <svg class="w-3.5 h-3.5 opacity-60 transition-transform duration-200 group-hover:rotate-180 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
                 </svg>
             </div>
             
-            <!-- Dropdown Menu -->
-            <ul tabindex="0" class="dropdown-content z-[100] menu p-2 shadow-xl bg-base-100 rounded-2xl border border-base-200 w-56 space-y-1 text-base-content">
+            <!-- Level 1 Dropdown Menu -->
+            <ul tabindex="0" class="dropdown-content z-[100] menu p-2 shadow-2xl bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 w-60 space-y-1 text-base-content mt-1">
                 
                     
-                        <!-- Nested Sub-dropdown (Level 2+) -->
-                        <li>
-                            <details>
-                                <summary class="font-semibold text-base-content flex justify-between items-center rounded-xl hover:bg-base-200">
-                                    <span>SSC বোর্ড বৃত্তি</span>
+                        <!-- Nested Sub-dropdown (Level 2) -->
+                        <li class="relative group/sub">
+                            <summary class="font-semibold text-sm rounded-xl hover:bg-base-200/70 hover:text-primary flex justify-between items-center py-2 px-3 cursor-pointer">
+                                <span>SSC বোর্ড বৃত্তি</span>
+                                <div class="flex items-center gap-1.5">
                                     
-                                </summary>
-                                <ul class="p-2 space-y-1 bg-base-200/60 rounded-xl mt-1">
+                                        <span class="badge badge-xs badge-accent font-medium">HOT 🔥</span>
                                     
-                                        <li>
-                                            <a href="/ssc/scholarship-list/2026/chattogram" class="rounded-lg text-sm font-medium hover:text-primary hover:bg-base-300/50">
-                                                Chattogram Board
-                                                
-                                            </a>
-                                        </li>
-                                    
-                                        <li>
-                                            <a href="/ssc/scholarship-list/2026/sylhet" class="rounded-lg text-sm font-medium hover:text-primary hover:bg-base-300/50">
-                                                Sylhet Board
-                                                
-                                            </a>
-                                        </li>
-                                    
-                                </ul>
-                            </details>
+                                    <svg class="w-3.5 h-3.5 opacity-60 group-hover/sub:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </div>
+                            </summary>
+                            <!-- Level 2 Flyout -->
+                            <ul class="hidden group-hover/sub:flex flex-col absolute left-full top-0 ml-1.5 w-56 p-2 bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 shadow-2xl space-y-1 z-[101]">
+                                
+                                    <li>
+                                        <a href="/ssc/scholarship-list/2026/chattogram" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
+                                            <span>Chattogram Board</span>
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/ssc/scholarship-list/2026/sylhet" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
+                                            <span>Sylhet Board</span>
+                                            
+                                        </a>
+                                    </li>
+                                
+                            </ul>
                         </li>
                     
                 
@@ -275,26 +192,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     
 
-                
-                    
+                        
+                            
     
-        <!-- Desktop Dropdown Parent -->
+        <!-- Desktop Hover Dropdown (Level 1) -->
         <div class="dropdown dropdown-hover dropdown-bottom">
-            <div tabindex="0" role="button" class="btn btn-ghost btn-sm rounded-xl font-bold flex items-center gap-1.5 text-base-content hover:bg-base-200 group">
+            <div tabindex="0" role="button" aria-haspopup="true" class="btn btn-ghost btn-sm rounded-xl font-bold flex items-center gap-1.5 text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200 group">
                 <span>এইচএসসি (HSC)</span>
                 
-                <svg class="w-4 h-4 opacity-70 transition-transform duration-200 group-hover:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                <svg class="w-3.5 h-3.5 opacity-60 transition-transform duration-200 group-hover:rotate-180 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
                 </svg>
             </div>
             
-            <!-- Dropdown Menu -->
-            <ul tabindex="0" class="dropdown-content z-[100] menu p-2 shadow-xl bg-base-100 rounded-2xl border border-base-200 w-56 space-y-1 text-base-content">
+            <!-- Level 1 Dropdown Menu -->
+            <ul tabindex="0" class="dropdown-content z-[100] menu p-2 shadow-2xl bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 w-60 space-y-1 text-base-content mt-1">
                 
                     
-                        <!-- Direct Link Sub-item -->
+                        <!-- Direct Child Link -->
                         <li>
-                            <a href="/hsc/2026/result" class="rounded-xl font-medium text-base-content hover:text-primary hover:bg-base-200 flex justify-between items-center">
+                            <a href="/hsc/2026/result" class="rounded-xl font-medium text-sm text-base-content/90 hover:text-primary hover:bg-base-200/70 flex justify-between items-center py-2 px-3">
                                 <span>রেজাল্ট ২০২৬</span>
                                 
                             </a>
@@ -305,49 +222,213 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     
 
-                
+                        
+                    </div>
+
+                    <!-- Navbar End: Theme Switcher & Actions -->
+                    <div class="navbar-end gap-2">
+                        <!-- PWA Optimized Theme Controller Switcher -->
+                        <label class="btn btn-ghost btn-circle btn-sm text-base-content/80 hover:text-base-content swap swap-rotate" title="Toggle Light/Dark Theme">
+                            <input type="checkbox" id="theme-toggle" class="theme-controller hidden" value="dark" />
+                            
+                            <!-- Sun Icon (Active when dark mode is ON) -->
+                            <svg class="swap-on w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,3.52,6.34l.71.71A1,1,0,0,0,5.64,7.05ZM18.36,17A1,1,0,0,0,17,17.71l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-3.95-5.36a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.41l.71.71a1,1,0,0,0,1.41-0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/>
+                            </svg>
+                            
+                            <!-- Moon Icon (Active when light mode is ON) -->
+                            <svg class="swap-off w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05A1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22a10.17,10.17,0,0,0,5.13,11.34A10.1,10.1,0,0,0,16.27,18,8.11,8.11,0,0,1,12.14,19.69Z"/>
+                            </svg>
+                        </label>
+
+                        
+                            <a href="/ssc/scholarship-list/2026/" class="btn btn-primary btn-sm sm:btn-md text-primary-content rounded-xl font-bold shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02] active:scale-95 transition-all duration-200">
+                                বৃত্তি চেক ➔
+                            </a>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- PWA Mobile Off-Canvas Drawer Side -->
+    <div class="drawer-side z-50 lg:hidden">
+        <label for="mobile-nav-drawer" aria-label="close sidebar" class="drawer-overlay bg-base-900/40 backdrop-blur-sm"></label>
+        
+        <aside class="w-80 max-w-[85vw] min-h-full bg-base-100 text-base-content flex flex-col shadow-2xl">
+            <!-- Mobile Drawer Header -->
+            <div class="sticky top-0 z-10 flex items-center justify-between px-5 py-4 border-b border-base-200 bg-base-100/90 backdrop-blur-md">
+                <a href="/" class="flex items-center gap-2.5">
+                    <img src="/favicon-96x96.png" alt="EduToolsBD Logo" class="w-7 h-7 object-contain" />
+                    <span class="text-lg font-black tracking-tight text-base-content">EduTools<span class="text-primary">BD</span></span>
+                </a>
+                <label for="mobile-nav-drawer" class="btn btn-ghost btn-circle btn-sm text-base-content/60 hover:text-base-content">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                </label>
             </div>
 
-            <!-- Navbar End (Theme Switcher & Call to Action) -->
-            <div class="navbar-end gap-2">
-                <!-- Light / Dark Theme Controller Toggle -->
-                <label class="btn btn-ghost btn-circle btn-sm text-base-content" title="Toggle Theme">
-                    <input type="checkbox" id="theme-toggle" class="theme-controller hidden" value="dark" />
-                    <!-- Sun Icon (shows in Dark Mode) -->
-                    <svg class="w-5 h-5 swap-off fill-current dark:block hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,3.52,6.34l.71.71A1,1,0,0,0,5.64,7.05ZM18.36,17A1,1,0,0,0,17,17.71l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-3.95-5.36a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.41l.71.71a1,1,0,0,0,1.41-0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/>
-                    </svg>
-                    <!-- Moon Icon (shows in Light Mode) -->
-                    <svg class="w-5 h-5 swap-on fill-current dark:hidden block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05A1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22a10.17,10.17,0,0,0,5.13,11.34A10.1,10.1,0,0,0,16.27,18,8.11,8.11,0,0,1,12.14,19.69Z"/>
-                    </svg>
-                </label>
-
+            <!-- Mobile Navigation Menu Links -->
+            <div class="flex-1 overflow-y-auto p-4">
+                <ul class="menu menu-md w-full p-0 space-y-1">
+                    
+                        
+    
+        <!-- Mobile Direct Link -->
+        <li class="py-0.5">
+            <a href="/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2.5 px-4 flex justify-between items-center transition-colors">
+                <span>হোম</span>
                 
-                    <a href="/ssc/scholarship-list/2026/" class="btn btn-primary btn-sm sm:btn-md text-primary-content rounded-2xl font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform">
+            </a>
+        </li>
+    
+
+                    
+                        
+    
+        <!-- Mobile Expandable Accordion using DaisyUI Collapse -->
+        <li class="py-0.5">
+            <div class="collapse collapse-arrow rounded-xl hover:bg-base-200/60">
+                <input type="checkbox" class="peer min-h-0" /> 
+                <div class="collapse-title text-base font-bold text-base-content/90 min-h-0 py-3 px-4 flex justify-between items-center">
+                    <span class="flex items-center gap-2">
+                        এসএসসি (SSC)
+                        
+                    </span>
+                </div>
+                <div class="collapse-content p-0 pl-3">
+                    <ul class="border-l-2 border-base-300/60 my-1 space-y-1">
+                        
+                            
+    
+        <!-- Mobile Expandable Accordion using DaisyUI Collapse -->
+        <li class="py-0.5">
+            <div class="collapse collapse-arrow rounded-xl hover:bg-base-200/60">
+                <input type="checkbox" class="peer min-h-0" /> 
+                <div class="collapse-title text-base font-bold text-base-content/90 min-h-0 py-3 px-4 flex justify-between items-center">
+                    <span class="flex items-center gap-2">
+                        SSC বোর্ড বৃত্তি
+                        
+                            <span class="badge badge-xs badge-secondary">HOT 🔥</span>
+                        
+                    </span>
+                </div>
+                <div class="collapse-content p-0 pl-3">
+                    <ul class="border-l-2 border-base-300/60 my-1 space-y-1">
+                        
+                            
+    
+        <!-- Mobile Direct Link -->
+        <li class="py-0.5">
+            <a href="/ssc/scholarship-list/2026/chattogram" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2.5 px-4 flex justify-between items-center transition-colors">
+                <span>Chattogram Board</span>
+                
+            </a>
+        </li>
+    
+
+                        
+                            
+    
+        <!-- Mobile Direct Link -->
+        <li class="py-0.5">
+            <a href="/ssc/scholarship-list/2026/sylhet" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2.5 px-4 flex justify-between items-center transition-colors">
+                <span>Sylhet Board</span>
+                
+            </a>
+        </li>
+    
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </li>
+    
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </li>
+    
+
+                    
+                        
+    
+        <!-- Mobile Expandable Accordion using DaisyUI Collapse -->
+        <li class="py-0.5">
+            <div class="collapse collapse-arrow rounded-xl hover:bg-base-200/60">
+                <input type="checkbox" class="peer min-h-0" /> 
+                <div class="collapse-title text-base font-bold text-base-content/90 min-h-0 py-3 px-4 flex justify-between items-center">
+                    <span class="flex items-center gap-2">
+                        এইচএসসি (HSC)
+                        
+                    </span>
+                </div>
+                <div class="collapse-content p-0 pl-3">
+                    <ul class="border-l-2 border-base-300/60 my-1 space-y-1">
+                        
+                            
+    
+        <!-- Mobile Direct Link -->
+        <li class="py-0.5">
+            <a href="/hsc/2026/result" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2.5 px-4 flex justify-between items-center transition-colors">
+                <span>রেজাল্ট ২০২৬</span>
+                
+            </a>
+        </li>
+    
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </li>
+    
+
+                    
+                </ul>
+            </div>
+
+            <!-- Mobile Drawer Footer CTA -->
+            
+                <div class="p-4 border-t border-base-200 bg-base-100/50">
+                    <a href="/ssc/scholarship-list/2026/" class="btn btn-primary w-full rounded-xl text-primary-content font-bold shadow-lg shadow-primary/20">
                         বৃত্তি চেক ➔
                     </a>
-                
-            </div>
-
-        </div>
+                </div>
+            
+        </aside>
     </div>
-</nav>
+</div>
 
-<!-- Theme Switcher Script -->
+<!-- Synchronous Non-Flickering Theme Script -->
 <script>
     (function() {
         const toggle = document.getElementById('theme-toggle');
         const html = document.documentElement;
         
-        // Load saved theme or default to light
         const savedTheme = localStorage.getItem('theme') || 'light';
         html.setAttribute('data-theme', savedTheme);
+        if (savedTheme === 'dark') {
+            html.classList.add('dark');
+        } else {
+            html.classList.remove('dark');
+        }
+
         if (toggle) {
-            toggle.checked = savedTheme === 'dark';
+            toggle.checked = (savedTheme === 'dark');
             toggle.addEventListener('change', function() {
                 const newTheme = this.checked ? 'dark' : 'light';
                 html.setAttribute('data-theme', newTheme);
+                if (newTheme === 'dark') {
+                    html.classList.add('dark');
+                } else {
+                    html.classList.remove('dark');
+                }
                 localStorage.setItem('theme', newTheme);
             });
         }
