@@ -1,0 +1,22 @@
+{
+  "name": "edutoolsbd",
+  "version": "1.0.0",
+  "description": "Education Tools Bangladesh - শিক্ষা সংক্রান্ত সকল ডিজিটাল টুলস",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "education",
+    "bangladesh",
+    "ssc",
+    "hsc",
+    "results"
+  ],
+  "author": "EdutoolsBD",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
