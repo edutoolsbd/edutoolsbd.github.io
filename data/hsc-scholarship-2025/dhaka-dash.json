@@ -1,0 +1,1263 @@
+{
+  "credit": {
+    "source": "Board Official Notice",
+    "@data-preprocessed-and-visulaize-by": "Mahib Abrar"
+  },
+  "summary": {
+    "total_students": 3360,
+    "total_schools": 207,
+    "total_talentpool": 446,
+    "total_general": 2914
+  },
+  "top_schools": [
+    {
+      "school": "NOTRE DAME COLLEGE",
+      "total": 751,
+      "talentpool": 126,
+      "general": 625
+    },
+    {
+      "school": "HOLY CROSS COLLEGE",
+      "total": 274,
+      "talentpool": 48,
+      "general": 226
+    },
+    {
+      "school": "RAJUK UTTARA MODEL COLLEGE",
+      "total": 244,
+      "talentpool": 42,
+      "general": 202
+    },
+    {
+      "school": "ADAMJEE CANTONMENT COLLEGE",
+      "total": 224,
+      "talentpool": 36,
+      "general": 188
+    },
+    {
+      "school": "DHAKA RESIDENTIAL MODEL COLLEGE",
+      "total": 187,
+      "talentpool": 35,
+      "general": 152
+    },
+    {
+      "school": "VIQARUNNISA NOON SCHOOL AND COLLEGE",
+      "total": 156,
+      "talentpool": 20,
+      "general": 136
+    },
+    {
+      "school": "RAJENDRAPUR CANTONMENT PUBLIC COLLEGE",
+      "total": 110,
+      "talentpool": 6,
+      "general": 104
+    },
+    {
+      "school": "BIRSHRESHTHA NOOR MOHAMMAD PUBLIC COLLEGE",
+      "total": 101,
+      "talentpool": 15,
+      "general": 86
+    },
+    {
+      "school": "DHAKA COLLEGE",
+      "total": 98,
+      "talentpool": 9,
+      "general": 89
+    },
+    {
+      "school": "ABDUL KADIR MOLLAH CITY COLLEGE",
+      "total": 93,
+      "talentpool": 17,
+      "general": 76
+    },
+    {
+      "school": "DR. MAHBUBUR RAHMAN MOLLAH COLLEGE",
+      "total": 55,
+      "talentpool": 4,
+      "general": 51
+    },
+    {
+      "school": "ST. JOSEPH HIGHER SECONDARY SCHOOL",
+      "total": 52,
+      "talentpool": 1,
+      "general": 51
+    },
+    {
+      "school": "SHAMSUL HOQUE KHAN SCHOOL & COLLEGE",
+      "total": 49,
+      "talentpool": 10,
+      "general": 39
+    },
+    {
+      "school": "IDEAL SCHOOL AND COLLEGE, MOTIJHEEL",
+      "total": 45,
+      "talentpool": 3,
+      "general": 42
+    },
+    {
+      "school": "SAVAR CANTONMENT PUBLIC SCHOOL AND COLLEGE",
+      "total": 43,
+      "talentpool": 4,
+      "general": 39
+    },
+    {
+      "school": "DHAKA CITY COLLEGE",
+      "total": 41,
+      "talentpool": 2,
+      "general": 39
+    },
+    {
+      "school": "SABUJBAGH GOVERNMENT COLLEGE, DHAKA",
+      "total": 38,
+      "talentpool": 3,
+      "general": 35
+    },
+    {
+      "school": "B A F SHAHEEN COLLEGE DHAKA",
+      "total": 37,
+      "talentpool": 1,
+      "general": 36
+    },
+    {
+      "school": "GOVT. GURUDAYAL COLLEGE",
+      "total": 35,
+      "talentpool": 3,
+      "general": 32
+    },
+    {
+      "school": "DHAKA COMMERCE COLLEGE",
+      "total": 31,
+      "talentpool": 1,
+      "general": 30
+    },
+    {
+      "school": "GOVT. RAJENDRA COLLEGE",
+      "total": 26,
+      "talentpool": 3,
+      "general": 23
+    },
+    {
+      "school": "GOVT. KUMUDINI COLLEGE",
+      "total": 24,
+      "talentpool": 5,
+      "general": 19
+    },
+    {
+      "school": "SHAHEED BIR UTTAM LT ANWAR GIRLS' COLLEGE",
+      "total": 24,
+      "talentpool": 1,
+      "general": 23
+    },
+    {
+      "school": "MIRPUR CANTONMENT PUBLIC SCHOOL & COLLEGE",
+      "total": 22,
+      "talentpool": 0,
+      "general": 22
+    },
+    {
+      "school": "NARAYANGANJ GOVT. MOHILA COLLEGE",
+      "total": 21,
+      "talentpool": 3,
+      "general": 18
+    },
+    {
+      "school": "GAZIPUR CANTONMENT COLLEGE",
+      "total": 20,
+      "talentpool": 0,
+      "general": 20
+    },
+    {
+      "school": "MIRZAPUR CADET COLLEGE",
+      "total": 18,
+      "talentpool": 3,
+      "general": 15
+    },
+    {
+      "school": "MILESTONE COLLEGE",
+      "total": 18,
+      "talentpool": 0,
+      "general": 18
+    },
+    {
+      "school": "BIR SHRESHTHA MUNSHI ABDUR ROUF PUBLIC COLLEGE",
+      "total": 17,
+      "talentpool": 2,
+      "general": 15
+    },
+    {
+      "school": "GOVT. SARADA SUNDARI MOHILA COLLEGE",
+      "total": 16,
+      "talentpool": 2,
+      "general": 14
+    },
+    {
+      "school": "GOVT. RAJBARI COLLEGE",
+      "total": 12,
+      "talentpool": 2,
+      "general": 10
+    },
+    {
+      "school": "NARSINGDI GOVT. COLLEGE",
+      "total": 12,
+      "talentpool": 1,
+      "general": 11
+    },
+    {
+      "school": "SHAHEED RAMIZ UDDIN CANTONMENT COLLEGE",
+      "total": 12,
+      "talentpool": 1,
+      "general": 11
+    },
+    {
+      "school": "GAZIPUR GOVT. MOHILA COLLEGE",
+      "total": 12,
+      "talentpool": 0,
+      "general": 12
+    },
+    {
+      "school": "GOPALGANJ GOVT. COLLEGE",
+      "total": 11,
+      "talentpool": 3,
+      "general": 8
+    },
+    {
+      "school": "GOVT. TOLARAM COLLEGE",
+      "total": 11,
+      "talentpool": 0,
+      "general": 11
+    },
+    {
+      "school": "BEGUM BADRUNNESSA GOVT. GIRLS' COLLEGE",
+      "total": 11,
+      "talentpool": 0,
+      "general": 11
+    },
+    {
+      "school": "ST. FRANCIS XAVIER'S GIRLS' SCHOOL & COLLEGE",
+      "total": 9,
+      "talentpool": 1,
+      "general": 8
+    },
+    {
+      "school": "KABI NAZRUL GOVT. COLLEGE",
+      "total": 9,
+      "talentpool": 0,
+      "general": 9
+    },
+    {
+      "school": "GOVT. BANGLA COLLEGE",
+      "total": 9,
+      "talentpool": 0,
+      "general": 9
+    },
+    {
+      "school": "B P A T C SCHOOL & COLLEGE",
+      "total": 9,
+      "talentpool": 0,
+      "general": 9
+    },
+    {
+      "school": "MADARIPUR GOVT. COLLEGE",
+      "total": 8,
+      "talentpool": 2,
+      "general": 6
+    },
+    {
+      "school": "HAZI LAL MIA CITY COLLEGE",
+      "total": 8,
+      "talentpool": 1,
+      "general": 7
+    },
+    {
+      "school": "MODHUPUR SHAHID SMRITI HIGHER SECONDARY SCHOOL",
+      "total": 7,
+      "talentpool": 4,
+      "general": 3
+    },
+    {
+      "school": "TONGI GOVT. COLLEGE",
+      "total": 7,
+      "talentpool": 1,
+      "general": 6
+    },
+    {
+      "school": "B. A. F. SHAHEEN COLLEGE (KURMITOLA)",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "S O S HERMANN GMEINER COLLEGE",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "AFAZ UDDIN COLLEGE",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "UTTARA GOVERNMENT COLLEGE",
+      "total": 6,
+      "talentpool": 1,
+      "general": 5
+    },
+    {
+      "school": "PANGSHA MOHILA COLLEGE",
+      "total": 6,
+      "talentpool": 1,
+      "general": 5
+    },
+    {
+      "school": "GOVT. DEBENDRA COLLEGE",
+      "total": 6,
+      "talentpool": 1,
+      "general": 5
+    },
+    {
+      "school": "B C I C COLLEGE",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "RAFIQUL ISLAM MOHILA COLLEGE",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "BEPZA PUBLIC COLLEGE",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "GOVT. HARAGANGA COLLEGE",
+      "total": 5,
+      "talentpool": 1,
+      "general": 4
+    },
+    {
+      "school": "ENGINEERING UNIVERSITY SCHOOL AND COLLEGE",
+      "total": 5,
+      "talentpool": 1,
+      "general": 4
+    },
+    {
+      "school": "MOHAMMADPUR GOVT. COLLEGE",
+      "total": 5,
+      "talentpool": 1,
+      "general": 4
+    },
+    {
+      "school": "MOHAMMADPUR PREPARATORY SCHOOL & COLLEGE",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "GOVT. SCIENCE COLLEGE",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "DHAKA IMPERIAL COLLEGE",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "JAHANGIR NAGAR UNIVERSITY SCHOOL AND COLLEGE",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "MANIKGANJ GOVT. MOHILA COLLEGE",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "FIROZA BASHAR IDEAL COLLEGE",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "BANGLADESH KRIRA SHIKKHA PROTISTHAN, SAVAR",
+      "total": 4,
+      "talentpool": 1,
+      "general": 3
+    },
+    {
+      "school": "SAFIUDDIN SARKER ACADEMY & COLLEGE",
+      "total": 4,
+      "talentpool": 1,
+      "general": 3
+    },
+    {
+      "school": "NATIONAL IDEAL COLLEGE",
+      "total": 4,
+      "talentpool": 1,
+      "general": 3
+    },
+    {
+      "school": "GOVT. MOHAMMADPUR MODEL SCHOOL & COLLEGE",
+      "total": 4,
+      "talentpool": 1,
+      "general": 3
+    },
+    {
+      "school": "SOUTH POINT COLLEGE",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "DANIA COLLEGE",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "BANGLADESH INTERNATIONAL SCHOOL & COLLEGE, RIYADH",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "MOHAMMAD EMARAT HOSSAIN ARIF COLLEGE",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "AZIMPUR GOVT. GIRLS' SCHOOL AND COLLEGE",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "PANGSA GOVT. COLLEGE",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "SREENAGAR GOVT. COLLEGE",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "UTTARA HIGH SCHOOL & COLLEGE",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
+    },
+    {
+      "school": "HATIMARA UCHCHA MADHYAMIK BIDYALAYA",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
+    },
+    {
+      "school": "ST. GREGORY'S HIGH SCHOOL & COLLEGE",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "BORNAMALA COLLEGE",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "SIDDHESWARI GIRLS' COLLEGE",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "PANCHKANDI COLLEGE, MONOHARDI",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "LALBAGH GOVT. MODEL SCHOOL AND COLLEGE",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "GOVT. ROTARY DEGREE COLLEGE, AUSTAGRAM",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "KALUKHALI GOVT. COLLEGE",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "GOVT. BARHAMGANJ COLLEGE",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "KAZI ZAHURAL HUQ COLLEGE",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "RAJBARI GOVT. ADARSHA MOHILA COLLEGE",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "ST. EUPHRASIE'S GIRLS' HIGH SCHOOL & COLLEGE",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "GOVT. GOALANDA KAMRUL ISLAM COLLEGE",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "GAZIPUR METROPOLITAN COLLEGE",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "SCHOLARS SCHOOL & COLLEGE",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "ATI BHAWAL UCHCHA MADHAMIK BIDYALAYA",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "BANDAR GIRLS SCHOOL AND COLLEGE",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "B K S P PUBLIC SCHOOL & COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "DEMRA IDEAL COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GOVT. ADAMJEENAGAR M. W. COLLEGE, NARAYANGONJ",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MIRPUR SCIENCE COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "DHAKA CANT. GIRLS PUBLIC SCHOOL & COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "NIRJHOR CANTONMENT PUBLIC SCHOOL & COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "VASHA SHAHEED ABDUL JABBER ANSAR VDP SCHOOL AND COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "B A F SHAHEEN SCHOOL & COLLEGE PAHARKANCHANPUR",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "IBRAHIM KHAN GOVERNMENT COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GHATAIL CANTONMENT COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "LALMATIA GOVT. MOHILA COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "ENGINEERING UNIVERSITY GIRLS' SCHOOL & COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GOVT. LOHAJANG UNIVERSITY COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SHARIATPUR GOVT. COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SAVAR MODEL COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GOVT. M A REZA COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "ALFADANGA GOVT. COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "VASHANTEK GOVT. COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SHOLAKURI COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MADHUPUR GOVT. COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GOVT. SHAMSUR RAHMAN COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "GOVT. BHAWAL BADRE ALAM COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SHAHID PRESIDENT ZIAUR RAHMAN COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "DHAKA MOHANAGAR MOHILA COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "KOTALIPARA GOVT. ADARSHA COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "JOYNAGAR YAR ALI KHAN COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SAVAR GOVT. COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SONARGAON KAZI FAZLUL HAQUE WOMEN'S COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MALKHANAGAR COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "DOLESHWAR ABDUL MANNAN ADARSHA MAHABIDYALAYA",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "PROHALADPUR SCHOOL & COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "JADUNATH PILOT HIGH SCHOOL & COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "AMIRJAN COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MORNING GLORY SCHOOL & COLLEGE",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "NARSINGDI SCIENCE COLLEGE",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "ALFADANGA ADARSHA COLLEGE",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "BAROICHA COLLEGE, BELABOO",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "NAZIMUDDIN BHUIYAN COLLEGE",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "BHARATESWARI HOMES",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "BIBI MARIUM GIRLS' HIGH SCHOOL AND COLLEGE",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "SHAHEED POLICE SMRITY COLLEGE",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "NAVY ANCHORAGE SCHOOL AND COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MOTIJHEEL GOVT. BOYS' HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "YUNUS KHAN MEMORIAL COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHAHID ASAD COLLEGIATE GIRLS' HIGH SCHOOL, SHIBPUR",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHAHID SMRITI COLLEGE, SHASHIKAR",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NAYABAZAR COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GOVT. DHAMRAI COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SRISTY COLLEGE OF TANGAIL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GOVT. GHIOR COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARACHOWNA-KUTUBPUR COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NOBAKAM PALLI COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KALABARI GOVT. DEGREE COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KONABARI COLLEGE, GAZIPUR",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SINGAIR COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NARIA GOVT. COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NATIONAL COLLEGE OF EDUCATION",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BIKRAMPUR ADARSHA COLLEGE, KUCHIAMORA",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "WALI NEWAZ KHAN COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NARSINGDI UDAYON COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GOVT. KAZI MAHBUBULLAH (K.M) COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SOLIMUDDIN CHOWDHURY COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GOVT. KADAM RASUL COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHAHAJUDDIN SARKER MODEL HIGHER SECONDARY SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHAHEED MUKTIJODDHA NOJIB UDDIN KHAN COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KAZI MONTU COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SCHOLASTICA MODEL COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "RAJARBAG POLICE LINES SCHOOL & COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GAZIPUR CANTONMENT PUBLIC SCHOOL & COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SAVAR LABORATORY COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BALIAKANDI GOVT. COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SURESWAR HIGH SCHOOL & COLLEGE, SURESWAR, NARIA",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BALLA CORONATION HIGH SCHOOL & COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "RAZABARI COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MUKTIJODDHA ADARSHA GOVT. COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "PALASH THANA CENTRAL COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "RAMDIA GOVT. SREEKRISHNA COLLEGE, KASHIANI, GOPALGANJ",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "HAZI MISIR ALI COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KERANIGANJ MOHILA COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GAZIRCHAT AKBAR MANDAL HIGH SCHOOL AND COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SARDAR ASMAT ALI MAHILA COLLEGE, MONOHARDI",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KAZI SHIRAJUL ISLAM MOHILA COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GOVT. AIN UDDIN COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KALIAKOIR COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHIBPUR MODEL COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "TANGAIL GOVT. MOHILA COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KADAMBARI UNION MAHABIDYALAYA",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ABED ALI GIRLS' SCHOOL & COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ST. JOSEPH'S HIGH SCHOOL AND COLLEGE, DHARENDA",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MIRPUR ENGLISH VERSION COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DASAR GOVT. MOHILA COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GOVT. CHARBHADRASAN COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NOUBAHINI COLLEGE, DHAKA",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MEHERUNNESA GIRLS' HIGH SCHOOL AND COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KALATIA COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NARSINGDI PUBLIC COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DR. IMDADUL HUQ MEMORIAL COLLEGE, GOPALGONJ",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GOVT. SHIBPUR SHAHID ASAD COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GULSHAN COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHANARPAR ROWSHAN ARA COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BANOPHOOL ADIBASHI GREEN HEART COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NAWABGONJ PILOT UCHCHA MADYAMIC BALIKA BIDYALAYA",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "REBATI MOHAN UCHCHA MADHYAMIK BIDYALYA, SIDDHIRGONJ",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "FAZLUL HAQUE MOHILA COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BRIGHT SCHOOL AND COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "SHER-E-BANGLA NAGAR ADARSHA MAHILA COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "DHALADIA COLLEGE, SREEPUR",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KALLYANPUR GIRLS' SCHOOL & COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "KALMA LAKSHMIKANTA HIGH SCHOOL AND COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BARNAMALA ADARSHA SCHOOL & COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ROKEYA AHSAN COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NARSINGDI MODEL COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BIKRAMPUR KUNJABEHARI GOVERNMENT COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ICHHAMATI COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "GOVT. ABDUR RAZZAK COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    }
+  ],
+  "is_mark": false,
+  "is_group": true,
+  "group_summary": {
+    "SCIENCE": 1683,
+    "HUMANITIES": 838,
+    "BUSINESS STUDIES": 839
+  }
+}

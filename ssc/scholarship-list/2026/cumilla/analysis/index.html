@@ -494,14 +494,14 @@ summary {
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
 
     <!-- Top Navigation Bar -->
-    <div class="flex flex-wrap items-center justify-between gap-3">
+    <nav class="flex flex-wrap items-center justify-between gap-3" aria-label="Page Navigation">
         <a href="/" class="btn btn-outline btn-sm sm:btn-md rounded-xl font-bold hover:bg-base-200">
             ← হোম পেজে ফিরে যান
         </a>
         <a href="/SSC/scholarship-list/2026/cumilla/" class="btn btn-primary btn-sm sm:btn-md text-white rounded-xl font-bold shadow-md shadow-primary/20">
             ফলাফল খুঁজুন 🔍
         </a>
-    </div>
+    </nav>
 
     <!-- Page Title Header -->
     <header class="bg-base-100 p-6 sm:p-10 rounded-3xl border border-base-200 shadow-sm text-center space-y-2">
@@ -513,8 +513,21 @@ summary {
         </p>
     </header>
 
+    <!-- Disclaimer Alert Notice -->
+    <div role="alert" class="alert alert-warning/10 border border-amber-200/60 rounded-2xl p-4 text-slate-700 text-xs sm:text-sm flex items-start gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" class="stroke-amber-600 shrink-0 h-5 w-5 mt-0.5" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+        </svg>
+        <div>
+            <strong class="font-bold text-slate-900 block mb-0.5">দায়মুক্তির ঘোষণা (Disclaimer):</strong>
+            <span>
+                এই পাতায় প্রদর্শিত এনালিটিক্স ডাটা কেবল সাধারণ তথ্যাবগতি ও পরিসংখ্যানগত বিশ্লেষণের জন্য প্রস্তুত করা হয়েছে। তথ্যের নির্ভুলতা নিশ্চিত করার সর্বোচ্চ চেষ্টা করা হলেও, যেকোনো দাপ্তরিক বা চূড়ান্ত তথ্যের জন্য সংশ্লিষ্ট শিক্ষা বোর্ডের অফিশিয়াল গেজেট/বিজ্ঞপ্তি অনুসরণ করার জন্য অনুরোধ করা হচ্ছে।
+            </span>
+        </div>
+    </div>
+
     <!-- Primary Overview Stats Grid -->
-    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+    <section aria-label="Summary Statistics" class="grid grid-cols-2 lg:grid-cols-4 gap-4">
         <div class="bg-base-100 p-5 rounded-2xl border border-base-200 shadow-sm text-center hover:shadow-md transition-shadow">
             <p class="text-xs sm:text-sm font-semibold text-slate-500">মোট বৃত্তিপ্রাপ্ত</p>
             <h3 id="statTotalStudents" class="text-2xl sm:text-3xl font-black text-primary mt-1">০</h3>
@@ -531,10 +544,10 @@ summary {
             <p class="text-xs sm:text-sm font-semibold text-slate-500">সাধারণ বৃত্তি</p>
             <h3 id="statTotalGeneral" class="text-2xl sm:text-3xl font-black text-sky-600 mt-1">০</h3>
         </div>
-    </div>
+    </section>
 
     <!-- Analytics Cards (Groups & Marks Summary) -->
-    <div id="analyticsSections" class="grid grid-cols-1 md:grid-cols-2 gap-6 hidden">
+    <section id="analyticsSections" class="grid grid-cols-1 md:grid-cols-2 gap-6 hidden">
         
         <!-- Group Breakdown Container -->
         <div id="groupSectionCard" class="bg-base-100 p-6 rounded-3xl border border-base-200 shadow-sm space-y-4 hidden flex-col">
@@ -567,10 +580,11 @@ summary {
             </div>
         </div>
 
-    </div>
+    </section>
 
     <!-- Search Section -->
     <div class="bg-base-100 p-4 rounded-2xl border border-base-200 shadow-sm">
+        <label for="schoolSearch" class="sr-only">স্কুলের নাম দিয়ে খুঁজুন</label>
         <input 
             type="text" 
             id="schoolSearch" 
@@ -581,7 +595,7 @@ summary {
     </div>
 
     <!-- Top Schools Data Table -->
-    <div class="bg-base-100 rounded-3xl border border-base-200 shadow-sm overflow-hidden min-h-[300px]">
+    <section class="bg-base-100 rounded-3xl border border-base-200 shadow-sm overflow-hidden min-h-[300px]">
         <div class="overflow-x-auto">
             <table class="table w-full text-sm">
                 <thead class="bg-primary text-white text-sm">
@@ -600,7 +614,7 @@ summary {
                 </tbody>
             </table>
         </div>
-    </div>
+    </section>
 
 </div>
 
@@ -609,6 +623,17 @@ summary {
     const DATA_FILE = '/data/ssc-scholarship-2026/cumilla-dash.json';
     let allSchools = [];
     let debounceTimer = null;
+
+    // Helper: Prevent XSS when inserting untrusted text string
+    function escapeHTML(str) {
+        if (!str) return '';
+        return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
 
     // Bengali Numeral Converter
     function toBengaliNumerals(str) {
@@ -679,18 +704,21 @@ summary {
         container.innerHTML = '';
         
         let hasData = false;
+        const fragment = document.createDocumentFragment();
+
         for (const [groupKey, count] of Object.entries(groupSummary)) {
             hasData = true;
             const item = document.createElement('div');
             item.className = 'flex justify-between items-center p-3 bg-base-200/50 rounded-xl border border-base-200';
             item.innerHTML = `
-                <span class="font-semibold text-slate-700 text-sm">${translateCategoryLabel(groupKey)}</span>
+                <span class="font-semibold text-slate-700 text-sm">${escapeHTML(translateCategoryLabel(groupKey))}</span>
                 <strong class="text-primary">${toBengaliNumerals(count)} জন</strong>
             `;
-            container.appendChild(item);
+            fragment.appendChild(item);
         }
 
         if (hasData) {
+            container.appendChild(fragment);
             const el = document.getElementById('groupSectionCard');
             el.classList.remove('hidden');
             el.classList.add('flex');
@@ -702,11 +730,12 @@ summary {
         const tbody = document.getElementById('markSummaryBody');
         tbody.innerHTML = '';
         let hasData = false;
+        const fragment = document.createDocumentFragment();
 
         const createRow = (label, highest, lowest) => {
             const tr = document.createElement('tr');
             tr.innerHTML = `
-                <td class="font-medium">${label}</td>
+                <td class="font-medium">${escapeHTML(label)}</td>
                 <td class="text-center"><strong class="text-primary">${highest}</strong></td>
                 <td class="text-center">${lowest}</td>
             `;
@@ -721,7 +750,7 @@ summary {
                         const catLabel = `${translateCategoryLabel(typeKey)} - ${translateCategoryLabel(groupKey)}`;
                         const highest = marksObj.highest !== undefined ? toBengaliNumerals(marksObj.highest) : '-';
                         const lowest = marksObj.lowest !== undefined ? toBengaliNumerals(marksObj.lowest) : '-';
-                        tbody.appendChild(createRow(catLabel, highest, lowest));
+                        fragment.appendChild(createRow(catLabel, highest, lowest));
                     }
                 }
             }
@@ -732,12 +761,13 @@ summary {
                     const catLabel = translateCategoryLabel(typeKey);
                     const highest = marksObj.highest !== undefined ? toBengaliNumerals(marksObj.highest) : '-';
                     const lowest = marksObj.lowest !== undefined ? toBengaliNumerals(marksObj.lowest) : '-';
-                    tbody.appendChild(createRow(catLabel, highest, lowest));
+                    fragment.appendChild(createRow(catLabel, highest, lowest));
                 }
             }
         }
 
         if (hasData) {
+            tbody.appendChild(fragment);
             const el = document.getElementById('markSectionCard');
             el.classList.remove('hidden');
             el.classList.add('flex');
@@ -761,7 +791,7 @@ summary {
             tr.className = "hover:bg-base-200/50 transition-colors";
             tr.innerHTML = `
                 <td class="font-bold text-slate-600">#${toBengaliNumerals(index + 1)}</td>
-                <td class="font-semibold text-slate-800">${item.school || '-'}</td>
+                <td class="font-semibold text-slate-800">${escapeHTML(item.school || '-')}</td>
                 <td class="text-center"><span class="badge badge-warning badge-sm font-bold text-amber-900 border-amber-300">${toBengaliNumerals(item.talentpool)}</span></td>
                 <td class="text-center"><span class="badge badge-info badge-sm font-bold text-sky-900 border-sky-300">${toBengaliNumerals(item.general)}</span></td>
                 <td class="text-center font-extrabold text-primary">${toBengaliNumerals(item.total)}</td>

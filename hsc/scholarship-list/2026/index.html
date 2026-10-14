@@ -508,6 +508,7 @@ summary {
                 আপনার শিক্ষা বোর্ড নির্বাচন করে রেজাল্ট, বৃত্তিপ্রাপ্ত শিক্ষার্থীদের তালিকা (ট্যালেন্টপুল ও সাধারণ) এবং মার্কশিট যাচাই করুন।
             </p>
         </div>
+
         <!-- Disclaimer Box -->
         <div class="alert alert-warning bg-amber-50 border border-amber-200 text-amber-900 rounded-2xl text-xs sm:text-sm">
             <span><strong>⚠ সতর্কবার্তা / Disclaimer:</strong> এটি কোনো অফিশিয়াল সরকারি ওয়েবসাইট নয়। শিক্ষা বোর্ডের প্রকাশিত তথ্য থেকে ডাটা প্রসেস করে স্বয়ংক্রিয়ভাবে প্রদর্শন করা হচ্ছে। যেকোনো চূড়ান্ত প্রয়োজনে সংশ্লিষ্ট শিক্ষা বোর্ডের অফিশিয়াল গেজেট অনুসরণ করার অনুরোধ করা হলো।</span>
@@ -529,35 +530,35 @@ summary {
                 </div>
 
                 <form id="quickRollSearchForm" class="grid grid-cols-1 sm:grid-cols-12 gap-3" onsubmit="handleQuickSearch(event)">
-                    <!-- Board Selection Dropdown using json_urls -->
+                    <!-- Board Selection Dropdown -->
                     <div class="sm:col-span-4">
                         <select id="searchBoardSlug" name="board_slug" class="select select-bordered w-full bg-base-100 text-base-content text-sm" required>
                             <option value="" disabled selected>বোর্ড নির্বাচন করুন...</option>
                             
+                                
                             
+                                
                             
+                                
                             
+                                
                             
+                                
                             
+                                
                             
+                                
                             
+                                
                             
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
+                                
                             
                         </select>
                     </div>
 
                     <!-- Roll Input -->
                     <div class="sm:col-span-5">
-                        <input type="number" min="000000" max="999999" id="searchRoll" name="roll" placeholder="রোল নম্বর লিখুন (যেমন: ১২৩৪৫৬)" class="input input-bordered w-full bg-base-100 text-base-content text-sm" required />
+                        <input type="number" min="000000" max="99999999" id="searchRoll" name="roll" placeholder="রোল নম্বর লিখুন (যেমন: ১২৩৪৫৬)" class="input input-bordered w-full bg-base-100 text-base-content text-sm" required />
                     </div>
 
                     <!-- Submit Button -->
@@ -569,8 +570,6 @@ summary {
                 </form>
             </div>
         </div>
-
-
 
         <!-- Education Boards Grid Section -->
         <div class="space-y-6">
@@ -605,6 +604,8 @@ summary {
                                 </h3>
                                 <p class="text-xs text-base-content/60">Barishal</p>
                             </div>
+
+                            
                         </div>
 
                         <!-- Action Links -->
@@ -639,6 +640,8 @@ summary {
                                 </h3>
                                 <p class="text-xs text-base-content/60">Chattogram</p>
                             </div>
+
+                            
                         </div>
 
                         <!-- Action Links -->
@@ -673,6 +676,8 @@ summary {
                                 </h3>
                                 <p class="text-xs text-base-content/60">Cumilla</p>
                             </div>
+
+                            
                         </div>
 
                         <!-- Action Links -->
@@ -707,6 +712,8 @@ summary {
                                 </h3>
                                 <p class="text-xs text-base-content/60">Dhaka</p>
                             </div>
+
+                            
                         </div>
 
                         <!-- Action Links -->
@@ -741,6 +748,8 @@ summary {
                                 </h3>
                                 <p class="text-xs text-base-content/60">Dinajpur</p>
                             </div>
+
+                            
                         </div>
 
                         <!-- Action Links -->
@@ -775,6 +784,8 @@ summary {
                                 </h3>
                                 <p class="text-xs text-base-content/60">Jashore</p>
                             </div>
+
+                            
                         </div>
 
                         <!-- Action Links -->
@@ -809,6 +820,8 @@ summary {
                                 </h3>
                                 <p class="text-xs text-base-content/60">Mymensingh</p>
                             </div>
+
+                            
                         </div>
 
                         <!-- Action Links -->
@@ -843,6 +856,8 @@ summary {
                                 </h3>
                                 <p class="text-xs text-base-content/60">Rajshahi</p>
                             </div>
+
+                            
                         </div>
 
                         <!-- Action Links -->
@@ -877,6 +892,8 @@ summary {
                                 </h3>
                                 <p class="text-xs text-base-content/60">Sylhet</p>
                             </div>
+
+                            
                         </div>
 
                         <!-- Action Links -->
@@ -892,7 +909,8 @@ summary {
                 
             </div>
         </div>
-                <!-- Informational Section: বোর্ড বৃত্তি এবং ফলাফল দেখার সহজ মাধ্যম -->
+
+        <!-- Informational Section -->
         <div class="bg-base-200/40 border border-base-300 rounded-2xl p-6 sm:p-8 space-y-6">
             <div class="border-b border-base-300 pb-4">
                 <h2 class="text-xl font-bold text-base-content">বোর্ড বৃত্তি কি এবং কীভাবে রেজাল্ট দেখবেন?</h2>
@@ -932,14 +950,13 @@ summary {
     </div>
 </section>
 
-<!-- Client-side script to manage fast searching via json pathways -->
+<!-- Client-side script to manage fast searching via pathways -->
 <script>
     function handleQuickSearch(event) {
         event.preventDefault();
         const selectElement = document.getElementById('searchBoardSlug');
-        const selectedOption = selectElement.options[selectElement.selectedIndex];
         const boardSlug = selectElement.value;
-        const roll = document.getElementById('searchRoll').value;
+        const roll = document.getElementById('searchRoll').value.trim();
         
         if (!boardSlug || !roll) return;
 

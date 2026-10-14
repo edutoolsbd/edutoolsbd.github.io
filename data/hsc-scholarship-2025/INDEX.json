@@ -1,6 +1,6 @@
 [
     {"slug": "chattogram", "name_bn": "চট্টগ্রাম", "name_en": "Chattogram", "is_available": false},
-    {"slug": "dhaka", "name_bn": "ঢাকা", "name_en": "Dhaka", "is_available": false},
+    {"slug": "dhaka", "name_bn": "ঢাকা", "name_en": "Dhaka", "is_available": true},
     {"slug": "rajshahi", "name_bn": "রাজশাহী", "name_en": "Rajshahi", "is_available": false},
     {"slug": "dinajpur", "name_bn": "দিনাজপুর", "name_en": "Dinajpur", "is_available": false},
     {"slug": "cumilla", "name_bn": "কুমিল্লা", "name_en": "Cumilla", "is_available": false},
