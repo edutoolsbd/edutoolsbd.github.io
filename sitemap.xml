@@ -31,6 +31,12 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/dhaka/analysis/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/sylhet/analysis/</loc>
     <lastmod>2026-10-19</lastmod>
     <priority>0.8</priority>
@@ -50,6 +56,12 @@
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/cumilla/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/dhaka/</loc>
     <lastmod>2026-10-19</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
@@ -170,12 +182,6 @@
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/institutes/cumilla/</loc>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://edutoolsbd.vercel.app/institutes/sylhet/</loc>
     <lastmod>2026-10-19</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
@@ -1190,6 +1196,12 @@
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/institutes/dhaka/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://edutoolsbd.vercel.app/institutes/sylhet/</loc>
     <lastmod>2026-10-19</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
