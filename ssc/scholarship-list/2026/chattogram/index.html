@@ -546,27 +546,37 @@ summary {
     <!-- Main Dynamic Content Container -->
     <main class="flex-grow">
         
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 font-sans">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6 font-sans">
+
+    <!-- Top Navigation Bar with Interlink to Analytics -->
+    <nav class="flex flex-wrap items-center justify-between gap-3" aria-label="Page Navigation">
+        <a href="/ssc/scholarship-list/2026/" class="btn btn-outline btn-sm sm:btn-md rounded-2xl font-bold border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 transition-all">
+            ← হোম পেজে ফিরে যান
+        </a>
+        <a href="./analysis" class="btn bg-blue-600 hover:bg-blue-700 text-white border-none btn-sm sm:btn-md rounded-2xl font-bold shadow-md shadow-blue-500/20 transition-all">
+            স্কুলভিত্তিক এনালিটিক্স 📊
+        </a>
+    </nav>
 
     <!-- Header Section -->
-    <header class="relative overflow-hidden bg-gradient-to-b from-base-100 via-base-100/90 to-base-200/50 p-8 sm:p-12 rounded-3xl border border-base-200/80 shadow-xl shadow-base-300/10 text-center space-y-3 backdrop-blur-md">
-        <div class="absolute -top-10 -left-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
-        <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-secondary/10 rounded-full blur-3xl pointer-events-none"></div>
+    <header class="relative overflow-hidden bg-gradient-to-b from-blue-900 via-blue-900/95 to-slate-900 p-6 sm:p-10 rounded-3xl border border-blue-800/50 shadow-xl text-center space-y-3">
+        <div class="absolute -top-10 -left-10 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
 
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold tracking-wide uppercase mb-2">
-            ✨ Chattogram Board
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/20 text-xs font-semibold tracking-wide uppercase mb-1">
+            ✨ Chattogram Board Scholarship
         </div>
-        <h1 class="text-3xl sm:text-4xl font-black text-slate-800 tracking-tight leading-tight">
-            SSC চট্টগ্রাম বোর্ড বৃত্তি ফলাফল <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent font-bold bg-slate-900">2026</span>
+        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
+            SSC চট্টগ্রাম বোর্ড বৃত্তি ফলাফল <span class="text-blue-400">2026</span>
         </h1>
-        <p class="text-slate-500 text-sm sm:text-base max-w-xl mx-auto font-medium">
+        <p class="text-blue-100/80 text-sm sm:text-base max-w-xl mx-auto font-medium">
             রোল নম্বর বা নাম দিয়ে দ্রুত আপনার স্কলারশিপের তথ্য অনুসন্ধান করুন
         </p>
     </header>
 
     <!-- Dedicated Direct Roll Result Screen -->
     <div id="directRollContainer" class="hidden space-y-6">
-        <div id="directRollCard" class="bg-base-100/90 backdrop-blur-xl border border-base-200 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden transition-all">
+        <div id="directRollCard" class="bg-white backdrop-blur-xl border border-blue-100 rounded-3xl p-6 sm:p-10 shadow-lg relative overflow-hidden transition-all">
             <!-- Content injected dynamically via JS -->
         </div>
     </div>
@@ -574,19 +584,20 @@ summary {
     <!-- Main Content Wrapper -->
     <div id="mainInterfaceWrapper" class="space-y-6">
         <!-- Search & Filter Controls -->
-        <section class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-base-100/80 backdrop-blur-md p-3 sm:p-4 rounded-2xl border border-base-200 shadow-lg shadow-slate-200/50" aria-label="অনুসন্ধান ও ফিল্টার">
+        <section class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-white p-4 rounded-3xl border border-blue-100 shadow-sm" aria-label="অনুসন্ধান ও ফিল্টার">
             <div class="sm:col-span-2 relative">
+                <span class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-blue-400">🔍</span>
                 <input 
                     type="search" 
                     id="searchInput" 
                     placeholder="রোল অথবা নাম দিয়ে খুঁজুন..." 
                     aria-label="রোল বা নাম অনুসন্ধান"
                     autocomplete="off"
-                    class="input input-bordered w-full rounded-xl focus:outline-primary bg-base-200/40 border-base-200 focus:bg-base-100 transition-all text-sm font-medium"
+                    class="input input-bordered w-full pl-11 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 bg-blue-50/30 border-blue-100 transition-all text-sm font-medium"
                 />
             </div>
             <div>
-                <select id="typeFilter" aria-label="বৃত্তির ধরন ফিল্টার" class="select select-bordered w-full rounded-xl focus:outline-primary bg-base-200/40 border-base-200 focus:bg-base-100 transition-all text-sm font-medium">
+                <select id="typeFilter" aria-label="বৃত্তির ধরন ফিল্টার" class="select select-bordered w-full rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 bg-blue-50/30 border-blue-100 transition-all text-sm font-medium">
                     <option value="ALL">সকল বৃত্তি</option>
                     <option value="TALENTPOOL">মেধা বৃত্তি (Talentpool)</option>
                     <option value="GENERAL">সাধারণ বৃত্তি (General)</option>
@@ -595,23 +606,23 @@ summary {
         </section>
 
         <!-- Results Table Container -->
-        <section class="bg-base-100/90 backdrop-blur-md rounded-3xl border border-base-200/80 shadow-xl shadow-slate-200/40 overflow-hidden min-h-[300px]" aria-live="polite">
+        <section class="bg-white rounded-3xl border border-blue-100 shadow-sm overflow-hidden min-h-[300px]" aria-live="polite">
             <div class="overflow-x-auto">
                 <table class="table w-full text-sm">
                     <thead>
-                        <tr id="tableHeaderRow" class="bg-slate-900 text-white border-b border-slate-800">
+                        <tr id="tableHeaderRow" class="bg-blue-900 text-white border-b border-blue-800">
                             <th scope="col" class="py-4 font-bold text-xs uppercase tracking-wider">রোল</th>
                             <th scope="col" class="py-4 font-bold text-xs uppercase tracking-wider">নাম</th>
                             <th scope="col" class="py-4 font-bold text-xs uppercase tracking-wider">শিক্ষা প্রতিষ্ঠান</th>
                             <th scope="col" class="py-4 font-bold text-xs uppercase tracking-wider">বৃত্তির ধরন</th>
                         </tr>
                     </thead>
-                    <tbody id="tableBody" class="divide-y divide-base-200/60">
+                    <tbody id="tableBody" class="divide-y divide-blue-50">
                         <tr>
                             <td colspan="6" class="text-center text-slate-400 py-16">
                                 <div class="flex flex-col items-center justify-center space-y-2">
-                                    <span class="loading loading-spinner loading-md text-primary"></span>
-                                    <span class="text-xs font-semibold">ডাটা লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন...</span>
+                                    <span class="loading loading-spinner loading-md text-blue-600"></span>
+                                    <span class="text-xs font-semibold text-slate-500">ডাটা লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন...</span>
                                 </div>
                             </td>
                         </tr>
@@ -621,15 +632,15 @@ summary {
         </section>
 
         <!-- Pagination Navigation Bar -->
-        <nav class="flex flex-wrap items-center justify-between gap-4 bg-base-100/80 backdrop-blur-md p-4 rounded-2xl border border-base-200 shadow-md" aria-label="পৃষ্ঠা নেভিগেশন">
+        <nav class="flex flex-wrap items-center justify-between gap-4 bg-white p-4 rounded-3xl border border-blue-100 shadow-sm" aria-label="পৃষ্ঠা নেভিগেশন">
             <div class="text-xs font-bold text-slate-500 uppercase tracking-wide" id="paginationInfo">
                 পৃষ্ঠা ০ / ০ (মোট: ০)
             </div>
             <div class="flex gap-2">
-                <button id="prevBtn" class="btn btn-primary btn-sm rounded-xl font-bold px-4 hover:scale-105 active:scale-95 transition-all disabled:opacity-40" aria-label="পূর্ববর্তী পৃষ্ঠা" disabled>
+                <button id="prevBtn" class="btn bg-blue-600 hover:bg-blue-700 text-white border-none btn-sm sm:btn-md rounded-2xl font-bold px-4 shadow-sm hover:scale-105 active:scale-95 transition-all disabled:opacity-40" aria-label="পূর্ববর্তী পৃষ্ঠা" disabled>
                     ← পূর্ববর্তী
                 </button>
-                <button id="nextBtn" class="btn btn-primary btn-sm rounded-xl font-bold px-4 hover:scale-105 active:scale-95 transition-all disabled:opacity-40" aria-label="পরবর্তী পৃষ্ঠা" disabled>
+                <button id="nextBtn" class="btn bg-blue-600 hover:bg-blue-700 text-white border-none btn-sm sm:btn-md rounded-2xl font-bold px-4 shadow-sm hover:scale-105 active:scale-95 transition-all disabled:opacity-40" aria-label="পরবর্তী পৃষ্ঠা" disabled>
                     পরবর্তী →
                 </button>
             </div>
@@ -637,10 +648,11 @@ summary {
     </div>
 
     <!-- Disclaimer Box -->
-    <div class="alert bg-amber-500/10 border border-amber-500/20 text-amber-900 rounded-2xl text-xs sm:text-sm p-4 backdrop-blur-sm">
-        <div class="flex items-start gap-2">
-            <span class="text-lg leading-none">⚠️</span>
-            <span><strong>সতর্কবার্তা / Disclaimer:</strong> এটি কোনো অফিশিয়াল সরকারি ওয়েবসাইট নয়। শিক্ষা বোর্ডের প্রকাশিত তথ্য থেকে ডাটা প্রসেস করে স্বয়ংক্রিয়ভাবে প্রদর্শন করা হচ্ছে। যেকোনো চূড়ান্ত প্রয়োজনে সংশ্লিষ্ট শিক্ষা বোর্ডের অফিশিয়াল গেজেট অনুসরণ করার অনুরোধ করা হলো।</span>
+    <div role="alert" class="alert bg-blue-50/80 border border-blue-200/80 text-blue-950 rounded-2xl text-xs sm:text-sm p-4 backdrop-blur-sm flex items-start gap-3 shadow-sm">
+        <span class="text-lg leading-none mt-0.5">⚠️</span>
+        <div>
+            <strong class="font-bold text-blue-900 block mb-0.5">সতর্কবার্তা / Disclaimer:</strong>
+            <span class="text-blue-900/80">এটি কোনো অফিশিয়াল সরকারি ওয়েবসাইট নয়। শিক্ষা বোর্ডের প্রকাশিত তথ্য থেকে ডাটা প্রসেস করে স্বয়ংক্রিয়ভাবে প্রদর্শন করা হচ্ছে। যেকোনো চূড়ান্ত প্রয়োজনে সংশ্লিষ্ট শিক্ষা বোর্ডের অফিশিয়াল গেজেট অনুসরণ করার অনুরোধ করা হলো।</span>
         </div>
     </div>
 
@@ -697,7 +709,7 @@ summary {
         .catch(err => {
             console.error(err);
             document.getElementById('tableBody').innerHTML = 
-                '<tr><td colspan="6" class="text-center text-error font-semibold py-10">ডাটা লোড করতে সমস্যা হয়েছে। ডাটা ফাইল সঠিকভাবে পাওয়া যায়নি।</td></tr>';
+                '<tr><td colspan="6" class="text-center text-red-500 font-semibold py-10">ডাটা লোড করতে সমস্যা হয়েছে। ডাটা ফাইল সঠিকভাবে পাওয়া যায়নি।</td></tr>';
         });
 
     function detectAvailableColumns(data) {
@@ -740,11 +752,11 @@ summary {
         if (!matchedItem) {
             directCard.innerHTML = `
                 <div class="text-center space-y-4 py-10">
-                    <div class="w-16 h-16 bg-error/10 text-error rounded-full flex items-center justify-center mx-auto text-2xl">⚠</div>
-                    <div class="text-error text-xl font-black">কোনো বৃত্তিপ্রাপ্ত শিক্ষার্থী পাওয়া যায়নি</div>
+                    <div class="w-16 h-16 bg-red-50 text-red-500 rounded-full flex items-center justify-center mx-auto text-2xl font-bold">⚠</div>
+                    <div class="text-red-600 text-xl font-black">কোনো বৃত্তিপ্রাপ্ত শিক্ষার্থী পাওয়া যায়নি</div>
                     <p class="text-slate-500 text-sm max-w-md mx-auto">রোল নম্বর <span class="font-bold text-slate-800">${rollNumber}</span> দিয়ে এই বোর্ডে কোনো বৃত্তি পাওয়া যায়নি অথবা রোল নম্বরটি ভুল।</p>
                     <div class="pt-2">
-                        <a href="?" class="btn btn-primary rounded-xl text-white shadow-lg shadow-primary/20 hover:scale-105 active:scale-95 transition-all">সকল ফলাফল দেখুন</a>
+                        <a href="?" class="btn bg-blue-600 hover:bg-blue-700 border-none text-white rounded-2xl shadow-md shadow-blue-500/20 hover:scale-105 active:scale-95 transition-all">সকল ফলাফল দেখুন</a>
                     </div>
                 </div>
             `;
@@ -759,14 +771,14 @@ summary {
         const shareUrl = window.location.href;
 
         directCard.innerHTML = `
-            <div class="absolute -top-12 -right-12 w-48 h-48 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -top-12 -right-12 w-48 h-48 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
             
-            <div class="flex flex-wrap items-center justify-between gap-4 border-b border-base-200 pb-6 mb-6">
+            <div class="flex flex-wrap items-center justify-between gap-4 border-b border-blue-100 pb-6 mb-6">
                 <div class="flex flex-wrap items-center gap-2">
                     <span class="badge ${badgeClass} font-bold px-3 py-3 rounded-xl border text-xs">${badgeText}</span>
                     ${(availableKeys.hasGoldenPlus && matchedItem.IS_G_PLUS) ? '<span class="badge badge-warning font-black px-3 py-3 rounded-xl text-xs border border-amber-400">👑 Golden A+</span>' : ''}
                 </div>
-                <button onclick="navigator.clipboard.writeText('${shareUrl}'); alert('লিংক কপি করা হয়েছে!');" class="btn btn-ghost btn-sm border border-base-200 hover:bg-base-200/80 rounded-xl gap-1.5 text-slate-600 font-semibold transition-all">
+                <button onclick="navigator.clipboard.writeText('${shareUrl}'); alert('লিংক কপি করা হয়েছে!');" class="btn btn-ghost btn-sm border border-blue-100 hover:bg-blue-50/80 rounded-2xl gap-1.5 text-blue-700 font-semibold transition-all">
                     📋 লিংক কপি করুন
                 </button>
             </div>
@@ -775,41 +787,40 @@ summary {
                 <div>
                     <h2 class="text-2xl sm:text-3xl font-black text-slate-800 tracking-tight">${matchedItem.NA || '-'}</h2>
                     <p class="text-xs sm:text-sm font-semibold text-slate-400 mt-1">
-                        রোল: <span class="text-primary font-extrabold">${matchedItem.RO}</span> &nbsp;|&nbsp; বোর্ড: <span class="text-slate-700 font-bold">চট্টগ্রাম</span>
+                        রোল: <span class="text-blue-600 font-extrabold">${matchedItem.RO}</span> &nbsp;|&nbsp; বোর্ড: <span class="text-slate-700 font-bold">চট্টগ্রাম</span>
                     </p>
                 </div>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div class="p-4 rounded-2xl bg-base-200/40 border border-base-200/80 backdrop-blur-sm">
+                    <div class="p-4 rounded-2xl bg-blue-50/30 border border-blue-100 backdrop-blur-sm">
                         <span class="text-[10px] text-slate-400 font-extrabold uppercase tracking-wider block mb-1">শিক্ষা প্রতিষ্ঠান</span>
                         <span class="text-sm sm:text-base font-bold text-slate-700">${matchedItem.SC || '-'}</span>
                     </div>
 
                     ${availableKeys.hasGroup ? `
-                    <div class="p-4 rounded-2xl bg-base-200/40 border border-base-200/80 backdrop-blur-sm">
+                    <div class="p-4 rounded-2xl bg-blue-50/30 border border-blue-100 backdrop-blur-sm">
                         <span class="text-[10px] text-slate-400 font-extrabold uppercase tracking-wider block mb-1">গ্রুপ</span>
                         <span class="text-sm sm:text-base font-bold text-slate-700 uppercase">${matchedItem.GR || '-'}</span>
                     </div>` : ''}
 
                     ${availableKeys.hasMarks ? `
-                    <div class="p-4 rounded-2xl bg-base-200/40 border border-base-200/80 backdrop-blur-sm">
+                    <div class="p-4 rounded-2xl bg-blue-50/30 border border-blue-100 backdrop-blur-sm">
                         <span class="text-[10px] text-slate-400 font-extrabold uppercase tracking-wider block mb-1">প্রাপ্ত নম্বর</span>
-                        <span class="text-base sm:text-lg font-black text-primary">${matchedItem.TM ? toBengaliNumerals(matchedItem.TM) : '-'}</span>
+                        <span class="text-base sm:text-lg font-black text-blue-600">${matchedItem.TM ? toBengaliNumerals(matchedItem.TM) : '-'}</span>
                     </div>` : ''}
-                    <div class="p-4 rounded-2xl bg-base-200/40 border border-base-200/80 backdrop-blur-sm">
+                    <div class="p-4 rounded-2xl bg-blue-50/30 border border-blue-100 backdrop-blur-sm">
                         <span class="text-[10px] text-slate-400 font-extrabold uppercase tracking-wider block mb-1">বছর</span>
-                        <span class="text-base sm:text-lg font-black text-primary">${toBengaliNumerals("2026")}</span>
+                        <span class="text-base sm:text-lg font-black text-blue-600">${toBengaliNumerals("2026")}</span>
                     </div>
-                    
                 </div>
 
-                <div class="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-base-200">
-                    <a href="?" class="btn btn-outline btn-sm rounded-xl text-slate-600 hover:bg-slate-100 font-bold border-base-300">← অন্য রোল খুঁজুন</a>
+                <div class="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-blue-100">
+                    <a href="?" class="btn btn-outline btn-sm rounded-2xl text-blue-700 hover:bg-blue-50 font-bold border-blue-200">← অন্য রোল খুঁজুন</a>
                     <div class="flex gap-2">
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}" target="_blank" class="btn btn-sm bg-[#1877F2] hover:bg-[#165ed8] text-white border-none rounded-xl font-bold shadow-sm hover:scale-105 transition-all">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}" target="_blank" class="btn btn-sm bg-[#1877F2] hover:bg-[#165ed8] text-white border-none rounded-2xl font-bold shadow-sm hover:scale-105 transition-all">
                             ফেসবুক
                         </a>
-                        <a href="https://api.whatsapp.com/send?text=${encodeURIComponent('আমার এসএসসির বৃত্তি ফলাফল দেখুন: ' + shareUrl)}" target="_blank" class="btn btn-sm bg-[#25D366] hover:bg-[#20ba5a] text-white border-none rounded-xl font-bold shadow-sm hover:scale-105 transition-all">
+                        <a href="https://api.whatsapp.com/send?text=${encodeURIComponent('আমার এসএসসির বৃত্তি ফলাফল দেখুন: ' + shareUrl)}" target="_blank" class="btn btn-sm bg-[#25D366] hover:bg-[#20ba5a] text-white border-none rounded-2xl font-bold shadow-sm hover:scale-105 transition-all">
                             হোয়াটসঅ্যাপ
                         </a>
                     </div>
@@ -864,7 +875,7 @@ summary {
 
         pageItems.forEach(item => {
             const tr = document.createElement('tr');
-            tr.className = "hover:bg-primary/5 transition-all cursor-pointer group";
+            tr.className = "hover:bg-blue-50/50 transition-all cursor-pointer group";
             tr.onclick = () => { window.location.href = `?roll=${item.RO}`; };
             
             const isTalentpool = item.TY && item.TY.toUpperCase() === 'TALENTPOOL';
@@ -879,7 +890,7 @@ summary {
             `;
 
             let rowHtml = `
-                <td class="font-extrabold text-primary group-hover:underline">${item.RO || '-'}</td>
+                <td class="font-extrabold text-blue-600 group-hover:underline">${item.RO || '-'}</td>
                 <td class="font-bold text-slate-800">${item.NA || '-'}</td>
                 <td class="text-slate-600 font-medium">${item.SC || '-'}</td>
                 <td>${typeCellContent}</td>
@@ -890,10 +901,10 @@ summary {
             }
 
             if (availableKeys.hasMarks) {
-                rowHtml += `<td class="text-center font-black text-primary">${item.TM ? toBengaliNumerals(item.TM) : '-'}</td>`;
+                rowHtml += `<td class="text-center font-black text-blue-600">${item.TM ? toBengaliNumerals(item.TM) : '-'}</td>`;
             }
 
-    tr.innerHTML = rowHtml;
+            tr.innerHTML = rowHtml;
             fragment.appendChild(tr);
         });
 
@@ -937,7 +948,7 @@ summary {
 
             <nav>
                 <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">টুলস ও সার্ভিস</h6>
-                <a href="/ssc/2026/scholarship-check" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">SSC স্কলারশিপ চেক</a>
+                <a href="/ssc/scholarship-list/2026/" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">SSC স্কলারশিপ চেক</a>
                 <a href="/hsc/2026/result" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">HSC রেজাল্ট ২০২৬</a>
             </nav>
 

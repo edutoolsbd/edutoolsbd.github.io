@@ -542,38 +542,45 @@ summary {
     <!-- Main Dynamic Content Container -->
     <main class="flex-grow">
         
-<section class="py-12 bg-base-100">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+<section class="py-12 bg-base-100 font-sans">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         
         <!-- Hero Section -->
-        <div class="text-center space-y-3">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider">
-                2025 &bull; HSC Central Result Hub
+        <header class="relative overflow-hidden bg-gradient-to-b from-blue-900 via-blue-900/95 to-slate-900 p-6 sm:p-10 rounded-3xl border border-blue-800/50 shadow-xl text-center space-y-3">
+            <div class="absolute -top-10 -left-10 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/20 text-xs font-semibold tracking-wide uppercase mb-1">
+                ✨ 2025 &bull; HSC Central Result Hub
             </div>
-            <h1 class="text-3xl sm:text-4xl font-extrabold text-base-content tracking-tight">
+            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
                 2025 সালের HSC শিক্ষা বোর্ড ফলাফল ও বৃত্তি তালিকা
             </h1>
-            <p class="text-sm sm:text-base text-base-content/70 max-w-2xl mx-auto leading-relaxed">
+            <p class="text-blue-100/80 text-sm sm:text-base max-w-2xl mx-auto font-medium">
                 আপনার শিক্ষা বোর্ড নির্বাচন করে রেজাল্ট, বৃত্তিপ্রাপ্ত শিক্ষার্থীদের তালিকা (ট্যালেন্টপুল ও সাধারণ) এবং মার্কশিট যাচাই করুন।
             </p>
-        </div>
+        </header>
 
         <!-- Disclaimer Box -->
-        <div class="alert alert-warning bg-amber-50 border border-amber-200 text-amber-900 rounded-2xl text-xs sm:text-sm">
-            <span><strong>⚠ সতর্কবার্তা / Disclaimer:</strong> এটি কোনো অফিশিয়াল সরকারি ওয়েবসাইট নয়। শিক্ষা বোর্ডের প্রকাশিত তথ্য থেকে ডাটা প্রসেস করে স্বয়ংক্রিয়ভাবে প্রদর্শন করা হচ্ছে। যেকোনো চূড়ান্ত প্রয়োজনে সংশ্লিষ্ট শিক্ষা বোর্ডের অফিশিয়াল গেজেট অনুসরণ করার অনুরোধ করা হলো।</span>
+        <div role="alert" class="alert bg-blue-50/80 border border-blue-200/80 text-blue-950 rounded-2xl text-xs sm:text-sm p-4 backdrop-blur-sm flex items-start gap-3 shadow-sm">
+            <span class="text-lg leading-none mt-0.5">⚠️</span>
+            <div>
+                <strong class="font-bold text-blue-900 block mb-0.5">সতর্কবার্তা / Disclaimer:</strong>
+                <span class="text-blue-900/80">এটি কোনো অফিশিয়াল সরকারি ওয়েবসাইট নয়। শিক্ষা বোর্ডের প্রকাশিত তথ্য থেকে ডাটা প্রসেস করে স্বয়ংক্রিয়ভাবে প্রদর্শন করা হচ্ছে। যেকোনো চূড়ান্ত প্রয়োজনে সংশ্লিষ্ট শিক্ষা বোর্ডের অফিশিয়াল গেজেট অনুসরণ করার অনুরোধ করা হলো।</span>
+            </div>
         </div>
 
         <!-- Quick Roll Search & Board Filter Widget -->
-        <div class="bg-gradient-to-br from-base-200 to-base-300/50 border border-base-300 rounded-2xl p-6 sm:p-8 shadow-sm">
+        <div class="bg-white border border-blue-100 rounded-3xl p-6 sm:p-8 shadow-sm">
             <div class="max-w-3xl mx-auto space-y-6">
                 <div class="text-center space-y-1">
-                    <h2 class="text-xl font-bold text-base-content flex items-center justify-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <h2 class="text-lg sm:text-xl font-bold text-slate-800 flex items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg>
                         রোল নম্বর দিয়ে দ্রুত অনুসন্ধান (Quick Roll Search)
                     </h2>
-                    <p class="text-xs sm:text-sm text-base-content/65">
+                    <p class="text-xs sm:text-sm text-slate-500">
                         সরাসরি রোল নম্বর ও বোর্ড সিলেক্ট করে আপনার বা শিক্ষা প্রতিষ্ঠানের ফলাফল দেখুন।
                     </p>
                 </div>
@@ -581,7 +588,7 @@ summary {
                 <form id="quickRollSearchForm" class="grid grid-cols-1 sm:grid-cols-12 gap-3" onsubmit="handleQuickSearch(event)">
                     <!-- Board Selection Dropdown -->
                     <div class="sm:col-span-4">
-                        <select id="searchBoardSlug" name="board_slug" class="select select-bordered w-full bg-base-100 text-base-content text-sm" required>
+                        <select id="searchBoardSlug" name="board_slug" class="select select-bordered w-full rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 bg-blue-50/30 border-blue-100 text-sm font-medium" required>
                             <option value="" disabled selected>বোর্ড নির্বাচন করুন...</option>
                             
                                 
@@ -609,12 +616,12 @@ summary {
 
                     <!-- Roll Input -->
                     <div class="sm:col-span-5">
-                        <input type="number" min="000000" max="99999999" id="searchRoll" name="roll" placeholder="রোল নম্বর লিখুন (যেমন: ১২৩৪৫৬)" class="input input-bordered w-full bg-base-100 text-base-content text-sm" required />
+                        <input type="number" min="000000" max="99999999" id="searchRoll" name="roll" placeholder="রোল নম্বর লিখুন (যেমন: ১২৩৪৫৬)" class="input input-bordered w-full rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 bg-blue-50/30 border-blue-100 text-sm font-medium" required />
                     </div>
 
                     <!-- Submit Button -->
                     <div class="sm:col-span-3">
-                        <button type="submit" class="btn btn-primary w-full text-white font-semibold">
+                        <button type="submit" class="btn bg-blue-600 hover:bg-blue-700 text-white border-none w-full rounded-2xl font-bold shadow-md shadow-blue-500/20 transition-all">
                             অনুসন্ধান করুন
                         </button>
                     </div>
@@ -624,48 +631,48 @@ summary {
 
         <!-- Education Boards Grid Section -->
         <div class="space-y-6">
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-base-300 pb-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-blue-100 pb-4">
                 <div>
-                    <h2 class="text-xl font-bold text-base-content">সকল শিক্ষা বোর্ডের ফলাফল ও বিশ্লেষণ</h2>
-                    <p class="text-xs sm:text-sm text-base-content/60">বোর্ডভিত্তিক বিস্তারিত রেজাল্ট এবং ট্যালেন্টপুল/সাধারণ বৃত্তি কোটা তালিকা দেখতে নিচে ক্লিক করুন।</p>
+                    <h2 class="text-lg sm:text-xl font-bold text-slate-800">সকল শিক্ষা বোর্ডের ফলাফল ও বিশ্লেষণ</h2>
+                    <p class="text-xs sm:text-sm text-slate-500">বোর্ডভিত্তিক বিস্তারিত রেজাল্ট এবং ট্যালেন্টপুল/সাধারণ বৃত্তি কোটা তালিকা দেখতে নিচে ক্লিক করুন।</p>
                 </div>
-                <span class="badge badge-neutral text-xs font-medium px-3 py-2">মোট বোর্ড: 9টি</span>
+                <span class="badge bg-blue-50 text-blue-700 border border-blue-200 text-xs font-bold px-3 py-2 rounded-xl">মোট বোর্ড: 9টি</span>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
                 
-                    <div class="bg-base-200/60 hover:bg-base-200 border border-base-300 hover:border-primary/50 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 group">
+                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
                         
                         <!-- Board Info -->
                         <div class="space-y-2">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-md bg-base-300 text-base-content/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     dhaka
                                 </span>
                                 
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-success">
-                                        <span class="w-2 h-2 rounded-full bg-success animate-pulse"></span> সচল (Available)
+                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-600">
+                                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> সচল (Available)
                                     </span>
                                 
                             </div>
 
                             <div>
-                                <h3 class="text-lg font-bold text-base-content group-hover:text-primary transition-colors">
+                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
                                     ঢাকা
                                 </h3>
-                                <p class="text-xs text-base-content/60">Dhaka</p>
+                                <p class="text-xs text-slate-400 font-medium">Dhaka</p>
                             </div>
 
                             
                         </div>
 
                         <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-2 border-t border-base-300/60">
+                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
                             
-                                <a href="./dhaka" class="btn btn-sm btn-primary text-white font-medium w-full">
+                                <a href="./dhaka" class="btn btn-sm bg-blue-600 hover:bg-blue-700 text-white border-none rounded-xl font-bold w-full transition-all">
                                     রেজাল্ট দেখুন
                                 </a>
-                                <a href="./dhaka/analysis" class="btn btn-sm btn-outline btn-neutral w-full">
+                                <a href="./dhaka/analysis" class="btn btn-sm btn-outline border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 rounded-xl font-bold w-full transition-all">
                                     অ্যানালিসিস & বৃত্তি
                                 </a>
                             
@@ -673,35 +680,35 @@ summary {
 
                     </div>
                 
-                    <div class="bg-base-200/60 hover:bg-base-200 border border-base-300 hover:border-primary/50 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 group">
+                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
                         
                         <!-- Board Info -->
                         <div class="space-y-2">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-md bg-base-300 text-base-content/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     barishal
                                 </span>
                                 
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-warning">
-                                        <span class="w-2 h-2 rounded-full bg-warning"></span> অপেক্ষমাণ
+                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
+                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
                                     </span>
                                 
                             </div>
 
                             <div>
-                                <h3 class="text-lg font-bold text-base-content group-hover:text-primary transition-colors">
+                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
                                     বরিশাল
                                 </h3>
-                                <p class="text-xs text-base-content/60">Barishal</p>
+                                <p class="text-xs text-slate-400 font-medium">Barishal</p>
                             </div>
 
                             
                         </div>
 
                         <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-2 border-t border-base-300/60">
+                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
                             
-                                <button class="btn btn-sm btn-disabled w-full col-span-2">
+                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
                                     শীঘ্রই আসছে
                                 </button>
                             
@@ -709,35 +716,35 @@ summary {
 
                     </div>
                 
-                    <div class="bg-base-200/60 hover:bg-base-200 border border-base-300 hover:border-primary/50 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 group">
+                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
                         
                         <!-- Board Info -->
                         <div class="space-y-2">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-md bg-base-300 text-base-content/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     chattogram
                                 </span>
                                 
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-warning">
-                                        <span class="w-2 h-2 rounded-full bg-warning"></span> অপেক্ষমাণ
+                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
+                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
                                     </span>
                                 
                             </div>
 
                             <div>
-                                <h3 class="text-lg font-bold text-base-content group-hover:text-primary transition-colors">
+                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
                                     চট্টগ্রাম
                                 </h3>
-                                <p class="text-xs text-base-content/60">Chattogram</p>
+                                <p class="text-xs text-slate-400 font-medium">Chattogram</p>
                             </div>
 
                             
                         </div>
 
                         <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-2 border-t border-base-300/60">
+                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
                             
-                                <button class="btn btn-sm btn-disabled w-full col-span-2">
+                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
                                     শীঘ্রই আসছে
                                 </button>
                             
@@ -745,35 +752,35 @@ summary {
 
                     </div>
                 
-                    <div class="bg-base-200/60 hover:bg-base-200 border border-base-300 hover:border-primary/50 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 group">
+                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
                         
                         <!-- Board Info -->
                         <div class="space-y-2">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-md bg-base-300 text-base-content/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     cumilla
                                 </span>
                                 
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-warning">
-                                        <span class="w-2 h-2 rounded-full bg-warning"></span> অপেক্ষমাণ
+                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
+                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
                                     </span>
                                 
                             </div>
 
                             <div>
-                                <h3 class="text-lg font-bold text-base-content group-hover:text-primary transition-colors">
+                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
                                     কুমিল্লা
                                 </h3>
-                                <p class="text-xs text-base-content/60">Cumilla</p>
+                                <p class="text-xs text-slate-400 font-medium">Cumilla</p>
                             </div>
 
                             
                         </div>
 
                         <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-2 border-t border-base-300/60">
+                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
                             
-                                <button class="btn btn-sm btn-disabled w-full col-span-2">
+                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
                                     শীঘ্রই আসছে
                                 </button>
                             
@@ -781,35 +788,35 @@ summary {
 
                     </div>
                 
-                    <div class="bg-base-200/60 hover:bg-base-200 border border-base-300 hover:border-primary/50 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 group">
+                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
                         
                         <!-- Board Info -->
                         <div class="space-y-2">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-md bg-base-300 text-base-content/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     dinajpur
                                 </span>
                                 
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-warning">
-                                        <span class="w-2 h-2 rounded-full bg-warning"></span> অপেক্ষমাণ
+                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
+                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
                                     </span>
                                 
                             </div>
 
                             <div>
-                                <h3 class="text-lg font-bold text-base-content group-hover:text-primary transition-colors">
+                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
                                     দিনাজপুর
                                 </h3>
-                                <p class="text-xs text-base-content/60">Dinajpur</p>
+                                <p class="text-xs text-slate-400 font-medium">Dinajpur</p>
                             </div>
 
                             
                         </div>
 
                         <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-2 border-t border-base-300/60">
+                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
                             
-                                <button class="btn btn-sm btn-disabled w-full col-span-2">
+                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
                                     শীঘ্রই আসছে
                                 </button>
                             
@@ -817,35 +824,35 @@ summary {
 
                     </div>
                 
-                    <div class="bg-base-200/60 hover:bg-base-200 border border-base-300 hover:border-primary/50 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 group">
+                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
                         
                         <!-- Board Info -->
                         <div class="space-y-2">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-md bg-base-300 text-base-content/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     jashore
                                 </span>
                                 
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-warning">
-                                        <span class="w-2 h-2 rounded-full bg-warning"></span> অপেক্ষমাণ
+                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
+                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
                                     </span>
                                 
                             </div>
 
                             <div>
-                                <h3 class="text-lg font-bold text-base-content group-hover:text-primary transition-colors">
+                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
                                     যশোর
                                 </h3>
-                                <p class="text-xs text-base-content/60">Jashore</p>
+                                <p class="text-xs text-slate-400 font-medium">Jashore</p>
                             </div>
 
                             
                         </div>
 
                         <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-2 border-t border-base-300/60">
+                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
                             
-                                <button class="btn btn-sm btn-disabled w-full col-span-2">
+                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
                                     শীঘ্রই আসছে
                                 </button>
                             
@@ -853,35 +860,35 @@ summary {
 
                     </div>
                 
-                    <div class="bg-base-200/60 hover:bg-base-200 border border-base-300 hover:border-primary/50 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 group">
+                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
                         
                         <!-- Board Info -->
                         <div class="space-y-2">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-md bg-base-300 text-base-content/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     mymensingh
                                 </span>
                                 
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-warning">
-                                        <span class="w-2 h-2 rounded-full bg-warning"></span> অপেক্ষমাণ
+                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
+                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
                                     </span>
                                 
                             </div>
 
                             <div>
-                                <h3 class="text-lg font-bold text-base-content group-hover:text-primary transition-colors">
+                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
                                     ময়মনসিংহ
                                 </h3>
-                                <p class="text-xs text-base-content/60">Mymensingh</p>
+                                <p class="text-xs text-slate-400 font-medium">Mymensingh</p>
                             </div>
 
                             
                         </div>
 
                         <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-2 border-t border-base-300/60">
+                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
                             
-                                <button class="btn btn-sm btn-disabled w-full col-span-2">
+                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
                                     শীঘ্রই আসছে
                                 </button>
                             
@@ -889,35 +896,35 @@ summary {
 
                     </div>
                 
-                    <div class="bg-base-200/60 hover:bg-base-200 border border-base-300 hover:border-primary/50 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 group">
+                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
                         
                         <!-- Board Info -->
                         <div class="space-y-2">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-md bg-base-300 text-base-content/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     rajshahi
                                 </span>
                                 
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-warning">
-                                        <span class="w-2 h-2 rounded-full bg-warning"></span> অপেক্ষমাণ
+                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
+                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
                                     </span>
                                 
                             </div>
 
                             <div>
-                                <h3 class="text-lg font-bold text-base-content group-hover:text-primary transition-colors">
+                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
                                     রাজশাহী
                                 </h3>
-                                <p class="text-xs text-base-content/60">Rajshahi</p>
+                                <p class="text-xs text-slate-400 font-medium">Rajshahi</p>
                             </div>
 
                             
                         </div>
 
                         <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-2 border-t border-base-300/60">
+                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
                             
-                                <button class="btn btn-sm btn-disabled w-full col-span-2">
+                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
                                     শীঘ্রই আসছে
                                 </button>
                             
@@ -925,35 +932,35 @@ summary {
 
                     </div>
                 
-                    <div class="bg-base-200/60 hover:bg-base-200 border border-base-300 hover:border-primary/50 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 group">
+                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
                         
                         <!-- Board Info -->
                         <div class="space-y-2">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-md bg-base-300 text-base-content/70 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     sylhet
                                 </span>
                                 
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-medium text-warning">
-                                        <span class="w-2 h-2 rounded-full bg-warning"></span> অপেক্ষমাণ
+                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
+                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
                                     </span>
                                 
                             </div>
 
                             <div>
-                                <h3 class="text-lg font-bold text-base-content group-hover:text-primary transition-colors">
+                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
                                     সিলেট
                                 </h3>
-                                <p class="text-xs text-base-content/60">Sylhet</p>
+                                <p class="text-xs text-slate-400 font-medium">Sylhet</p>
                             </div>
 
                             
                         </div>
 
                         <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-2 border-t border-base-300/60">
+                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
                             
-                                <button class="btn btn-sm btn-disabled w-full col-span-2">
+                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
                                     শীঘ্রই আসছে
                                 </button>
                             
@@ -965,16 +972,16 @@ summary {
         </div>
 
         <!-- Informational Section -->
-        <div class="bg-base-200/40 border border-base-300 rounded-2xl p-6 sm:p-8 space-y-6">
-            <div class="border-b border-base-300 pb-4">
-                <h2 class="text-xl font-bold text-base-content">বোর্ড বৃত্তি কি এবং কীভাবে রেজাল্ট দেখবেন?</h2>
-                <p class="text-xs sm:text-sm text-base-content/60">EduToolsBD-র এই প্ল্যাটফর্ম সম্পর্কে কিছু গুরুত্বপূর্ণ তথ্য</p>
+        <div class="bg-white border border-blue-100 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+            <div class="border-b border-blue-100 pb-4">
+                <h2 class="text-lg sm:text-xl font-bold text-slate-800">বোর্ড বৃত্তি কি এবং কীভাবে রেজাল্ট দেখবেন?</h2>
+                <p class="text-xs sm:text-sm text-slate-500">EduToolsBD-র এই প্ল্যাটফর্ম সম্পর্কে কিছু গুরুত্বপূর্ণ তথ্য</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-base-content/80">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-slate-600">
                 <div class="space-y-2">
-                    <h3 class="font-bold text-base text-base-content flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-primary"></span> বোর্ড বৃত্তি কি?
+                    <h3 class="font-bold text-base text-slate-800 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-blue-600"></span> বোর্ড বৃত্তি কি?
                     </h3>
                     <p class="leading-relaxed text-xs sm:text-sm">
                         SSC & HSC পরীক্ষায় অসাধারণ ফলাফলের ওপর ভিত্তি করে শিক্ষার্থীদের সরকারিভাবে আর্থিক প্রণোদনা ও স্বীকৃতিস্বরূপ ট্যালেন্টপুল এবং সাধারণ গ্রেডে বৃত্তি প্রদান করা হয়।
@@ -982,8 +989,8 @@ summary {
                 </div>
 
                 <div class="space-y-2">
-                    <h3 class="font-bold text-base text-base-content flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-primary"></span> কোন কোন বোর্ড প্রকাশ করেছে?
+                    <h3 class="font-bold text-base text-slate-800 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-blue-600"></span> কোন কোন বোর্ড প্রকাশ করেছে?
                     </h3>
                     <p class="leading-relaxed text-xs sm:text-sm">
                         ঢাকা, রাজশাহী, কুমিল্লা, যশোর, চট্টগ্রাম, বরিশাল, সিলেট, দিনাজপুর, ময়মনসিংহ এবং মাদরাসা ও কারিগরি শিক্ষা বোর্ড তাদের স্ব স্ব ফলাফল ও বৃত্তি তালিকা পর্যায়ক্রমে প্রকাশ করে থাকে। 
@@ -991,8 +998,8 @@ summary {
                 </div>
 
                 <div class="space-y-2">
-                    <h3 class="font-bold text-base text-base-content flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-primary"></span> সহজে রেজাল্ট খোঁজার উপায়
+                    <h3 class="font-bold text-base text-slate-800 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-blue-600"></span> সহজে রেজাল্ট খোঁজার উপায়
                     </h3>
                     <p class="leading-relaxed text-xs sm:text-sm">
                         সাধারণত শিক্ষা বোর্ডগুলো তাদের অফিশিয়াল ওয়েবসাইটে পিডিএফ (PDF) আকারে মেধা তালিকা প্রকাশ করে। কিন্তু হাজার হাজার পৃষ্ঠার পিডিএফে নিজের রোল খোঁজা বেশ জটিল। শিক্ষার্থীদের এই জটিলতা দূর করতেই EdutoolsBD-তে ১-ক্লিকে রোল নম্বর দিয়ে রেজাল্ট চেক করার ডাটাবেজ তৈরি করা হয়েছে, যা সম্পূর্ণ বিজ্ঞাপন-মুক্ত এবং নিরাপদ।
@@ -1038,7 +1045,7 @@ summary {
 
             <nav>
                 <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">টুলস ও সার্ভিস</h6>
-                <a href="/ssc/2026/scholarship-check" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">SSC স্কলারশিপ চেক</a>
+                <a href="/ssc/scholarship-list/2026/" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">SSC স্কলারশিপ চেক</a>
                 <a href="/hsc/2026/result" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">HSC রেজাল্ট ২০২৬</a>
             </nav>
 
