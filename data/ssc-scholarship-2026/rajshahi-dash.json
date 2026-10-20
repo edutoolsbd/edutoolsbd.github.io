@@ -4,17 +4,17 @@
     "@data-preprocessed-and-visulaize-by": "Mahib Abrar"
   },
   "summary": {
-    "total_students": 3251,
-    "total_schools": 1033,
-    "total_talentpool": 699,
-    "total_general": 2552
+    "total_students": 3332,
+    "total_schools": 1044,
+    "total_talentpool": 447,
+    "total_general": 2885
   },
   "top_schools": [
     {
       "school": "RAJSHAHI CANTONMENT PUBLIC SCHOOL & COLLEGE",
-      "total": 75,
+      "total": 76,
       "talentpool": 37,
-      "general": 38
+      "general": 39
     },
     {
       "school": "BIAM MODEL SCHOOL AND COLLEGE, BOGURA",
@@ -54,8 +54,8 @@
     },
     {
       "school": "SIRAJGANJ GOVT. B. L. HIGH SCHOOL",
-      "total": 40,
-      "talentpool": 11,
+      "total": 41,
+      "talentpool": 12,
       "general": 29
     },
     {
@@ -72,8 +72,8 @@
     },
     {
       "school": "JOYPURHAT R. B. GOVT. HIGH SCHOOL",
-      "total": 37,
-      "talentpool": 1,
+      "total": 38,
+      "talentpool": 2,
       "general": 36
     },
     {
@@ -89,28 +89,28 @@
       "general": 28
     },
     {
+      "school": "PABNA CADET COLLEGE",
+      "total": 35,
+      "talentpool": 7,
+      "general": 28
+    },
+    {
+      "school": "SALEHA ISHAQUE GOVT. GIRLS' HIGH SCHOOL",
+      "total": 35,
+      "talentpool": 7,
+      "general": 28
+    },
+    {
       "school": "RAJSHAHI CADET COLLEGE",
       "total": 34,
       "talentpool": 9,
       "general": 25
     },
     {
-      "school": "SALEHA ISHAQUE GOVT. GIRLS' HIGH SCHOOL",
-      "total": 34,
-      "talentpool": 7,
-      "general": 27
-    },
-    {
-      "school": "PABNA CADET COLLEGE",
-      "total": 33,
-      "talentpool": 7,
-      "general": 26
-    },
-    {
       "school": "BOGURA CANTONMENT PUBLIC SCHOOL & COLLEGE",
-      "total": 33,
+      "total": 34,
       "talentpool": 3,
-      "general": 30
+      "general": 31
     },
     {
       "school": "JOYPURHAT GIRLS' CADET COLLEGE",
@@ -126,27 +126,27 @@
     },
     {
       "school": "POLICE LINES SCHOOL AND COLLEGE, BOGURA",
-      "total": 30,
+      "total": 31,
       "talentpool": 11,
-      "general": 19
+      "general": 20
+    },
+    {
+      "school": "NAOGAON KRISHNA DHAN GOVT. HIGH SCHOOL, NAOGAON",
+      "total": 30,
+      "talentpool": 3,
+      "general": 27
+    },
+    {
+      "school": "BOGURA ZILLA SCHOOL",
+      "total": 30,
+      "talentpool": 6,
+      "general": 24
     },
     {
       "school": "JOYPURHAT SADAR THANA HIGH SCHOOL",
       "total": 29,
       "talentpool": 4,
       "general": 25
-    },
-    {
-      "school": "NAOGAON KRISHNA DHAN GOVT. HIGH SCHOOL, NAOGAON",
-      "total": 29,
-      "talentpool": 3,
-      "general": 26
-    },
-    {
-      "school": "BOGURA ZILLA SCHOOL",
-      "total": 29,
-      "talentpool": 6,
-      "general": 23
     },
     {
       "school": "NAWABGANJ GOVT. GIRLS' HIGH SCHOOL",
@@ -156,6 +156,12 @@
     },
     {
       "school": "RURAL DEVELOPMENT ACADEMY LABORATORY SCHOOL AND COLLEGE",
+      "total": 26,
+      "talentpool": 8,
+      "general": 18
+    },
+    {
+      "school": "GOVT. LABORATORY HIGH SCHOOL",
       "total": 25,
       "talentpool": 7,
       "general": 18
@@ -167,22 +173,22 @@
       "general": 20
     },
     {
-      "school": "GOVT. LABORATORY HIGH SCHOOL",
-      "total": 23,
-      "talentpool": 7,
-      "general": 16
-    },
-    {
       "school": "JUGNIDAHA HAJI MAHTAB ALI HIGH SCHOOL",
-      "total": 23,
-      "talentpool": 3,
+      "total": 24,
+      "talentpool": 4,
       "general": 20
     },
     {
       "school": "CANTONMENT BOARD HIGH SCHOOL, JAHANGIRABAD",
-      "total": 22,
+      "total": 23,
       "talentpool": 5,
-      "general": 17
+      "general": 18
+    },
+    {
+      "school": "BIAM LABORATORY SCHOOL AND COLLEGE, BOGURA",
+      "total": 22,
+      "talentpool": 3,
+      "general": 19
     },
     {
       "school": "ST. JOSEPH'S SCHOOL & COLLEGE, BONPARA",
@@ -191,16 +197,16 @@
       "general": 21
     },
     {
-      "school": "BIAM LABORATORY SCHOOL AND COLLEGE, BOGURA",
-      "total": 21,
-      "talentpool": 3,
-      "general": 18
+      "school": "SABUJ KANAN HIGH SCHOOL",
+      "total": 22,
+      "talentpool": 0,
+      "general": 22
     },
     {
-      "school": "SABUJ KANAN HIGH SCHOOL",
+      "school": "MASJID MISSION ACADEMY",
       "total": 21,
-      "talentpool": 0,
-      "general": 21
+      "talentpool": 1,
+      "general": 20
     },
     {
       "school": "YAQUBIA GIRLS' HIGH SCHOOL AND COLLEGE, BOGURA",
@@ -225,12 +231,6 @@
       "total": 19,
       "talentpool": 3,
       "general": 16
-    },
-    {
-      "school": "MASJID MISSION ACADEMY",
-      "total": 19,
-      "talentpool": 1,
-      "general": 18
     },
     {
       "school": "GREEN VIEW HIGH SCHOOL",
@@ -269,6 +269,12 @@
       "general": 13
     },
     {
+      "school": "PABNA COLLECTORATE PUBLIC SCHOOL & COLLEGE",
+      "total": 15,
+      "talentpool": 1,
+      "general": 14
+    },
+    {
       "school": "AGRANI SCHOOL AND COLLEGE",
       "total": 15,
       "talentpool": 5,
@@ -287,12 +293,6 @@
       "general": 13
     },
     {
-      "school": "PABNA COLLECTORATE PUBLIC SCHOOL & COLLEGE",
-      "total": 14,
-      "talentpool": 1,
-      "general": 13
-    },
-    {
       "school": "ASIAN SCHOOL",
       "total": 14,
       "talentpool": 0,
@@ -303,6 +303,12 @@
       "total": 13,
       "talentpool": 3,
       "general": 10
+    },
+    {
+      "school": "SIRAJGANJ COLLECTORATE SCHOOL & COLLEGE",
+      "total": 13,
+      "talentpool": 2,
+      "general": 11
     },
     {
       "school": "BIAM LABORATORY SCHOOL",
@@ -329,6 +335,12 @@
       "general": 10
     },
     {
+      "school": "RAJSHAHI COLLEGIATE SCHOOL",
+      "total": 13,
+      "talentpool": 0,
+      "general": 13
+    },
+    {
       "school": "SAPAHAR PILOT HIGH SCHOOL",
       "total": 13,
       "talentpool": 0,
@@ -341,22 +353,22 @@
       "general": 10
     },
     {
+      "school": "AL-HELAL ISLAMI ACADEMY & COLLEGE",
+      "total": 12,
+      "talentpool": 1,
+      "general": 11
+    },
+    {
+      "school": "MANIKNAGAR GIRLS' HIGH SCHOOL",
+      "total": 12,
+      "talentpool": 1,
+      "general": 11
+    },
+    {
       "school": "BALAJAN NESSA GIRLS' HIGH SCHOOL",
       "total": 12,
       "talentpool": 1,
       "general": 11
-    },
-    {
-      "school": "SIRAJGANJ COLLECTORATE SCHOOL & COLLEGE",
-      "total": 12,
-      "talentpool": 1,
-      "general": 11
-    },
-    {
-      "school": "RAJSHAHI COLLEGIATE SCHOOL",
-      "total": 12,
-      "talentpool": 0,
-      "general": 12
     },
     {
       "school": "RAJSHAHI GOVT. GIRLS' HIGH SCHOOL",
@@ -365,7 +377,7 @@
       "general": 12
     },
     {
-      "school": "MANIKNAGAR GIRLS' HIGH SCHOOL",
+      "school": "AL-HERA ACADEMY",
       "total": 11,
       "talentpool": 1,
       "general": 10
@@ -378,6 +390,12 @@
     },
     {
       "school": "FULKURI ISLAMIC ACADEMY",
+      "total": 11,
+      "talentpool": 0,
+      "general": 11
+    },
+    {
+      "school": "QADIRABAD CANTONMENT PUBLIC SCHOOL",
       "total": 11,
       "talentpool": 0,
       "general": 11
@@ -407,7 +425,7 @@
       "general": 6
     },
     {
-      "school": "QADIRABAD CANTONMENT PUBLIC SCHOOL",
+      "school": "SHAHEED COLONEL KAZI EMDADUL HAQUE PUBLIC SCHOOL",
       "total": 10,
       "talentpool": 0,
       "general": 10
@@ -449,12 +467,6 @@
       "general": 8
     },
     {
-      "school": "SHAHEED COLONEL KAZI EMDADUL HAQUE PUBLIC SCHOOL",
-      "total": 9,
-      "talentpool": 0,
-      "general": 9
-    },
-    {
       "school": "SHAHZADPUR GOVT. MODEL PILOT HIGH SCHOOL",
       "total": 9,
       "talentpool": 0,
@@ -462,6 +474,12 @@
     },
     {
       "school": "ENAYETPUR ISLAMIA HIGH SCHOOL",
+      "total": 9,
+      "talentpool": 0,
+      "general": 9
+    },
+    {
+      "school": "MILLENNIUM SCHOLASTIC SCHOOL & COLLEGE, BOGURA",
       "total": 9,
       "talentpool": 0,
       "general": 9
@@ -509,12 +527,6 @@
       "general": 8
     },
     {
-      "school": "MILLENNIUM SCHOLASTIC SCHOOL & COLLEGE, BOGURA",
-      "total": 8,
-      "talentpool": 0,
-      "general": 8
-    },
-    {
       "school": "GOVT. BHANGOORA UNION HIGH SCHOOL AND COLLEGE",
       "total": 7,
       "talentpool": 4,
@@ -546,6 +558,12 @@
     },
     {
       "school": "COURT MODEL HIGH SCHOOL",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "NIAMATPUR GOVT. BOHUMUKHI MODEL HIGH SCHOOL",
       "total": 7,
       "talentpool": 0,
       "general": 7
@@ -611,12 +629,6 @@
       "general": 6
     },
     {
-      "school": "NIAMATPUR GOVT. BOHUMUKHI MODEL HIGH SCHOOL",
-      "total": 6,
-      "talentpool": 0,
-      "general": 6
-    },
-    {
       "school": "SAINT RITA'S HIGH SCHOOL,MOTHURAPUR",
       "total": 6,
       "talentpool": 0,
@@ -641,6 +653,12 @@
       "general": 4
     },
     {
+      "school": "KHUBJIPUR M.L.HIGH SCHOOL",
+      "total": 5,
+      "talentpool": 1,
+      "general": 4
+    },
+    {
       "school": "ARANI MONOMOHINI GOVT. HIGH SCHOOL",
       "total": 5,
       "talentpool": 2,
@@ -660,6 +678,12 @@
     },
     {
       "school": "SHIBGANJ ISLAMI ACADEMY",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "CHAKENAYET HIGH SCHOOL",
       "total": 5,
       "talentpool": 0,
       "general": 5
@@ -720,12 +744,6 @@
     },
     {
       "school": "SHOHAGPUR PILOT GIRLS' HIGH SCHOOL",
-      "total": 4,
-      "talentpool": 1,
-      "general": 3
-    },
-    {
-      "school": "KHUBJIPUR M.L.HIGH SCHOOL",
       "total": 4,
       "talentpool": 1,
       "general": 3
@@ -793,26 +811,26 @@
     {
       "school": "BANWARINAGAR GOVT. C. B. PILOT HIGH SCHOOL, FARIDPUR",
       "total": 4,
-      "talentpool": 4,
-      "general": 0
+      "talentpool": 0,
+      "general": 4
     },
     {
       "school": "JUGNIDAHA HAJI MAHTAB ALI HIGH SCHOOL, SHAHJADPUR",
       "total": 4,
-      "talentpool": 4,
-      "general": 0
+      "talentpool": 0,
+      "general": 4
     },
     {
       "school": "GANDHAIL RATANKANDI UNION ALI AHMED HIGH SCHOOL, KAZIPUR",
       "total": 4,
-      "talentpool": 4,
-      "general": 0
+      "talentpool": 0,
+      "general": 4
     },
     {
       "school": "PANCHBIBI NASIR MONDAL GOVT. GIRLS' HIGH SCHOOL, PANCHBIBI, JOYP",
       "total": 4,
-      "talentpool": 1,
-      "general": 3
+      "talentpool": 0,
+      "general": 4
     },
     {
       "school": "NAMO SHANKAR BATI HIGH SCHOOL",
@@ -851,7 +869,7 @@
       "general": 4
     },
     {
-      "school": "CHAKENAYET HIGH SCHOOL",
+      "school": "RANINAGAR GOVERNMENT PILOT MODEL HIGH SCHOOL",
       "total": 4,
       "talentpool": 0,
       "general": 4
@@ -899,6 +917,12 @@
       "general": 4
     },
     {
+      "school": "SAYADABAD HIGH SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
       "school": "GANDHAIL RATANKANDI UNION ALI AHMED HIGH SCHOOL",
       "total": 4,
       "talentpool": 0,
@@ -927,6 +951,18 @@
       "total": 4,
       "talentpool": 0,
       "general": 4
+    },
+    {
+      "school": "D.S.A. HIGH SCHOOL",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "KAYAPARA KAMARKURI HIGH SCHOOL",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
     },
     {
       "school": "BIAM LABORATORY SCHOOL AND COLLEGE",
@@ -985,14 +1021,14 @@
     {
       "school": "SHISHA HIGH SCHOOL, PORSHA",
       "total": 3,
-      "talentpool": 3,
-      "general": 0
+      "talentpool": 0,
+      "general": 3
     },
     {
       "school": "JAMTOIL DHOPAKANDI GOVERNMENT MULTILATERAL HIGH SCHOOL, KAMARKHAN",
       "total": 3,
-      "talentpool": 3,
-      "general": 0
+      "talentpool": 0,
+      "general": 3
     },
     {
       "school": "SARDAH GOVT. PILOT HIGH SCHOOL",
@@ -1049,12 +1085,6 @@
       "general": 3
     },
     {
-      "school": "RANINAGAR GOVERNMENT PILOT MODEL HIGH SCHOOL",
-      "total": 3,
-      "talentpool": 0,
-      "general": 3
-    },
-    {
       "school": "KIRTIPUR HIGH SCHOOL",
       "total": 3,
       "talentpool": 0,
@@ -1086,12 +1116,6 @@
     },
     {
       "school": "CHAR VABANIPUR HIGH SCHOOL",
-      "total": 3,
-      "talentpool": 0,
-      "general": 3
-    },
-    {
-      "school": "SAYADABAD HIGH SCHOOL",
       "total": 3,
       "talentpool": 0,
       "general": 3
@@ -1133,12 +1157,6 @@
       "general": 3
     },
     {
-      "school": "D.S.A. HIGH SCHOOL",
-      "total": 3,
-      "talentpool": 0,
-      "general": 3
-    },
-    {
       "school": "BOGURA YMCA PUBLIC SCHOOL & COLLEGE",
       "total": 3,
       "talentpool": 0,
@@ -1164,6 +1182,12 @@
     },
     {
       "school": "SALANGA ISLAMIA HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "MOHISHAL BARI AL-ISLAH ISLAMI ACADEMY",
       "total": 2,
       "talentpool": 1,
       "general": 1
@@ -1223,6 +1247,12 @@
       "general": 1
     },
     {
+      "school": "PRE-CADET HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
       "school": "PABNA CADET COLLEGIATE SCHOOL, PABNA",
       "total": 2,
       "talentpool": 1,
@@ -1230,6 +1260,12 @@
     },
     {
       "school": "KHUKNI MULTILATERAL HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "DHAP-WASHIN HIGH SCHOOL",
       "total": 2,
       "talentpool": 1,
       "general": 1
@@ -1253,220 +1289,268 @@
       "general": 1
     },
     {
+      "school": "MACHMAIL HIGH SCHOOL, BAGMARA",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
       "school": "RAJSHAHI CADET COLLEGE, CHARGHAT",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "NATORE GOVT. BOYS' HIGH SCHOOL, NATORE SADAR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "ST. JOSEPH'S SCHOOL & COLLEGE, BONPARA, BARAIGRAM",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "DURGAPUR HIGH SCHOOL, GURUDASPUR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "NALDANGA GOVT. HIGH SCHOOL, NALDANGA",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "NAOGAON ZILLA SCHOOL, NAOGAON SADAR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "NAZIPUR GOVT. MODEL HIGH SCHOOL, PATNITALA",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "RANINAGAR GOVERNMENT PILOT MODEL HIGH SCHOOL, RANINAGAR",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "BIAM LABORATORY SCHOOL AND COLLEGE, ATRAI",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "BADALGACHHI GOVT. MODEL PILOT HIGH SCHOOL, BADALGACHHI",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "AL-HELAL ISLAMI ACADEMY & COLLEGE, SAPAHAR",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "GOVT. SARA MARWARI MODEL SCHOOL AND COLLEGE, ISHURDI",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "GOVT. BHANGOORA UNION HIGH SCHOOL AND COLLEGE, BHANGURA",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "DULAI HIGH SCHOOL, SUJANAGAR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "AL-HERA ACADEMY, BERA",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "MOMENA ALI BIGGAN SCHOOL, ULLAHPARA",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "SHOHAGPUR NUTANPARA A. S. HIGH SCHOOL, BELKUCHI",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "BETIL HIGH SCHOOL, CHOUHALI",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "DHUNAT GOVT. NAIM UDDIN PILOT MODEL HIGH SCHOOL, DHUNAT",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "SANTAHAR B. P. HIGH SCHOOL, ADAMDIGHI",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "RURAL DEVELOPMENT ACADEMY LABORATORY SCHOOL AND COLLEGE, SHER",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "SHIHALI HIGH SCHOOL, SHIBGANJ",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MATHURA PARA B. K. HIGH SCHOOL, SARIAKANDI",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "DAMDAMA BI-LATERAL HIGH SCHOOL, NANDIGRAM",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "BOGURA CANTONMENT PUBLIC SCHOOL & COLLEGE, SHAHJAHANPUR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "JOYPURHAT SADAR THANA HIGH SCHOOL, JOYPURHAT SADAR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "SHANTINAGAR ADARSHA HIGH SCHOOL, KALAI",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "ARANI MONOMOHINI GOVT. HIGH SCHOOL, BAGHA",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "MOHANPUR GOVT. HIGH SCHOOL, MOHANPUR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "PUTHIA GIRLS' HIGH SCHOOL, PUTHIA",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "SARDAH GOVT. PILOT HIGH SCHOOL, CHARGHAT",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "NAOHATA GIRLS' HIGH SCHOOL, PABA",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "NATORE GOVT. GIRLS' HIGH SCHOOL, NATORE SADAR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "LALPUR SREE SUNDORY PILOT HIGH SCHOOL, LALPUR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "MOHADEVPUR SARBA MONGALA (PILOT) HIGH SCHOOL, MOHADEVPUR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "RANINAGAR GIRLS' HIGH SCHOOL, RANINAGAR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "SAPAHAR PILOT HIGH SCHOOL, SAPAHAR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "PABNA GOVT. GIRLS' HIGH SCHOOL, PABNA SADAR",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "MOMTAZ MUSTOFA IDEAL SCHOOL, BHANGURA",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "HARIPUR DURGADAS HIGH SCHOOL AND COLLEGE, CHATMOHAR",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "SALEHA ISHAQUE GOVT. GIRLS' HIGH SCHOOL, SIRAJGANJ SADAR",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "NIZAM UDDIN HIGH SCHOOL, KARNIBARI, SARIAKANDI",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "MOLAMGARI HAT SECONDARY GIRLS' SCHOOL, KALAI",
       "total": 2,
-      "talentpool": 2,
-      "general": 0
+      "talentpool": 0,
+      "general": 2
     },
     {
       "school": "PUTHIA PARES NARAYAN GOVERNMENT HIGH SCHOOL",
@@ -1476,6 +1560,18 @@
     },
     {
       "school": "KHADEMUL ISLAM GIRLS' SCHOOL AND COLLEGE",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "DHAMIN NAOGAON HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "SATBARIA HIGH SCHOOL",
       "total": 2,
       "talentpool": 0,
       "general": 2
@@ -1733,12 +1829,6 @@
       "general": 2
     },
     {
-      "school": "KAYAPARA KAMARKURI HIGH SCHOOL",
-      "total": 2,
-      "talentpool": 0,
-      "general": 2
-    },
-    {
       "school": "CHAK CHHATIANI HIGH SCHOOL",
       "total": 2,
       "talentpool": 0,
@@ -1847,6 +1937,18 @@
       "general": 2
     },
     {
+      "school": "GOURI URBAN GIRLS' HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "MEHER-UN-NESSA GIRLS' HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
       "school": "SEN BHANGABARI HIGH SCHOOL",
       "total": 2,
       "talentpool": 0,
@@ -1854,6 +1956,12 @@
     },
     {
       "school": "VICTORIA HIGH SCHOOL",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "DHAMAICH BILL CHALAN HIGH SCHOOL",
       "total": 2,
       "talentpool": 0,
       "general": 2
@@ -2105,19 +2213,7 @@
       "general": 0
     },
     {
-      "school": "JUGNIDAHA HAJI MAHTAB ALI HIGH SCHOOL  COLLEGE",
-      "total": 1,
-      "talentpool": 1,
-      "general": 0
-    },
-    {
       "school": "RAJSHAHI CANTONMENT PUBLIC SCHOOL & COLLEGE  Page#5",
-      "total": 1,
-      "talentpool": 1,
-      "general": 0
-    },
-    {
-      "school": "RURAL DEVELOPMENT ACADEMY LABORATORY SCHOOL AND COLLEGE  ACADEMY",
       "total": 1,
       "talentpool": 1,
       "general": 0
@@ -2285,6 +2381,12 @@
       "general": 0
     },
     {
+      "school": "CHYROSIA ISLAMPUR HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
       "school": "NORTH BENGAL SUGAR MILLS HIGH SCHOOL",
       "total": 1,
       "talentpool": 1,
@@ -2389,1028 +2491,1016 @@
     {
       "school": "RAJSHAHI COLLEGIATE SCHOOL, BOALIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "GOVT. LABORATORY HIGH SCHOOL, RAJPARA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SHYAMPUR HIGH SCHOOL, MOTIHAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
-      "school": "HAMIDPUR NAODAPARA HIGH SCHOOL, SHAH MAKHDUM  BAGMARA",
+      "school": "HAMIDPUR NAODAPARA HIGH SCHOOL, SHAH MAKHDUM",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
-      "school": "MACHMAIL HIGH SCHOOL, BAGMARA  ACADEMY, GODAGARI  Page#33",
+      "school": "MOHANGONJ DWI-MUKHI HIGH SCHOOL, BAGMARA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MOHISHAL BARI AL-ISLAH ISLAMI ACADEMY, GODAGARI  Page#33",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "MOHISHAL BARI AL-ISLAH ISLAMI ACADEMY, GODAGARI",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KOYEL HIGH SCHOOL, TANORE",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MOHAR HIGH SCHOOL, TANORE",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "ISLAMI ACADEMY HIGH SCHOOL TECHNIEAL AND AGRICULTURE COLLEGE,",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DIGHA HIGH SCHOOL AND COLLEGE, BAGHA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "GOPALPUR HIGH SCHOOL, MOHANPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KESHOR HAT HIGH SCHOOL, MOHANPUR  Page#34",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DURGAPUR GOVT. PILOT MODEL HIGH SCHOOL, DURGAPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DAOKANDI HIGH SCHOOL, DURGAPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "PUTHIA PARES NARAYAN GOVERNMENT HIGH SCHOOL, PUTHIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DHOPAPARA HIGH SCHOOL, PUTHIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MASHKATADIGHI MULTILATERAL (TECHNICAL) HIGH SCHOOL, PABA  Page#35",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DARUSHA HIGH SCHOOL, PABA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "HARI MOHAN GOVT. HIGH SCHOOL, NAWABGANJ SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "FULKURI ISLAMIC ACADEMY, NAWABGANJ SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BINOD PUR HIGH SCHOOL, SHIBGANJ",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SHIBGONJ GOVT. MODEL HIGH SCHOOL, SHIBGANJ",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "ASIAN SCHOOL, NACHOLE",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KANPARA KAZLA HIGH SCHOOL, NACHOLE  Page#36",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "ALINAGAR SCHOOL & COLLEGE, GOMASTAPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BOHIPARA HIGH SCHOOL, GOMASTAPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "FOTEPUR HIGH SCHOOL, BHOLAHAT",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MANJUR AHMED HIGH SCHOOL, BHOLAHAT",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "LALORE HIGH SCHOOL, SINGRA  Page#37",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KALAM HIGH SCHOOL, SINGRA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "WALIA HIGH SCHOOL, LALPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KARIMPUR GOVT. HIGH SCHOOL, LALPUR  Page#38",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "RAHIMANPUR HIGH SCHOOL, BAGATIPARA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "QADIRABAD CANTONMENT PUBLIC SCHOOL, BAGATIPARA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SATARBHAG HIGH SCHOOL, NALDANGA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MOHADEVPUR SARBA MONGALA (PILOT) HIGH SCHOOL, MOHADEVPUR  Page#39",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "JAHANGIRPUR MODEL HIGH SCHOOL, MOHADEVPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "CHAK SREEPUR A. M. HIGH SCHOOL, PATNITALA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
-      "school": "RANINAGAR GOVERNMENT PILOT MODEL HIGH SCHOOL, RANINAGAR",
+      "school": "SADAPUR KHARIBARI HIGH SCHOOL, NIAMATPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
-    },
-    {
-      "school": "RANINAGAR GOVERNMENT PILOT MODEL HIGH SCHOOL, RANINAGAR  NIAMATPUR",
-      "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "NIAMATPUR GOVT. BOHUMUKHI MODEL HIGH SCHOOL, NIAMATPUR  Page#40",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "GOTEGARI SHAHEED MAMUN GOVERNMENT HIGH SCHOOL & COLLEGE, MANDA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SAHAPUR D. A. HIGH SCHOOL, MANDA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "AHSAN ULLAH MEMORIAL MODEL GOVT. HIGH SCHOOL, ATRAI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BADALGACHHI GOVT. MODEL PILOT HIGH SCHOOL, BADALGACHHI  Page#41",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "CHAKMOIRAM GOVT. MODEL HIGH SCHOOL, DHAMOIRHAT",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
-      "school": "PORANAGAR HIGH SCHOOL, DHAMOIRHAT  SAPAHAR  SAPAHAR",
+      "school": "PORANAGAR HIGH SCHOOL, DHAMOIRHAT",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SQUARE HIGH SCHOOL & COLLEGE, PABNA SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "PABNA CADET COLLEGE, PABNA SADAR  Page#42",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SARABARIA HIGH SCHOOL, ATGHARIA  Page#43",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "PAR KHIDIRPUR HIGH SCHOOL, ATGHARIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SUJANAGAR GOVERNMENT PILOT MODEL HIGH SCHOOL, SUJANAGAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MIAPUR HAZI JASIMUDDIN HIGH SCHOOL, SANTHIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DHULAURI HIGH SCHOOL, SANTHIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BILLCHALAN UNION HIGH SCHOOL, CHATMOHAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BILLCHALAN UNION HIGH SCHOOL, CHATMOHAR  Page#44",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DHOBAKHOLA CORONATION HIGH SCHOOL, NATIABARI, BERA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SIRAJGANJ COLLECTORATE SCHOOL & COLLEGE, SIRAJGANJ SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SIRAJGANJ GOVT. B. L. HIGH SCHOOL, SIRAJGANJ SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KOYRA KHADIJA SAYED HIGH SCHOOL, ULLAHPARA  Page#45",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SOLAPARA HIGH SCHOOL, TARASH",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MADHAINAGAR B.L. HIGH SCHOOL, TARASH  Page#46",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SALANGA ISLAMIA HIGH SCHOOL, RAIGANJ",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DHANGHARA HIGH SCHOOL, RAIGANJ",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "ENAYETPUR ISLAMIA HIGH SCHOOL, CHOUHALI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BIAM MODEL SCHOOL AND COLLEGE, BOGURA, BOGURA SADAR  Page#47",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BIAM MODEL SCHOOL AND COLLEGE, BOGURA, BOGURA SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BERER BARI (B.L.) HIGH SCHOOL, DHUNAT",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "RURAL DEVELOPMENT ACADEMY LABORATORY SCHOOL AND COLLEGE, SHER  Page#48",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
-    },
-    {
-      "school": "MATHURA PARA B. K. HIGH SCHOOL, SARIAKANDI",
-      "total": 1,
-      "talentpool": 1,
-      "general": 0
-    },
-    {
-      "school": "MATHURA PARA B. K. HIGH SCHOOL, SARIAKANDI  NANDIGRAM  NANDIGRAM",
-      "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BIAM LABORATORY SCHOOL & COLLEGE, DUPCHANCHIA, DHUPCHANCHIA  Page#49",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BIAM LABORATORY SCHOOL & COLLEGE, DUPCHANCHIA, DHUPCHANCHIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SHALIKHA HIGH SCHOOL, SONATOLA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SUKHANPUKUR HIGH SCHOOL, SONATOLA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MAHISHABAN HIGH SCHOOL, GABTALI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "GABTALI PILOT HIGH SCHOOL, GABTALI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KAHALOO GOVT. MODEL HIGH SCHOOL, KAHALOO",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "TIN DIGHI HIGH SCHOOL, KAHALOO  Page#50",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "JOYPURHAT R. B. GOVT. HIGH SCHOOL, JOYPURHAT SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "AKKELPUR GOVT. FAZAR UDDIN (F.U) PILOT HIGH SCHOOL, AKKELPUR  Page#51",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KANUPUR HIGH SCHOOL, AKKELPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SHAILOTREE ROYGRAM HIGH SCHOOL, PANCHBIBI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "PANCHBIBI LAL BIHARI PILOT GOVT. HIGH SCHOOL, PANCHBIBI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KHETLAL GOVT. PILOT MODEL HIGH SCHOOL & COLLEGE, KHETLAL",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KHETLAL GOVT. PILOT MODEL HIGH SCHOOL & COLLEGE, KHETLAL  Page#52",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "RAJSHAHI CANTONMENT PUBLIC SCHOOL & COLLEGE, BOALIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MISSION GIRLS' HIGH SCHOOL, RAJPARA  Page#53",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "RAJSHAHI UNIVERSITY SCHOOL, MOTIHAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SHAH MOKHDUM HIGH SCHOOL, SHAH MAKHDUM",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
-    },
-    {
-      "school": "MACHMAIL HIGH SCHOOL, BAGMARA",
-      "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BHAWANIGONJ GOVT. GIRLS' HIGH SCHOOL, BAGMARA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "A. F. Z. PILOT GIRLS' HIGH SCHOOL, GODAGARI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "PREMTALI GIRLS' HIGH SCHOOL, GODAGARI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MONDUMALA GIRLS' HIGH SCHOOL, TANORE  Page#54",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MONDUMALA GIRLS' HIGH SCHOOL, TANORE",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SINGA ADARSHA GIRLS' HIGH SCHOOL, DURGAPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SINGA ADARSHA GIRLS' HIGH SCHOOL, DURGAPUR  Page#55",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "NAWABGANJ GOVT. GIRLS' HIGH SCHOOL, NAWABGANJ SADAR  Page#56",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "NAWABGANJ GOVT. GIRLS' HIGH SCHOOL, NAWABGANJ SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SHIBGANJ GIRLS' HIGH SCHOOL, SHIBGANJ",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "RANIHATI M.L. HIGH SCHOOL, SHIBGANJ",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "NACHOLE UPAZILA SCHOOL, NACHOLE",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "NACHOLE KHURSHED MOLLA GOVT. GIRLS' HIGH SCHOOL, NACHOLE",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "ROHANPUR RABEYA GIRLS' HIGH SCHOOL, GOMASTAPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BOALIA BILATERAL HIGH SCHOOL, GOMASTAPUR  Page#57",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BOZRATEK SOBJA PILOT HIGH SCHOOL, BHOLAHAT",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MUSHRIBHUJA YUSUF ALI SCHOOL AND COLLEGE, BHOLAHAT",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BHAG NAGARKANDI HIGH SCHOOL, SINGRA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SINGRA DAMDAMA PILOT SCHOOL & COLLEGE, SINGRA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "ST. JOSEPH'S SCHOOL & COLLEGE, BONPARA, BARAIGRAM  Page#58",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "RAJAPUR HIGH SCHOOL, BARAIGRAM",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "GURUDASPUR GOVT. PILOT MODEL HIGH SCHOOL, GURUDASPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BEGUM ROKEYA GIRLS' SCHOOL & COLLEGE, GURUDASPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "NURPUR MALANCHI HIGH SCHOOL, BAGATIPARA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "TAMALTALA ADARSHA GIRLS' HIGH SCHOOL, BAGATIPARA  Page#59",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
-      "school": "MADHNAGAR SAMSUL ISLAM HIGH SCHOOL, NALDANGA  SADAR",
+      "school": "MADHNAGAR SAMSUL ISLAM HIGH SCHOOL, NALDANGA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHAK-ATITHA HIGH SCHOOL, NAOGAON SADAR",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "NAOGAON GOVT. GIRLS' HIGH SCHOOL, NAOGAON SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "NAZIPUR GOVT. MODEL HIGH SCHOOL, PATNITALA  Page#60",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KAPASTIA HIGH SCHOOL, NIAMATPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "RAJAPUR DARGAHPARA HIGH SCHOOL, NIAMATPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SHISHA HIGH SCHOOL, PORSHA  Page#61",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KASHAB HIGH SCHOOL, MANDA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KALIKAPUR CHALK KALIKAPUR SCHOOL AND COLLEGE, MANDA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SALIA HIGH SCHOOL, ATRAI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "VANDARPUR SABITTRI GIRLS' HIGH SCHOOL, BADALGACHHI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "CHAKMOIRAM GOVT. MODEL HIGH SCHOOL, DHAMOIRHAT  Page#62",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DHAMOIR HAT SOFIA HIGH SCHOOL, DHAMOIRHAT",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
-    },
-    {
-      "school": "PABNA GOVT. GIRLS' HIGH SCHOOL, PABNA SADAR  PABNA SADAR",
-      "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "NORTH BENGOL PAPER MILLS HIGH SCHOOL, ISHURDI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MANIKNAGAR GIRLS' HIGH SCHOOL, ISHURDI  Page#63",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "EKDANTA HIGH SCHOOL, ATGHARIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SARABARIA HIGH SCHOOL, ATGHARIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SATBARIA GIRLS' HIGH SCHOOL, SUJANAGAR  Page#64",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SANTHIA UPAZILA PARISHAD HIGH SCHOOL, SANTHIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "IMAM HOSSAIN ACADEMY, SANTHIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
-      "school": "HARIPUR DURGADAS HIGH SCHOOL AND COLLEGE, CHATMOHAR",
+      "school": "AL-HERA ACADEMY, BERA  Page#65",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
-    },
-    {
-      "school": "HARIPUR DURGADAS HIGH SCHOOL AND COLLEGE, CHATMOHAR    Page#65",
-      "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "GAYHATTA SALEHA ISHAQUE HIGH SCHOOL, ULLAHPARA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DHUKURIA BERA HIGH SCHOOL, BELKUCHI  Page#66",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "TAMAI GIRLS' HIGH SCHOOL, BELKUCHI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BISHAM DANGA GIRLS' SCHOOL AND COLLEGE, TARASH",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "TARASH GOVERNMENT GIRLS' HIGH SCHOOL, TARASH",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "RAIGANJ SADAR UPAZILA GIRLS' HIGH SCHOOL, RAIGANJ",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SALONGA PILOT GIRLS' HIGH SCHOOL, RAIGANJ  Page#67",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "JAMTOIL DHOPAKANDI PILOT GIRLS' HIGH SCHOOL, KAMARKHANDA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KHWAJA YUNUS ALI LABORATORY SCHOOL & COLLEGE (ENGLISH VERSION), CHOUHA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "ARMED POLICE BATTALION PUBLIC SCHOOL & COLLEGE, BOGURA, BOGURA SA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "YAQUBIA GIRLS' HIGH SCHOOL AND COLLEGE, BOGURA, BOGURA SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "DHUNAT PILOT GIRLS' HIGH SCHOOL, DHUNAT  Page#68",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SANTAHAR HARVEY GOVT. GIRLS' HIGH SCHOOL, ADAMDIGHI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SHAOL BILATERAL HIGH SCHOOL, ADAMDIGHI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SHERWOOD INTERNATIONAL (PVT.) SCHOOL & COLLEGE, SHERPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KHADOIL UNITED HIGH SCHOOL, SHIBGANJ",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BEHAR MOHAMMAD ALI HIGH SCHOOL, SHIBGANJ  Page#69",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "CHAKALMA HIGH SCHOOL, NANDIGRAM",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KARAI HAT MULTILATERAL HIGH SCHOOL, NANDIGRAM",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
-      "school": "DUPCHANCHIA GOVT. PILOT MODEL HIGH SCHOOL, DHUPCHANCHIA  HIGH SCHOOL, DHUPCHANCHIA",
+      "school": "DUPCHANCHIA GOVT. PILOT MODEL HIGH SCHOOL, DHUPCHANCHIA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "ALTAFNAGAR IBNESAYED DWI-MUKHEE HIGH SCHOOL, DHUPCHANCHIA",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "T. M. MEMORIAL ACADEMY, SONATOLA  Page#70",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "ENAYET ALI HIGH SCHOOL, SONATOLA",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SAGATIA HIGH SCHOOL, GABTALI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "GABTALI GOVT. GIRLS' HIGH SCHOOL, GABTALI",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "NARHATTA BAHUMUKHI HIGH SCHOOL, KAHALOO",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KAHALU TAIRUNNESSA GIRLS' HIGH SCHOOL, KAHALOO",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "MILLENNIUM SCHOLASTIC SCHOOL & COLLEGE, BOGURA, SHAHJAHANPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "BOGURA CANTONMENT BOARD HIGH SCHOOL, SHAHJAHANPUR  Page#71",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "JOYPURHAT GIRLS' CADET COLLEGE, JOYPURHAT SADAR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "AKKELPUR PILOT GIRLS' HIGH SCHOOL, AKKELPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "SONAMUKHI HIGH SCHOOL, AKKELPUR",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "PANCHBIBI NASIR MONDAL GOVT. GIRLS' HIGH SCHOOL, PANCHBIBI, JOYP  Page#72",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KHETLAL PILOT GIRLS' SCHOOL & COLLEGE, KHETLAL",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "KHETLAL PILOT GIRLS' SCHOOL & COLLEGE, KHETLAL  Page#73",
       "total": 1,
-      "talentpool": 1,
-      "general": 0
+      "talentpool": 0,
+      "general": 1
     },
     {
       "school": "GOVT. LABORATORY HIGH SCHOOL  Page#74",
@@ -3420,12 +3510,6 @@
     },
     {
       "school": "POSCHIM JHIKRA HIGH SCHOOL",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
-      "school": "GOVT. LABORATORY HIGH SCHOOL  & COLLEGE",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -3611,6 +3695,12 @@
       "general": 1
     },
     {
+      "school": "HAMIDPUR NAODAPARA HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
       "school": "SHIROIL COLONY HIGH SCHOOL  Page#87",
       "total": 1,
       "talentpool": 0,
@@ -3641,31 +3731,13 @@
       "general": 1
     },
     {
-      "school": "DHAMIN NAOGAON HIGH SCHOOL  ACADEMY",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
       "school": "BAKSHIMOIL HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
       "general": 1
     },
     {
-      "school": "DHAMIN NAOGAON HIGH SCHOOL",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
       "school": "PAITKHALI HIGH SCHOOL  Page#88",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
-      "school": "SATBARIA HIGH SCHOOL  PUBLIC SCHOOL",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -3941,6 +4013,12 @@
       "general": 1
     },
     {
+      "school": "CHAK-KIRTI HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
       "school": "BOZRATEK SOBJA PILOT HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
@@ -4211,6 +4289,12 @@
       "general": 1
     },
     {
+      "school": "SHER-E-BANGLA HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
       "school": "KOIPUKHURIA HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
@@ -4319,7 +4403,7 @@
       "general": 1
     },
     {
-      "school": "KHUBJIPUR M.L.HIGH SCHOOL  HIGH SCHOOL",
+      "school": "BONBELGHORIA SHAHID REJA-UN-NABI HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -4344,6 +4428,12 @@
     },
     {
       "school": "DUSHPARA ADORSHO HIGH SHCOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "BRI-PATHURIA B/L HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -4463,12 +4553,6 @@
       "general": 1
     },
     {
-      "school": "NAOGAON KRISHNA DHAN GOVT. HIGH SCHOOL, NAOGAON  HIGH SCHOOL",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
       "school": "SHIBPUR HIGH SCHOOL  Page#131",
       "total": 1,
       "talentpool": 0,
@@ -4499,7 +4583,7 @@
       "general": 1
     },
     {
-      "school": "NIAMATPUR GOVT. BOHUMUKHI MODEL HIGH SCHOOL   Page#134",
+      "school": "BALIHAR DWI-MUKHI HIGH SCHOOL  Page#134",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -4524,6 +4608,12 @@
     },
     {
       "school": "BHEROM BL HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "CHAK-ATITHA HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -4817,12 +4907,6 @@
       "general": 1
     },
     {
-      "school": "PABNA CADET COLLEGE  COLLEGE",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
       "school": "PABNA COLLECTORATE PUBLIC SCHOOL & COLLEGE  Page#149",
       "total": 1,
       "talentpool": 0,
@@ -5075,19 +5159,19 @@
       "general": 1
     },
     {
-      "school": "KASHINATHPUR GIRLS' HIGH SCHOOL   Page#163",
+      "school": "KASHINATHPUR GIRLS' HIGH SCHOOL",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "AL-HERA ACADEMY  Page#163",
       "total": 1,
       "talentpool": 0,
       "general": 1
     },
     {
       "school": "IKKSHU GABESHAWANA HIGH SCHOOL  Page#164",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
-      "school": "SATBARIA HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -5153,7 +5237,7 @@
       "general": 1
     },
     {
-      "school": "MANIKNAGAR GIRLS' HIGH SCHOOL   Page#169",
+      "school": "GOPALPUR-CHAWKIBARI HIGH SCHOOL  Page#169",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -5261,12 +5345,6 @@
       "general": 1
     },
     {
-      "school": "GOURI URBAN GIRLS' HIGH SCHOOL  SCHOOL",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
       "school": "RAGHUNATHPUR HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
@@ -5280,6 +5358,12 @@
     },
     {
       "school": "SHAHZADPUR GOVT. MODEL PILOT HIGH SCHOOL  Page#180",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "JAHAN-ARA HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -5327,7 +5411,7 @@
       "general": 1
     },
     {
-      "school": "SAYADABAD HIGH SCHOOL  JOMILA MOJIBUR RAHMAN HIGH SCHOOL  Page#182",
+      "school": "KURALIA CHILGACHA RATONKANDI JOMILA MOJIBUR RAHMAN HIGH SCHOOL  Page#182",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -5357,12 +5441,6 @@
       "general": 1
     },
     {
-      "school": "DHAMAICH BILL CHALAN HIGH SCHOOL",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
       "school": "BHUIAGANTI HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
@@ -5387,19 +5465,13 @@
       "general": 1
     },
     {
-      "school": "DHAMAICH BILL CHALAN HIGH SCHOOL  JOMILA MOJIBUR RAHMAN HIGH SCHOOL  Page#184",
+      "school": "KURALIA CHILGACHA RATONKANDI JOMILA MOJIBUR RAHMAN HIGH SCHOOL  Page#184",
       "total": 1,
       "talentpool": 0,
       "general": 1
     },
     {
       "school": "ALIM UDDIN OSMAN GANI HIGH SCHOOL",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
-      "school": "GOURI URBAN GIRLS' HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -5579,7 +5651,7 @@
       "general": 1
     },
     {
-      "school": "D.S.A. HIGH SCHOOL  SCHOOL",
+      "school": "ABDULLA AL-MAHMUD MEMORIAL HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -5616,12 +5688,6 @@
     },
     {
       "school": "ARMED POLICE BATTALION PUBLIC SCHOOL & COLLEGE, BOGURA  Page#197",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
-      "school": "MILLENNIUM SCHOLASTIC SCHOOL & COLLEGE, BOGURA  COLLEGE",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -5759,12 +5825,6 @@
       "general": 1
     },
     {
-      "school": "POLICE LINES SCHOOL AND COLLEGE, BOGURA  COLLEGE, BOGURA",
-      "total": 1,
-      "talentpool": 0,
-      "general": 1
-    },
-    {
       "school": "DHUNAT GOVT. NAIM UDDIN PILOT MODEL HIGH SCHOOL  Page#214",
       "total": 1,
       "talentpool": 0,
@@ -5891,7 +5951,13 @@
       "general": 1
     },
     {
-      "school": "DHUNDAR HIGH SCHOOL AND COLLEGE  SCHOOL",
+      "school": "DHUNDAR HIGH SCHOOL AND COLLEGE",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "NASARATPUR MULTI-LATERAL HIGH SCHOOL",
       "total": 1,
       "talentpool": 0,
       "general": 1
@@ -6212,8 +6278,9 @@
   "is_mark": false,
   "is_group": true,
   "group_summary": {
-    "SCIENCE": 1546,
-    "HUMANITIES": 759,
-    "BUSINESS STUDIES": 946
+    "SCIENCE": 1580,
+    "HUMANITIES": 789,
+    "BUSINESS STUDIES": 687,
+    "UNKNOWN": 276
   }
 }

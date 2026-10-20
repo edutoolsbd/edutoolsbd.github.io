@@ -3,7 +3,17 @@
         "SL": "0001",
         "RO": "219331",
         "NA": "SUDIPTA SHOUHARDA TAMAL",
-        "SC": "SAIDPUR CANTONMENT PUBLIC SCHOOL & COLLEGE SCHOOL & COLLEGE",
+        "SC": "SAIDPUR CANTONMENT PUBLIC SCHOOL & COLLEGE",
+        "PG": 5,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0002",
+        "RO": "240013",
+        "NA": "MD. REZONE AHMED",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 5,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -23,7 +33,17 @@
         "SL": "0004",
         "RO": "183246",
         "NA": "MD ARIYAN TAUSIF AUVRO",
-        "SC": "RANGPUR CADET COLLEGE SCHOOL & COLLEGE",
+        "SC": "RANGPUR CADET COLLEGE",
+        "PG": 5,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0005",
+        "RO": "240012",
+        "NA": "MD. ASMAUL ISLAM",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 5,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -473,7 +493,17 @@
         "SL": "0050",
         "RO": "200038",
         "NA": "ABRAR WASIF",
-        "SC": "AHMED UDDIN SHAH SHISHU NIKETAN SCHOOL & COLLEGE SCHOOL & COLLEGE",
+        "SC": "AHMED UDDIN SHAH SHISHU NIKETAN SCHOOL & COLLEGE",
+        "PG": 6,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0051",
+        "RO": "240008",
+        "NA": "MD. AJMAIN MAHTAB",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 6,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -485,6 +515,26 @@
         "NA": "MD. FAIAZ ALAM FAHAD",
         "SC": "CHAND PARA B.L. HIGH SCHOOL",
         "PG": 6,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0053",
+        "RO": "258828",
+        "NA": "MD AHNAF NAHIAN NAFI",
+        "SC": "AL-HASANAH SCHOOL",
+        "PG": 6,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0054",
+        "RO": "240011",
+        "NA": "MD. REDOWNE HOSSAIN",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
+        "PG": 7,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
         "GE": "M"
@@ -563,7 +613,17 @@
         "SL": "0062",
         "RO": "183248",
         "NA": "MD SHAHED BIN TAOHID",
-        "SC": "RANGPUR CADET COLLEGE SCHOOL & COLLEGE",
+        "SC": "RANGPUR CADET COLLEGE",
+        "PG": 7,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0063",
+        "RO": "240037",
+        "NA": "MUSTAK SHAHRIYAR",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 7,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -773,7 +833,17 @@
         "SL": "0084",
         "RO": "183816",
         "NA": "MD. SAZID SHAHRIAR PRODHAN",
-        "SC": "RANGPUR ZILA SCHOOL SCHOOL & COLLEGE",
+        "SC": "RANGPUR ZILA SCHOOL",
+        "PG": 8,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0085",
+        "RO": "240010",
+        "NA": "MD. HASIBUL ISLAM HADI",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 8,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -1010,6 +1080,16 @@
         "GE": "M"
     },
     {
+        "SL": "0109",
+        "RO": "240065",
+        "NA": "MD. AZMAYEN FAYEK",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
+        "PG": 9,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
         "SL": "0110",
         "RO": "197895",
         "NA": "MD SOHEB BABU",
@@ -1023,7 +1103,17 @@
         "SL": "0111",
         "RO": "183213",
         "NA": "JUNAYED SAKIB TAHMID",
-        "SC": "RANGPUR CADET COLLEGE SCHOOL & COLLEGE",
+        "SC": "RANGPUR CADET COLLEGE",
+        "PG": 9,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0112",
+        "RO": "240009",
+        "NA": "MD. SHAHED MOSTOFA ALAM SUPTO",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 9,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -1223,7 +1313,17 @@
         "SL": "0132",
         "RO": "232267",
         "NA": "SADIA TABASSUM SUPTI",
-        "SC": "DINAJPUR GOVT. GIRLS' HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "DINAJPUR GOVT. GIRLS' HIGH SCHOOL",
+        "PG": 10,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0133",
+        "RO": "239965",
+        "NA": "JUMAINA JANNAT",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 10,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -1233,7 +1333,17 @@
         "SL": "0134",
         "RO": "192956",
         "NA": "SURAIYA SALAH UDDIN",
-        "SC": "MITHAPUKUR GOVERNMENT MODEL HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "MITHAPUKUR GOVERNMENT MODEL HIGH SCHOOL",
+        "PG": 10,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0135",
+        "RO": "239963",
+        "NA": "MST. TAJNUR RAHMAN MAHINA",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 10,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -1723,7 +1833,17 @@
         "SL": "0184",
         "RO": "233791",
         "NA": "MONTAHA BASHAR",
-        "SC": "DINAJPUR COLLECTORATE SCHOOL AND COLLEGE SCHOOL & COLLEGE",
+        "SC": "DINAJPUR COLLECTORATE SCHOOL AND COLLEGE",
+        "PG": 12,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0185",
+        "RO": "239959",
+        "NA": "SHIDRATUN MONTAHA",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 12,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -1883,7 +2003,17 @@
         "SL": "0201",
         "RO": "183010",
         "NA": "MISKATUL ZANNAT",
-        "SC": "RANGPUR GOVT. GIRLS' HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "RANGPUR GOVT. GIRLS' HIGH SCHOOL",
+        "PG": 13,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0202",
+        "RO": "239958",
+        "NA": "MST. SUBHANA BINTE MOCABBAR",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 13,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -1983,7 +2113,17 @@
         "SL": "0212",
         "RO": "253530",
         "NA": "MST RAMEYA MEHAZABEN MEDHA",
-        "SC": "THAKURGAON GOVT. GIRLS' HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "THAKURGAON GOVT. GIRLS' HIGH SCHOOL",
+        "PG": 13,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0213",
+        "RO": "239977",
+        "NA": "NAFISA NAWSHIN SNIGDHA",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 13,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -2073,7 +2213,17 @@
         "SL": "0222",
         "RO": "186646",
         "NA": "MST SADIA SULTANA AL MUKTA",
-        "SC": "POLICE LINES SCHOOL AND COLLEGE SCHOOL & COLLEGE",
+        "SC": "POLICE LINES SCHOOL AND COLLEGE",
+        "PG": 13,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0223",
+        "RO": "204980",
+        "NA": "DRISTY MONI",
+        "SC": "SHIBRAM AL-HAZ MD. HOSSAIN SMRITY SCHOOL & COLLEGE",
         "PG": 13,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -2083,7 +2233,17 @@
         "SL": "0224",
         "RO": "186551",
         "NA": "MST. MIFTAHUL JANNAT",
-        "SC": "POLICE LINES SCHOOL AND COLLEGE SCHOOL & COLLEGE",
+        "SC": "POLICE LINES SCHOOL AND COLLEGE",
+        "PG": 14,
+        "TY": "TALENTPOOL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0225",
+        "RO": "239960",
+        "NA": "MST. JOYNOB BINTE JOYNAL",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 14,
         "TY": "TALENTPOOL",
         "GR": "SCIENCE",
@@ -2144,6 +2304,16 @@
         "RO": "486480",
         "NA": "MD ABDULLAH AL FAYSAL",
         "SC": "CHOWDHURY GAWHARUZZAMAN GOVT. HIGH SCHOOL",
+        "PG": 15,
+        "TY": "TALENTPOOL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "0004",
+        "RO": "496851",
+        "NA": "ADITYA BARMAN",
+        "SC": "DESHMA DWI-MUKHI HIGH SCHOOL",
         "PG": 15,
         "TY": "TALENTPOOL",
         "GR": "HUMANITIES",
@@ -2910,6 +3080,16 @@
         "GE": "F"
     },
     {
+        "SL": "0081",
+        "RO": "469274",
+        "NA": "MOST. THOMA AKTAR",
+        "SC": "KHIDIR SHARIF AL-WAHEDI HIGH SCHOOL",
+        "PG": 18,
+        "TY": "TALENTPOOL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
         "SL": "0082",
         "RO": "482435",
         "NA": "MIFTAHUL JANNAT",
@@ -2924,6 +3104,16 @@
         "RO": "460613",
         "NA": "SAMIN IBNAT MEGHOBOTY",
         "SC": "THE MILLENNIUM STARS SCHOOL AND COLLEGE, RANGPUR CANTT., RANGPUR",
+        "PG": 18,
+        "TY": "TALENTPOOL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
+        "SL": "0084",
+        "RO": "501025",
+        "NA": "MST. SANJIDA AKTER",
+        "SC": "ROGHUPUR DWI-MUKHI HIGH SCHOOL",
         "PG": 18,
         "TY": "TALENTPOOL",
         "GR": "HUMANITIES",
@@ -3200,6 +3390,16 @@
         "GE": "F"
     },
     {
+        "SL": "0112",
+        "RO": "504796",
+        "NA": "MST. ANNUR-E-ANONNA",
+        "SC": "PANCHAGARH GOVT. GIRLS' HIGH SCHOOL",
+        "PG": 19,
+        "TY": "TALENTPOOL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
         "SL": "0113",
         "RO": "462567",
         "NA": "MST SUMONA AKTER",
@@ -3410,6 +3610,16 @@
         "GE": "F"
     },
     {
+        "SL": "0021",
+        "RO": "704553",
+        "NA": "SOHANA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 21,
+        "TY": "TALENTPOOL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
         "SL": "0022",
         "RO": "703975",
         "NA": "SAFIYA BINTE ALI",
@@ -3590,6 +3800,16 @@
         "GE": "F"
     },
     {
+        "SL": "0040",
+        "RO": "704563",
+        "NA": "ZAINAB KHATUN ADINA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 21,
+        "TY": "TALENTPOOL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
         "SL": "0041",
         "RO": "704049",
         "NA": "MOST TASNIM AKTER SNEHA",
@@ -3613,7 +3833,17 @@
         "SL": "0043",
         "RO": "704827",
         "NA": "ATKIA LABIBA",
-        "SC": "BORDER GUARD PUBLIC SCHOOL, LALMONIRHAT Grand Total = 385",
+        "SC": "BORDER GUARD PUBLIC SCHOOL, LALMONIRHAT",
+        "PG": 21,
+        "TY": "TALENTPOOL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "0044",
+        "RO": "704555",
+        "NA": "HUMAIRA KHATUN BIDDA",
+        "SC": "AL-FARUQUE ACADEMY Grand Total = 385",
         "PG": 21,
         "TY": "TALENTPOOL",
         "GR": "BUSINESS STUDIES",
@@ -3625,8 +3855,8 @@
         "NA": "K. M. FAHIM MOBASSHIR SREJON",
         "SC": "POLICE LINES SCHOOL AND COLLEGE, RANGPUR SADAR",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3635,8 +3865,8 @@
         "NA": "SAMIN YASAR",
         "SC": "CANTONMENT PUBLIC SCHOOL & COLLEGE, RANGPUR, RANGPUR SADAR",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3645,18 +3875,28 @@
         "NA": "MUSABBIR MAHMUD MADHURJO",
         "SC": "SHARIF SUNDAR HIGH SCHOOL, PIRGACHHA",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
         "SL": "0004",
         "RO": "188924",
         "NA": "MD KAMRUL HASAN",
-        "SC": "KASHIABARI HIGH SCHOOL, PIRGACHHA SCHOOL, PIRGANJ",
+        "SC": "KASHIABARI HIGH SCHOOL, PIRGACHHA",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
+        "GE": "F"
+    },
+    {
+        "SL": "0005",
+        "RO": "190392",
+        "NA": "S M RAHAT TANJUM",
+        "SC": "BHENDABARI MULTI-LATERAL HIGH SCHOOL, PIRGANJ",
+        "PG": 22,
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3665,8 +3905,8 @@
         "NA": "MD. FAHIM FAYSAL",
         "SC": "PIRGANJ GOVT. HIGH SCHOOL, PIRGANJ",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3675,8 +3915,8 @@
         "NA": "ABU IMAM MD. NAYEM",
         "SC": "GANGACHARA ADARSHA HIGH SCHOOL, GANGACHARA",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3685,18 +3925,28 @@
         "NA": "SANJIT CHANDRA MOHONTO",
         "SC": "DHANTALA REAJ UDDIN SCHOOL AND COLLEGE, GANGACHARA",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
         "SL": "0009",
         "RO": "193665",
         "NA": "MD. MOYAKHIRUL ISLAM",
-        "SC": "IMADPUR PACCHIMPARA HIGH SCHOOL, MITHAPUKUR MITHAPUKUR",
+        "SC": "IMADPUR PACCHIMPARA HIGH SCHOOL, MITHAPUKUR",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
+        "GE": "F"
+    },
+    {
+        "SL": "0010",
+        "RO": "195245",
+        "NA": "MD. MASFI ANAN SHISHIR",
+        "SC": "KUMARGANJ BI-LATERAL HIGH SCHOOL, MITHAPUKUR",
+        "PG": 22,
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3705,8 +3955,8 @@
         "NA": "SYED ATIKUR RAHMAN",
         "SC": "BANGALABAZAR HIGH SCHOOL, KAUNIA",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3715,8 +3965,8 @@
         "NA": "MD. ABDULLAH HENAN",
         "SC": "HARAGACH MULTILATERAL HIGH SCHOOL, KAUNIA",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3725,8 +3975,8 @@
         "NA": "MD. MUSFIKUR RAHMAN",
         "SC": "TARAGANJ W/E GOVERNMENT MODEL HIGH SCHOOL, TARAGANJ",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3735,8 +3985,8 @@
         "NA": "MD. MASUD RANA",
         "SC": "GHANIRAMPUR BAROGOLA HIGH SCHOOL, TARAGANJ",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3745,8 +3995,8 @@
         "NA": "TUSHIN SARKAR JOY",
         "SC": "BADARGANJ MODEL MULTILATERAL HIGH SCHOOL, BADARGANJ",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3755,8 +4005,8 @@
         "NA": "M A AHAD SARKER",
         "SC": "BADARGANJ MODEL MULTILATERAL HIGH SCHOOL, BADARGANJ",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3765,8 +4015,8 @@
         "NA": "MD. ROBIUS SANY KANON",
         "SC": "GAIBANDHA GOVT. BOYS' HIGH SCHOOL, GAIBANDHA SADAR",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3775,18 +4025,18 @@
         "NA": "EHOSAN MASHHUR",
         "SC": "AHMED UDDIN SHAH SHISHU NIKETAN SCHOOL & COLLEGE, GAIBANDHA SADAR",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
         "SL": "0019",
         "RO": "201906",
         "NA": "MD. TAUFIK HASAN LABIB",
-        "SC": "CHAND KARIM MOJIBAR RAHMAN",
+        "SC": "CHAND KARIM MOJIBAR RAHMAN DI-MUKHI HIGH SCHOOL, SADULLAPUR",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3795,8 +4045,8 @@
         "NA": "MD. BAYAZID MIA",
         "SC": "KHAMAR DASHALIA ADARSHA HIGH SCHOOL, SADULLAPUR",
         "PG": 22,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3805,8 +4055,8 @@
         "NA": "SHATIL AROB",
         "SC": "GREEN FIELD INTERNATIONAL SCHOOL AND COLLEGE, PALASHBARI",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3815,8 +4065,8 @@
         "NA": "SHAHRIA SAFIN",
         "SC": "GREEN FIELD INTERNATIONAL SCHOOL AND COLLEGE, PALASHBARI",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3825,8 +4075,8 @@
         "NA": "MD. SHAZAHAN ISLAM",
         "SC": "MANIKKOR HIGH SCHOOL, PHULCHHARI",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3835,8 +4085,8 @@
         "NA": "S M NAIM UL HASAN NIROB",
         "SC": "KANCHIPARA MOHAMMAD ALI UNITED ACADEMY, PHULCHHARI",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3845,8 +4095,8 @@
         "NA": "MD. SHAHRIAR RAHMAN KHAN",
         "SC": "DHANIARKURA HIGH SCHOOL, SUNDARGANJ",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3855,8 +4105,8 @@
         "NA": "MD. SALIM MIA",
         "SC": "SUNDARGANJ A. MAZID MONDAL HIGH SCHOOL, SUNDARGANJ",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3865,8 +4115,8 @@
         "NA": "DHRITO BABU SARKER",
         "SC": "SKS NUTONKURI BIDYAPITH, SAGHATTA",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3875,8 +4125,8 @@
         "NA": "SHUVOJEET BORMON",
         "SC": "KAZI AZHAR ALI GOVT. MODEL HIGH SCHOOL, SAGHATTA",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3885,8 +4135,8 @@
         "NA": "MD. NAZMUL ISLAM SARKER",
         "SC": "BISHUBARI HIGH SCHOOL, GOBINDAGANJ",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3895,8 +4145,8 @@
         "NA": "MD. TANJIL TAHSAN",
         "SC": "DAMGARI HIGH SCHOOL, GOBINDAGANJ",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3905,8 +4155,8 @@
         "NA": "SONJIT CHANDRO RAY",
         "SC": "JADUR HAT HIGH SCHOOL, NILPHAMARI SADAR",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3915,8 +4165,8 @@
         "NA": "MD MURSIDUZZAMAN MAHIR",
         "SC": "SAMIR UDDIN SCHOOL AND COLLEGE, NILPHAMARI SADAR",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3925,8 +4175,8 @@
         "NA": "MAHE ALAM SHOUM",
         "SC": "DOMAR MULTILATERAL HIGH SCHOOL, DOMAR",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3935,8 +4185,8 @@
         "NA": "MD. RAFI AHMMED",
         "SC": "KHATURIA HIGH SCHOOL, DOMAR",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3945,8 +4195,8 @@
         "NA": "MD MINHAZ AHAMED MUGDHO",
         "SC": "JALDHAKA GOVT. MODEL PILOT HIGH SCHOOL, JALDHAKA",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3955,8 +4205,8 @@
         "NA": "HOSSAIN MD NAZMUN SAKIB",
         "SC": "SHOULMARI MULTILATERAL HIGH SCHOOL, JALDHAKA",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3965,8 +4215,8 @@
         "NA": "SHAH MUHAMMAD WAHID HASAN TASI",
         "SC": "KISHORIGANJ MULTILATERAL HIGH SCHOOL, KISHOREGANJ",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3975,8 +4225,8 @@
         "NA": "MD. AL RAHI SHAH ROHAN",
         "SC": "KISHORIGANJ MULTILATERAL HIGH SCHOOL, KISHOREGANJ",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3985,8 +4235,8 @@
         "NA": "MD ROHOMOTULLAH RANA",
         "SC": "KHAGA KHARIBARI MULTI LATERAL HIGH SCHOOL, DIMLA",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -3995,8 +4245,8 @@
         "NA": "MD ABDULLAH AL SADIK",
         "SC": "DIMLA PUBLIC SCHOOL AND COLLEGE, DIMLA",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4005,8 +4255,8 @@
         "NA": "MD. SHAHID ARMAN ARNOB",
         "SC": "SAIDPUR CANTONMENT PUBLIC SCHOOL & COLLEGE, SAIDPUR",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4015,8 +4265,8 @@
         "NA": "RICK SAHA",
         "SC": "SAIDPUR CANTONMENT PUBLIC SCHOOL & COLLEGE, SAIDPUR",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4025,8 +4275,8 @@
         "NA": "MD. HASIN SHADAB",
         "SC": "KURIGRAM GOVT. HIGH SCHOOL, KURIGRAM SADAR",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4035,8 +4285,8 @@
         "NA": "MD. RAKIBUL HASAN ROKON",
         "SC": "KURIGRAM GOVT. HIGH SCHOOL, KURIGRAM SADAR",
         "PG": 23,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4045,8 +4295,8 @@
         "NA": "PANKAJ KUMAR PAUL",
         "SC": "ADARSHA B. L. HIGH SCHOOL, RAJARHAT, RAJARHAT",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4055,8 +4305,8 @@
         "NA": "PARTHA SAROTHI",
         "SC": "RAJAR HAT PILOT HIGH SCHOOL, RAJARHAT",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4065,8 +4315,8 @@
         "NA": "REDWAN IBN MUYEN",
         "SC": "KACHAKATA ML. HIGH SCHOOL, NAGESHWARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4075,8 +4325,8 @@
         "NA": "MD SAMI YOUSUF SIAM",
         "SC": "NAGESWARI DOYAMOYEE PILOT ACADEMY, NAGESHWARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4085,8 +4335,8 @@
         "NA": "DIPAYON KUMAR RAY SONAI",
         "SC": "BHURUNGAMARI PILOT GOVT. HIGH SCHOLL, BHURUNGAMARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4095,8 +4345,8 @@
         "NA": "MD. MAHIR FAISAL",
         "SC": "BHURUNGAMARI PILOT GOVT. HIGH SCHOLL, BHURUNGAMARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4105,8 +4355,8 @@
         "NA": "MD MONZURUL ISLAM MAHFUZ",
         "SC": "RAJIBPUR GOVT. MODEL PILOT HIGH SCHOOL, RAJIBPUR",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4115,8 +4365,8 @@
         "NA": "MD SAMIUL HASAN SHOHAN",
         "SC": "RAJIBPUR GOVT. MODEL PILOT HIGH SCHOOL, RAJIBPUR",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4125,8 +4375,8 @@
         "NA": "MD ZANNAT ISLAM",
         "SC": "FULBARI JACHHI MIAN MODEL GOVT. HIGH SCHOOL, PHULBARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4135,8 +4385,8 @@
         "NA": "AYON ROY",
         "SC": "FULBARI ADARSHA HIGH SCHOOL, PHULBARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4145,8 +4395,8 @@
         "NA": "MD TAHSAN TAMIM",
         "SC": "KOMAR VANGI HIGH SCHOOL, RAUMARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4155,8 +4405,8 @@
         "NA": "MUHAMMAD KAOSAR RAHMAN",
         "SC": "CHOWDHURY GAWHARUZZAMAN GOVT. HIGH SCHOOL, RAUMARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4165,18 +4415,28 @@
         "NA": "MD AL RABBY",
         "SC": "N. S. AMIN RESIDENTIAL SCHOOL, ULIPUR",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
         "SL": "0058",
         "RO": "226885",
         "NA": "MD ARROMAN BIJOY",
-        "SC": "N. S. AMIN RESIDENTIAL SCHOOL, ULIPUR SCHOOL, CHILMARI",
+        "SC": "N. S. AMIN RESIDENTIAL SCHOOL, ULIPUR",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
+        "GE": "F"
+    },
+    {
+        "SL": "0059",
+        "RO": "228345",
+        "NA": "MD. MIRAJ-UL-ISLAM",
+        "SC": "THANA HAT A. U. PILOT GOVT. HIGH SCHOOL, CHILMARI",
+        "PG": 24,
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4185,8 +4445,8 @@
         "NA": "MD. JUNAIN HAQUE MINAN",
         "SC": "THANA HAT A. U. PILOT GOVT. HIGH SCHOOL, CHILMARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4195,8 +4455,8 @@
         "NA": "MHADI AL ZAWAD GALIB",
         "SC": "BARABARI SHAHID ABUL KASHEM HIGH SCHOOL, LALMONIRHAT SADAR",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4205,8 +4465,8 @@
         "NA": "MD HADIUJJAMAN HABIB",
         "SC": "BARABARI SHAHID ABUL KASHEM HIGH SCHOOL, LALMONIRHAT SADAR",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4215,8 +4475,8 @@
         "NA": "MD. ANIK AL HOSSAIN TAEID",
         "SC": "HATIBANDHA S. S. GOVT. MODEL HIGH SCHOOL, HATIBANDHA",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4225,8 +4485,8 @@
         "NA": "K M TASKIN NABI",
         "SC": "HATIBANDHA S. S. GOVT. MODEL HIGH SCHOOL, HATIBANDHA",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4235,8 +4495,8 @@
         "NA": "MAHDI ABU SINAN",
         "SC": "GOVT. ADITMARI GIRIJA SANKAR MODEL SCHOOL AND COLLEGE, ADITMARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4245,8 +4505,8 @@
         "NA": "MD. SHAKIBUL HASAN SABBIR",
         "SC": "MAHISHKHOCHA HIGH SCHOOL, ADITMARI",
         "PG": 24,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4255,8 +4515,8 @@
         "NA": "MD. ASHIK SHAHRIAR",
         "SC": "KAKINA MAHIMA RANJAN MEMORIAL HIGH SCHOOL, KALIGANJ",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4265,8 +4525,8 @@
         "NA": "MD. ARAFAT AL BANI",
         "SC": "KALIGANJ KARIM UDDIN PUBLIC PILOT HIGH SCHOOL, KALIGANJ",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4275,8 +4535,8 @@
         "NA": "MD SADAT BIN AZAD",
         "SC": "ISLAMI ADARSHA BIDDYA NIKATON HIGH SCHOOL, PATGRAM",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4285,8 +4545,8 @@
         "NA": "MD. SHARIF HASAN SHACCHO",
         "SC": "PATGRAM TARAKNATH (T.N) SCHOOL AND COLLEGE, PATGRAM",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4295,8 +4555,8 @@
         "NA": "ABID HASAN",
         "SC": "DINAJPUR ZILA SCHOOL, DINAJPUR SADAR",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4305,8 +4565,8 @@
         "NA": "MD. TOUFIQ ISLAM",
         "SC": "DINAJPUR ZILA SCHOOL, DINAJPUR SADAR",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4315,8 +4575,8 @@
         "NA": "MD ABDULLAH AL NOMAN",
         "SC": "CANTONMENT PUBLIC SCHOOL & COLLEGE, PARBATIPUR",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4325,8 +4585,8 @@
         "NA": "MD. TUSHAR ALI",
         "SC": "CANTONMENT PUBLIC SCHOOL & COLLEGE, PARBATIPUR",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4335,8 +4595,8 @@
         "NA": "PARTHO PAL",
         "SC": "NAWABGONJ GOVT. MULTILATERAL PILOT HIGH SCHOOL, NAWABGANJ",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4345,8 +4605,8 @@
         "NA": "MD SAKIB AL HASAN",
         "SC": "NAWABGONJ GOVT. MULTILATERAL PILOT HIGH SCHOOL, NAWABGANJ",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4355,8 +4615,8 @@
         "NA": "MD. SHAHARIAR KARIM",
         "SC": "IDEAL RESIDENTIAL MODEL SCHOOL, CHIRIRBANDAR",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4365,8 +4625,8 @@
         "NA": "MD MISSION US SAMI",
         "SC": "IDEAL RESIDENTIAL MODEL SCHOOL, CHIRIRBANDAR",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4375,8 +4635,8 @@
         "NA": "RAIYAN ZAMAN",
         "SC": "BIRAMPUR PILOT HIGH SCHOOL, BIRAMPUR",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4385,8 +4645,8 @@
         "NA": "MD. IRFANUL HAQUE RAFSAN",
         "SC": "ADARSHA HIGH SCHOOL BIRAMPUR, BIRAMPUR",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4395,8 +4655,8 @@
         "NA": "MD. ASIF ZUNAID ALIF",
         "SC": "SUJAPUR GOVT. MODEL HIGH SCHOOL, FULBARI",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4405,8 +4665,8 @@
         "NA": "MD RAHAT CHOWDHURY",
         "SC": "SUJAPUR GOVT. MODEL HIGH SCHOOL, FULBARI",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4415,8 +4675,8 @@
         "NA": "SADMAN RAFID CHOUDHURY",
         "SC": "JALALPUR B.L. HIGH SCHOOL, HAKIMPUR",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4425,8 +4685,8 @@
         "NA": "MD. MURTAZA HASAN SOMPOD",
         "SC": "RIKARI BILETARAL HIGH SCHOOL, HAKIMPUR",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4435,8 +4695,8 @@
         "NA": "AVEJEET ROY",
         "SC": "BIRGANJ GOVT. HIGH SCHOOL, BIRGANJ",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4445,8 +4705,8 @@
         "NA": "MD FARHAN SAHRIAR FAHIM",
         "SC": "IBRAHIM MEMORIAL SHIKSHA NIKETAN, BIRGANJ",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4455,8 +4715,8 @@
         "NA": "MD MARUF KARIM SIDDIKI AUMI",
         "SC": "SARHADDA HIGH SCHOOL, KHANSAMA",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4465,8 +4725,8 @@
         "NA": "MD NOYON ISLAM",
         "SC": "SHAHPARA HIGH SCHOOL, KHANSAMA",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4475,8 +4735,8 @@
         "NA": "MD MASHRAFI RAHMAN",
         "SC": "SUNDARPUR HIGH SCHOOL, KAHAROLE",
         "PG": 25,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4485,8 +4745,8 @@
         "NA": "MORMO ROY",
         "SC": "DAKKHIN MOHESOUR ADARSHO HIGH SCHOOL, KAHAROLE",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4495,8 +4755,8 @@
         "NA": "ARKO SARKAR PARTHO",
         "SC": "SETAB GONJ IDEAL ACADEMY, BOCHAGANJ",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4505,8 +4765,8 @@
         "NA": "ROKNUZZAMAN RUPOM",
         "SC": "SETABGANJ GOVT. PILOT MODEL HIGH SCHOOL, BOCHAGANJ",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4515,8 +4775,8 @@
         "NA": "MD SAKIBUL HASAN",
         "SC": "CHOWDHURY DANGA HIGH SCHOOL, BIRAL",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4525,8 +4785,8 @@
         "NA": "MD. ABDULLAH AL HASAN",
         "SC": "CHOWDHURY DANGA HIGH SCHOOL, BIRAL",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4535,8 +4795,8 @@
         "NA": "TUSAR MOHAMMAD",
         "SC": "RANIGONJ ADARSHA BIDYANIKETON, GHORAGHAT",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4545,8 +4805,8 @@
         "NA": "MD. RIFAT HASAN HRIDOY",
         "SC": "RANIGONJ ADARSHA BIDYANIKETON, GHORAGHAT",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4555,8 +4815,8 @@
         "NA": "MD AZWAD ABRAR",
         "SC": "THAKURGAON GOVT. BOYS' HIGH SCHOOL, THAKURGAON SADAR",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4565,8 +4825,8 @@
         "NA": "MD. RAHAT REZWAN SIAM",
         "SC": "THAKURGAON GOVT. BOYS' HIGH SCHOOL, THAKURGAON SADAR",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4575,8 +4835,8 @@
         "NA": "MD. SABBIR HASAN",
         "SC": "RAGHUNATHPUR HIGH SCHOOL, PIRGANJ",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4585,8 +4845,8 @@
         "NA": "MD SOUROV JAHAN",
         "SC": "PIRGANJ PILOT HIGH SCHOOL, PIRGANJ",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4595,8 +4855,8 @@
         "NA": "MD REDUWAN IBNA SAMIR",
         "SC": "NEK MORD ALIMUDDIN GOVT. HIGH SCHOOL, RANISANKAIL",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4605,8 +4865,8 @@
         "NA": "MD ABDUS SUBHAN",
         "SC": "RANI SANKAIL PILOT BOYS HIGH SCHOOL, RANISANKAIL",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4615,8 +4875,8 @@
         "NA": "M A AQIB TASNIM",
         "SC": "BALIADANGI PILOT MODEL HIGH SCHOOL, BALIADANGI",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4625,8 +4885,8 @@
         "NA": "MD. SHAHARIAR AHMMED SABBIR",
         "SC": "BALIADANGI PILOT MODEL HIGH SCHOOL, BALIADANGI",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4635,8 +4895,8 @@
         "NA": "MD. TAIFUR RAHMAN TASNIM",
         "SC": "HARIPUR GOVERNMENT PILOT HIGH SCHOOL, HARIPUR",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4645,8 +4905,8 @@
         "NA": "MD SUJAN ALI SIFAT",
         "SC": "SHITOLPUR HIGH SCHOOL, HARIPUR",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4655,8 +4915,8 @@
         "NA": "S M SADID",
         "SC": "PANCHAGARH BISHNU PROSAD GOVT. HIGH SCHOOL, PANCHAGARH SADAR",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4665,8 +4925,8 @@
         "NA": "AHMED IMTIAZ WALEED",
         "SC": "KARATOYA ADARSHA SHIKSHA NIKETON, PANCHAGARH, PANCHAGARH SADAR",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4675,8 +4935,8 @@
         "NA": "MD JANNATUL FERDOUS JIM",
         "SC": "AZIZ NAGAR B. L. HIGH SCHOOL, TETULIA",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4685,8 +4945,8 @@
         "NA": "MD. FAHMID FAHIM",
         "SC": "SHALBAHAN HIGH SCHOOL, TETULIA",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4695,8 +4955,8 @@
         "NA": "SHUVO JEET ROY PALAK",
         "SC": "NRIPENDRA NARAYAN GOVT. HIGH SCHOOL, DEBIGANJ, DEBIGANJ",
         "PG": 26,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4705,8 +4965,8 @@
         "NA": "MD. NOSIB PRODHAN",
         "SC": "MOHAMMAD AKALIA KHAN HIGH SCHOOL, DEBIGANJ",
         "PG": 27,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4715,8 +4975,8 @@
         "NA": "MD. LABANYA ISLAM",
         "SC": "MAIDAN DIGHI B. L. HIGH SCHOOL, BODA",
         "PG": 27,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4725,8 +4985,8 @@
         "NA": "MD ATEK AHASAN",
         "SC": "BODA GOVT. PILOT MODEL SCHOOL AND COLLEGE, BODA",
         "PG": 27,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4735,8 +4995,8 @@
         "NA": "MD MOSTAFIZUR ROHMAN SOBUJ",
         "SC": "ATWARI PILOT HIGH SCHOOL, ATWARI",
         "PG": 27,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4745,8 +5005,8 @@
         "NA": "MD. HASNAT HAMIM",
         "SC": "ATWARI PILOT HIGH SCHOOL, ATWARI",
         "PG": 27,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4755,8 +5015,8 @@
         "NA": "UMME KULSUM RAFA",
         "SC": "POLICE LINES SCHOOL AND COLLEGE, RANGPUR SADAR",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4765,8 +5025,8 @@
         "NA": "ANUVA FAIZAH MEGH",
         "SC": "RANGPUR GOVT. GIRLS' HIGH SCHOOL, RANGPUR SADAR",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4775,8 +5035,8 @@
         "NA": "MST. JANNATUL FERDAUS JHUMUR",
         "SC": "DEUTY HIGH SCHOOL AND COLLEGE, PIRGACHHA",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4785,8 +5045,8 @@
         "NA": "ILMA TASNIM",
         "SC": "CHOWDHURANI GIRLS' SCHOOL AND COLLEGE, PIRGACHHA",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4795,8 +5055,8 @@
         "NA": "MOST. TANICA JANNAT TINA",
         "SC": "CHATRA HIGH SCHOOL, PIRGANJ",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4805,8 +5065,8 @@
         "NA": "MST. SADIA SULTANA HASI",
         "SC": "PARBATIPUR HIGH SCHOOL, PIRGANJ",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4815,8 +5075,8 @@
         "NA": "MST MASHRUFA JANNAT",
         "SC": "GANGACHARA GOVT. MODEL HIGH SCHOOL, GANGACHARA",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4825,8 +5085,8 @@
         "NA": "MOST SHADIYAH BINTE NUR TUBA",
         "SC": "DHANTALA REAJ UDDIN SCHOOL AND COLLEGE, GANGACHARA",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4835,8 +5095,8 @@
         "NA": "MST FATIMA KHATUN",
         "SC": "MITHAPUKUR GOVERNMENT MODEL HIGH SCHOOL, MITHAPUKUR",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4845,8 +5105,8 @@
         "NA": "MST TASFIA BINTE MOSTOFA",
         "SC": "MITHAPUKUR GOVERNMENT MODEL HIGH SCHOOL, MITHAPUKUR",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4855,8 +5115,8 @@
         "NA": "MST JANNATUL MAWA",
         "SC": "SHAHIDBAG GIRLS' HIGH SCHOOL, KAUNIA",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4865,8 +5125,8 @@
         "NA": "MOST. SHAHI FARJANA",
         "SC": "BANGALABAZAR HIGH SCHOOL, KAUNIA",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4875,8 +5135,8 @@
         "NA": "MOST SHAFIATUJ JANNAT",
         "SC": "TETULTOLA HIGH SCHOOL, TARAGANJ",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4885,8 +5145,8 @@
         "NA": "MOST. SHARMIN AKTHAR",
         "SC": "EKARCHALI GIRLS' HIGH SCHOOL, TARAGANJ",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4895,8 +5155,8 @@
         "NA": "TAIYEBA HUSNE TUBA",
         "SC": "BADARGANJ GOVT. GIRLS' HIGH SCHOOL, BADARGANJ",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4905,8 +5165,8 @@
         "NA": "MST. TABASSUM ALVI MOURI",
         "SC": "BADARGANJ GOVT. GIRLS' HIGH SCHOOL, BADARGANJ",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4915,8 +5175,8 @@
         "NA": "MOST MUSFIRAT NASRIN",
         "SC": "AHMED UDDIN SHAH SHISHU NIKETAN SCHOOL & COLLEGE, GAIBANDHA SADAR",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4925,8 +5185,8 @@
         "NA": "SOUDIYA AKTER SHAIMA",
         "SC": "GAIBANDHA GOVT. GIRLS' HIGH SCHOOL, GAIBANDHA SADAR",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4935,8 +5195,8 @@
         "NA": "SIRAJUM MONIRA SHAHI",
         "SC": "SADULLAPUR KHODEJA MEMORIAL PILOT GOVT. GIRLS' HIGH SCHOOL, SADULLAPU",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4945,8 +5205,8 @@
         "NA": "MOST ZANNATUN ADNIN MEDHA",
         "SC": "DHAPERHAT B. M. P. B. L. HIGH SCHOOL, SADULLAPUR",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4955,8 +5215,8 @@
         "NA": "SAMIHA BINTE AL MAMUN",
         "SC": "PALASHBARI SUTI MAHMUD MODEL PILOT GOVT. HIGH SCHOOL, PALASHBARI",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4965,8 +5225,8 @@
         "NA": "MST. MEHEZABIN CHOWDHURY ZANNA",
         "SC": "PALASHBARI SUTI MAHMUD MODEL PILOT GOVT. HIGH SCHOOL, PALASHBARI",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4975,8 +5235,8 @@
         "NA": "MST. SINTHIYA ISLAM SHIMU",
         "SC": "FULCHHARI GOVT. PILOT HIGH SCHOOL, PHULCHHARI",
         "PG": 28,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4985,8 +5245,8 @@
         "NA": "MST. ISRAT JAHAN",
         "SC": "BURAIL MODEL SCHOOL AND COLLEGE, PHULCHHARI",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -4995,8 +5255,8 @@
         "NA": "MST. SUMAIYA AKTER",
         "SC": "SABUJ SHIKHALOY AND GREEN RESIDENTIAL SCHOOL AND COLLEGE, SUN",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5005,8 +5265,8 @@
         "NA": "MST. RAFIA TASNIM RISHA",
         "SC": "KARUNAMOYEE GIRLS' HIGH SCHOOL, SUNDARGANJ",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5015,18 +5275,28 @@
         "NA": "MST. NUSRAT JAHAN",
         "SC": "KAZI AZHAR ALI GOVT. MODEL HIGH SCHOOL, SAGHATTA",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
         "SL": "0144",
         "RO": "207472",
         "NA": "MST. ATKIA FARZANA RUMKI",
-        "SC": "KAZI AZHAR ALI GOVT. MODEL HIGH SCHOOL, SAGHATTA HIGH SCHOOL, GOBINDAGANJ",
+        "SC": "KAZI AZHAR ALI GOVT. MODEL HIGH SCHOOL, SAGHATTA",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
+        "GE": "F"
+    },
+    {
+        "SL": "0145",
+        "RO": "208581",
+        "NA": "SIMAT-E-MOSTAFIZ",
+        "SC": "GOBINDAGANJ BEGUM MAJID GIRLS' HIGH SCHOOL, GOBINDAGANJ",
+        "PG": 29,
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5035,8 +5305,8 @@
         "NA": "SADIA ISLAM TONDRA",
         "SC": "GOBINDAGANJ BEGUM MAJID GIRLS' HIGH SCHOOL, GOBINDAGANJ",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5045,8 +5315,8 @@
         "NA": "MALIHA TAHSIN",
         "SC": "POLICE LINES ACADEMY, NILPHAMARI SADAR",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5055,8 +5325,8 @@
         "NA": "VAURABI RANI ROY",
         "SC": "NILPHAMARI GOVT. GIRLS' HIGH SCHOOL, NILPHAMARI SADAR",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5065,8 +5335,8 @@
         "NA": "SUMAIYA AKTAR",
         "SC": "DOMAR GOVT. GIRLS' HIGH SCHOOL, DOMAR",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5075,8 +5345,8 @@
         "NA": "SWASTIKA MALLIK",
         "SC": "KHATURIA HIGH SCHOOL, DOMAR",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5085,8 +5355,8 @@
         "NA": "TAHSIN JAHAN NISHAT",
         "SC": "GOPAL JHAR HIGH SCHOOL, JALDHAKA",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5095,8 +5365,8 @@
         "NA": "RUDDRANI RAY",
         "SC": "GOPAL JHAR HIGH SCHOOL, JALDHAKA",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5105,8 +5375,8 @@
         "NA": "MOST. RAYHATUL JANNAT RISHA",
         "SC": "BARABHITA B.L. HIGH SCHOOL & COLLEGE, KISHOREGANJ",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5115,8 +5385,8 @@
         "NA": "MST SAYIMA JAHIN TASFIAH",
         "SC": "KISHORIGANJ MULTILATERAL HIGH SCHOOL, KISHOREGANJ",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5125,8 +5395,8 @@
         "NA": "MST LAVONI AKTER",
         "SC": "NAUTARA ABIUNNESSA HIGH SCHOOL, DIMLA",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5135,8 +5405,8 @@
         "NA": "SUCHONA RANI ROY",
         "SC": "DIMLA GOVT. GIRLS' HIGH SCHOOL, DIMLA",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5145,8 +5415,8 @@
         "NA": "HRIDITA ROY",
         "SC": "SAIDPUR CANTONMENT PUBLIC SCHOOL & COLLEGE, SAIDPUR",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5155,8 +5425,8 @@
         "NA": "JANNATY JAHAN IQRA",
         "SC": "SAIDPUR CANTONMENT PUBLIC SCHOOL & COLLEGE, SAIDPUR",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5165,8 +5435,8 @@
         "NA": "JANNATUL MAWA",
         "SC": "KURIGRAM GOVT. GIRLS' HIGH SCHOOL, KURIGRAM SADAR",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5175,8 +5445,8 @@
         "NA": "TASNIM AMIN TOHFA",
         "SC": "KURIGRAM GOVT. GIRLS' HIGH SCHOOL, KURIGRAM SADAR",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5185,8 +5455,8 @@
         "NA": "MST. RIFA SANJIDA",
         "SC": "RAJAR HAT GOVT. GIRLS' HIGH SCHOOL, RAJARHAT",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5195,8 +5465,8 @@
         "NA": "MST RIFA TASNIA",
         "SC": "SINGER DABRI HAT ADORSHA GIRLS' HIGH SCHOOL, RAJARHAT",
         "PG": 29,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5205,8 +5475,8 @@
         "NA": "MOST ASMA KHATUN",
         "SC": "HASNABAD ADARSHA JANATA BIDYABITAN HIGH SCHOOL, NAGESHWARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5215,8 +5485,8 @@
         "NA": "AFIFA TASNIM",
         "SC": "NAGESWARI ADARSHA PILOT GIRLS' HIGH SCHOOL, NAGESHWARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5225,18 +5495,28 @@
         "NA": "MST. DILRUBA JAHAN DISHA",
         "SC": "BHURUNGAMARI NEHAL UDDIN PILOT GIRLS' HIGH SCHOOL, BHURUNGAMARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
         "SL": "0166",
         "RO": "224284",
         "NA": "RUPOSI RANI SAHA",
-        "SC": "BHURUNGAMARI NEHAL UDDIN PILOT GIRLS' HIGH SCHOOL, BHURUNGAMARI RAJIBPUR",
+        "SC": "BHURUNGAMARI NEHAL UDDIN PILOT GIRLS' HIGH SCHOOL, BHURUNGAMARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
+        "GE": "F"
+    },
+    {
+        "SL": "0167",
+        "RO": "224862",
+        "NA": "MOST. ROMANA AKTER MIM",
+        "SC": "CHAR-NEWAJI BL HIGH SCHOOL, RAJIBPUR",
+        "PG": 30,
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5245,8 +5525,8 @@
         "NA": "MST RABEYA AKTER",
         "SC": "RAJIBPUR GOVT. MODEL PILOT HIGH SCHOOL, RAJIBPUR",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5255,8 +5535,8 @@
         "NA": "MST SAMSUN NAHAR SANJIDA",
         "SC": "FULBARI JACHHI MIAN MODEL GOVT. HIGH SCHOOL, PHULBARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5265,8 +5545,8 @@
         "NA": "MST ANUSHIYA AKTER",
         "SC": "FULBARI JACHHI MIAN MODEL GOVT. HIGH SCHOOL, PHULBARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5275,8 +5555,8 @@
         "NA": "SANJIDA SHAHRIN",
         "SC": "CHOWDHURY GAWHARUZZAMAN GOVT. HIGH SCHOOL, RAUMARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5285,8 +5565,8 @@
         "NA": "SYEDA AISHA AMIN",
         "SC": "CHOWDHURY GAWHARUZZAMAN GOVT. HIGH SCHOOL, RAUMARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5295,8 +5575,8 @@
         "NA": "NISHAT ALAM MIM",
         "SC": "N. S. AMIN RESIDENTIAL SCHOOL, ULIPUR",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5305,8 +5585,8 @@
         "NA": "RUBBAT TABASSUM RAISA",
         "SC": "N. S. AMIN RESIDENTIAL SCHOOL, ULIPUR",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5315,8 +5595,8 @@
         "NA": "MST. MUSFIKUN NAHAR FARIA",
         "SC": "THANAHAT PILOT GIRLS' HIGH SCHOOL, CHILMARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5325,8 +5605,8 @@
         "NA": "MST. JANNATUL FERDOUSI",
         "SC": "THANAHAT PILOT GIRLS' HIGH SCHOOL, CHILMARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5335,8 +5615,8 @@
         "NA": "MST FATEMA JINNAT MUNNI",
         "SC": "BORDER GUARD PUBLIC SCHOOL, LALMONIRHAT, LALMONIRHAT SADAR",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5345,8 +5625,8 @@
         "NA": "S M MAHABUBA AKTER MAYA",
         "SC": "BORDER GUARD PUBLIC SCHOOL, LALMONIRHAT, LALMONIRHAT SADAR",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5355,8 +5635,8 @@
         "NA": "MST FARIHA TASNIM HRIDITA",
         "SC": "SHAH GARIBULLAH GIRLS' HIGH SCHOOL, HATIBANDHA",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5365,8 +5645,8 @@
         "NA": "JANNATUN NAYEM",
         "SC": "NORTHLAND MODEL SCHOOL, HATIBANDHA",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5375,8 +5655,8 @@
         "NA": "SYEDA SADIA TASNIM",
         "SC": "GOVT. ADITMARI GIRIJA SANKAR MODEL SCHOOL AND COLLEGE, ADITMARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5385,8 +5665,8 @@
         "NA": "DEBOSREE ROY",
         "SC": "NAMURI ADARSHA MULTILATERAL GIRLS' HIGH SCHOOL & COLLEGE, ADITMARI",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5395,8 +5675,8 @@
         "NA": "MST. SURAIYA AKTER RITU",
         "SC": "CHAMTA HAT HIGH SCHOOL, KALIGANJ",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5405,8 +5685,8 @@
         "NA": "DEBOPARNA ROY DUATY",
         "SC": "TUSHVANDAR N. GOVT. GIRLS' HIGH SCHOOL, KALIGANJ",
         "PG": 30,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5415,8 +5695,8 @@
         "NA": "MALIYAT ASIF ABONI",
         "SC": "PATGRAM GOVT. HUJUR UDDIN GIRLS' HIGH SCHOOL, PATGRAM",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5425,8 +5705,8 @@
         "NA": "GORI SHARMA",
         "SC": "PATGRAM GOVT. HUJUR UDDIN GIRLS' HIGH SCHOOL, PATGRAM",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5435,8 +5715,8 @@
         "NA": "HUMAYRA CHOWDHURY",
         "SC": "ST. PHILIP'S HIGH SCHOOL AND COLLEGE, DINAJPUR SADAR",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5445,8 +5725,8 @@
         "NA": "TANUSREE SARKER",
         "SC": "DINAJPUR GOVT. GIRLS' HIGH SCHOOL, DINAJPUR SADAR",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5455,8 +5735,8 @@
         "NA": "FAIRUZ BILKIS ERA",
         "SC": "BARAPUKURIA COAL MINE SCHOOL, PARBATIPUR",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5465,8 +5745,8 @@
         "NA": "MST MUNTASIRA KHATUN",
         "SC": "CANTONMENT PUBLIC SCHOOL & COLLEGE, PARBATIPUR",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5475,8 +5755,8 @@
         "NA": "SANZIDA TASNIM SANIA",
         "SC": "DAUDPUR HIGH SCHOOL, NAWABGANJ",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5485,18 +5765,28 @@
         "NA": "SNEHA ANIKA JEBA",
         "SC": "NAWABGONJ GOVT. MULTILATERAL PILOT HIGH SCHOOL, NAWABGANJ",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
         "SL": "0193",
         "RO": "241544",
         "NA": "MST HOMAYRA TABASSUM",
-        "SC": "ALOKDIHI JAN BAKSH HIGH SCHOOL, CHIRIRBANDAR SCHOOL & COLLEGE, CHIRIRBANDAR",
+        "SC": "ALOKDIHI JAN BAKSH HIGH SCHOOL, CHIRIRBANDAR",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
+        "GE": "F"
+    },
+    {
+        "SL": "0194",
+        "RO": "239948",
+        "NA": "MST. TASFIAH TABASSUM TUBA",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE, CHIRIRBANDAR",
+        "PG": 31,
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5505,8 +5795,8 @@
         "NA": "BUSHRA AZIZ ZASHITA",
         "SC": "BIRAMPUR PILOT HIGH SCHOOL, BIRAMPUR",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5515,8 +5805,8 @@
         "NA": "MST. FAHMIDA ANZUM MITU",
         "SC": "SHIBPUR HIGH SCHOOL, BIRAMPUR",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5525,8 +5815,8 @@
         "NA": "RUMMAN MEHJABIN RUSHA",
         "SC": "SUJAPUR GOVT. MODEL HIGH SCHOOL, FULBARI",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5535,8 +5825,8 @@
         "NA": "ARPITA SARKER",
         "SC": "SUJAPUR GOVT. MODEL HIGH SCHOOL, FULBARI",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5545,8 +5835,8 @@
         "NA": "MISHKAT TAHSHINA",
         "SC": "JALALPUR B.L. HIGH SCHOOL, HAKIMPUR",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5555,8 +5845,8 @@
         "NA": "MST RUBAIYA MAHJABIN TRIPTI",
         "SC": "NOWPARA GIRLS' HIGH SCHOOL, HAKIMPUR",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5565,8 +5855,8 @@
         "NA": "MST MONIZA AKTER SMITA",
         "SC": "BIRGANJ GOVT. GIRLS' HIGH SCHOOL, BIRGANJ",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5575,8 +5865,8 @@
         "NA": "MST MANNOTA FERDOUS",
         "SC": "IBRAHIM MEMORIAL SHIKSHA NIKETAN, BIRGANJ",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5585,8 +5875,8 @@
         "NA": "DRISTY RANI ROY",
         "SC": "KHANSAMA PILOT GIRLS' HIGH SCHOOL, KHANSAMA",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5595,8 +5885,8 @@
         "NA": "TISHA DEBNATH",
         "SC": "KHANSAMA PILOT GIRLS' HIGH SCHOOL, KHANSAMA",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5605,8 +5895,8 @@
         "NA": "MST TASNIM FARIHA",
         "SC": "SUNDARPUR HIGH SCHOOL, KAHAROLE",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5615,8 +5905,8 @@
         "NA": "MST SANJIDA AKTER",
         "SC": "DAKKHIN MOHESOUR ADARSHO HIGH SCHOOL, KAHAROLE",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5625,8 +5915,8 @@
         "NA": "MOHONA RANI DEV SHARMA",
         "SC": "SETAB GONJ IDEAL ACADEMY, BOCHAGANJ",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5635,8 +5925,8 @@
         "NA": "MST. AINUN NAHAR TITHI",
         "SC": "SETAB GONJ IDEAL ACADEMY, BOCHAGANJ",
         "PG": 31,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5645,8 +5935,8 @@
         "NA": "MST. SADIA NUSRAT",
         "SC": "CHOWDHURY DANGA HIGH SCHOOL, BIRAL",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5655,8 +5945,8 @@
         "NA": "MST SUBORNA RAHMAN SOHA",
         "SC": "CHOWDHURY DANGA HIGH SCHOOL, BIRAL",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5665,8 +5955,8 @@
         "NA": "NUSRAT JAHAN TITHI",
         "SC": "OSMANPUR GIRLS' HIGH SCHOOL, GHORAGHAT",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5675,8 +5965,8 @@
         "NA": "MST. NUSRAT JAHAN NISHU",
         "SC": "NURJAHANPUR RETIRD MILITARY COLONY HIGH SCHOOL, GHORAGHAT",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5685,8 +5975,8 @@
         "NA": "AFIA AMIN",
         "SC": "THAKURGAON GOVT. GIRLS' HIGH SCHOOL, THAKURGAON SADAR",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5695,8 +5985,8 @@
         "NA": "MAHJABIN ALAM MRITTIKA",
         "SC": "THAKURGAON GOVT. GIRLS' HIGH SCHOOL, THAKURGAON SADAR",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5705,8 +5995,8 @@
         "NA": "MST. ONANNA ARABI",
         "SC": "RAGHUNATHPUR HIGH SCHOOL, PIRGANJ",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5715,8 +6005,8 @@
         "NA": "MONJUSHREE ROY SUBORNA",
         "SC": "RAGHUNATHPUR HIGH SCHOOL, PIRGANJ",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5725,8 +6015,8 @@
         "NA": "MST. RAFIA HASAN RODELA",
         "SC": "RANISANKAIL GOVT. GIRLS' HIGH SCHOOL, RANISANKAIL",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5735,18 +6025,28 @@
         "NA": "MST SABIHA AFRIN BUSHRA",
         "SC": "RANI SANKAIL PILOT BOYS HIGH SCHOOL, RANISANKAIL",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
         "SL": "0219",
         "RO": "261301",
         "NA": "MST. RAZZAK NURE JANNAT MEGHLA",
-        "SC": "DUOSUO HIGH SCHOOL, BALIADANGI BALIADANGI",
+        "SC": "DUOSUO HIGH SCHOOL, BALIADANGI",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
+        "GE": "F"
+    },
+    {
+        "SL": "0220",
+        "RO": "260981",
+        "NA": "JANNATUL MAWA BONI",
+        "SC": "LAHIRI MULTI-LATERAL HIGH SCHOOL, BALIADANGI",
+        "PG": 32,
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5755,8 +6055,8 @@
         "NA": "MST. SHAHNAJ TASMI",
         "SC": "JADURANI GIRLS' HIGH SCHOOL, HARIPUR",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5765,8 +6065,8 @@
         "NA": "MST. INNIKA JAHAN TONNI",
         "SC": "B. S HIGH SCHOOL, HARIPUR",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5775,8 +6075,8 @@
         "NA": "MST. SANJIDA AKTER",
         "SC": "PANCHAGARH GOVT. GIRLS' HIGH SCHOOL, PANCHAGARH SADAR",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5785,8 +6085,8 @@
         "NA": "RAJOSRI ROY SMRITY",
         "SC": "PANCHAGARH GOVT. GIRLS' HIGH SCHOOL, PANCHAGARH SADAR",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5795,8 +6095,8 @@
         "NA": "MST. NUSRAT JAHAN KONA",
         "SC": "BEGUM KHALEDA ZIA GIRLS' HIGH SCHOOL, TETULIA",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5805,8 +6105,8 @@
         "NA": "TAMANNA TABASSUM",
         "SC": "KAZI SAHABUDDIN GIRLS' HIGH SCHOOL, TETULIA",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5815,8 +6115,8 @@
         "NA": "UMME TASNIM ANISHA",
         "SC": "GOBINDA IDEAL HIGH SCHOOL, DEBIGANJ",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5825,8 +6125,8 @@
         "NA": "SAJUTI RANI",
         "SC": "FULBARI HIGH SCHOOL, DEBIGANJ",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5835,8 +6135,8 @@
         "NA": "FARIHA ANJUM HIYA",
         "SC": "BODA PILOT GIRLS' HIGH SCHOOL, BODA",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5845,8 +6145,8 @@
         "NA": "MST. FARIHA TASNIM",
         "SC": "SAKOWA GIRLS' HIGH SCHOOL, BODA",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5855,8 +6155,8 @@
         "NA": "NADIA AKTER NILA",
         "SC": "ATWARI GOVT. PILOT GIRLS' HIGH SCHOOL, ATWARI",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -5865,8 +6165,8 @@
         "NA": "SAMIMA JAHAN SUCHI",
         "SC": "ATWARI GOVT. PILOT GIRLS' HIGH SCHOOL, ATWARI Grand Total = 232",
         "PG": 32,
-        "TY": "TALENTPOOL",
-        "GR": "BUSINESS STUDIES",
+        "TY": "GENERAL",
+        "GR": "UNKNOWN",
         "GE": "F"
     },
     {
@@ -6234,6 +6534,16 @@
         "RO": "183224",
         "NA": "MD ERSHADUL AZAM EMON",
         "SC": "RANGPUR CADET COLLEGE",
+        "PG": 34,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0038",
+        "RO": "191168",
+        "NA": "MD DIDARUL ISLAM TURAB",
+        "SC": "MADARGANJ BI-LATERAL HIGH SCHOOL",
         "PG": 34,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -7400,6 +7710,16 @@
         "GE": "F"
     },
     {
+        "SL": "0155",
+        "RO": "191131",
+        "NA": "MOST. TANIA TAMANNA",
+        "SC": "MADARGANJ BI-LATERAL HIGH SCHOOL",
+        "PG": 39,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
         "SL": "0156",
         "RO": "186578",
         "NA": "SADIA ISLAM NOVA",
@@ -8080,6 +8400,16 @@
         "GE": "F"
     },
     {
+        "SL": "0224",
+        "RO": "186651",
+        "NA": "MOST. SUBAH-E-AZMAIN SWASTI",
+        "SC": "POLICE LINES SCHOOL AND COLLEGE",
+        "PG": 42,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
         "SL": "0225",
         "RO": "185905",
         "NA": "MOST TASNIF JAHAN",
@@ -8130,6 +8460,16 @@
         "GE": "M"
     },
     {
+        "SL": "0230",
+        "RO": "463466",
+        "NA": "MD JIHAD AKANDO",
+        "SC": "MADARGANJ BI-LATERAL HIGH SCHOOL",
+        "PG": 43,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
         "SL": "0231",
         "RO": "462985",
         "NA": "KABYO CHAKROBORTY",
@@ -8160,6 +8500,16 @@
         "GE": "M"
     },
     {
+        "SL": "0234",
+        "RO": "463491",
+        "NA": "MD SIYAM SARKER",
+        "SC": "MADARGANJ BI-LATERAL HIGH SCHOOL",
+        "PG": 43,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
         "SL": "0235",
         "RO": "460070",
         "NA": "MD. SAKHAOYAT HOSSAIN BIJOY",
@@ -8184,6 +8534,16 @@
         "RO": "466801",
         "NA": "MD SIYAM BABU",
         "SC": "HATIBANDHA HIGH SCHOOL",
+        "PG": 43,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "0238",
+        "RO": "463513",
+        "NA": "MD RIYAD MIA",
+        "SC": "MADARGANJ BI-LATERAL HIGH SCHOOL",
         "PG": 43,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -8224,6 +8584,36 @@
         "RO": "461264",
         "NA": "SRIJON BORMON",
         "SC": "POLICE LINES SCHOOL AND COLLEGE",
+        "PG": 43,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "0243",
+        "RO": "463512",
+        "NA": "MD SUYAIB HASAN",
+        "SC": "MADARGANJ BI-LATERAL HIGH SCHOOL",
+        "PG": 43,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "0244",
+        "RO": "463493",
+        "NA": "MD RIDWATUL AHMAD KHOKON",
+        "SC": "MADARGANJ BI-LATERAL HIGH SCHOOL",
+        "PG": 43,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "0245",
+        "RO": "465416",
+        "NA": "MD RASEL MIA",
+        "SC": "TEPA MADHUPUR-BL- HIGH SCHOOL",
         "PG": 43,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -8354,6 +8744,16 @@
         "RO": "460990",
         "NA": "S. M. SAMIUL HAQUE RAKIB",
         "SC": "SHISHU NIKETAN HIGH SCHOOL",
+        "PG": 44,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "0259",
+        "RO": "463465",
+        "NA": "MD RIYED HASSAN",
+        "SC": "MADARGANJ BI-LATERAL HIGH SCHOOL",
         "PG": 44,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -8564,6 +8964,16 @@
         "RO": "460875",
         "NA": "MD YASIR ARAFAT",
         "SC": "RANGPUR CHAMBER OF COMMERCE & INDUSTRY PUBLIC SCHOOL AND COLLEG",
+        "PG": 44,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "0281",
+        "RO": "463494",
+        "NA": "MD MONTASIN SARKER MUNNA",
+        "SC": "MADARGANJ BI-LATERAL HIGH SCHOOL",
         "PG": 44,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -9034,6 +9444,16 @@
         "RO": "463670",
         "NA": "NABONITA RAY",
         "SC": "KOLKONDA MOHAMMAD ALI MEMORIAL HIGH SCHOOL",
+        "PG": 46,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
+        "SL": "0329",
+        "RO": "463451",
+        "NA": "MST HABIBA JAHAN SINTHI",
+        "SC": "MADARGANJ BI-LATERAL HIGH SCHOOL",
         "PG": 46,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -9603,7 +10023,17 @@
         "SL": "0386",
         "RO": "703905",
         "NA": "MD SIAM HOWLADER",
-        "SC": "BIR UTTAM SHAEED SAMAD HIGH SCHOOL AND COLLEGE COLLEGE, RANGPUR",
+        "SC": "BIR UTTAM SHAEED SAMAD HIGH SCHOOL AND COLLEGE",
+        "PG": 48,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "0387",
+        "RO": "704000",
+        "NA": "ABDULLAH - AL BASIT",
+        "SC": "CANTONMENT PUBLIC SCHOOL & COLLEGE, RANGPUR",
         "PG": 48,
         "TY": "GENERAL",
         "GR": "BUSINESS STUDIES",
@@ -10110,6 +10540,16 @@
         "GE": "F"
     },
     {
+        "SL": "0438",
+        "RO": "703964",
+        "NA": "MST. MASFIA JAHAN MAHI",
+        "SC": "AL-MADINA INSTITUTE",
+        "PG": 51,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
         "SL": "0439",
         "RO": "704039",
         "NA": "MST BRISTY AKTER",
@@ -10583,7 +11023,27 @@
         "SL": "0486",
         "RO": "206315",
         "NA": "MD. JOHAIDUL ISLAM LEON",
-        "SC": "DHUBNI KANCHIBARI HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "DHUBNI KANCHIBARI HIGH SCHOOL",
+        "PG": 53,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0487",
+        "RO": "208915",
+        "NA": "MD. JUHAIR WASIM ZISAN",
+        "SC": "PANTHAPARA BI-LETERAL HIGH SCHOOL",
+        "PG": 53,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0488",
+        "RO": "205032",
+        "NA": "MD. REFAETULLAH SARKER BADHON",
+        "SC": "SHIBRAM AL-HAZ MD. HOSSAIN SMRITY SCHOOL & COLLEGE",
         "PG": 53,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -10644,6 +11104,16 @@
         "RO": "202334",
         "NA": "MD. JONAYED HASAN SHEIKH",
         "SC": "PALASHBARI SUTI MAHMUD MODEL PILOT GOVT. HIGH SCHOOL",
+        "PG": 53,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0495",
+        "RO": "208917",
+        "NA": "MD. MOSTAKINUL ISLAM PRODHAN",
+        "SC": "PANTHAPARA BI-LETERAL HIGH SCHOOL",
         "PG": 53,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -10810,6 +11280,16 @@
         "GE": "M"
     },
     {
+        "SL": "0512",
+        "RO": "200217",
+        "NA": "AN-NAZMUS SHAKIB",
+        "SC": "BIAM LABORATORY SCHOOL",
+        "PG": 54,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
         "SL": "0513",
         "RO": "200649",
         "NA": "SHIKOR SARKAR",
@@ -10893,7 +11373,17 @@
         "SL": "0521",
         "RO": "201713",
         "NA": "JAHAR BABU JOY",
-        "SC": "KHAMAR DASHALIA ADARSHA HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "KHAMAR DASHALIA ADARSHA HIGH SCHOOL",
+        "PG": 54,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0522",
+        "RO": "200054",
+        "NA": "SAYED- RAKIN MUBTASIM DIHAN",
+        "SC": "AHMED UDDIN SHAH SHISHU NIKETAN SCHOOL & COLLEGE",
         "PG": 54,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -12560,6 +13050,16 @@
         "GE": "F"
     },
     {
+        "SL": "0689",
+        "RO": "469277",
+        "NA": "MOST. SHARMIN KHATUN",
+        "SC": "KHIDIR SHARIF AL-WAHEDI HIGH SCHOOL",
+        "PG": 62,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
         "SL": "0690",
         "RO": "473060",
         "NA": "SHAMIMA JAHAN",
@@ -12674,6 +13174,16 @@
         "RO": "470213",
         "NA": "MST. ALIFA AKTER MUNSHA MONI",
         "SC": "DHOLBHANGA GIRLS' HIGH SCHOOL",
+        "PG": 63,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
+        "SL": "0702",
+        "RO": "469276",
+        "NA": "MST. JIM KHATUN",
+        "SC": "KHIDIR SHARIF AL-WAHEDI HIGH SCHOOL",
         "PG": 63,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -13910,6 +14420,16 @@
         "GE": "M"
     },
     {
+        "SL": "0826",
+        "RO": "220408",
+        "NA": "MD. ADIB-AL-HASAN",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 69,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
         "SL": "0827",
         "RO": "215949",
         "NA": "RAJ GALIB NIROB",
@@ -14013,7 +14533,17 @@
         "SL": "0837",
         "RO": "219436",
         "NA": "MASHRUR BIN ADNAN MAHIB",
-        "SC": "SAIDPUR CANTONMENT PUBLIC SCHOOL & COLLEGE BIDDYA TIRTHA",
+        "SC": "SAIDPUR CANTONMENT PUBLIC SCHOOL & COLLEGE",
+        "PG": 70,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "0838",
+        "RO": "215342",
+        "NA": "MD. ABU SAKIB ISLAM",
+        "SC": "AL-HAZ MOBARAK HOSSAIN ONIRBAN BIDDYA TIRTHA",
         "PG": 70,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -14234,6 +14764,16 @@
         "RO": "219282",
         "NA": "MOST. SAHARA ISLAM",
         "SC": "SAIDPUR CANTONMENT PUBLIC SCHOOL & COLLEGE",
+        "PG": 71,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0861",
+        "RO": "220363",
+        "NA": "UMMAY FATIMA",
+        "SC": "AL-FARUQUE ACADEMY",
         "PG": 71,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -14463,7 +15003,17 @@
         "SL": "0884",
         "RO": "214146",
         "NA": "NUSRAT JAHAN MONI",
-        "SC": "KHATURIA HIGH SCHOOL COLLEGE",
+        "SC": "KHATURIA HIGH SCHOOL",
+        "PG": 72,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0885",
+        "RO": "219255",
+        "NA": "NAWAR-E-JANNAT",
+        "SC": "SAIDPUR CANTONMENT PUBLIC SCHOOL & COLLEGE",
         "PG": 72,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -14504,6 +15054,16 @@
         "RO": "219498",
         "NA": "MOST. ASMA ULL HUSNA",
         "SC": "LIONS SCHOOL AND COLLEGE",
+        "PG": 72,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0890",
+        "RO": "220362",
+        "NA": "MOST. ABIDA SULTANA",
+        "SC": "AL-FARUQUE ACADEMY",
         "PG": 72,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -14594,6 +15154,16 @@
         "RO": "220210",
         "NA": "SOHANA TASNIM MOUMI",
         "SC": "SAIDPUR GOVT. SCIENCE COLLEGE",
+        "PG": 72,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "0900",
+        "RO": "219870",
+        "NA": "MST SAJIYA KHATUN",
+        "SC": "SHER-E-BANGLA HIGH SCHOOL",
         "PG": 72,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -15120,6 +15690,16 @@
         "GE": "M"
     },
     {
+        "SL": "0953",
+        "RO": "482035",
+        "NA": "MAHIR SHAHARIAR",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 75,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
         "SL": "0954",
         "RO": "476767",
         "NA": "MD. ASHRAFUL ISLAM",
@@ -15450,6 +16030,16 @@
         "GE": "F"
     },
     {
+        "SL": "0987",
+        "RO": "482016",
+        "NA": "KANIZ MOBASHIRA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 76,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
         "SL": "0988",
         "RO": "480415",
         "NA": "MOST KOLPONA AKTER",
@@ -15580,10 +16170,50 @@
         "GE": "F"
     },
     {
+        "SL": "1001",
+        "RO": "704582",
+        "NA": "MD SHIHAB HOSSAIN ONTU",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1002",
+        "RO": "704583",
+        "NA": "RIYAD SHAHRIA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1003",
+        "RO": "704576",
+        "NA": "ISTIAK NAIM",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
         "SL": "1004",
         "RO": "704441",
         "NA": "MD MAHMUDUL ISLAM",
         "SC": "SUNFLOWER SCHOOL & COLLEGE",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1005",
+        "RO": "704581",
+        "NA": "MD WAKER ANSARY",
+        "SC": "AL-FARUQUE ACADEMY",
         "PG": 78,
         "TY": "GENERAL",
         "GR": "BUSINESS STUDIES",
@@ -15604,6 +16234,26 @@
         "RO": "704433",
         "NA": "MD ABU SAIM YAMIN ABEER",
         "SC": "SUNFLOWER SCHOOL & COLLEGE",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1008",
+        "RO": "704580",
+        "NA": "MUNTASIR IBN KHALID",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1009",
+        "RO": "704596",
+        "NA": "MD SHAHBAZ ALAM SOHAN",
+        "SC": "AL-FARUQUE ACADEMY",
         "PG": 78,
         "TY": "GENERAL",
         "GR": "BUSINESS STUDIES",
@@ -15650,6 +16300,16 @@
         "GE": "M"
     },
     {
+        "SL": "1014",
+        "RO": "704589",
+        "NA": "MD. ABDULLAH MITHU",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
         "SL": "1015",
         "RO": "704478",
         "NA": "MD. SIDDIK AZAM",
@@ -15680,6 +16340,16 @@
         "GE": "M"
     },
     {
+        "SL": "1018",
+        "RO": "704531",
+        "NA": "MD. FARHAN RIZVI",
+        "SC": "SHER-E-BANGLA HIGH SCHOOL",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
         "SL": "1019",
         "RO": "704437",
         "NA": "MD BIJOY AHMED",
@@ -15694,6 +16364,26 @@
         "RO": "951165",
         "NA": "MD TAWSIF RAHMAN AKASH",
         "SC": "LIONS SCHOOL AND COLLEGE",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1021",
+        "RO": "704577",
+        "NA": "MD. FARHAN RAHI",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1022",
+        "RO": "704575",
+        "NA": "MD. IMAM HOSSAIN",
+        "SC": "AL-FARUQUE ACADEMY",
         "PG": 78,
         "TY": "GENERAL",
         "GR": "BUSINESS STUDIES",
@@ -15720,10 +16410,40 @@
         "GE": "M"
     },
     {
+        "SL": "1025",
+        "RO": "704578",
+        "NA": "NASIR HOSSAIN",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
         "SL": "1026",
         "RO": "951161",
         "NA": "MD. ATIK HASAN BADHON",
         "SC": "LIONS SCHOOL AND COLLEGE",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1027",
+        "RO": "704533",
+        "NA": "MD. NUR IBNA FOYSAL NISHAT",
+        "SC": "SHER-E-BANGLA HIGH SCHOOL",
+        "PG": 78,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1028",
+        "RO": "704532",
+        "NA": "MD. FAIJAN HASAN",
+        "SC": "SHER-E-BANGLA HIGH SCHOOL",
         "PG": 78,
         "TY": "GENERAL",
         "GR": "BUSINESS STUDIES",
@@ -15760,6 +16480,16 @@
         "GE": "M"
     },
     {
+        "SL": "1032",
+        "RO": "704585",
+        "NA": "SYED NEAZ RASUL",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 79,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
         "SL": "1033",
         "RO": "704442",
         "NA": "AL AMIN ISTIAK",
@@ -15780,6 +16510,36 @@
         "GE": "M"
     },
     {
+        "SL": "1035",
+        "RO": "704595",
+        "NA": "MD SAMIR",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 79,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1036",
+        "RO": "704513",
+        "NA": "MD. SALMAN HOSSAIN",
+        "SC": "SHER-E-BANGLA HIGH SCHOOL",
+        "PG": 79,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1037",
+        "RO": "704587",
+        "NA": "MD TOUFIQUE ISLAM ANIK",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 79,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "M"
+    },
+    {
         "SL": "1038",
         "RO": "704455",
         "NA": "MOST. MRETIKA ZAMAN MEDHA",
@@ -15794,6 +16554,26 @@
         "RO": "704370",
         "NA": "RIJKIYA JANNAT ETY",
         "SC": "BARUNIR DANGA ADARSHA HIGH SCHOOL",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1040",
+        "RO": "951170",
+        "NA": "ADIBA ANWAR",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1041",
+        "RO": "704550",
+        "NA": "MST. ARAFAT JAHAN BUSHRA",
+        "SC": "AL-FARUQUE ACADEMY",
         "PG": 80,
         "TY": "GENERAL",
         "GR": "BUSINESS STUDIES",
@@ -15830,6 +16610,16 @@
         "GE": "F"
     },
     {
+        "SL": "1045",
+        "RO": "704568",
+        "NA": "NOWSIN TABASSUM SADIYA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
         "SL": "1046",
         "RO": "704393",
         "NA": "KAHKESHA ERAM MYSHA",
@@ -15850,10 +16640,90 @@
         "GE": "F"
     },
     {
+        "SL": "1048",
+        "RO": "704557",
+        "NA": "TASNIM JAMIL",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1049",
+        "RO": "704562",
+        "NA": "SIDRATUL MUNTAHA MARJIA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1050",
+        "RO": "704552",
+        "NA": "MST. FATEMA RAHMAN",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1051",
+        "RO": "704560",
+        "NA": "SUMAIYA SHAMSHAD",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1052",
+        "RO": "704551",
+        "NA": "FARIYA NAZ",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1053",
+        "RO": "704574",
+        "NA": "MST SUMAIYA NAZ",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1054",
+        "RO": "704556",
+        "NA": "AYESHA SOHANA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
         "SL": "1055",
         "RO": "704403",
         "NA": "AFIYA HAFSA",
         "SC": "SAIDPUR ADARSHA GIRLS' SCHOOL & COLLEGE",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1056",
+        "RO": "951545",
+        "NA": "FARIHA ABIDA ERAM",
+        "SC": "AL-FARUQUE ACADEMY",
         "PG": 80,
         "TY": "GENERAL",
         "GR": "BUSINESS STUDIES",
@@ -15870,10 +16740,30 @@
         "GE": "F"
     },
     {
+        "SL": "1058",
+        "RO": "704554",
+        "NA": "RAKHI MUNI",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
         "SL": "1059",
         "RO": "704371",
         "NA": "TAZMIRA AKTER TAZ",
         "SC": "BARUNIR DANGA ADARSHA HIGH SCHOOL",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1060",
+        "RO": "704572",
+        "NA": "MOST DILL AFSANA SORNO",
+        "SC": "AL-FARUQUE ACADEMY",
         "PG": 80,
         "TY": "GENERAL",
         "GR": "BUSINESS STUDIES",
@@ -15900,6 +16790,66 @@
         "GE": "F"
     },
     {
+        "SL": "1063",
+        "RO": "704567",
+        "NA": "ARIFA ANSARI",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 80,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1064",
+        "RO": "704559",
+        "NA": "AFIFA JAHAN",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 81,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1065",
+        "RO": "704558",
+        "NA": "SAJIA NAJ SABA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 81,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1066",
+        "RO": "704564",
+        "NA": "AYESHA SIDDIKA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 81,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1067",
+        "RO": "704570",
+        "NA": "MST. AYESHA AMBER SOHANA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 81,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1068",
+        "RO": "704571",
+        "NA": "RUBIYA AKTHER RIYA",
+        "SC": "AL-FARUQUE ACADEMY",
+        "PG": 81,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
         "SL": "1069",
         "RO": "704459",
         "NA": "ASMA JAHAN NOWSHIN",
@@ -15914,6 +16864,16 @@
         "RO": "704406",
         "NA": "MOST. MAHIA ISLAM",
         "SC": "SAIDPUR ADARSHA GIRLS' SCHOOL & COLLEGE",
+        "PG": 81,
+        "TY": "GENERAL",
+        "GR": "BUSINESS STUDIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1071",
+        "RO": "704565",
+        "NA": "SERATUN NESA MEGHA",
+        "SC": "AL-FARUQUE ACADEMY",
         "PG": 81,
         "TY": "GENERAL",
         "GR": "BUSINESS STUDIES",
@@ -19840,6 +20800,26 @@
         "GE": "F"
     },
     {
+        "SL": "1464",
+        "RO": "240027",
+        "NA": "JOBAYET SIDDIK JONY",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
+        "PG": 101,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1465",
+        "RO": "240007",
+        "NA": "MD. SAYEB ISLAM",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
+        "PG": 101,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
         "SL": "1466",
         "RO": "242905",
         "NA": "MD ALL EMRAN",
@@ -19863,7 +20843,17 @@
         "SL": "1468",
         "RO": "242956",
         "NA": "SALMAN RAHMAN",
-        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL SCHOOL & COLLEGE",
+        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL",
+        "PG": 101,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1469",
+        "RO": "240025",
+        "NA": "MD. MUHTASIM TAHMID",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 101,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -19913,7 +20903,17 @@
         "SL": "1474",
         "RO": "233186",
         "NA": "MD. ARIFUR RAHMAN",
-        "SC": "CHEHEL GAZI SHIKKSHA NIKETAN SCHOOL & COLLEGE",
+        "SC": "CHEHEL GAZI SHIKKSHA NIKETAN",
+        "PG": 101,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1475",
+        "RO": "240087",
+        "NA": "TANVIR ANJUM SHIHAB",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 101,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -19973,7 +20973,17 @@
         "SL": "1481",
         "RO": "242925",
         "NA": "MD. ADNAN SAMI",
-        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL SCHOOL",
+        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL",
+        "PG": 101,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1482",
+        "RO": "243105",
+        "NA": "TAHMID HASNAIN",
+        "SC": "MEHER-HOSSAIN RASIDENTIAL MODEL SCHOOL",
         "PG": 101,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -20060,6 +21070,16 @@
         "GE": "M"
     },
     {
+        "SL": "1491",
+        "RO": "240049",
+        "NA": "BADHON MONDOL",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
+        "PG": 102,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
         "SL": "1492",
         "RO": "240626",
         "NA": "BADHON CHANDRO ROY",
@@ -20073,7 +21093,17 @@
         "SL": "1493",
         "RO": "233514",
         "NA": "SABYASACHI RAY MANASWI",
-        "SC": "ST. PHILIP'S HIGH SCHOOL AND COLLEGE SCHOOL & COLLEGE",
+        "SC": "ST. PHILIP'S HIGH SCHOOL AND COLLEGE",
+        "PG": 102,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1494",
+        "RO": "240026",
+        "NA": "MITHUNJOY KUMAR RAY SUBROTO",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 102,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -20293,7 +21323,37 @@
         "SL": "1516",
         "RO": "242892",
         "NA": "MD. SOAILIM SHAFI",
-        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL SCHOOL & COLLEGE SCHOOL & COLLEGE",
+        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL",
+        "PG": 102,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1517",
+        "RO": "242960",
+        "NA": "MD. HABIB-A-HASAN HIMEL",
+        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL",
+        "PG": 102,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1518",
+        "RO": "240090",
+        "NA": "MD. RAKIBUL ISLAM RAKIB",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
+        "PG": 102,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1519",
+        "RO": "240005",
+        "NA": "MD AHSAN ULLAH",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 102,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -20373,7 +21433,17 @@
         "SL": "1527",
         "RO": "242981",
         "NA": "MAYEEN MORSHED",
-        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL SCHOOL",
+        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL",
+        "PG": 103,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1528",
+        "RO": "243123",
+        "NA": "ASHATIT SAYEED",
+        "SC": "MEHER-HOSSAIN RASIDENTIAL MODEL SCHOOL",
         "PG": 103,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -20513,7 +21583,17 @@
         "SL": "1542",
         "RO": "242865",
         "NA": "MD AL SHADID",
-        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL SCHOOL",
+        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL",
+        "PG": 103,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1543",
+        "RO": "243106",
+        "NA": "MD SAROWARE KAWSER SAIKAT",
+        "SC": "MEHER-HOSSAIN RASIDENTIAL MODEL SCHOOL",
         "PG": 103,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -20573,7 +21653,17 @@
         "SL": "1549",
         "RO": "242847",
         "NA": "MD ABID HASAN",
-        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL SCHOOL & COLLEGE",
+        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL",
+        "PG": 103,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1550",
+        "RO": "240040",
+        "NA": "TOPU CHANDRA BARMAN",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 103,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -20723,7 +21813,17 @@
         "SL": "1565",
         "RO": "251471",
         "NA": "MD. ABU SAYED",
-        "SC": "DAKSHIN MADHABPUR HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "DAKSHIN MADHABPUR HIGH SCHOOL",
+        "PG": 104,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1566",
+        "RO": "240014",
+        "NA": "MD. WALIUR RAHAMAN",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 104,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -20773,7 +21873,17 @@
         "SL": "1571",
         "RO": "234590",
         "NA": "AHNAF FAKIR",
-        "SC": "IQBAL HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "IQBAL HIGH SCHOOL",
+        "PG": 104,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1572",
+        "RO": "240063",
+        "NA": "TASIN SHAHRIAR",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 104,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -20845,6 +21955,16 @@
         "NA": "MD MOTIUR RAHMAN",
         "SC": "IDEAL RESIDENTIAL MODEL SCHOOL",
         "PG": 104,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1580",
+        "RO": "243088",
+        "NA": "ABDULLAH AL MAMUN SIDDIQUE",
+        "SC": "MEHER-HOSSAIN RASIDENTIAL MODEL SCHOOL",
+        "PG": 105,
         "TY": "GENERAL",
         "GR": "SCIENCE",
         "GE": "M"
@@ -20973,7 +22093,17 @@
         "SL": "1593",
         "RO": "232919",
         "NA": "MD RAMIS SADMAN SAOM",
-        "SC": "DINAJPUR ZILA SCHOOL SCHOOL & COLLEGE",
+        "SC": "DINAJPUR ZILA SCHOOL",
+        "PG": 105,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "1594",
+        "RO": "240015",
+        "NA": "MD. HAZRAT ALI",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 105,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -21033,7 +22163,17 @@
         "SL": "1600",
         "RO": "232143",
         "NA": "ANIKA TABASSUM",
-        "SC": "DINAJPUR GOVT. GIRLS' HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "DINAJPUR GOVT. GIRLS' HIGH SCHOOL",
+        "PG": 106,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1601",
+        "RO": "239996",
+        "NA": "MST SUBORNA",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 106,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -21043,7 +22183,17 @@
         "SL": "1602",
         "RO": "232444",
         "NA": "BIDIPTA RANI ROY",
-        "SC": "COLLEGIATE GIRLS' HIGH SCHOOL & COLLEGE SCHOOL & COLLEGE",
+        "SC": "COLLEGIATE GIRLS' HIGH SCHOOL & COLLEGE",
+        "PG": 106,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1603",
+        "RO": "239985",
+        "NA": "MST. MYMUNA AKTER MAHI",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 106,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -21153,7 +22303,17 @@
         "SL": "1614",
         "RO": "245308",
         "NA": "MST. SUMAIYA ISLAM",
-        "SC": "BIRGANJ GOVT. GIRLS' HIGH SCHOOL SCHOOL",
+        "SC": "BIRGANJ GOVT. GIRLS' HIGH SCHOOL",
+        "PG": 106,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1615",
+        "RO": "243066",
+        "NA": "MOST. MUMTAHINA KHATUNA JANNAT",
+        "SC": "MEHER-HOSSAIN RASIDENTIAL MODEL SCHOOL",
         "PG": 106,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -21313,7 +22473,17 @@
         "SL": "1631",
         "RO": "232086",
         "NA": "FAIRUZ SAMIA PRODHAN",
-        "SC": "DINAJPUR GOVT. GIRLS' HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "DINAJPUR GOVT. GIRLS' HIGH SCHOOL",
+        "PG": 107,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1632",
+        "RO": "239950",
+        "NA": "RABEYA BUSHRA",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 107,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -21323,7 +22493,17 @@
         "SL": "1633",
         "RO": "232265",
         "NA": "MEHER AFROSE",
-        "SC": "DINAJPUR GOVT. GIRLS' HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "DINAJPUR GOVT. GIRLS' HIGH SCHOOL",
+        "PG": 107,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1634",
+        "RO": "239934",
+        "NA": "MST. SIDDATUN AKTER SITHIL",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 107,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -21663,7 +22843,17 @@
         "SL": "1668",
         "RO": "242832",
         "NA": "ADRITA MEHJABEEN",
-        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL SCHOOL & COLLEGE",
+        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL",
+        "PG": 108,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1669",
+        "RO": "239957",
+        "NA": "MST. AFRITA SULTANA OBONE",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 108,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -21683,7 +22873,17 @@
         "SL": "1671",
         "RO": "251333",
         "NA": "MST. HUMAYRA ISLAM",
-        "SC": "KASHIDANGA HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "KASHIDANGA HIGH SCHOOL",
+        "PG": 108,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1672",
+        "RO": "239998",
+        "NA": "MAISHA TALUKDER",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 108,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -21793,7 +22993,17 @@
         "SL": "1683",
         "RO": "242831",
         "NA": "RAWNAK TASNIM",
-        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL SCHOOL & COLLEGE",
+        "SC": "IDEAL RESIDENTIAL MODEL SCHOOL",
+        "PG": 108,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1684",
+        "RO": "239928",
+        "NA": "MST. NASIHA TASKIYA NUZHA",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 108,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -21803,7 +23013,17 @@
         "SL": "1685",
         "RO": "245520",
         "NA": "MST FARJANA AKTER FARIYA",
-        "SC": "IBRAHIM MEMORIAL SHIKSHA NIKETAN SCHOOL",
+        "SC": "IBRAHIM MEMORIAL SHIKSHA NIKETAN",
+        "PG": 108,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1686",
+        "RO": "243065",
+        "NA": "TABASSUM ISLAM SHIFA",
+        "SC": "MEHER-HOSSAIN RASIDENTIAL MODEL SCHOOL",
         "PG": 108,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -21813,7 +23033,17 @@
         "SL": "1687",
         "RO": "239190",
         "NA": "RAMIS FARIHA RAMA",
-        "SC": "NAWABGONJ GOVT. MULTILATERAL PILOT HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "NAWABGONJ GOVT. MULTILATERAL PILOT HIGH SCHOOL",
+        "PG": 108,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1688",
+        "RO": "239941",
+        "NA": "AYUSHI MONDOL KUHU",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 108,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -22000,6 +23230,16 @@
         "GE": "F"
     },
     {
+        "SL": "1707",
+        "RO": "234542",
+        "NA": "SABHA TASNIMHA HOSSAIN",
+        "SC": "AL-AMIN INSTITUTE HIGH SCHOOL",
+        "PG": 109,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
         "SL": "1708",
         "RO": "251886",
         "NA": "MST SHOHANA YESMIN",
@@ -22063,7 +23303,17 @@
         "SL": "1714",
         "RO": "245312",
         "NA": "RUPASREE ROY MOON",
-        "SC": "BIRGANJ GOVT. GIRLS' HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "BIRGANJ GOVT. GIRLS' HIGH SCHOOL",
+        "PG": 109,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1715",
+        "RO": "239986",
+        "NA": "MST. SIRAJAM MONIRA",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 109,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -22083,7 +23333,17 @@
         "SL": "1717",
         "RO": "240317",
         "NA": "MST. NURASTA KHATUN",
-        "SC": "BHUSHIR BANDAR SAMIR UDDIN SARKER MEMORIAL GIRLS' HIGH SCHOOL SCHOOL",
+        "SC": "BHUSHIR BANDAR SAMIR UDDIN SARKER MEMORIAL GIRLS' HIGH SCHOOL",
+        "PG": 109,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1718",
+        "RO": "243071",
+        "NA": "MST RAFIA ZAHAN",
+        "SC": "MEHER-HOSSAIN RASIDENTIAL MODEL SCHOOL",
         "PG": 109,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -22093,7 +23353,17 @@
         "SL": "1719",
         "RO": "250770",
         "NA": "MST. RUKAIA AKTAR TAZIA",
-        "SC": "MUNSHIPARA HIGH SCHOOL SCHOOL & COLLEGE",
+        "SC": "MUNSHIPARA HIGH SCHOOL",
+        "PG": 109,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "1720",
+        "RO": "239944",
+        "NA": "MST REZAWANA CHOWDHURY NEHA",
+        "SC": "AMENA-BAKI RESIDENTIAL MODEL SCHOOL & COLLEGE",
         "PG": 109,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -22584,6 +23854,16 @@
         "RO": "494704",
         "NA": "MD. ARIF HOSSAIN",
         "SC": "CHERADANGI HIGH SCHOOL",
+        "PG": 112,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "1770",
+        "RO": "496729",
+        "NA": "MD. MAJEDUL ISLAM RAKIB",
+        "SC": "HABIBPUR BI-LATERAL HIGH SCHOOL",
         "PG": 112,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -23354,6 +24634,16 @@
         "RO": "500310",
         "NA": "MST. ABIDA SULTANA",
         "SC": "SETABGANJ GIRLS' HIGH SCHOOL",
+        "PG": 116,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
+        "SL": "1848",
+        "RO": "498708",
+        "NA": "AFSANA ISLAM MISTI",
+        "SC": "JHARBARI DWI-MUKHI HIGH SCHOOL",
         "PG": 116,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -24770,6 +26060,16 @@
         "GE": "M"
     },
     {
+        "SL": "1990",
+        "RO": "258829",
+        "NA": "MD TAUFIK AHAMMAD",
+        "SC": "AL-HASANAH SCHOOL",
+        "PG": 123,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
         "SL": "1991",
         "RO": "260845",
         "NA": "MD. NAHIDUZZAMAN NAHID",
@@ -24840,6 +26140,16 @@
         "GE": "M"
     },
     {
+        "SL": "1998",
+        "RO": "261052",
+        "NA": "JANNATIN NAYEEM AL SAFI",
+        "SC": "LAHIRI MULTI-LATERAL HIGH SCHOOL",
+        "PG": 123,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
         "SL": "1999",
         "RO": "254789",
         "NA": "NAFIS FUAD BORNO",
@@ -24894,6 +26204,16 @@
         "RO": "255691",
         "NA": "UZZAL MAHMUD FARIZ",
         "SC": "COLLECTORATE PUBLIC SCHOOL AND COLLEGE",
+        "PG": 123,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "2005",
+        "RO": "258825",
+        "NA": "MD RAKIBUL HASAN",
+        "SC": "AL-HASANAH SCHOOL",
         "PG": 123,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -25070,6 +26390,16 @@
         "GE": "M"
     },
     {
+        "SL": "2023",
+        "RO": "261059",
+        "NA": "APU RAM BORMAN",
+        "SC": "LAHIRI MULTI-LATERAL HIGH SCHOOL",
+        "PG": 124,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
         "SL": "2024",
         "RO": "254769",
         "NA": "MD RAIYAN RAHMAN",
@@ -25160,6 +26490,16 @@
         "GE": "M"
     },
     {
+        "SL": "2033",
+        "RO": "258832",
+        "NA": "MD. SOHIDUJJAMAN SHIFAT",
+        "SC": "AL-HASANAH SCHOOL",
+        "PG": 124,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
         "SL": "2034",
         "RO": "260018",
         "NA": "MD AL RAHAT",
@@ -25224,6 +26564,16 @@
         "RO": "254781",
         "NA": "AKASH DEB NATH",
         "SC": "THAKURGAON GOVT. BOYS' HIGH SCHOOL",
+        "PG": 124,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
+        "SL": "2041",
+        "RO": "258842",
+        "NA": "FERDOWS AL MAHMUD SHAWN",
+        "SC": "AL-HASANAH SCHOOL",
         "PG": 124,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -25400,6 +26750,16 @@
         "GE": "F"
     },
     {
+        "SL": "2059",
+        "RO": "258793",
+        "NA": "ADIBA ISLAM",
+        "SC": "AL-HASANAH SCHOOL",
+        "PG": 126,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
         "SL": "2060",
         "RO": "253465",
         "NA": "KHADIZA BINTA MOZAHARUL",
@@ -25414,6 +26774,16 @@
         "RO": "254440",
         "NA": "JANNATUN HASAN PRIONTY",
         "SC": "ECO PATHSHALA AND COLLEGE",
+        "PG": 126,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "F"
+    },
+    {
+        "SL": "2062",
+        "RO": "258814",
+        "NA": "MST. AFIFA KHATUN",
+        "SC": "AL-HASANAH SCHOOL",
         "PG": 126,
         "TY": "GENERAL",
         "GR": "SCIENCE",
@@ -26050,6 +27420,16 @@
         "GE": "M"
     },
     {
+        "SL": "2126",
+        "RO": "503211",
+        "NA": "MD. ARIF ISLAM",
+        "SC": "LAHIRI MULTI-LATERAL HIGH SCHOOL",
+        "PG": 129,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
         "SL": "2127",
         "RO": "502554",
         "NA": "MD YOUSUF ALI",
@@ -26074,6 +27454,16 @@
         "RO": "503544",
         "NA": "JOY KUMAR",
         "SC": "VANDARDAHA HIGH SCHOOL",
+        "PG": 129,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "2130",
+        "RO": "503256",
+        "NA": "MD. PROVAUL FAHIM RAFI",
+        "SC": "LAHIRI MULTI-LATERAL HIGH SCHOOL",
         "PG": 129,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -26154,6 +27544,16 @@
         "RO": "501542",
         "NA": "MD. KUMRZZAMAN HRIDOY",
         "SC": "SALANDAR HIGH SCHOOL",
+        "PG": 129,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "2139",
+        "RO": "503257",
+        "NA": "MIR MD. ZISAN MAHAMUD",
+        "SC": "LAHIRI MULTI-LATERAL HIGH SCHOOL",
         "PG": 129,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -26274,6 +27674,36 @@
         "RO": "501583",
         "NA": "LOLONA SEN NONDINI",
         "SC": "HAZIPARA ADARSHA HIGH SCHOOL",
+        "PG": 131,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
+        "SL": "2152",
+        "RO": "503185",
+        "NA": "RITA RANI",
+        "SC": "LAHIRI MULTI-LATERAL HIGH SCHOOL",
+        "PG": 131,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
+        "SL": "2153",
+        "RO": "503184",
+        "NA": "SAIMA SHORME",
+        "SC": "LAHIRI MULTI-LATERAL HIGH SCHOOL",
+        "PG": 131,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "F"
+    },
+    {
+        "SL": "2154",
+        "RO": "503187",
+        "NA": "MST. JANNAT AKTER",
+        "SC": "LAHIRI MULTI-LATERAL HIGH SCHOOL",
         "PG": 131,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -27200,6 +28630,16 @@
         "GE": "M"
     },
     {
+        "SL": "2247",
+        "RO": "265213",
+        "NA": "AL-YEASINUR RAHMAN NAHID",
+        "SC": "DASH MAIL HIGH SCHOOL",
+        "PG": 136,
+        "TY": "GENERAL",
+        "GR": "SCIENCE",
+        "GE": "M"
+    },
+    {
         "SL": "2248",
         "RO": "268195",
         "NA": "MD. SAJID RAHMAN",
@@ -27833,7 +29273,17 @@
         "SL": "2311",
         "RO": "267507",
         "NA": "PROTIK CHANDRA BARMAN",
-        "SC": "PANCHAGARH BISHNU PROSAD GOVT. HIGH SCHOOL SCHOOL",
+        "SC": "PANCHAGARH BISHNU PROSAD GOVT. HIGH SCHOOL",
+        "PG": 140,
+        "TY": "GENERAL",
+        "GR": "HUMANITIES",
+        "GE": "M"
+    },
+    {
+        "SL": "2312",
+        "RO": "507860",
+        "NA": "MD AIMAN ISLAM LABU",
+        "SC": "KAMAR HAT IDEAL BI-LATERAL HIGH SCHOOL",
         "PG": 140,
         "TY": "GENERAL",
         "GR": "HUMANITIES",
@@ -28373,7 +29823,7 @@
         "SL": "2366",
         "RO": "705279",
         "NA": "NIRA AKTER",
-        "SC": "BODA PILOT GIRLS' HIGH SCHOOL",
+        "SC": "BODA PILOT GIRLS' HIGH SCHOOL gva\u00a8wgK I D\u201dP gva\u00a8wgK wk\u00ffv \u2020evW\u00a9 gva\u00a8wgK I D\u201dP gva\u00a8wgK wk\u00ffv \u2020evW\u00a9 w`bvRcyi| w`bvRcyi|",
         "PG": 143,
         "TY": "GENERAL",
         "GR": "BUSINESS STUDIES",
