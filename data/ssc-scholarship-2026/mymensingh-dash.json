@@ -1,0 +1,2673 @@
+{
+  "credit": {
+    "source": "Board Official Notice",
+    "@data-preprocessed-and-visulaize-by": "Mahib Abrar"
+  },
+  "summary": {
+    "total_students": 1606,
+    "total_schools": 442,
+    "total_talentpool": 170,
+    "total_general": 1436
+  },
+  "top_schools": [
+    {
+      "school": "Cantonment Public School And College",
+      "total": 38,
+      "talentpool": 14,
+      "general": 24
+    },
+    {
+      "school": "Mymensingh Zilla School",
+      "total": 37,
+      "talentpool": 14,
+      "general": 23
+    },
+    {
+      "school": "Vidyamayee Govt. Girls' High School",
+      "total": 36,
+      "talentpool": 18,
+      "general": 18
+    },
+    {
+      "school": "Progressive Model School, Mymensingh",
+      "total": 31,
+      "talentpool": 10,
+      "general": 21
+    },
+    {
+      "school": "Jamalpur Zilla School",
+      "total": 24,
+      "talentpool": 9,
+      "general": 15
+    },
+    {
+      "school": "Jamalpur Govt. Girls' High School",
+      "total": 22,
+      "talentpool": 3,
+      "general": 19
+    },
+    {
+      "school": "Bhaluka Pilot High School",
+      "total": 22,
+      "talentpool": 3,
+      "general": 19
+    },
+    {
+      "school": "United Public School And College",
+      "total": 22,
+      "talentpool": 0,
+      "general": 22
+    },
+    {
+      "school": "Afroz Khan Model School ,mymensingh",
+      "total": 21,
+      "talentpool": 6,
+      "general": 15
+    },
+    {
+      "school": "Mymensingh Girls' Cadet College",
+      "total": 20,
+      "talentpool": 8,
+      "general": 12
+    },
+    {
+      "school": "Fulpur Pilot Model Government High",
+      "total": 20,
+      "talentpool": 3,
+      "general": 17
+    },
+    {
+      "school": "Sherpur Govt. Girls' High School",
+      "total": 20,
+      "talentpool": 1,
+      "general": 19
+    },
+    {
+      "school": "Dutt High School",
+      "total": 19,
+      "talentpool": 3,
+      "general": 16
+    },
+    {
+      "school": "Netrakona Govt. Girls' High School",
+      "total": 18,
+      "talentpool": 1,
+      "general": 17
+    },
+    {
+      "school": "Ishwarganj Bisweswari Government Pilot",
+      "total": 17,
+      "talentpool": 0,
+      "general": 17
+    },
+    {
+      "school": "Purbadhala Jagatmani Govt. Pilot High",
+      "total": 17,
+      "talentpool": 0,
+      "general": 17
+    },
+    {
+      "school": "Gouripur Pilot Girls' High School",
+      "total": 16,
+      "talentpool": 3,
+      "general": 13
+    },
+    {
+      "school": "Tarakanda Residential Model School",
+      "total": 15,
+      "talentpool": 0,
+      "general": 15
+    },
+    {
+      "school": "Islampur Govt. J. J. K. M. Girls' High",
+      "total": 15,
+      "talentpool": 0,
+      "general": 15
+    },
+    {
+      "school": "Nakla Government Pilot High School",
+      "total": 15,
+      "talentpool": 0,
+      "general": 15
+    },
+    {
+      "school": "Nazrul Academy Darirampur",
+      "total": 14,
+      "talentpool": 2,
+      "general": 12
+    },
+    {
+      "school": "Kalmakanda Govt. Pilot High School",
+      "total": 14,
+      "talentpool": 0,
+      "general": 14
+    },
+    {
+      "school": "Children's Home Public School",
+      "total": 13,
+      "talentpool": 1,
+      "general": 12
+    },
+    {
+      "school": "Singhazani Girls' High School",
+      "total": 13,
+      "talentpool": 6,
+      "general": 7
+    },
+    {
+      "school": "Khairullah Govt. Girls' High School",
+      "total": 13,
+      "talentpool": 0,
+      "general": 13
+    },
+    {
+      "school": "Jahangirpur Tohura Amin Govt. Pilot High",
+      "total": 12,
+      "talentpool": 2,
+      "general": 10
+    },
+    {
+      "school": "Mohanganj Pilot Govt. High School",
+      "total": 12,
+      "talentpool": 0,
+      "general": 12
+    },
+    {
+      "school": "Mohangonj Adarsha High School",
+      "total": 11,
+      "talentpool": 1,
+      "general": 10
+    },
+    {
+      "school": "Mohanganj Pilot Girls' High School",
+      "total": 11,
+      "talentpool": 4,
+      "general": 7
+    },
+    {
+      "school": "Batazore B.M. High School",
+      "total": 11,
+      "talentpool": 3,
+      "general": 8
+    },
+    {
+      "school": "Premier Ideal High School",
+      "total": 11,
+      "talentpool": 3,
+      "general": 8
+    },
+    {
+      "school": "Muktagacha R K Government High",
+      "total": 11,
+      "talentpool": 1,
+      "general": 10
+    },
+    {
+      "school": "Nagendra Narayan Pilot Girls' High",
+      "total": 11,
+      "talentpool": 0,
+      "general": 11
+    },
+    {
+      "school": "Haluaghat Govt. Adarsha High School",
+      "total": 10,
+      "talentpool": 0,
+      "general": 10
+    },
+    {
+      "school": "Melandaha Umir Uddin Pilot High School",
+      "total": 10,
+      "talentpool": 0,
+      "general": 10
+    },
+    {
+      "school": "Jamalpur High School",
+      "total": 9,
+      "talentpool": 2,
+      "general": 7
+    },
+    {
+      "school": "Saberunnessa Girls' High School",
+      "total": 9,
+      "talentpool": 1,
+      "general": 8
+    },
+    {
+      "school": "Shaheed Smriti Bidyapeeth",
+      "total": 9,
+      "talentpool": 2,
+      "general": 7
+    },
+    {
+      "school": "Boyra Israil Ahmed High School",
+      "total": 9,
+      "talentpool": 3,
+      "general": 6
+    },
+    {
+      "school": "Mukul Niketon High School",
+      "total": 9,
+      "talentpool": 2,
+      "general": 7
+    },
+    {
+      "school": "Nabarun Bidyaniketon",
+      "total": 9,
+      "talentpool": 0,
+      "general": 9
+    },
+    {
+      "school": "Uchakhila Higher Secondary School",
+      "total": 9,
+      "talentpool": 0,
+      "general": 9
+    },
+    {
+      "school": "Govt. Islampur Nekjahan Pilot Model",
+      "total": 8,
+      "talentpool": 0,
+      "general": 8
+    },
+    {
+      "school": "Kushmail Takipara High School",
+      "total": 8,
+      "talentpool": 0,
+      "general": 8
+    },
+    {
+      "school": "Zeal Bangla Sugar Mill High School",
+      "total": 8,
+      "talentpool": 0,
+      "general": 8
+    },
+    {
+      "school": "Sushung Adarsha Bidya Niketon",
+      "total": 7,
+      "talentpool": 1,
+      "general": 6
+    },
+    {
+      "school": "Haluaghat Girls' High School",
+      "total": 7,
+      "talentpool": 1,
+      "general": 6
+    },
+    {
+      "school": "Gafargaon Islamia Govt. High School",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Nandail Pilot Girls' High School",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Anjuman Adarsha Govt. High School",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Rahila Kadir School And College",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Taragonj Govt. Pilot High School",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Patgudam High School",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Sidhla High School",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Shamganj High School",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Armed Police Battalion Adarsha High",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Hashil Higher Secondary School",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Panch Badya Adorsh High School",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Munshirchar Motijahan High School",
+      "total": 7,
+      "talentpool": 0,
+      "general": 7
+    },
+    {
+      "school": "Netrakona Adarsha Girls' High School",
+      "total": 6,
+      "talentpool": 2,
+      "general": 4
+    },
+    {
+      "school": "Danikhola High School",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "Dhanua Kamalpur Co-Operative High",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "G.K. Pilot High School",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "Taragonj Pilot Girls' High School",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "Charnikhola High School",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "Mongalsidh Shantimoyee High School",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "Malancha M. A. Gafur High School",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "Jhaugara High School",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "Bazitkhila Amir Ali Sharkar High School",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "Gazir Khamar High School",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "Kakilakura High School",
+      "total": 6,
+      "talentpool": 0,
+      "general": 6
+    },
+    {
+      "school": "Sherpur Govt. Victoria Academy",
+      "total": 5,
+      "talentpool": 1,
+      "general": 4
+    },
+    {
+      "school": "Baniazan Govt. Chowdhury Talukder Pilot",
+      "total": 5,
+      "talentpool": 1,
+      "general": 4
+    },
+    {
+      "school": "Atpara Thana Shahid Swaranika Girls'",
+      "total": 5,
+      "talentpool": 2,
+      "general": 3
+    },
+    {
+      "school": "Char Srepur High School",
+      "total": 5,
+      "talentpool": 1,
+      "general": 4
+    },
+    {
+      "school": "Challish Kahania Hafiz Uddin High School",
+      "total": 5,
+      "talentpool": 1,
+      "general": 4
+    },
+    {
+      "school": "Halimunnessa Chowdhorani Memorial",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Valuka Govt. Girls' High School",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Alhera Academy",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Fulbaria Pilot Girls' High School",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Gouripur R.K. Govt. High School",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Durgapur Govt. Girls' High School",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Hiranpur High School",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Rawsan Izdani Academy",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Barhatta C.K.P. Govt. Pilot High School",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Char Pakerdaha Dr. Abdul Jabber High",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Rasulpur High School",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Shuktara Bidyaniketan",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Rampur High School",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Nandail Road High School",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Fulkocha Aleya Azam High School",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Bausi Bangali High School And College",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Sherpur Afsar Ali Adarsha Girls' High",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Beer Muktijuddha Abu Bakor Memorial",
+      "total": 5,
+      "talentpool": 0,
+      "general": 5
+    },
+    {
+      "school": "Fatiamari Nazgar Ali High School",
+      "total": 4,
+      "talentpool": 1,
+      "general": 3
+    },
+    {
+      "school": "Shahid Smrity High School",
+      "total": 4,
+      "talentpool": 1,
+      "general": 3
+    },
+    {
+      "school": "Asim High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Chandi Pasa Govt. High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Jalsuka Kumudganj High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Abdul Jabbar Rabeya Khatun Girls' High",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Durgasram High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Barhatta Pilot Girls' High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Melandaha Govt. Girls' High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Bakshiganj Ulfatunnessa Govt. Girls' High",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Sreebardi M. N. B. Pilot Govt. Girls' High",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Ideal Model Academy",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Cantonment Board High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Habirbari Union Sonar Bangla School And",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Palashihata M L High School And College",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Kahal Gaon Dulma High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Rustom Ali Golandaz High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Kalir Bazar Higher Secondary School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Netrakona Chandranath High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Khaguria High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Singhazani M. L. High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Shirajabad High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Rabeya Islam Adarsha Jr Secondary",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Dewanganj Girls' High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Sarisabari Reaz Uddin Talukder High",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Maderganj A.M. Pilot High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Polisha High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Jangaldi High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Jhinaigati Govt. Model Pilot High School",
+      "total": 4,
+      "talentpool": 0,
+      "general": 4
+    },
+    {
+      "school": "Gaibandha Suruzzahan High School",
+      "total": 3,
+      "talentpool": 2,
+      "general": 1
+    },
+    {
+      "school": "Sarishabari R. D. M. Pilot High School",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
+    },
+    {
+      "school": "Gabindasree High School",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
+    },
+    {
+      "school": "Nurul Amin Khan High School",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
+    },
+    {
+      "school": "Dhobaura Bindubashini Girls' High School",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
+    },
+    {
+      "school": "Ahammadabad High School",
+      "total": 3,
+      "talentpool": 1,
+      "general": 2
+    },
+    {
+      "school": "Islami Academy School & College",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Batra Milon High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Goatala High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Madan Shahid Saranika Pilot Girls' High",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Iqbalpur Girls' High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Mirza Rowsan Ali High School, Junail",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Banibide Abdullah Al Mahmud Public",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Ashka High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Baidyabari High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Trishal Nazrul Girls' High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Dhala School And College",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Pasani High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Shohagi Union Higher Secondary School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Tarakanda Bohumukhi High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Kalikha High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Gopalpur High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Munshir Hat Muslim Institution",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Lengura School And College",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Teligati Baidyanath Harekrishno Academy",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Kendua Joyhari Spry Govt. High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Deopur High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Godasimla High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Rudraboyra High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Jamuna Sar Karkhana School And",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Pingna Girls' High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Sanakoir Sheikh Khalilur Rahman High",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Jharkata Girls' High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Bakshiganj Nur Mohammad High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Janokipur Adarsha High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Kumri Katajan Girl's High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Ilsha High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Kapashia Shoheed Smrity High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Baruajani Hassan High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Nakla Pilot Model High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Charmodua Adarsha Bidya Niketan",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Ganapaddy High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Bangaon Janata High School",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Gurucharan Dudhnoi Adarsha High",
+      "total": 3,
+      "talentpool": 0,
+      "general": 3
+    },
+    {
+      "school": "Agriculture University High School",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "Moulovinagar High School",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "Khaliajuri Pilot High School",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "Govt. Laboratory High School",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "Hazrat Sahjamal ( R:) School And College",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "Shakui Bahumukhi High School & College",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "Saidur Rahman Memorial High School",
+      "total": 2,
+      "talentpool": 1,
+      "general": 1
+    },
+    {
+      "school": "Monati High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Dhobaura Government Bohumukhi Model",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Jhanjail High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "N. Jaria Jhanjail High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Krisnapur A. A. P. High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Sandikona Uchcha Madhayamik Bidhalya",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Mirza Azam School & College",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Dewanganj Govt. High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Kawniarchar M. L. High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Delowar Hossain High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Abdul Hakim Smriti Model High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Balijure High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Ranishimul High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Shallchura High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Rambhadrapur High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Shambhugonj U.C. High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Bir Muktijuddha Addhakkha Matiur",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Muslim Girls High School & College",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Dhalia Bahuli Azimunnessa Girls' High",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Bharadoba High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Goari Bhawalia Bazar High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Lohabai Bankoa High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Fulbaria Government Model Pilot High",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Alamin High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Fazlur Rahman High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Porabari High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Danikhola Osmania High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Beara Patuli Rahmat Ullah High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Dilalpur High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Johura Khatun Girls' High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Atharabari M. C. High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Marichar Char High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Madupur High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Taldighi High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Shamganj Girls' High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Shahgonj High School And College",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Batandar High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Gidhausha Hasan Ali High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Salihor Hazi Amir Uddin High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Kumuria Narail High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Shimul Kandi High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Patra Dampara High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Kutubpur Public High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Jagannathpur Mayez Uddin Sarkar High",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Bisharpassa Harishchandra High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Sayma Shahjahan Academy, Kendua",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Netrokona Collectorate School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Netrakona High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Krishna Gobinda High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Thakurakona Rahim Uddin High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Huzrabari High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Balali Baghmara High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Padmasree A.U. Khan High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Jamalpur Ideal School And College",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Abdul Hamid Khan High School And",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Beltia High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Langaljura High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Battala High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Nandina Nekjahan Girls' High School And",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Hargila High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Malamganj High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Mahmudpur High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Horipur Hossainia High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Charpolisha J. L. High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Taratia Alhaz Lal Mamud High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Sarishabari Govt. Pilot Uchcha",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Pingna High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Chaparkona Mohesh Chandra High",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Balizuri F.M. High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Chandrabaz Rashida Begum School And",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Ghashir Para Rokeya Begum High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Hasina Gazi Girls' High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Atiur Rahman Model Girls Institute",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Model Girls' Institute",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Kazaikata High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Matifata G. M. High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Indilpur High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Tanghorpara High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Paikura A. R. P. High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Dhanshail Girls High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Rangtia High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Malijhikanda High School",
+      "total": 2,
+      "talentpool": 0,
+      "general": 2
+    },
+    {
+      "school": "Amtola High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Hajigonj High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Galagaon High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Dakshin Bishiura High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Uttar Para Adarsha Junior High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Kashbon Bidyaniketon",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Nandina Model Academy",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Chandpur High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Chowdhury Tale Hossain Michhil Jan",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Jahanara Smriti Girls' High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Malipara High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Khalat Bari Ideal High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Panchashi High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Maheshpur High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Maradighi Golam Hossain High School",
+      "total": 1,
+      "talentpool": 1,
+      "general": 0
+    },
+    {
+      "school": "Dotter Bazar Union Uccha Madyamic",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Khurram Khan Chowdhury High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Mushuli Girls' High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Nabarun High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Shaldigha Gopal Gopinath Govt. High",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Gopalasram Vairab Chandra High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Hasina - Shahid Secondary Model",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bhabki G.M. High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Pullakandi High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bhatara Uchcha Madhyamik Bidyalaya",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Doulatpur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "No.5 Union Jahanara High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Alhaj Babar Ali High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Banogram Hafiz Uddin High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Ahmadnagar High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Pagla Ideal High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bilashati Tamizuddin High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Balia High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bashtala High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Sandhara Hazi Abdul Majid High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Mrityunjoy School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Ghagra Union High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Police Lines High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Dapunia Kawalti Islamia High School And",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Holy Family School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Muslim High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Gobudia Sabuj Bangla High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Goari Adarsha Girls' High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Purura Siddika Feroza Akter Girls' High",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Jhalopaza High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Birunia Sadir Uddin Master High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Rajai High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Katlamary High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Palgaon High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Shamala Taher Adarsha High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Sayedur Rahaman School And College",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Shamla Shah Girls' High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Jamirdia Abdul Gani Master School &",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Shibganj High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Dhamar Bohumukhi High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kushmail Tarafdar Bari High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Adarsha Uchya Bidyaniketan",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kushmail Union Badar Uddin High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kandania High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Nayon Moni High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Saheb Ali Academy",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Barabaria High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Charmasalanda Muslim High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kalaipar Jalesshar Girls' High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Pachbagh Islamia High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Abul Hashem Khan High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Baraihati A. B. Higher Secondary School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bashia High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Mokhapur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Sanki Bhanga High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bagan Islamia High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Halima High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Singrail High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Singdai Adarsha High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kashinagar High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Tharati High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Amirabag High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Ponguai Umed Ali High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kabulennesa Girls' High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Longkakhola High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Pachar High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Dr. M. R. Karim High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Dhara High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Gashigaon High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Biroy Dakuni High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "St. Andrew's High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Majrakura School & College",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Khukshia High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Chachua Girls' High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Palsha Adarsha High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Khamar Basha High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Charia Kanda High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "St. Xavier's Junior School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Gujirkona High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Birishiri Mission Girls' High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Rani Khang High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Birishiri P. C. Nall Memorial High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Ghagra B. L. High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Satyati Barail Aktar Khan High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Khalishapur Uchcha Maddhyamic",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Hogla High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Sacred Heart High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Smoronika High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Deogaon Gobindapur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Mansurpur Abdul Hamid Talukder High",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Ramnagar High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bashati High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bekhoir Hati N. K. High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Moktal Hossain High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Abbasia High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Charpara Mohadebpur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Nandipur Sonar Bangla High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Pramnagar Chalipura High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bansary Meherunnesa High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Fatepur Syed Ali Chowdhury High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Chandgou Haskuri Maidham High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Madan Adarsha Public High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Jamalpur Collectorate School And",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bania Bazar High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Ranarampur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Rashidpur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Jamira Baraitair High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Narundi School And College",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Raghunathpur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Moon Memorial High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Khazashah Sufi Younus Ali High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Jamalpur Railway High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Taragonj High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Nandina M. H. K. Govt. High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Advocate Khalilur Rahman High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Tikarakandi-Garamara (t.G.) Adarsha",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Jhawla Gopalpur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Sarifpur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Jarina Miar Uddin High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kulkandi Shamsunnahar High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Ulia A.M. High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Pochabahala Joytunnessa High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kumirdaha High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Rahima Jalil Secondary School, Nalsia",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Char Gobindi High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "A. C. S. High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Yaton Jalal Uddin Chowdhury High",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Fazar Uddin Mirza Kashem High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Tegharia High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kalabadha High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Basetpur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bangladesh Railway High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Charbhobsur Shahab Uddin High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Shajadpur High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Soidpur Basir Uddin High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Shuakair Jamser Ali High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Sarisabari Salema Khatun Girls' High",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Lotabar Seratunnessa High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Khalequannessa Academy",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Gorpara High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Nabbachar High School And College",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Shoknogori Bofat Uddin Talukder High",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Hat Magura High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "K. P. H. Adarsha High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Sarmara Nasiruddin High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Halima Suruj High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Nilkhia R.J. Pilot High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kamarer Char Public Girls' High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Imambari High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Uttara Adarsha High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kamarerchar Public High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kharkharia Sahid Golam Mustafa High",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Naljura Intaz Ali High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Nizpara S E S D P Model High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Shamaschura High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Nanni High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Andharupara High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bagber High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Nayabil Girl's High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bhadikura High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kaida Adarsha High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Bhurdi Sallaguria Secondary School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Nama Kaiyakuri High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Gourdwar B.L. Madhyamik School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Afzalunnessa Girls' High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Chandrakona Girls' High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Halgora Rahela Memorial High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Varera S. P. School & College",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Babel Kona Adibashi High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Kharia Kazir Char High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    },
+    {
+      "school": "Akata High School",
+      "total": 1,
+      "talentpool": 0,
+      "general": 1
+    }
+  ],
+  "is_mark": false,
+  "is_group": true,
+  "group_summary": {
+    "SCIENCE": 458,
+    "HUMANITIES": 407,
+    "BUSINESS STUDIES": 741
+  }
+}

@@ -37,6 +37,12 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/mymensingh/analysis/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/sylhet/analysis/</loc>
     <lastmod>2026-10-20</lastmod>
     <priority>0.8</priority>
@@ -62,6 +68,12 @@
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/dhaka/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/mymensingh/</loc>
     <lastmod>2026-10-20</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
@@ -1183,6 +1195,12 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://edutoolsbd.vercel.app/institutes/mymensingh/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://edutoolsbd.vercel.app/institutes/sylhet/</loc>
     <lastmod>2026-10-20</lastmod>
     <priority>0.8</priority>
@@ -1196,12 +1214,6 @@
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/institutes/jashore/</loc>
-    <lastmod>2026-10-20</lastmod>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://edutoolsbd.vercel.app/institutes/mymensingh/</loc>
     <lastmod>2026-10-20</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>

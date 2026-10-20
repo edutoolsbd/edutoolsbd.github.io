@@ -7,5 +7,5 @@
     {"slug": "jashore", "name_bn": "যশোর", "name_en": "Jashore", "is_available": false, "possible_date": "29 OCTOBER"},
     {"slug": "barishal", "name_bn": "বরিশাল", "name_en": "Barishal", "is_available": true},
     {"slug": "sylhet", "name_bn": "সিলেট", "name_en": "Sylhet", "is_available": true},
-    {"slug": "mymensingh", "name_bn": "ময়মনসিংহ", "name_en": "Mymensingh", "is_available": false}
+    {"slug": "mymensingh", "name_bn": "ময়মনসিংহ", "name_en": "Mymensingh", "is_available": true}
 ]
