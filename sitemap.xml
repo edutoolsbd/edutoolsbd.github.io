@@ -1272,4 +1272,16 @@
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://edutoolsbd.vercel.app/institutes/madrasah/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://edutoolsbd.vercel.app/institutes/technical/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
