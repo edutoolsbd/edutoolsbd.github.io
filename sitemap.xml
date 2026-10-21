@@ -121,7 +121,19 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2025/madrasah/analysis/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2025/dhaka/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2025/madrasah/</loc>
     <lastmod>2026-10-21</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
