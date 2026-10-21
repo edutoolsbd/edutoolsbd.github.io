@@ -61,6 +61,56 @@ summary {
     </style>
 
     
+<!-- Print & PDF Optimization Styles -->
+<style>
+    @media print {
+        /* Hide non-printable UI elements */
+        body * {
+            visibility: hidden;
+        }
+        #schoolDetailView, #schoolDetailView * {
+            visibility: visible;
+        }
+        #schoolDetailView {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            margin: 0;
+            padding: 10mm;
+            background: #ffffff !important;
+        }
+        /* Hide buttons, navigations, and back links */
+        nav, .btn, button, #pdfExportBtn, #navBackContainer, #navSearchAction {
+            display: none !important;
+        }
+        /* Force background color accuracy for badges and headers */
+        * {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+        /* Page layout & margins */
+        @page {
+            size: A4;
+            margin: 12mm 15mm;
+        }
+        /* Prevent table row splitting across pages */
+        tr {
+            page-break-inside: avoid;
+        }
+        thead {
+            display: table-header-group;
+        }
+        /* Show print-only brand header & footer */
+        .print-brand-header {
+            display: flex !important;
+        }
+        .print-footer-disclaimer {
+            display: block !important;
+        }
+    }
+</style>
+
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fdd1384721074b4ba7879b2139f25d54"}'></script><!-- End Cloudflare Web Analytics -->
     <script src="https://analytics.ahrefs.com/analytics.js" data-key="ZFkOvfLzefkOx9Qs40ZFfQ" async></script>
 </head>
@@ -543,150 +593,266 @@ summary {
         
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6 font-sans">
 
-    <!-- Top Navigation Bar -->
+    <!-- Top Navigation Bar (Screen Only) -->
     <nav class="flex flex-wrap items-center justify-between gap-3" aria-label="Page Navigation">
-        <a href="/ssc/scholarship-list//" class="btn btn-outline btn-sm sm:btn-md rounded-2xl font-bold border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 transition-all">
-            ← হোম পেজে ফিরে যান
-        </a>
-        <a href="/ssc/scholarship-list/2026/barishal/" class="btn bg-blue-600 hover:bg-blue-700 text-white border-none btn-sm sm:btn-md rounded-2xl font-bold shadow-md shadow-blue-500/20 transition-all">
-            ফলাফল খুঁজুন 🔍
-        </a>
+        <div id="navBackContainer">
+            <a href="/ssc/scholarship-list//" class="btn btn-outline btn-sm sm:btn-md rounded-2xl font-bold border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 transition-all">
+                ← হোম পেজে ফিরে যান
+            </a>
+        </div>
+        <div id="navSearchAction">
+            <a href="/ssc/scholarship-list/2026/barishal/" class="btn bg-blue-600 hover:bg-blue-700 text-white border-none btn-sm sm:btn-md rounded-2xl font-bold shadow-md shadow-blue-500/20 transition-all">
+                ফলাফল খুঁজুন 🔍
+            </a>
+        </div>
     </nav>
 
-    <!-- Page Title Header -->
-    <header class="relative overflow-hidden bg-gradient-to-b from-blue-900 via-blue-900/95 to-slate-900 p-6 sm:p-10 rounded-3xl border border-blue-800/50 shadow-xl text-center space-y-3">
-        <div class="absolute -top-10 -left-10 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
-        <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
+    <!-- ========================================== -->
+    <!-- VIEW A: MAIN DASHBOARD & ANALYTICS (Default) -->
+    <!-- ========================================== -->
+    <div id="mainDashboardView" class="space-y-6">
 
-        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/20 text-xs font-semibold tracking-wide uppercase mb-1">
-            ✨ Barishal Board Analytics
-        </div>
-        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
-            SSC বরিশাল Board স্কুলভিত্তিক বৃত্তি বিশ্লেষণ <span class="text-blue-400">২০২৬</span>
-        </h1>
-        <p class="text-blue-100/80 text-sm sm:text-base max-w-2xl mx-auto font-medium">
-            বরিশাল শিক্ষা বোর্ডের অধীনস্থ স্কুলসমূহের মেধা ও সাধারণ বৃত্তি অর্জনের সার্বিক পরিসংখ্যান ও এনালিটিক্স
-        </p>
-    </header>
+        <!-- Page Title Header -->
+        <header class="relative overflow-hidden bg-gradient-to-b from-blue-900 via-blue-900/95 to-slate-900 p-6 sm:p-10 rounded-3xl border border-blue-800/50 shadow-xl text-center space-y-3">
+            <div class="absolute -top-10 -left-10 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
 
-    <!-- Disclaimer Alert Notice -->
-    <div role="alert" class="alert bg-blue-50/80 border border-blue-200/80 text-blue-950 rounded-2xl p-4 text-xs sm:text-sm flex items-start gap-3 backdrop-blur-sm shadow-sm">
-        <svg xmlns="http://www.w3.org/2000/svg" class="stroke-blue-600 shrink-0 h-5 w-5 mt-0.5" fill="none" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-        </svg>
-        <div>
-            <strong class="font-bold text-blue-900 block mb-0.5">দায়মুক্তির ঘোষণা (Disclaimer):</strong>
-            <span class="text-blue-900/80">
-                এই পাতায় প্রদর্শিত এনালিটিক্স ডাটা কেবল সাধারণ তথ্যাবগতি ও পরিসংখ্যানগত বিশ্লেষণের জন্য প্রস্তুত করা হয়েছে। তথ্যের নির্ভুলতা নিশ্চিত করার সর্বোচ্চ চেষ্টা করা হলেও, যেকোনো দাপ্তরিক বা চূড়ান্ত তথ্যের জন্য সংশ্লিষ্ট শিক্ষা বোর্ডের অফিশিয়াল গেজেট/বিজ্ঞপ্তি অনুসরণ করার জন্য অনুরোধ করা হচ্ছে।
-            </span>
-        </div>
-    </div>
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/20 text-xs font-semibold tracking-wide uppercase mb-1">
+                ✨ Barishal Board Analytics
+            </div>
+            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
+                SSC বরিশাল Board স্কুলভিত্তিক বৃত্তি বিশ্লেষণ <span class="text-blue-400">২০২৬</span>
+            </h1>
+            <p class="text-blue-100/80 text-sm sm:text-base max-w-2xl mx-auto font-medium">
+                বরিশাল শিক্ষা বোর্ডের অধীনস্থ স্কুলসমূহের মেধা ও সাধারণ বৃত্তি অর্জনের সার্বিক পরিসংখ্যান ও এনালিটিক্স
+            </p>
+        </header>
 
-    <!-- Primary Overview Stats Grid -->
-    <section aria-label="Summary Statistics" class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-blue-300 transition-all">
-            <p class="text-xs sm:text-sm font-semibold text-slate-500">মোট বৃত্তিপ্রাপ্ত</p>
-            <h3 id="statTotalStudents" class="text-2xl sm:text-3xl font-black text-blue-600 mt-1">০</h3>
-        </div>
-        <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-blue-300 transition-all">
-            <p class="text-xs sm:text-sm font-semibold text-slate-500">মোট অন্তর্ভুক্ত স্কুল</p>
-            <h3 id="statTotalSchools" class="text-2xl sm:text-3xl font-black text-blue-600 mt-1">০</h3>
-        </div>
-        <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-amber-300 transition-all">
-            <p class="text-xs sm:text-sm font-semibold text-slate-500">ট্যালেন্টপুল বৃত্তি</p>
-            <h3 id="statTotalTalentpool" class="text-2xl sm:text-3xl font-black text-amber-600 mt-1">০</h3>
-        </div>
-        <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-sky-300 transition-all">
-            <p class="text-xs sm:text-sm font-semibold text-slate-500">সাধারণ বৃত্তি</p>
-            <h3 id="statTotalGeneral" class="text-2xl sm:text-3xl font-black text-sky-600 mt-1">০</h3>
-        </div>
-    </section>
-
-    <!-- Analytics Cards (Groups & Marks Summary) -->
-    <section id="analyticsSections" class="grid grid-cols-1 md:grid-cols-2 gap-6 hidden">
-        
-        <!-- Group Breakdown Container -->
-        <div id="groupSectionCard" class="bg-white p-6 rounded-3xl border border-blue-100 shadow-sm space-y-4 hidden flex-col">
-            <h2 class="text-base sm:text-lg font-bold text-slate-800 border-b border-blue-50 pb-3 flex items-center gap-2">
-                📊 <span class="text-blue-600">বিভাগভিত্তিক</span> বৃত্তিপ্রাপ্ত শিক্ষার্থী
-            </h2>
-            <div id="groupListContainer" class="space-y-2">
-                <!-- Injected via JS -->
+        <!-- Disclaimer Alert Notice -->
+        <div role="alert" class="alert bg-blue-50/80 border border-blue-200/80 text-blue-950 rounded-2xl p-4 text-xs sm:text-sm flex items-start gap-3 backdrop-blur-sm shadow-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-blue-600 shrink-0 h-5 w-5 mt-0.5" fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+            </svg>
+            <div>
+                <strong class="font-bold text-blue-900 block mb-0.5">দায়মুক্তির ঘোষণা (Disclaimer):</strong>
+                <span class="text-blue-900/80">
+                    এই পাতায় প্রদর্শিত এনালিটিক্স ডাটা কেবল সাধারণ তথ্যাবগতি ও পরিসংখ্যানগত বিশ্লেষণের জন্য প্রস্তুত করা হয়েছে। তথ্যের নির্ভুলতা নিশ্চিত করার সর্বোচ্চ চেষ্টা করা হলেও, যেকোনো দাপ্তরিক বা চূড়ান্ত তথ্যের জন্য সংশ্লিষ্ট শিক্ষা বোর্ডের অফিশিয়াল গেজেট/বিজ্ঞপ্তি অনুসরণ করার জন্য অনুরোধ করা হচ্ছে।
+                </span>
             </div>
         </div>
 
-        <!-- Mark Analytics Container -->
-        <div id="markSectionCard" class="bg-white p-6 rounded-3xl border border-blue-100 shadow-sm space-y-4 hidden flex-col">
-            <h2 class="text-base sm:text-lg font-bold text-slate-800 border-b border-blue-50 pb-3 flex items-center gap-2">
-                📈 প্রাপ্ত নম্বর <span class="text-blue-600">এনালিটিক্স</span>
-            </h2>
+        <!-- Primary Overview Stats Grid -->
+        <section aria-label="Summary Statistics" class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-blue-300 transition-all">
+                <p class="text-xs sm:text-sm font-semibold text-slate-500">মোট বৃত্তিপ্রাপ্ত</p>
+                <h3 id="statTotalStudents" class="text-2xl sm:text-3xl font-black text-blue-600 mt-1">০</h3>
+            </div>
+            <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-blue-300 transition-all">
+                <p class="text-xs sm:text-sm font-semibold text-slate-500">মোট অন্তর্ভুক্ত স্কুল</p>
+                <h3 id="statTotalSchools" class="text-2xl sm:text-3xl font-black text-blue-600 mt-1">০</h3>
+            </div>
+            <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-amber-300 transition-all">
+                <p class="text-xs sm:text-sm font-semibold text-slate-500">ট্যালেন্টপুল বৃত্তি</p>
+                <h3 id="statTotalTalentpool" class="text-2xl sm:text-3xl font-black text-amber-600 mt-1">০</h3>
+            </div>
+            <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-sky-300 transition-all">
+                <p class="text-xs sm:text-sm font-semibold text-slate-500">সাধারণ বৃত্তি</p>
+                <h3 id="statTotalGeneral" class="text-2xl sm:text-3xl font-black text-sky-600 mt-1">০</h3>
+            </div>
+        </section>
+
+        <!-- Analytics Cards (Groups & Marks Summary) -->
+        <section id="analyticsSections" class="grid grid-cols-1 md:grid-cols-2 gap-6 hidden">
+            
+            <!-- Group Breakdown Container -->
+            <div id="groupSectionCard" class="bg-white p-6 rounded-3xl border border-blue-100 shadow-sm space-y-4 hidden flex-col">
+                <h2 class="text-base sm:text-lg font-bold text-slate-800 border-b border-blue-50 pb-3 flex items-center gap-2">
+                    📊 <span class="text-blue-600">বিভাগভিত্তিক</span> বৃত্তিপ্রাপ্ত শিক্ষার্থী
+                </h2>
+                <div id="groupListContainer" class="space-y-2">
+                    <!-- Injected via JS -->
+                </div>
+            </div>
+
+            <!-- Mark Analytics Container -->
+            <div id="markSectionCard" class="bg-white p-6 rounded-3xl border border-blue-100 shadow-sm space-y-4 hidden flex-col">
+                <h2 class="text-base sm:text-lg font-bold text-slate-800 border-b border-blue-50 pb-3 flex items-center gap-2">
+                    📈 প্রাপ্ত নম্বর <span class="text-blue-600">এনালিটিক্স</span>
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="table table-zebra w-full text-sm">
+                        <thead>
+                            <tr class="bg-blue-50/80 text-blue-900">
+                                <th class="rounded-l-xl">ক্যাটাগরি / বিভাগ</th>
+                                <th class="text-center">সর্বোচ্চ মার্কস</th>
+                                <th class="text-center rounded-r-xl">সর্বনিম্ন মার্কস</th>
+                            </tr>
+                        </thead>
+                        <tbody id="markSummaryBody" class="divide-y divide-blue-50">
+                            <!-- Injected via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Search Section -->
+        <div class="bg-white p-4 rounded-3xl border border-blue-100 shadow-sm">
+            <label for="schoolSearch" class="sr-only">স্কুলের নাম দিয়ে খুঁজুন</label>
+            <div class="relative">
+                <span class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-blue-400">🔍</span>
+                <input 
+                    type="text" 
+                    id="schoolSearch" 
+                    placeholder="স্কুলের নাম দিয়ে খুঁজুন (ক্লিক করে বিস্তারিত দেখুন)..." 
+                    oninput="onSearchInput()"
+                    class="input input-bordered w-full pl-11 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 bg-blue-50/30 border-blue-100 transition-all text-sm font-medium"
+                />
+            </div>
+        </div>
+
+        <!-- Top Schools Data Table -->
+        <section class="bg-white rounded-3xl border border-blue-100 shadow-sm overflow-hidden min-h-[300px]">
             <div class="overflow-x-auto">
-                <table class="table table-zebra w-full text-sm">
-                    <thead>
-                        <tr class="bg-blue-50/80 text-blue-900">
-                            <th class="rounded-l-xl">ক্যাটাগরি / বিভাগ</th>
-                            <th class="text-center">সর্বোচ্চ মার্কস</th>
-                            <th class="text-center rounded-r-xl">সর্বনিম্ন মার্কস</th>
+                <table class="table w-full text-sm">
+                    <thead class="bg-blue-900 text-white text-sm">
+                        <tr>
+                            <th class="py-4 font-bold text-xs uppercase tracking-wider">র‍্যাংক</th>
+                            <th class="py-4 font-bold text-xs uppercase tracking-wider">স্কুলের নাম (বিস্তারিত দেখতে ক্লিক করুন)</th>
+                            <th class="py-4 font-bold text-xs uppercase tracking-wider text-center">ট্যালেন্টপুল</th>
+                            <th class="py-4 font-bold text-xs uppercase tracking-wider text-center">সাধারণ</th>
+                            <th class="py-4 font-bold text-xs uppercase tracking-wider text-center">মোট বৃত্তি</th>
                         </tr>
                     </thead>
-                    <tbody id="markSummaryBody" class="divide-y divide-blue-50">
-                        <!-- Injected via JS -->
+                    <tbody id="dashTableBody" class="divide-y divide-blue-50">
+                        <tr>
+                            <td colspan="5" class="text-center text-slate-400 py-16">
+                                <div class="flex flex-col items-center justify-center space-y-2">
+                                    <span class="loading loading-spinner loading-md text-blue-600"></span>
+                                    <span class="text-xs font-semibold text-slate-500">ডাটা লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন...</span>
+                                </div>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-        </div>
+        </section>
 
-    </section>
-
-    <!-- Search Section -->
-    <div class="bg-white p-4 rounded-3xl border border-blue-100 shadow-sm">
-        <label for="schoolSearch" class="sr-only">স্কুলের নাম দিয়ে খুঁজুন</label>
-        <div class="relative">
-            <span class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-blue-400">🔍</span>
-            <input 
-                type="text" 
-                id="schoolSearch" 
-                placeholder="স্কুলের নাম দিয়ে খুঁজুন..." 
-                oninput="onSearchInput()"
-                class="input input-bordered w-full pl-11 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 bg-blue-50/30 border-blue-100 transition-all text-sm font-medium"
-            />
-        </div>
     </div>
 
-    <!-- Top Schools Data Table -->
-    <section class="bg-white rounded-3xl border border-blue-100 shadow-sm overflow-hidden min-h-[300px]">
-        <div class="overflow-x-auto">
-            <table class="table w-full text-sm">
-                <thead class="bg-blue-900 text-white text-sm">
-                    <tr>
-                        <th class="py-4 font-bold text-xs uppercase tracking-wider">র‍্যাংক</th>
-                        <th class="py-4 font-bold text-xs uppercase tracking-wider">স্কুলের নাম</th>
-                        <th class="py-4 font-bold text-xs uppercase tracking-wider text-center">ট্যালেন্টপুল</th>
-                        <th class="py-4 font-bold text-xs uppercase tracking-wider text-center">সাধারণ</th>
-                        <th class="py-4 font-bold text-xs uppercase tracking-wider text-center">মোট বৃত্তি</th>
-                    </tr>
-                </thead>
-                <tbody id="dashTableBody" class="divide-y divide-blue-50">
-                    <tr>
-                        <td colspan="5" class="text-center text-slate-400 py-16">
-                            <div class="flex flex-col items-center justify-center space-y-2">
-                                <span class="loading loading-spinner loading-md text-blue-600"></span>
-                                <span class="text-xs font-semibold text-slate-500">ডাটা লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন...</span>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+    <!-- ========================================== -->
+    <!-- VIEW B: SCHOOL DETAIL PAGE (Loaded via ?school=) -->
+    <!-- ========================================== -->
+    <div id="schoolDetailView" class="space-y-6 hidden">
+        
+        <!-- Print-Only Professional Branding Header -->
+        <div class="print-brand-header hidden flex-col border-b-2 border-blue-900 pb-4 mb-4 space-y-1">
+            <div class="flex justify-between items-center">
+                <span class="text-xl font-black text-blue-900">Edutools<span class="text-blue-600">BD</span> <span class="text-xs font-normal text-slate-500">| আনঅফিশিয়াল স্কলারশিপ এনালিটিক্স রিপোর্ট</span></span>
+                <span class="text-xs text-slate-500 font-semibold" id="printTimestamp">তারিখ: ২০২৬</span>
+            </div>
+            <p class="text-xs text-slate-600">SSC বরিশাল শিক্ষা বোর্ড বৃত্তি ফলাফল বিশ্লেষণ - ২০২৬</p>
         </div>
-    </section>
+
+        <!-- School Detail Header Card -->
+        <header class="relative overflow-hidden bg-gradient-to-b from-blue-900 via-blue-900/95 to-slate-900 p-6 sm:p-10 rounded-3xl border border-blue-800/50 shadow-xl space-y-4">
+            <div class="absolute -top-10 -left-10 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="flex flex-wrap items-center justify-between gap-4 relative z-10">
+                <div>
+                    <span id="detailSchoolCode" class="text-xs font-semibold px-3 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/20">স্কুল কোড</span>
+                    <h1 id="detailSchoolName" class="text-xl sm:text-3xl font-black text-white mt-2">স্কুলের নাম</h1>
+                </div>
+                <div>
+                    <button id="pdfExportBtn" onclick="window.print()" class="btn btn-sm sm:btn-md bg-emerald-600 hover:bg-emerald-700 text-white border-none rounded-2xl gap-2 font-bold shadow-md shadow-emerald-500/20">
+                        📥 পিডিএফ ডাউনলোড / প্রিন্ট
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Printable School Content Container -->
+        <div id="printableSchoolContent" class="space-y-6 bg-white">
+            
+            <!-- School Summary Metrics Grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <div class="bg-blue-50/60 p-4 rounded-2xl border border-blue-100 text-center">
+                    <span class="text-xs font-bold text-slate-500">মোট বৃত্তিপ্রাপ্ত</span>
+                    <h4 id="mStatTotal" class="text-xl sm:text-2xl font-black text-blue-600 mt-1">০</h4>
+                </div>
+                <div class="bg-amber-50/60 p-4 rounded-2xl border border-amber-100 text-center">
+                    <span class="text-xs font-bold text-amber-800">ট্যালেন্টপুল বৃত্তি</span>
+                    <h4 id="mStatTalentpool" class="text-xl sm:text-2xl font-black text-amber-600 mt-1">০</h4>
+                </div>
+                <div class="bg-sky-50/60 p-4 rounded-2xl border border-sky-100 text-center">
+                    <span class="text-xs font-bold text-sky-800">সাধারণ বৃত্তি</span>
+                    <h4 id="mStatGeneral" class="text-xl sm:text-2xl font-black text-sky-600 mt-1">০</h4>
+                </div>
+                <div class="bg-purple-50/60 p-4 rounded-2xl border border-purple-100 text-center">
+                    <span class="text-xs font-bold text-purple-800">ছাত্র ও ছাত্রী অনুপাত</span>
+                    <h4 id="mStatGenderRatio" class="text-sm sm:text-base font-black text-purple-700 mt-2">♂ ০ | ♀ ০</h4>
+                </div>
+            </div>
+
+            <!-- Detailed Students Table -->
+            <div class="bg-white border border-blue-100 rounded-3xl overflow-hidden shadow-sm">
+                <div class="overflow-x-auto">
+                    <table class="table w-full text-sm">
+                        <thead class="bg-blue-900 text-white text-xs">
+                            <tr>
+                                <th class="py-3">ক্রম</th>
+                                <th class="py-3">রোল নম্বর</th>
+                                <th class="py-3">শিক্ষার্থীর নাম</th>
+                                <th class="py-3 text-center">বিভাগ</th>
+                                <th class="py-3 text-center">লিঙ্গ</th>
+                                <th class="py-3 text-center">বৃত্তির ধরণ</th>
+                                <th class="py-3 text-center">নম্বর</th>
+                            </tr>
+                        </thead>
+                        <tbody id="modalStudentsTableBody" class="divide-y divide-blue-50">
+                            <tr>
+                                <td colspan="7" class="text-center py-12">
+                                    <div class="flex flex-col items-center justify-center space-y-2">
+                                        <span class="loading loading-spinner loading-md text-blue-600"></span>
+                                        <span class="text-xs font-semibold text-slate-500">শিক্ষার্থীর তথ্য লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন...</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Print-Only Official Disclaimer Footer -->
+        <div class="print-footer-disclaimer hidden border-t border-slate-300 pt-3 mt-6 text-center text-[10px] text-slate-500 space-y-1">
+            <p><strong>দায়মুক্তির ঘোষণা:</strong> এই রিপোর্টটি EdutoolsBD প্ল্যাটফর্ম থেকে স্বয়ংক্রিয়ভাবে জেনারেট করা হয়েছে। এটি কোনো সরকারি অফিশিয়াল গেজেট নয়। চূড়ান্ত তথ্যের জন্য শিক্ষা বোর্ডের মূল বিজ্ঞপ্তি দেখুন।</p>
+            <p>© 2026 EdutoolsBD — সর্বস্বত্ব সংরক্ষিত। ভিজিট করুন: https://edutoolsbd.vercel.app</p>
+        </div>
+
+        <!-- Back Button at Bottom -->
+        <div class="pt-4">
+            <a href="?" class="btn btn-outline rounded-2xl font-bold px-6 border-blue-200 text-blue-700 hover:bg-blue-50">
+                ← সকল স্কুলের তালিকায় ফিরে যান
+            </a>
+        </div>
+
+    </div>
 
 </div>
 
 <!-- Client-side Execution Script -->
 <script>
     const DATA_FILE = '/data/ssc-scholarship-2026/barishal-dash.json';
+    const STUDENT_DATA_FILE = '/data/ssc-scholarship-2026/barishal.json';
     let allSchools = [];
     let debounceTimer = null;
+
+    // Set print timestamp dynamically
+    document.getElementById('printTimestamp').innerText = `তারিখ: ${new Date().toLocaleDateString('bn-BD')}`;
 
     function escapeHTML(str) {
         if (!str) return '';
@@ -705,55 +871,179 @@ summary {
     }
 
     function translateCategoryLabel(key) {
+        if (!key) return '-';
         const labels = {
             'talentpool': 'ট্যালেন্টপুল',
             'general': 'সাধারণ',
             'science': 'বিজ্ঞান',
             'humanities': 'মানবিক',
             'business studies': 'ব্যবসায় শিক্ষা',
-            'business': 'ব্যবসায় শিক্ষা',
-            'general_group': 'সাধারণ বিভাগ'
+            'business': 'ব্যবসায় শিক্ষা'
         };
-        return labels[key.toLowerCase()] || key;
+        return labels[String(key).toLowerCase()] || key;
     }
 
-    fetch(DATA_FILE)
-        .then(res => {
-            if (!res.ok) throw new Error('HTTP status ' + res.status);
-            return res.json();
-        })
-        .then(data => {
-            if (data.summary) {
-                document.getElementById('statTotalStudents').innerText = toBengaliNumerals(data.summary.total_students);
-                document.getElementById('statTotalSchools').innerText = toBengaliNumerals(data.summary.total_schools);
-                document.getElementById('statTotalTalentpool').innerText = toBengaliNumerals(data.summary.total_talentpool);
-                document.getElementById('statTotalGeneral').innerText = toBengaliNumerals(data.summary.total_general);
-            }
+    // Check URL parameters on page load
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetSchoolQuery = urlParams.get('school');
 
-            const isGroup = !!data.is_group;
-            const isMark = !!data.is_mark;
+    if (targetSchoolQuery) {
+        // ==========================================
+        // SCHOOL DETAIL PAGE MODE (?school= present)
+        // ==========================================
+        document.getElementById('mainDashboardView').classList.add('hidden');
+        document.getElementById('schoolDetailView').classList.remove('hidden');
 
-            if (isGroup || isMark) {
-                const analyticsEl = document.getElementById('analyticsSections');
-                analyticsEl.classList.remove('hidden');
-                analyticsEl.classList.add('grid');
+        // Update top back navigation to point back cleanly to dashboard
+        document.getElementById('navBackContainer').innerHTML = `
+            <a href="?" class="btn btn-outline btn-sm sm:btn-md rounded-2xl font-bold border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 transition-all">
+                ← সকল স্কুলের তালিকায় ফিরে যান
+            </a>
+        `;
 
-                if (isGroup && data.group_summary) {
-                    renderGroupSummary(data.group_summary);
+        document.getElementById('detailSchoolName').innerText = targetSchoolQuery;
+
+        // Fetch dashboard summary data first to find school code
+        fetch(DATA_FILE)
+            .then(res => res.json())
+            .then(data => {
+                const schools = Array.isArray(data.top_schools) ? data.top_schools : [];
+                const matchedSchool = schools.find(s => s.school && s.school.toLowerCase() === targetSchoolQuery.toLowerCase());
+                if (matchedSchool) {
+                    document.getElementById('detailSchoolName').innerText = matchedSchool.school;
+                    document.getElementById('detailSchoolCode').innerText = matchedSchool.code ? `কোড: ${toBengaliNumerals(matchedSchool.code)}` : 'স্কুল এনালিটিক্স';
+                }
+            })
+            .catch(err => console.error('Error fetching dashboard metadata:', err));
+
+        // ONLY load student data here because ?school= is present!
+        fetch(STUDENT_DATA_FILE)
+            .then(res => {
+                if (!res.ok) throw new Error('HTTP status ' + res.status);
+                return res.json();
+            })
+            .then(studentsData => {
+                const allStudents = Array.isArray(studentsData) ? studentsData : [];
+                const filteredStudents = allStudents.filter(s => {
+                    let sName = String(s.SC || '').trim();
+                    return sName.toLowerCase() === targetSchoolQuery.toLowerCase();
+                });
+
+                let total = filteredStudents.length;
+                let talentpool = 0;
+                let general = 0;
+                let maleCount = 0;
+                let femaleCount = 0;
+
+                filteredStudents.forEach(s => {
+                    let type = String(s.TY || s.type || s.scholarship_type || '').toLowerCase();
+                    if (type.includes('talent') || type.includes('ট্যালেন্ট')) {
+                        talentpool++;
+                    } else {
+                        general++;
+                    }
+
+                    let gender = String(s.GE || s.gender || '').toLowerCase();
+                    if (gender === 'm' || gender === 'male' || gender === 'boy' || gender === 'ছাত্র' || gender === 'পুরুষ') {
+                        maleCount++;
+                    } else if (gender === 'f' || gender === 'female' || gender === 'girl' || gender === 'ছাত্রী' || gender === 'মহিলা') {
+                        femaleCount++;
+                    }
+                });
+
+                document.getElementById('mStatTotal').innerText = toBengaliNumerals(total);
+                document.getElementById('mStatTalentpool').innerText = toBengaliNumerals(talentpool);
+                document.getElementById('mStatGeneral').innerText = toBengaliNumerals(general);
+                document.getElementById('mStatGenderRatio').innerHTML = `♂ ${toBengaliNumerals(maleCount)} &nbsp;|&nbsp; ♀ ${toBengaliNumerals(femaleCount)}`;
+
+                const tbody = document.getElementById('modalStudentsTableBody');
+                tbody.innerHTML = '';
+
+                if (filteredStudents.length === 0) {
+                    tbody.innerHTML = `<tr><td colspan="7" class="text-center text-slate-400 py-12 font-medium">এই স্কুলের কোনো শিক্ষার্থী ডাটা পাওয়া যায়নি।</td></tr>`;
+                } else {
+                    const fragment = document.createDocumentFragment();
+                    filteredStudents.forEach((s, idx) => {
+                        const tr = document.createElement('tr');
+                        tr.className = "hover:bg-blue-50/40 transition-colors";
+                        
+                        let roll = s.RO || s.roll || s.ROLL || '-';
+                        let name = s.NA || s.name || s.NAME || '-';
+                        let group = s.GR || s.group || s.GROUP || '-';
+                        let gender = s.GE || s.gender || '-';
+                        let type = s.TY || s.type || 'General';
+                        let mark = s.TM || s.marks || s.MARK || '-';
+
+                        let genderBadge = (gender === 'M' || String(gender).toLowerCase().includes('male') || gender === 'ছাত্র') 
+                            ? '<span class="badge badge-sm bg-blue-100 text-blue-700 font-bold border-blue-200">ছাত্র ♂</span>' 
+                            : (gender === "F" ? '<span class="badge badge-sm bg-pink-100 text-pink-700 font-bold border-pink-200">ছাত্রী ♀</span>' : "-");
+
+                        let typeBadge = (String(type).toLowerCase().includes('talent') || String(type).includes('ট্যালেন্ট'))
+                            ? '<span class="badge badge-sm bg-amber-100 text-amber-800 font-bold border-amber-200">ট্যালেন্টপুল</span>'
+                            : '<span class="badge badge-sm bg-sky-100 text-sky-800 font-bold border-sky-200">সাধারণ</span>';
+
+                        tr.innerHTML = `
+                            <td class="font-bold text-slate-500 text-xs">${toBengaliNumerals(idx + 1)}</td>
+                            <td class="font-mono font-semibold text-blue-900">${toBengaliNumerals(roll)}</td>
+                            <td class="font-semibold text-slate-800">${escapeHTML(name)}</td>
+                            <td class="text-center font-medium text-slate-600">${escapeHTML(translateCategoryLabel(group))}</td>
+                            <td class="text-center">${genderBadge}</td>
+                            <td class="text-center">${typeBadge}</td>
+                            <td class="text-center font-bold text-blue-600">${toBengaliNumerals(mark)}</td>
+                        `;
+                        fragment.appendChild(tr);
+                    });
+                    tbody.appendChild(fragment);
+                }
+            })
+            .catch(err => {
+                console.error('Error fetching student data:', err);
+                document.getElementById('modalStudentsTableBody').innerHTML = '<tr><td colspan="7" class="text-center text-red-500 font-semibold py-12">শিক্ষার্থীর তথ্য লোড করতে সমস্যা হয়েছে। দয়া করে আবার চেষ্টা করুন।</td></tr>';
+            });
+
+    } else {
+        // ==========================================
+        // MAIN DASHBOARD MODE (?school= NOT present)
+        // Student data is NOT fetched here at all!
+        // ==========================================
+        fetch(DATA_FILE)
+            .then(res => {
+                if (!res.ok) throw new Error('HTTP status ' + res.status);
+                return res.json();
+            })
+            .then(data => {
+                if (data.summary) {
+                    document.getElementById('statTotalStudents').innerText = toBengaliNumerals(data.summary.total_students);
+                    document.getElementById('statTotalSchools').innerText = toBengaliNumerals(data.summary.total_schools);
+                    document.getElementById('statTotalTalentpool').innerText = toBengaliNumerals(data.summary.total_talentpool);
+                    document.getElementById('statTotalGeneral').innerText = toBengaliNumerals(data.summary.total_general);
                 }
 
-                if (isMark && data.mark_summary) {
-                    renderMarkSummary(data.mark_summary, isGroup);
-                }
-            }
+                const isGroup = !!data.is_group;
+                const isMark = !!data.is_mark;
 
-            allSchools = Array.isArray(data.top_schools) ? data.top_schools : [];
-            renderDashTable(allSchools);
-        })
-        .catch((err) => {
-            console.error('Error fetching dashboard JSON:', err);
-            document.getElementById('dashTableBody').innerHTML = '<tr><td colspan="5" class="text-center text-red-500 font-semibold py-10">এনালাইসিস ডাটা ফাইল লোড করা সম্ভব হয়নি।</td></tr>';
-        });
+                if (isGroup || isMark) {
+                    const analyticsEl = document.getElementById('analyticsSections');
+                    analyticsEl.classList.remove('hidden');
+                    analyticsEl.classList.add('grid');
+
+                    if (isGroup && data.group_summary) {
+                        renderGroupSummary(data.group_summary);
+                    }
+
+                    if (isMark && data.mark_summary) {
+                        renderMarkSummary(data.mark_summary, isGroup);
+                    }
+                }
+
+                allSchools = Array.isArray(data.top_schools) ? data.top_schools : [];
+                renderDashTable(allSchools);
+            })
+            .catch((err) => {
+                console.error('Error fetching dashboard JSON:', err);
+                document.getElementById('dashTableBody').innerHTML = '<tr><td colspan="5" class="text-center text-red-500 font-semibold py-10">এনালাইসিস ডাটা ফাইল লোড করা সম্ভব হয়নি।</td></tr>';
+            });
+    }
 
     function renderGroupSummary(groupSummary) {
         const container = document.getElementById('groupListContainer');
@@ -843,10 +1133,20 @@ summary {
 
         schools.forEach((item, index) => {
             const tr = document.createElement('tr');
-            tr.className = "hover:bg-blue-50/50 transition-colors";
+            tr.className = "hover:bg-blue-50/50 transition-colors cursor-pointer";
+            tr.title = "ক্লিক করে এই স্কুলের বিস্তারিত শিক্ষার্থী ও অনুপাত দেখুন";
+            
+            tr.addEventListener("click", () => {
+                const schoolName = item.school || '';
+                window.location.href = `?school=${encodeURIComponent(schoolName)}`;
+            });
+
             tr.innerHTML = `
                 <td class="font-extrabold text-blue-900/60">#${toBengaliNumerals(index + 1)}</td>
-                <td class="font-semibold text-slate-800">${escapeHTML(item.school || '-')}</td>
+                <td class="font-semibold text-slate-800 flex items-center gap-2">
+                    <span>${escapeHTML(item.school || '-')}</span>
+                    <span class="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full font-bold">বিস্তারিত ➔</span>
+                </td>
                 <td class="text-center"><span class="badge badge-warning badge-sm font-bold text-amber-900 bg-amber-100 border-amber-300 px-2.5 py-2">${toBengaliNumerals(item.talentpool)}</span></td>
                 <td class="text-center"><span class="badge badge-info badge-sm font-bold text-sky-900 bg-sky-100 border-sky-300 px-2.5 py-2">${toBengaliNumerals(item.general)}</span></td>
                 <td class="text-center font-extrabold text-blue-600">${toBengaliNumerals(item.total)}</td>
@@ -868,6 +1168,7 @@ summary {
         renderDashTable(filtered);
     }
 </script>
+
 
     </main>
 
