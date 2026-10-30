@@ -17,18 +17,18 @@
     <meta property="og:image" content="https://edutoolsbd.vercel.app/data/media/8a5edafea0f1.webp" />
     
     
-    <title>EduToolsBD — এসএসসি ও এইচএসসি বোর্ড বৃত্তি এবং শিক্ষা সম্পর্কিত ডিজিটাল টুলস</title>
-    <meta name="title" content="EduToolsBD — এসএসসি ও এইচএসসি বোর্ড বৃত্তি এবং শিক্ষা সম্পর্কিত ডিজিটাল টুলস" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <title>EduToolsBD | ডিজিটাল শিক্ষামূলক টুলস ও ফলাফল প্ল্যাটফর্ম</title>
+    <meta name="title" content="EduToolsBD | ডিজিটাল শিক্ষামূলক টুলস ও ফলাফল প্ল্যাটফর্ম" />
+    <meta name="description" content="বাংলাদেশের শিক্ষার্থীদের জন্য দ্রুততম ও নির্ভরযোগ্য ডিজিটাল শিক্ষামূলক টুলস, ফলাফল, স্কলারশিপ তালিকা ও দরকারি গাইডলাইন।" />
+    <meta name="keywords" content="EduToolsBD, SSC Scholarship, HSC Result, Education Board Bangladesh, শিক্ষামূলক টুলস" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="Bengali" />
     <meta name="author" content="EdutoolsBD" />
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://edutoolsbd.vercel.app/" />
-    <meta property="og:title" content="EduToolsBD — এসএসসি ও এইচএসসি বোর্ড বৃত্তি এবং শিক্ষা সম্পর্কিত ডিজিটাল টুলস" />
-    <meta property="og:description" content="" />
+    <meta property="og:title" content="EduToolsBD | ডিজিটাল শিক্ষামূলক টুলস ও ফলাফল প্ল্যাটফর্ম" />
+    <meta property="og:description" content="বাংলাদেশের শিক্ষার্থীদের জন্য দ্রুততম ও নির্ভরযোগ্য ডিজিটাল শিক্ষামূলক টুলস, ফলাফল, স্কলারশিপ তালিকা ও দরকারি গাইডলাইন।" />
     
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,7 +38,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
+    <script src="https://unpkg.com/lucide@latest"></script>
     <base href="/">
     
     <style>
@@ -59,19 +59,209 @@
     </style>
 
     
-<!-- Structured Data (JSON-LD WebPage) for Rich Search Snippets -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "EdutoolsBD — এসএসসি স্কলারশিপ ও ডিজিটাল টুলস হাব",
-  "description": "SSC পরীক্ষার স্কলারশিপ মেধা তালিকা, দ্রুততম সময়ে রোল নম্বর দিয়ে বৃত্তি চেক এবং শিক্ষা সংক্রান্ত ডিজিটাল টুলস।",
-  "publisher": {
-    "@type": "Organization",
-    "name": "EdutoolsBD"
-  }
-}
-</script>
+<style>
+    :root {
+        --home-max-width: 880px;
+    }
+
+    .home-container {
+        max-width: var(--home-max-width);
+        margin: 0 auto;
+        padding: 12px 16px 48px;
+    }
+
+    /* Modern Hero with Sophisticated Dynamic Glow */
+    .home-hero {
+        position: relative;
+        isolation: isolate;
+        overflow: hidden;
+        padding: 56px 28px 44px;
+        border-radius: 32px;
+        color: #ffffff;
+        background: 
+            radial-gradient(circle at 90% 10%, rgba(99, 102, 241, 0.4) 0%, transparent 50%),
+            radial-gradient(circle at 10% 90%, rgba(14, 116, 144, 0.4) 0%, transparent 55%),
+            linear-gradient(135deg, #090d16 0%, #0f172a 50%, #1e1b4b 100%);
+        box-shadow: 0 24px 60px -12px rgba(15, 23, 42, 0.35);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .home-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1.5px, transparent 1.5px);
+        background-size: 28px 28px;
+        mask-image: radial-gradient(ellipse at center, black 50%, transparent 85%);
+        -webkit-mask-image: radial-gradient(ellipse at center, black 50%, transparent 85%);
+    }
+
+    .home-kicker {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.06);
+        color: #c7d2fe;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        backdrop-filter: blur(12px);
+    }
+
+    .home-title {
+        margin-top: 22px;
+        font-size: clamp(2.4rem, 7vw, 4rem);
+        font-weight: 900;
+        letter-spacing: -.04em;
+        line-height: 1.1;
+    }
+
+    .home-title span {
+        background: linear-gradient(90deg, #93c5fd, #c4b5fd, #ffffff);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .home-subtitle {
+        max-width: 520px;
+        margin: 16px auto 0;
+        color: #cbd5e1;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    /* Hero Quick Search */
+    .hero-search-wrapper {
+        position: relative;
+        max-width: 480px;
+        margin: 28px auto 0;
+    }
+
+    .hero-search-input {
+        width: 100%;
+        padding: 15px 20px 15px 48px;
+        border-radius: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        background: rgba(255, 255, 255, 0.08);
+        color: #fff;
+        font-size: 13.5px;
+        backdrop-filter: blur(16px);
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .hero-search-input::placeholder {
+        color: #94a3b8;
+    }
+
+    .hero-search-input:focus {
+        outline: none;
+        border-color: #67e8f9;
+        background: rgba(255, 255, 255, 0.14);
+        box-shadow: 0 0 0 4px rgba(103, 232, 249, 0.2), 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Dynamic UI Stats Banner */
+    .stats-banner {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        padding: 18px 20px;
+        margin-top: 20px;
+        border-radius: 22px;
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / 0.08));
+        background: var(--fallback-b1, oklch(var(--b1)));
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+        text-align: center;
+    }
+
+    .stat-item-val {
+        font-size: clamp(1.2rem, 3.5vw, 1.5rem);
+        font-weight: 900;
+        color: var(--p);
+        letter-spacing: -.02em;
+    }
+
+    .stat-item-lbl {
+        font-size: 11px;
+        opacity: 0.7;
+        font-weight: 600;
+        margin-top: 3px;
+    }
+
+    /* Quick Filter Pills */
+    .filter-pill {
+        padding: 7px 16px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 650;
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / 0.12));
+        background: var(--fallback-b1, oklch(var(--b1)));
+        color: var(--fallback-bc, oklch(var(--bc)));
+        cursor: pointer;
+        transition: all 0.25s ease;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.01);
+    }
+
+    .filter-pill.active,
+    .filter-pill:hover {
+        background: var(--p);
+        color: var(--pc);
+        border-color: var(--p);
+        box-shadow: 0 4px 12px rgba(var(--p), 0.25);
+    }
+
+    /* Bento Services Grid */
+    .services-grid {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    @media (min-width: 640px) {
+        .services-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .service-card-featured {
+            grid-column: span 2;
+        }
+    }
+
+    .service-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 24px;
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / 0.1));
+        border-radius: 26px;
+        background: var(--fallback-b1, oklch(var(--b1)));
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        text-decoration: none;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    }
+
+    .service-card:hover {
+        transform: translateY(-4px);
+        border-color: var(--p);
+        box-shadow: 0 16px 35px rgba(0, 0, 0, 0.07);
+    }
+
+    .service-icon-box {
+        display: grid;
+        width: 48px;
+        height: 48px;
+        place-items: center;
+        border-radius: 16px;
+        margin-bottom: 18px;
+        box-shadow: inset 0 1px 1px rgba(255,255,255,0.2);
+    }
+</style>
 
 
     <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "fdd1384721074b4ba7879b2139f25d54"}'></script>
@@ -525,132 +715,166 @@
 
     <main class="flex-grow">
         
-<!-- Hero Section -->
-<section class="relative overflow-hidden bg-gradient-to-b from-primary/10 via-base-100/50 to-base-100 py-20 md:py-28 px-4 border-b border-base-200 transition-colors duration-200">
-  <!-- Subtle Background Aesthetic Glow -->
-  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-72 bg-primary/10 blur-3xl rounded-full pointer-events-none"></div>
+<div class="home-container">
 
-  <div class="relative max-w-4xl mx-auto text-center space-y-6">
-    <!-- Live Status Pill -->
-    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-base-100 border border-base-300 shadow-xs text-xs font-semibold text-base-content/80">
-      <span class="relative flex h-2 w-2">
-        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-        <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
-      </span>
-      ২০২৬ সালের এসএসসি স্কলারশিপ মেধা তালিকা প্রকাশিত
-    </div>
-
-    <!-- Main Headline -->
-    <h1 class="text-3xl sm:text-5xl md:text-6xl font-black text-base-content tracking-tight leading-tight sm:leading-tight">
-      এসএসসি স্কলারশিপ রেজাল্ট <br class="hidden sm:inline"/> 
-      <span class="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">এক ক্লিকে চেক করুন</span>
-    </h1>
-
-    <!-- Subtitle -->
-    <p class="text-base sm:text-lg md:text-xl text-base-content/70 max-w-2xl mx-auto font-normal leading-relaxed">
-      বোর্ডের বিশাল পিডিএফ ফাইলের ঝামেলা এড়িয়ে আপনার বা শিক্ষার্থীর রোল নম্বর দিয়ে তাৎক্ষণিকভাবে বৃত্তিপ্রাপ্তির স্ট্যাটাস যাচাই করুন।
-    </p>
-    
-    <!-- Hero CTA Buttons -->
-    <div class="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3">
-      <a href="/ssc/scholarship-list/2026/" class="btn btn-primary btn-md sm:btn-lg rounded-xl shadow-lg shadow-primary/20 text-primary-content w-full sm:w-auto px-8 font-bold hover:scale-105 transition-all">
-        স্কলারশিপ স্ট্যাটাস চেক করুন 
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-1 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-        </svg>
-      </a>
-      <a href="#how-it-works" class="btn btn-ghost btn-md sm:btn-lg rounded-xl border border-base-300 w-full sm:w-auto px-6 font-semibold hover:bg-base-200 text-base-content">
-        কীভাবে কাজ করে? ↓
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- Featured Tool Focus Section -->
-<section id="featured-tools" class="max-w-4xl mx-auto px-4 sm:px-6 py-20">
-  <div class="text-center max-w-xl mx-auto mb-12">
-    <div class="badge badge-primary badge-outline font-semibold text-xs px-3 py-2 mb-3">
-      এক্সক্লুসিভ সার্ভিস ২০২৬
-    </div>
-    <h2 class="text-2xl sm:text-3xl font-black text-base-content tracking-tight">এসএসসি বৃত্তি 2026</h2>
-    <p class="text-sm text-base-content/60 mt-1">মেধা ও সাধারণ বৃত্তি উভয় তালিকার জন্য ফাস্ট সার্চ পোর্টাল</p>
-  </div>
-
-  <!-- Centered Highlight Card -->
-  <article class="card bg-base-100 border border-primary/30 shadow-xl rounded-3xl overflow-hidden group">
-    <div class="card-body p-8 sm:p-10 space-y-6 text-center sm:text-left flex flex-col sm:flex-row items-center gap-6">
-      <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-3xl bg-primary/10 text-primary flex items-center justify-center font-bold text-4xl border border-primary/25 shrink-0 shadow-inner">
-        📜
-      </div>
-      <div class="space-y-2 flex-1">
-        <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2">
-          <span class="badge badge-success badge-sm text-xs font-semibold text-success-content px-2.5">Live Database</span>
-          <span class="badge badge-neutral badge-sm text-xs font-semibold px-2.5">শিক্ষা বোর্ড</span>
+    <!-- HERO SECTION -->
+    <section class="home-hero text-center" aria-labelledby="home-heading">
+        <div class="home-kicker">
+            <span class="w-2 h-2 rounded-full bg-success animate-pulse"></span>
+            SMART EDUCATION HUB · BANGLADESH
         </div>
-        <h3 class="text-2xl font-bold text-base-content">
-          SSC Scholarship Result 2026 Checker
-        </h3>
-        <p class="text-sm text-base-content/70 leading-relaxed max-w-xl">
-          ট্যালেন্টপুল এবং সাধারণ গ্রেডে বৃত্তিপ্রাপ্ত শিক্ষার্থীদের রোল নম্বর ইনপুট দিয়ে মুহূর্তেই ফলাফল ও বোর্ডের অফিশিয়াল নোটিশ কনফার্ম করুন।
+
+        <h1 id="home-heading" class="home-title">
+            EduTools<span>BD</span>
+        </h1>
+
+        <p class="home-subtitle">
+            দ্রুততম রেজাল্ট পোর্টাল, এসএসসি ও এইচএসসি স্কলারশিপ এবং স্মার্ট শিক্ষামূলক টুলসের নির্ভরযোগ্য ঠিকানা।
         </p>
-      </div>
-      <div class="shrink-0 w-full sm:w-auto">
-        <a href="/ssc/scholarship-list/2026/" class="btn btn-primary btn-lg rounded-xl text-primary-content font-bold shadow-md hover:scale-105 transition-all w-full sm:w-auto px-8">
-          চেক করুন ➔
-        </a>
-      </div>
-    </div>
-  </article>
-</section>
 
-<!-- Features / Value Proposition Section -->
-<section id="how-it-works" class="bg-base-200/50 py-16 border-y border-base-300/60 transition-colors duration-200">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6">
-    <div class="text-center max-w-xl mx-auto mb-12">
-      <h2 class="text-2xl sm:text-3xl font-black text-base-content tracking-tight">
-        কেন আমাদের স্কলারশিপ ফাইন্ডার ব্যবহার করবেন?
-      </h2>
-      <p class="text-xs sm:text-sm text-base-content/60 mt-2">বোর্ডের পিডিএফ ঘেঁটে খোঁজার ঝামেলা এড়াতে আধুনিক প্রযুক্তির সহজ সমাধান।</p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-base-100 p-6 rounded-2xl border border-base-200 shadow-xs space-y-3 text-center sm:text-left">
-        <div class="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-xl font-bold mx-auto sm:mx-0">
-          ⚡
+        <!-- UX: Instant Live Search Bar -->
+        <div class="hero-search-wrapper">
+            <i data-lucide="search" size="18" class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
+            <input type="text" id="tool-search" class="hero-search-input" placeholder="টুল বা রেজাল্ট পোর্টাল খুঁজুন (যেমন: HSC, Scholarship)..." aria-label="Search tools">
         </div>
-        <h3 class="font-bold text-base-content text-lg">ইনস্ট্যান্ট সার্চ রেজাল্ট</h3>
-        <p class="text-xs sm:text-sm text-base-content/70 leading-relaxed">হাজারো শিক্ষার্থীর তালিকার মধ্য থেকে আপনার রোল নম্বরটি নিমেষেই খুঁজে বের করে দেয়।</p>
-      </div>
+    </section>
 
-      <div class="bg-base-100 p-6 rounded-2xl border border-base-200 shadow-xs space-y-3 text-center sm:text-left">
-        <div class="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-xl font-bold mx-auto sm:mx-0">
-          🎯
+    <!-- LIVE STATS / TRUST METRICS -->
+    <section class="stats-banner" aria-label="Key platform metrics">
+        <div>
+            <div class="stat-item-val">***%</div>
+            <div class="stat-item-lbl">যথাসম্ভব নির্ভরযোগ্য তথ্য</div>
         </div>
-        <h3 class="font-bold text-base-content text-lg">No Ads!</h3>
-        <p class="text-xs sm:text-sm text-base-content/70 leading-relaxed">Fully Ad Free Environment</p>
-      </div>
-
-      <div class="bg-base-100 p-6 rounded-2xl border border-base-200 shadow-xs space-y-3 text-center sm:text-left">
-        <div class="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-xl font-bold mx-auto sm:mx-0">
-          📱
+        <div class="border-x border-base-content/10">
+            <div class="stat-item-val">&lt; ১ সে.</div>
+            <div class="stat-item-lbl">দ্রুত রেসপন্স টাইম</div>
         </div>
-        <h3 class="font-bold text-base-content text-lg">মোবাইল ফ্রেন্ডলি ইন্টারফেস</h3>
-        <p class="text-xs sm:text-sm text-base-content/70 leading-relaxed">স্মার্টফোনেই খুব সহজে কোনো প্রকার ল্যাগ বা ঝামেলা ছাড়াই ফলাফল চেক করতে পারবেন।</p>
-      </div>
-    </div>
-  </div>
-</section>
+        <div>
+            <div class="stat-item-val">১১ টি</div>
+            <div class="stat-item-lbl">শিক্ষা বোর্ড কভারড</div>
+        </div>
+    </section>
 
-<!-- Notice / Disclaimer Bar -->
-<section class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
-  <div class="alert alert-warning border border-warning/30 bg-warning/10 text-base-content rounded-2xl p-4 sm:p-5 flex items-start gap-4">
-    <div class="text-2xl shrink-0">📢</div>
-    <div class="text-xs sm:text-sm leading-relaxed">
-      <strong class="font-bold text-base-content block mb-0.5">জরুরি অবগতি:</strong> 
-      EdutoolsBD কোনো সরকারি বা শিক্ষা বোর্ডের অফিশিয়াল ওয়েবসাইট নয়। এটি শিক্ষার্থীদের সুবিধার্থে পাবলিক নোটিশ ও স্কলারশিপ ডাটাবেজ প্রসেস করে দ্রুত ফলাফল পেতে সহায়তা করে।
-    </div>
-  </div>
-</section>
+    <!-- MAIN TOOLS & SERVICES BENTO SECTION -->
+    <section class="mt-8" aria-labelledby="services-heading">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-5 px-1">
+            <div>
+                <div class="flex items-center gap-2">
+                    <div class="p-1.5 rounded-lg bg-primary/10 text-primary">
+                        <i data-lucide="sparkles" size="18"></i>
+                    </div>
+                    <h2 id="services-heading" class="text-lg font-black tracking-tight text-base-content">
+                        টুলস ও সার্ভিসসমূহ
+                    </h2>
+                </div>
+                <p class="text-xs opacity-70 mt-1">
+                    আপনার প্রয়োজনীয় শিক্ষামূলক সেবাটি এক ক্লিকে বেছে নিন।
+                </p>
+            </div>
+
+            <!-- UX: Category Filters -->
+            <div class="flex flex-wrap items-center gap-2" id="category-filters" role="tablist" aria-label="Filter tools by category">
+                <button type="button" class="filter-pill active" data-filter="all" role="tab" aria-selected="true">সবগুলো</button>
+                <button type="button" class="filter-pill" data-filter="result" role="tab" aria-selected="false">রেজাল্ট</button>
+                <button type="button" class="filter-pill" data-filter="scholarship" role="tab" aria-selected="false">স্কলারশিপ</button>
+            </div>
+        </div>
+
+        <div class="services-grid" id="tools-grid">
+            
+            <!-- Card 1: HSC Result (Featured/Priority Card) -->
+            <a href="/hsc/2026/result" class="service-card service-card-featured tool-item" data-category="result" data-keywords="hsc result 2026 রেজাল্ট কাউন্টডাউন বোর্ড">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <div class="service-icon-box bg-primary/10 text-primary">
+                            <i data-lucide="award" size="24"></i>
+                        </div>
+                        <span class="badge badge-primary badge-sm font-bold gap-1 px-2.5 py-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span> LIVE
+                        </span>
+                    </div>
+                    <h3 class="text-base font-extrabold text-base-content">HSC রেজাল্ট ২০২৬ & কাউন্টডাউন</h3>
+                    <p class="text-xs opacity-70 mt-1.5 leading-relaxed">
+                        এইচএসসি ও সমমান পরীক্ষার ফলাফল দেখার কেন্দ্রীয় ও ১১টি বোর্ডের সরাসরি লিংক, রেজাল্ট কাউন্টডাউন এবং দিকনির্দেশনা।
+                    </p>
+                </div>
+                <div class="flex items-center justify-between text-xs font-bold text-primary mt-5 pt-3 border-t border-base-content/10">
+                    <span>ফলাফল দেখতে প্রবেশ করুন</span>
+                    <i data-lucide="arrow-right" size="16" class="transition-transform group-hover:translate-x-1"></i>
+                </div>
+            </a>
+
+            <!-- Card 2: SSC Scholarship -->
+            <a href="/ssc/scholarship-list/2026/" class="service-card tool-item" data-category="scholarship" data-keywords="ssc scholarship 2026 স্কলারশিপ লিস্ট মেধা বৃত্তি">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <div class="service-icon-box bg-success/10 text-success">
+                            <i data-lucide="graduation-cap" size="24"></i>
+                        </div>
+                        <span class="badge badge-neutral badge-sm font-bold opacity-80">UPDATED</span>
+                    </div>
+                    <h3 class="text-sm font-extrabold text-base-content">SSC স্কলারশিপ লিস্ট ২০২৬</h3>
+                    <p class="text-xs opacity-70 mt-1.5 leading-relaxed">
+                        এসএসসি পরীক্ষার বোর্ডের বৃত্তির গেজেট এবং রোল নম্বর দিয়ে সার্চ করার সহজ সমাধান।
+                    </p>
+                </div>
+                <div class="flex items-center justify-between text-xs font-bold text-success mt-5 pt-3 border-t border-base-content/10">
+                    <span>তালিকা চেক করুন</span>
+                    <i data-lucide="arrow-right" size="16"></i>
+                </div>
+            </a>
+
+            <!-- Card 3: Academic Calculator (Future Tool Placeholder) -->
+            <div class="service-card opacity-85 tool-item" data-category="result" data-keywords="gpa calculator পয়েন্ট হিসাব">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <div class="service-icon-box bg-warning/10 text-warning">
+                            <i data-lucide="calculator" size="24"></i>
+                        </div>
+                        <span class="badge badge-ghost badge-sm font-bold opacity-75">COMING SOON</span>
+                    </div>
+                    <h3 class="text-sm font-extrabold text-base-content">GPA ক্যালকুলেটর</h3>
+                    <p class="text-xs opacity-70 mt-1.5 leading-relaxed">
+                        এসএসসি ও এইচএসসি নম্বর এবং গ্রেড পয়েন্ট সহজে হিসাব করার অটোমেটিক টুল।
+                    </p>
+                </div>
+                <div class="flex items-center justify-between text-xs opacity-60 mt-5 pt-3 border-t border-base-content/10">
+                    <span>কাজ চলছে...</span>
+                    <i data-lucide="clock" size="16"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- UX: Search Empty State -->
+        <div id="no-results" class="hidden text-center py-12 px-4 rounded-3xl border border-dashed border-base-content/20 mt-4 bg-base-100/50">
+            <div class="w-12 h-12 rounded-2xl bg-base-200 grid place-items-center mx-auto mb-3 text-base-content/50">
+                <i data-lucide="search-x" size="24"></i>
+            </div>
+            <p class="text-sm font-bold text-base-content/80">কোনো টুল খুঁজে পাওয়া যায়নি</p>
+            <p class="text-xs text-base-content/50 mt-1">বানান পরীক্ষা করুন অথবা অন্য কোনো কিওয়ার্ড দিয়ে চেষ্টা করুন</p>
+        </div>
+    </section>
+
+    <!-- GUIDANCE / WHY US CARD -->
+    <section class="mt-8" aria-labelledby="why-heading">
+        <div class="rounded-3xl border border-base-300 bg-base-100 p-6 sm:p-7 shadow-sm">
+            <div class="flex items-center gap-3.5 mb-3">
+                <div class="p-3 rounded-2xl bg-violet-500/10 text-violet-600 shadow-inner">
+                    <i data-lucide="shield-check" size="22"></i>
+                </div>
+                <div>
+                    <h3 id="why-heading" class="text-base font-extrabold text-base-content">দ্রুত ও নিরাপদ সেবা</h3>
+                    <p class="text-xs opacity-70 mt-0.5">কেন EduToolsBD শিক্ষার্থীদের প্রথম পছন্দ?</p>
+                </div>
+            </div>
+            <p class="text-xs sm:text-sm leading-relaxed opacity-80">
+                ফলাফল প্রকাশের সময় বিভিন্ন বোর্ড সার্ভারে অতিরিক্ত ট্রাফিকের কারণে ধীরগতি দেখা দেয়। EduToolsBD শিক্ষার্থীদের জন্য সকল বিকল্প লিংক ও দ্রুততম সার্ভার সংযোগ একসাথে গুছিয়ে পরিবেশন করে, যাতে আপনি ঝামেলাহীনভাবে সেবা পান।
+            </p>
+        </div>
+    </section>
+
+</div>
 
     </main>
 
@@ -776,6 +1000,69 @@
     </script>
 
     
-    
+<script>
+(() => {
+    "use strict";
+
+    // UX Feature: Dynamic Filtering & Instant Search
+    const searchInput = document.getElementById("tool-search");
+    const filterButtons = document.querySelectorAll(".filter-pill");
+    const toolItems = document.querySelectorAll(".tool-item");
+    const noResults = document.getElementById("no-results");
+
+    let currentFilter = "all";
+    let currentQuery = "";
+
+    function filterTools() {
+        let visibleCount = 0;
+
+        toolItems.forEach(item => {
+            const category = item.getAttribute("data-category");
+            const keywords = item.getAttribute("data-keywords").toLowerCase();
+            
+            const matchesCategory = (currentFilter === "all" || category === currentFilter);
+            const matchesSearch = keywords.includes(currentQuery);
+
+            if (matchesCategory && matchesSearch) {
+                item.style.display = "flex";
+                visibleCount++;
+            } else {
+                item.style.display = "none";
+            }
+        });
+
+        if (visibleCount === 0) {
+            noResults.classList.remove("hidden");
+        } else {
+            noResults.classList.add("hidden");
+        }
+    }
+
+    searchInput?.addEventListener("input", (e) => {
+        currentQuery = e.target.value.toLowerCase().trim();
+        filterTools();
+    });
+
+    filterButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            filterButtons.forEach(b => {
+                b.classList.remove("active");
+                b.setAttribute("aria-selected", "false");
+            });
+            btn.classList.add("active");
+            btn.setAttribute("aria-selected", "true");
+            
+            currentFilter = btn.getAttribute("data-filter");
+            filterTools();
+        });
+    });
+
+    // Lucide Icons initialization
+    if (window.lucide) {
+        window.lucide.createIcons();
+    }
+})();
+</script>
+
 </body>
 </html>

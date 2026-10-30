@@ -1,74 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://edutoolsbd.vercel.app/</loc>
-    <lastmod>2026-10-27</lastmod>
-    <priority>1.0</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://edutoolsbd.vercel.app/hsc/</loc>
-    <lastmod>2026-10-27</lastmod>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/barishal/analysis/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/chattogram/analysis/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/dhaka/analysis/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/dinajpur/analysis/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/mymensingh/analysis/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/rajshahi/analysis/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/sylhet/analysis/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2025/dhaka/analysis/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/ssc/scholarship-list/2025/madrasah/analysis/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://edutoolsbd.vercel.app/hsc/scholarship-list/2025/dhaka/analysis/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://edutoolsbd.vercel.app/hsc/2026/result/</loc>
+    <lastmod>2026-10-31</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
