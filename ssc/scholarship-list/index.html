@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=20261009" />
     <meta name="apple-mobile-web-app-title" content="EduToolsBD" />
     <link rel="manifest" href="/site.webmanifest?v=20261009" />
-    <meta property="og:image" content="https://edutoolsbd.vercel.app/data/media/ecfa4a5083a9.webp" />
+    <meta property="og:image" content="https://edutoolsbd.vercel.app/dist/data/media/ecfa4a5083a9.webp" />
     
     
     <title>SSC স্কলারশিপ রেজাল্ট - বছরের তালিকা | EdutoolsBD</title>
@@ -40,6 +40,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <base href="/ssc/scholarship-list/">
+
+    <meta name="google-site-verification" content="HJHEwK2PX8qOsT_9qsvSLazlykM-oACDqSG7UaLx8qE" />
     
     <style>
         @font-face {
@@ -63,454 +65,437 @@
     <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "fdd1384721074b4ba7879b2139f25d54"}'></script>
     <script src="https://analytics.ahrefs.com/analytics.js" data-key="ZFkOvfLzefkOx9Qs40ZFfQ" async></script>
 </head>
-<body class="flex flex-col min-h-screen bg-base-100 text-base-content antialiased selection:bg-primary selection:text-primary-content transition-colors duration-200">
+<body class="min-h-screen bg-base-100 text-base-content antialiased">
 
-    
+    <div class="drawer drawer-start">
+        <input id="mobile-nav-drawer"
+               type="checkbox"
+               class="drawer-toggle">
 
+        <div class="drawer-content flex min-h-screen flex-col">
 
-
-
-
-<!-- Full Page PWA Drawer Wrapper -->
-<div class="drawer drawer-start">
-    <input id="mobile-nav-drawer" type="checkbox" class="drawer-toggle" />
-    
-    <div class="drawer-content flex flex-col">
-        <!-- Main Navbar Header -->
-        <header class="sticky top-0 z-40 w-full bg-base-100/80 backdrop-blur-xl border-b border-base-200/70 transition-colors duration-200">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="navbar min-h-16 px-0 gap-2">
-                    
-                    <!-- Navbar Start: Logo & PWA Mobile Menu Trigger -->
-                    <div class="navbar-start gap-2">
-                        <label for="mobile-nav-drawer" class="btn btn-ghost btn-circle btn-sm lg:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-primary" aria-label="Open Mobile Menu">
-                            <svg class="w-5 h-5 text-base-content" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                            </svg>
-                        </label>
-
-                        <!-- Brand & Logo -->
-                        <a href="/" class="text-xl font-black tracking-tight text-primary flex items-center gap-2.5 group">
-                            <div class="relative w-8 h-8 rounded-xl bg-primary/10 flex items-center justify-center overflow-hidden border border-primary/20 group-hover:scale-105 transition-transform duration-200">
-                                <img src="/favicon-96x96.png" alt="EduToolsBD Icon" class="w-6 h-6 object-contain" />
-                            </div>
-                            <span class="text-base-content font-extrabold text-lg sm:text-xl">EduTools<span class="text-primary">BD</span></span>
-                        </a>
-                    </div>
-
-                    <!-- Navbar Center: Desktop Horizontal Navigation -->
-                    <div class="navbar-center hidden lg:flex items-center gap-1">
-                        
-                            
-    
-        <!-- Standalone Desktop Link -->
-        <a href="/" class="btn btn-ghost btn-sm rounded-xl font-bold text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200">
-            <span>হোম</span>
             
-        </a>
+
+
+
+
+<style>
+    .site-navbar {
+        height: 68px;
+        border-bottom: 1px solid var(--fallback-bc, oklch(var(--bc) / .09));
+        background: var(--fallback-b1, oklch(var(--b1)));
+    }
+
+    .nav-brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        white-space: nowrap;
+    }
+
+    .nav-brand-icon {
+        width: 36px;
+        height: 36px;
+        border-radius: 11px;
+        display: grid;
+        place-items: center;
+        background: var(--fallback-b2, oklch(var(--b2)));
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / .09));
+    }
+
+    .nav-link {
+        min-height: 40px;
+        padding: 0 12px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        border-radius: 9px;
+        cursor: pointer;
+        list-style: none;
+        color: var(--fallback-bc, oklch(var(--bc) / .76));
+        font-size: 13px;
+        font-weight: 600;
+        white-space: nowrap;
+        transition: background .15s, color .15s;
+    }
+
+    .nav-link::-webkit-details-marker { display: none; }
+    .nav-link::marker { content: ""; }
+
+    .nav-link:hover,
+    .nav-dropdown[open] > .nav-link,
+    .nav-link-active {
+        background: var(--fallback-b2, oklch(var(--b2)));
+        color: var(--fallback-bc, oklch(var(--bc)));
+    }
+
+    .nav-chevron {
+        width: 14px;
+        height: 14px;
+        opacity: .55;
+        transition: transform .2s;
+    }
+
+    .nav-dropdown[open] > .nav-link .nav-chevron {
+        transform: rotate(180deg);
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        z-index: 100;
+        top: calc(100% + 5px);
+        left: 0;
+        width: 250px;
+        padding: 7px;
+        background: var(--fallback-b1, oklch(var(--b1)));
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / .12));
+        border-radius: 13px;
+        box-shadow: 0 12px 32px rgba(0,0,0,.09);
+    }
+
+    .nav-dropdown[open] > .nav-menu {
+        display: block;
+    }
+
+    .nav-menu-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        min-height: 39px;
+        padding: 9px 11px;
+        border-radius: 8px;
+        color: var(--fallback-bc, oklch(var(--bc) / .8));
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        list-style: none;
+        transition: background .15s, color .15s;
+    }
+
+    .nav-menu-link:hover,
+    .nav-subdropdown[open] > .nav-menu-link {
+        background: var(--fallback-b2, oklch(var(--b2)));
+        color: var(--fallback-bc, oklch(var(--bc)));
+    }
+
+    .nav-menu-link::-webkit-details-marker { display: none; }
+    .nav-menu-link::marker { content: ""; }
+
+    .nav-submenu {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: calc(100% + 5px);
+        width: 225px;
+        padding: 7px;
+        background: var(--fallback-b1, oklch(var(--b1)));
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / .12));
+        border-radius: 13px;
+        box-shadow: 0 12px 32px rgba(0,0,0,.09);
+    }
+
+    .nav-subdropdown[open] > .nav-submenu {
+        display: block;
+    }
+
+    .nav-dropdown,
+    .nav-subdropdown {
+        position: relative;
+    }
+
+    .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .nav-icon-btn {
+        width: 37px;
+        height: 37px;
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+        color: var(--fallback-bc, oklch(var(--bc) / .7));
+        transition: background .15s;
+    }
+
+    .nav-icon-btn:hover {
+        background: var(--fallback-b2, oklch(var(--b2)));
+    }
+
+    @media (hover: hover) {
+        .nav-dropdown:hover > .nav-menu,
+        .nav-subdropdown:hover > .nav-submenu {
+            display: block;
+        }
+    }
+
+    @media (max-width: 1023px) {
+        .site-navbar { height: 62px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .nav-link, .nav-chevron, .nav-menu-link { transition: none; }
+    }
+</style>
+
+<header class="site-navbar sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8">
+        <div class="flex h-full items-center justify-between gap-3">
+
+            <!-- Brand -->
+            <div class="flex items-center gap-2.5">
+                <label for="mobile-nav-drawer"
+                       class="nav-icon-btn lg:hidden cursor-pointer"
+                       aria-label="Open navigation menu">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                        <path d="M4 7h16M4 12h16M4 17h16"
+                              stroke="currentColor" stroke-width="1.8"
+                              stroke-linecap="round"/>
+                    </svg>
+                </label>
+
+                <a href="/" class="nav-brand">
+                    <span class="nav-brand-icon">
+                        <img src="/favicon-96x96.png"
+                             alt=""
+                             class="w-6 h-6 object-contain">
+                    </span>
+
+                    <span class="text-lg font-extrabold tracking-tight text-base-content">
+                        EduTools<span class="text-primary">BD</span>
+                    </span>
+                </a>
+            </div>
+
+            <!-- Desktop navigation -->
+            <nav class="hidden lg:flex items-center gap-1"
+                 aria-label="Main navigation">
+                
+                    
+    
+        
+            <a href="/"
+               class="nav-link ">
+                হোম
+                
+            </a>
+        
     
 
-                        
-                            
+                
+                    
     
-        <!-- Desktop Hover Dropdown (Level 1) -->
-        <div class="dropdown dropdown-hover dropdown-bottom">
-            <div tabindex="0" role="button" aria-haspopup="true" class="btn btn-ghost btn-sm rounded-xl font-bold flex items-center gap-1.5 text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200 group">
+        <details class="nav-dropdown group relative">
+            <summary class="nav-link">
                 <span>এসএসসি (SSC)</span>
                 
-                <svg class="w-3.5 h-3.5 opacity-60 transition-transform duration-200 group-hover:rotate-180 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+                <svg class="nav-chevron" viewBox="0 0 20 20" fill="none">
+                    <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                          stroke-width="1.7" stroke-linecap="round"/>
                 </svg>
-            </div>
-            
-            <!-- Level 1 Dropdown Menu -->
-            <ul tabindex="0" class="dropdown-content z-[100] menu p-2 shadow-2xl bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 w-60 space-y-1 text-base-content mt-1">
+            </summary>
+
+            <ul class="nav-menu">
                 
                     
-                        <!-- Direct Child Link -->
                         <li>
-                            <a href="/ssc/scholarship-list/2026/" class="rounded-xl font-medium text-sm text-base-content/90 hover:text-primary hover:bg-base-200/70 flex justify-between items-center py-2 px-3">
-                                <span>SSC বোর্ড বৃত্তি ২০২৬</span>
-                                
-                                    <span class="badge badge-xs badge-secondary font-medium">HOT 🔥</span>
-                                
-                            </a>
+                            
+                                <a href="/ssc/scholarship-list/2026/" class="nav-menu-link">
+                                    SSC বোর্ড বৃত্তি ২০২৬
+                                    
+                                        <span class="badge badge-xs badge-secondary">HOT 🔥</span>
+                                    
+                                </a>
+                            
                         </li>
                     
                 
                     
-                        <!-- Nested Sub-dropdown (Level 2) with fixed hover bridge -->
-                        <li class="relative group/sub">
-                            <a class="font-semibold text-sm rounded-xl hover:bg-base-200/70 hover:text-primary flex justify-between items-center py-2 px-3 cursor-pointer">
-                                <span>SSC বোর্ড বৃত্তি Archive</span>
-                                <div class="flex items-center gap-1.5">
-                                    
-                                    <svg class="w-3.5 h-3.5 opacity-60 group-hover/sub:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        <li>
+                            <details class="nav-subdropdown group/sub">
+                                <summary class="nav-menu-link">
+                                    <span>SSC বোর্ড বৃত্তি Archive</span>
+                                    <svg class="w-4 h-4 opacity-50" viewBox="0 0 20 20" fill="none">
+                                        <path d="m7 4 6 6-6 6" stroke="currentColor"
+                                              stroke-width="1.7" stroke-linecap="round"/>
                                     </svg>
-                                </div>
-                            </a>
-                            <!-- Level 2 Flyout with bridge padding (ml-1) to prevent hover loss -->
-                            <ul class="hidden group-hover/sub:flex flex-col absolute left-full top-0 ml-1 w-56 p-2 bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 shadow-2xl space-y-1 z-[101]">
-                                
-                                    <li>
-                                        <a href="/ssc/scholarship-list/2026/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৬</span>
+                                </summary>
+
+                                <ul class="nav-submenu">
+                                    
+                                        <li>
                                             
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/ssc/scholarship-list/2025/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৫</span>
+                                                <a href="/ssc/scholarship-list/2026/" class="nav-menu-link">
+                                                    ২০২৬
+                                                    
+                                                </a>
                                             
-                                        </a>
-                                    </li>
-                                
-                            </ul>
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="/ssc/scholarship-list/2025/" class="nav-menu-link">
+                                                    ২০২৫
+                                                    
+                                                </a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            </details>
                         </li>
                     
                 
             </ul>
-        </div>
+        </details>
     
 
-                        
-                            
+                
+                    
     
-        <!-- Desktop Hover Dropdown (Level 1) -->
-        <div class="dropdown dropdown-hover dropdown-bottom">
-            <div tabindex="0" role="button" aria-haspopup="true" class="btn btn-ghost btn-sm rounded-xl font-bold flex items-center gap-1.5 text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200 group">
+        <details class="nav-dropdown group relative">
+            <summary class="nav-link">
                 <span>এইচএসসি (HSC)</span>
                 
-                <svg class="w-3.5 h-3.5 opacity-60 transition-transform duration-200 group-hover:rotate-180 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+                <svg class="nav-chevron" viewBox="0 0 20 20" fill="none">
+                    <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                          stroke-width="1.7" stroke-linecap="round"/>
                 </svg>
-            </div>
-            
-            <!-- Level 1 Dropdown Menu -->
-            <ul tabindex="0" class="dropdown-content z-[100] menu p-2 shadow-2xl bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 w-60 space-y-1 text-base-content mt-1">
+            </summary>
+
+            <ul class="nav-menu">
                 
                     
-                        <!-- Nested Sub-dropdown (Level 2) with fixed hover bridge -->
-                        <li class="relative group/sub">
-                            <a class="font-semibold text-sm rounded-xl hover:bg-base-200/70 hover:text-primary flex justify-between items-center py-2 px-3 cursor-pointer">
-                                <span>HSC বোর্ড বৃত্তি Archive</span>
-                                <div class="flex items-center gap-1.5">
-                                    
-                                    <svg class="w-3.5 h-3.5 opacity-60 group-hover/sub:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        <li>
+                            <details class="nav-subdropdown group/sub">
+                                <summary class="nav-menu-link">
+                                    <span>HSC বোর্ড বৃত্তি Archive</span>
+                                    <svg class="w-4 h-4 opacity-50" viewBox="0 0 20 20" fill="none">
+                                        <path d="m7 4 6 6-6 6" stroke="currentColor"
+                                              stroke-width="1.7" stroke-linecap="round"/>
                                     </svg>
-                                </div>
-                            </a>
-                            <!-- Level 2 Flyout with bridge padding (ml-1) to prevent hover loss -->
-                            <ul class="hidden group-hover/sub:flex flex-col absolute left-full top-0 ml-1 w-56 p-2 bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 shadow-2xl space-y-1 z-[101]">
-                                
-                                    <li>
-                                        <a href="/hsc/scholarship-list/2026/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৬</span>
+                                </summary>
+
+                                <ul class="nav-submenu">
+                                    
+                                        <li>
                                             
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/hsc/scholarship-list/2025/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৫</span>
+                                                <a href="/hsc/scholarship-list/2026/" class="nav-menu-link">
+                                                    ২০২৬
+                                                    
+                                                </a>
                                             
-                                        </a>
-                                    </li>
-                                
-                            </ul>
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="/hsc/scholarship-list/2025/" class="nav-menu-link">
+                                                    ২০২৫
+                                                    
+                                                </a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            </details>
                         </li>
                     
                 
             </ul>
-        </div>
+        </details>
     
 
-                        
-                            
+                
+                    
     
-        <!-- Standalone Desktop Link -->
-        <a href="/blog" class="btn btn-ghost btn-sm rounded-xl font-bold text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200">
-            <span>ব্লগ</span>
-            
-        </a>
-    
-
-                        
-                    </div>
-
-                    <!-- Navbar End: Theme Switcher & Actions -->
-                    <div class="navbar-end gap-2">
-                        <!-- PWA Optimized Theme Controller Switcher -->
-                        <label class="btn btn-ghost btn-circle btn-sm text-base-content/80 hover:text-base-content swap swap-rotate" title="Toggle Light/Dark Theme">
-                            <input type="checkbox" id="theme-toggle" class="theme-controller hidden" value="dark" />
-                            
-                            <!-- Sun Icon (Active when dark mode is ON) -->
-                            <svg class="swap-on w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,3.52,6.34l.71.71A1,1,0,0,0,5.64,7.05ZM18.36,17A1,1,0,0,0,17,17.71l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-3.95-5.36a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.41l.71.71a1,1,0,0,0,1.41-0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/>
-                            </svg>
-                            
-                            <!-- Moon Icon (Active when light mode is ON) -->
-                            <svg class="swap-off w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05A1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22a10.17,10.17,0,0,0,5.13,11.34A10.1,10.1,0,0,0,16.27,18,8.11,8.11,0,0,1,12.14,19.69Z"/>
-                            </svg>
-                        </label>
-
-                        
-                            <a href="/ssc/scholarship-list/" class="btn btn-primary btn-sm sm:btn-md text-primary-content rounded-xl font-bold shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02] active:scale-95 transition-all duration-200">
-                                SSC Scholarship Result ➔
-                            </a>
-                        
-                    </div>
-
-                </div>
-            </div>
-        </header>
-    </div>
-
-    <!-- PWA Mobile Off-Canvas Drawer Side -->
-    <div class="drawer-side z-50 lg:hidden">
-        <label for="mobile-nav-drawer" aria-label="close sidebar" class="drawer-overlay bg-base-900/40 backdrop-blur-sm"></label>
         
-        <aside class="w-80 max-w-[85vw] min-h-full bg-base-100 text-base-content flex flex-col shadow-2xl">
-            <!-- Mobile Drawer Header -->
-            <div class="sticky top-0 z-10 flex items-center justify-between px-5 py-4 border-b border-base-200 bg-base-100/90 backdrop-blur-md">
-                <a href="/" class="flex items-center gap-2.5">
-                    <img src="/favicon-96x96.png" alt="EduToolsBD Logo" class="w-7 h-7 object-contain" />
-                    <span class="text-lg font-black tracking-tight text-base-content">EduTools<span class="text-primary">BD</span></span>
-                </a>
-                <label for="mobile-nav-drawer" class="btn btn-ghost btn-circle btn-sm text-base-content/60 hover:text-base-content">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            <a href="/blog"
+               class="nav-link ">
+                ব্লগ
+                
+            </a>
+        
+    
+
+                
+            </nav>
+
+            <!-- Actions -->
+            <div class="nav-actions">
+                <label for="theme-toggle"
+                       class="nav-icon-btn cursor-pointer"
+                       title="Change appearance"
+                       aria-label="Toggle theme">
+                    <svg id="theme-icon-sun" class="w-5 h-5 hidden" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/>
+                        <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"
+                              stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                    <svg id="theme-icon-moon" class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                        <path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"
+                              stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                    </svg>
                 </label>
-            </div>
 
-            <!-- Mobile Navigation Menu Links -->
-            <div class="flex-1 overflow-y-auto p-4">
-                <ul class="menu menu-md w-full p-0 space-y-1">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>হোম</span>
+                <input type="checkbox"
+                       id="theme-toggle"
+                       class="hidden">
+
                 
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        এসএসসি (SSC)
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/ssc/scholarship-list/2026/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>SSC বোর্ড বৃত্তি ২০২৬</span>
-                
-                    <span class="badge badge-xs badge-accent">HOT 🔥</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        SSC বোর্ড বৃত্তি Archive
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/ssc/scholarship-list/2026/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৬</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/ssc/scholarship-list/2025/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৫</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        এইচএসসি (HSC)
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        HSC বোর্ড বৃত্তি Archive
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/hsc/scholarship-list/2026/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৬</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/hsc/scholarship-list/2025/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৫</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/blog" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>ব্লগ</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </div>
-
-            <!-- Mobile Drawer Footer CTA -->
-            
-                <div class="p-4 border-t border-base-200 bg-base-100/50">
-                    <a href="/ssc/scholarship-list/" class="btn btn-primary w-full rounded-xl text-primary-content font-bold shadow-lg shadow-primary/20">
+                    <a href="/ssc/scholarship-list/"
+                       class="btn btn-primary btn-sm rounded-lg px-4 font-semibold">
                         SSC Scholarship Result ➔
                     </a>
-                </div>
-            
-        </aside>
+                
+            </div>
+
+        </div>
     </div>
-</div>
+</header>
 
-<!-- Synchronous Non-Flickering Theme Script -->
 <script>
-    (function() {
-        const toggle = document.getElementById('theme-toggle');
-        const html = document.documentElement;
-        
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        html.setAttribute('data-theme', savedTheme);
-        if (savedTheme === 'dark') {
-            html.classList.add('dark');
-        } else {
-            html.classList.remove('dark');
-        }
+(() => {
+    const html = document.documentElement;
+    const toggle = document.getElementById('theme-toggle');
+    const sun = document.getElementById('theme-icon-sun');
+    const moon = document.getElementById('theme-icon-moon');
 
-        if (toggle) {
-            toggle.checked = (savedTheme === 'dark');
-            toggle.addEventListener('change', function() {
-                const newTheme = this.checked ? 'dark' : 'light';
-                html.setAttribute('data-theme', newTheme);
-                if (newTheme === 'dark') {
-                    html.classList.add('dark');
-                } else {
-                    html.classList.remove('dark');
-                }
-                localStorage.setItem('theme', newTheme);
-            });
-        }
-    })();
+    if (!toggle) return;
+
+    let savedTheme = 'light';
+
+    try {
+        savedTheme = localStorage.getItem('theme') ||
+            (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    } catch (e) {}
+
+    function applyTheme(theme) {
+        html.setAttribute('data-theme', theme);
+        toggle.checked = theme === 'dark';
+
+        sun?.classList.toggle('hidden', theme !== 'dark');
+        moon?.classList.toggle('hidden', theme === 'dark');
+
+        try {
+            localStorage.setItem('theme', theme);
+        } catch (e) {}
+    }
+
+    applyTheme(savedTheme);
+
+    toggle.addEventListener('change', () => {
+        applyTheme(toggle.checked ? 'dark' : 'light');
+    });
+})();
 </script>
 
-    <main class="flex-grow">
-        
+            <main class="flex-1">
+                
 <section class="py-12 bg-base-100">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         
@@ -564,46 +549,633 @@
     </div>
 </section>
 
-    </main>
+            </main>
 
-    <footer class="bg-base-200 border-t border-base-300 mt-16 transition-colors duration-200">
-        <div class="footer max-w-7xl mx-auto p-10 text-base-content grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            <aside class="space-y-3">
-                <a href="/" class="text-2xl font-black tracking-tight text-base-content">
-                    Edutools<span class="text-primary">BD</span>
+            
+<footer class="mt-16 border-t border-base-300 bg-base-200/50">
+
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 pt-12 pb-9">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+
+            <!-- Brand Section -->
+            <div class="sm:col-span-2 lg:col-span-1">
+
+                <a href="/" class="inline-flex items-center gap-2.5 group">
+                    <div class="w-10 h-10 rounded-xl bg-base-100 border border-base-300 flex items-center justify-center">
+                        <img src="/favicon-96x96.png"
+                             alt=""
+                             class="w-7 h-7 object-contain">
+                    </div>
+
+                    <span class="text-xl font-extrabold tracking-tight text-base-content">
+                        EduTools<span class="text-primary">BD</span>
+                    </span>
                 </a>
-                <p class="text-xs sm:text-sm text-base-content/70 leading-relaxed">
-                    বাংলাদেশের শিক্ষার্থীদের জন্য দ্রুততম ও নির্ভরযোগ্য ডিজিটাল শিক্ষামূলক টুলস ও ফলাফল প্ল্যাটফর্ম।
+
+                <p class="mt-4 max-w-xs text-sm leading-7 text-base-content/65">
+                    বাংলাদেশের শিক্ষার্থীদের জন্য প্রয়োজনীয় শিক্ষামূলক
+                    টুলস, ফলাফল, স্কলারশিপ তথ্য ও ডিজিটাল সেবা —
+                    সবকিছু এক জায়গায়।
                 </p>
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-base-300/60 text-base-content/80 text-xs font-semibold">
-                    <span class="w-2 h-2 rounded-full bg-success animate-pulse"></span> System Active
+
+                <div class="mt-5 inline-flex items-center gap-2 rounded-lg border border-base-300 bg-base-100 px-3 py-2">
+                    <span class="w-2 h-2 rounded-full bg-success"></span>
+                    <span class="text-xs font-medium text-base-content/70">
+                        শিক্ষার্থীদের জন্য তৈরি
+                    </span>
                 </div>
-            </aside>
 
-            <nav>
-                <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">টুলস ও সার্ভিস</h6>
-                <a href="/ssc/scholarship-list/2026/" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">SSC স্কলারশিপ চেক</a>
-                <a href="/hsc/2026/result" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">HSC রেজাল্ট ২০২৬</a>
-            </nav>
+            </div>
 
-            <nav>
-                <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">তথ্য ও নীতি</h6>
-                <a href="#" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">আমাদের সম্পর্কে</a>
-                <a href="#" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">প্রাইভেসি পলিসি</a>
-            </nav>
 
-            <nav>
-                <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">যোগাযোগ</h6>
-                <a href="mailto:itsmahib.abrar@gmail.com" class="link link-hover text-base-content/70 hover:text-primary text-sm break-all transition-colors">
+            <!-- Tools & Services -->
+            <div>
+
+                <h3 class="text-sm font-bold text-base-content mb-4">
+                    টুলস ও সার্ভিস
+                </h3>
+
+                <ul class="space-y-3 text-sm text-base-content/65">
+
+                    <li>
+                        <a href="/ssc/scholarship-list/2026/"
+                           class="footer-link">
+                            SSC স্কলারশিপ ২০২৬
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/hsc/2026/result"
+                           class="footer-link">
+                            HSC রেজাল্ট ২০২৬
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/tools/"
+                           class="footer-link">
+                            সকল টুলস
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Useful Links -->
+            <div>
+
+                <h3 class="text-sm font-bold text-base-content mb-4">
+                    প্রয়োজনীয় লিংক
+                </h3>
+
+                <ul class="space-y-3 text-sm text-base-content/65">
+
+                    <li>
+                        <a href="/about/" class="footer-link">
+                            আমাদের সম্পর্কে
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/privacy-policy/" class="footer-link">
+                            প্রাইভেসি পলিসি
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/terms/" class="footer-link">
+                            ব্যবহারের শর্তাবলি
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Contact -->
+            <div>
+
+                <h3 class="text-sm font-bold text-base-content mb-4">
+                    যোগাযোগ
+                </h3>
+
+                <p class="text-sm text-base-content/65 leading-6">
+                    কোনো ভুল তথ্য, সমস্যা অথবা পরামর্শ থাকলে আমাদের জানান।
+                </p>
+
+                <a href="mailto:itsmahib.abrar@gmail.com"
+                   class="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-primary hover:underline break-all">
+
+                    <svg class="w-4 h-4 shrink-0"
+                         viewBox="0 0 24 24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="1.8">
+                        <rect x="3" y="5" width="18" height="14" rx="2"/>
+                        <path d="m3 7 9 6 9-6"/>
+                    </svg>
+
                     itsmahib.abrar@gmail.com
+
                 </a>
-            </nav>
+
+            </div>
+
         </div>
 
-        <div class="border-t border-base-300/60 py-4 text-center text-xs text-base-content/60 bg-base-300/30">
-            <p>© 2026 EdutoolsBD — সর্বস্বত্ব সংরক্ষিত। এটি কোনো অফিশিয়াল সরকারি ওয়েবসাইট নয়।</p>
+
+        <!-- Disclaimer -->
+        <div class="mt-11 pt-6 border-t border-base-300">
+
+            <div class="flex items-start gap-3">
+
+                <svg class="w-5 h-5 shrink-0 mt-0.5 text-base-content/40"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="1.8">
+                    <circle cx="12" cy="12" r="9"/>
+                    <path d="M12 11v5m0-9h.01"
+                          stroke-linecap="round"/>
+                </svg>
+
+                <p class="text-xs leading-6 text-base-content/55">
+                    EduToolsBD একটি স্বতন্ত্র শিক্ষামূলক প্ল্যাটফর্ম।
+                    এটি বাংলাদেশ শিক্ষা বোর্ড বা কোনো সরকারি প্রতিষ্ঠানের
+                    অফিশিয়াল ওয়েবসাইট নয়। এখানে প্রকাশিত ফলাফল ও তথ্য
+                    সংশ্লিষ্ট উৎসের ভিত্তিতে উপস্থাপন করা হয়।
+                    গুরুত্বপূর্ণ তথ্যের ক্ষেত্রে মূল সরকারি উৎস যাচাই করুন।
+                </p>
+
+            </div>
+
         </div>
-    </footer>
+
+    </div>
+
+
+    <!-- Copyright Bar -->
+    <div class="border-t border-base-300 bg-base-200/70">
+
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-5">
+
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
+
+                <p class="text-xs text-base-content/55 text-center sm:text-left">
+                    © 2026
+                    EduToolsBD. সর্বস্বত্ব সংরক্ষিত।
+                </p>
+
+                <div class="flex items-center gap-4">
+
+                    <a href="/privacy-policy/"
+                       class="text-xs text-base-content/55 hover:text-primary transition-colors">
+                        Privacy
+                    </a>
+
+                    <span class="w-1 h-1 rounded-full bg-base-content/25"></span>
+
+                    <a href="/terms/"
+                       class="text-xs text-base-content/55 hover:text-primary transition-colors">
+                        Terms
+                    </a>
+
+                    <span class="w-1 h-1 rounded-full bg-base-content/25"></span>
+
+                    <a href="#"
+                       onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;"
+                       class="inline-flex items-center gap-1.5 text-xs font-semibold text-base-content/65 hover:text-primary transition-colors">
+
+                        Back to top
+
+                        <svg class="w-3.5 h-3.5"
+                             viewBox="0 0 24 24"
+                             fill="none"
+                             stroke="currentColor"
+                             stroke-width="2">
+                            <path d="m18 15-6-6-6 6"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"/>
+                        </svg>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<style>
+    .footer-link {
+        display: inline-block;
+        transition: color .15s ease;
+    }
+
+    .footer-link:hover {
+        color: var(--fallback-p, oklch(var(--p)));
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .footer-link {
+            transition: none;
+        }
+    }
+</style>
+
+        </div>
+
+        
+
+
+
+<style>
+    .mobile-drawer-overlay {
+        background-color: rgba(15, 23, 42, 0.45);
+        backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);
+    }
+
+    .mobile-drawer {
+        width: min(340px, 88vw);
+        background-color: #ffffff;
+        color: #0f172a;
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        box-shadow: 8px 0 32px rgba(15, 23, 42, 0.22);
+        border-right: 1px solid rgba(15, 23, 42, 0.08);
+    }
+
+    .mobile-drawer-header {
+        min-height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        background-color: #ffffff;
+        border-bottom: 1px solid rgba(15, 23, 42, 0.09);
+    }
+
+    .mobile-drawer-content {
+        flex: 1;
+        overflow-y: auto;
+        padding: 16px;
+        background-color: #ffffff;
+    }
+
+    .mobile-nav-group > summary,
+    .mobile-nav-link {
+        min-height: 45px;
+        padding: 11px 12px;
+        border-radius: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 14px;
+        font-weight: 550;
+        color: #1e293b;
+        cursor: pointer;
+        list-style: none;
+        transition: background-color .15s, color .15s;
+    }
+
+    .mobile-nav-group > summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .mobile-nav-group > summary::marker {
+        content: "";
+    }
+
+    .mobile-nav-group > summary:hover,
+    .mobile-nav-link:hover {
+        background-color: #f1f5f9;
+        color: #0f172a;
+    }
+
+    .mobile-nav-group > summary:focus-visible,
+    .mobile-nav-link:focus-visible,
+    .mobile-drawer-header label:focus-visible {
+        outline: 2px solid var(--fallback-p, oklch(var(--p)));
+        outline-offset: 2px;
+    }
+
+    .mobile-nav-active {
+        background-color: #eff6ff;
+        color: var(--fallback-p, #1d4ed8);
+        font-weight: 700;
+    }
+
+    .mobile-nav-active:hover {
+        background-color: #dbeafe;
+        color: var(--fallback-p, #1d4ed8);
+    }
+
+    .mobile-chevron {
+        width: 16px;
+        height: 16px;
+        color: #64748b;
+        flex-shrink: 0;
+        transition: transform .2s;
+    }
+
+    .mobile-nav-group[open] > summary .mobile-chevron {
+        transform: rotate(180deg);
+    }
+
+    .mobile-nav-children {
+        margin: 5px 0 7px 12px;
+        padding-left: 12px;
+        border-left: 1.5px solid #cbd5e1;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .mobile-nav-children .mobile-nav-link,
+    .mobile-nav-children .mobile-nav-group > summary {
+        font-size: 13px;
+        min-height: 41px;
+    }
+
+    .mobile-drawer-footer {
+        padding: 16px 20px;
+        background-color: #ffffff;
+        border-top: 1px solid rgba(15, 23, 42, 0.09);
+    }
+</style>
+
+<div class="drawer-side z-50">
+    <label for="mobile-nav-drawer"
+           class="drawer-overlay mobile-drawer-overlay"
+           aria-label="Close navigation"></label>
+
+    <aside class="mobile-drawer"
+           aria-label="Mobile navigation">
+
+        <!-- Drawer heading -->
+        <div class="mobile-drawer-header">
+            <a href="/" class="flex items-center gap-2.5">
+                <img src="/favicon-96x96.png"
+                     alt=""
+                     class="w-8 h-8 object-contain">
+                <span class="font-extrabold text-lg tracking-tight text-slate-900">
+                    EduTools<span class="text-primary">BD</span>
+                </span>
+            </a>
+
+            <label for="mobile-nav-drawer"
+                   class="nav-icon-btn cursor-pointer text-slate-700 hover:bg-slate-100 rounded-lg p-1.5"
+                   aria-label="Close menu">
+                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                    <path d="m6 6 12 12M18 6 6 18"
+                          stroke="currentColor" stroke-width="1.8"
+                          stroke-linecap="round"/>
+                </svg>
+            </label>
+        </div>
+
+        <!-- Navigation -->
+        <div class="mobile-drawer-content">
+            <p class="px-3 mb-3 text-[11px] font-bold tracking-wider uppercase text-slate-400">
+                Navigation
+            </p>
+
+            <ul class="flex flex-col gap-1">
+                
+                    
+    <li>
+        
+            
+                <a href="/"
+                   class="mobile-nav-link ">
+                    <span>হোম</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                
+                    
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>এসএসসি (SSC)</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            
+                <a href="/ssc/scholarship-list/2026/"
+                   class="mobile-nav-link ">
+                    <span>SSC বোর্ড বৃত্তি ২০২৬</span>
+                    
+                        <span class="badge badge-xs badge-secondary">HOT 🔥</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                        
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>SSC বোর্ড বৃত্তি Archive</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            
+                <a href="/ssc/scholarship-list/2026/"
+                   class="mobile-nav-link ">
+                    <span>২০২৬</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                        
+    <li>
+        
+            
+                <a href="/ssc/scholarship-list/2025/"
+                   class="mobile-nav-link ">
+                    <span>২০২৫</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                
+                    
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>এইচএসসি (HSC)</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>HSC বোর্ড বৃত্তি Archive</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            
+                <a href="/hsc/scholarship-list/2026/"
+                   class="mobile-nav-link ">
+                    <span>২০২৬</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                        
+    <li>
+        
+            
+                <a href="/hsc/scholarship-list/2025/"
+                   class="mobile-nav-link ">
+                    <span>২০২৫</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                
+                    
+    <li>
+        
+            
+                <a href="/blog"
+                   class="mobile-nav-link ">
+                    <span>ব্লগ</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="mobile-drawer-footer">
+            
+                <a href="/ssc/scholarship-list/"
+                   class="btn btn-primary w-full rounded-lg font-semibold">
+                    SSC Scholarship Result ➔
+                </a>
+            
+        </div>
+
+    </aside>
+</div>
+
+<script>
+(() => {
+    const drawer = document.getElementById('mobile-nav-drawer');
+    if (!drawer) return;
+
+    // Close drawer after navigation.
+    document.querySelectorAll('.mobile-drawer a[href]').forEach(link => {
+        link.addEventListener('click', () => {
+            drawer.checked = false;
+        });
+    });
+
+    // Close drawer with Escape.
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && drawer.checked) {
+            drawer.checked = false;
+        }
+    });
+})();
+</script>
+
+    </div>
 
     <script>
         const storageFileName = `DEFAULT`;

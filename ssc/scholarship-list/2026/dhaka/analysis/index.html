@@ -14,22 +14,22 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=20261009" />
     <meta name="apple-mobile-web-app-title" content="EduToolsBD" />
     <link rel="manifest" href="/site.webmanifest?v=20261009" />
-    <meta property="og:image" content="https://edutoolsbd.vercel.app/data/media/3b5b7d156362.webp" />
+    <meta property="og:image" content="https://edutoolsbd.vercel.app/dist/data/media/3b5b7d156362.webp" />
     
     
-<!-- SEO Meta Tags -->
-<title>ssc ঢাকা Board স্কুলভিত্তিক বৃত্তি বিশ্লেষণ & এনালিটিক্স - 2026</title>
-<meta name="title" content="SSC  Board স্কুলভিত্তিক বৃত্তি বিশ্লেষণ & এনালিটিক্স - 2026" />
-<meta name="description" content="ঢাকা শিক্ষা বোর্ডের এসএসসি বৃত্তি ফলাফল 2026 এর স্কুলভিত্তিক বিশ্লেষণ, মেধা ও সাধারণ বৃত্তির পরিসংখ্যান, সর্বোচ্চ/সর্বনিম্ন মার্কস এবং বিভাগভিত্তিক সামারি।" />
-<meta name="keywords" content="SSC  Board Scholarship Analytics, ঢাকা বোর্ড এসএসসি বৃত্তি বিশ্লেষণ, Dhaka Board Top Schools, SSC Result 2026 Analytics" />
-<meta name="author" content="Mahib Abrar" />
-<meta name="robots" content="index, follow" />
+    <title>2026 সালের SSC ঢাকা বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD</title>
+    <meta name="title" content="2026 সালের SSC ঢাকা বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD" />
+    <meta name="description" content="2026 সালের SSC পরীক্ষার ঢাকা শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।" />
+    <meta name="keywords" content="2026 ssc scholarship result, Dhaka board scholarship, ঢাকা board result, talentpool, general scholarship" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Bengali" />
+    <meta name="author" content="EdutoolsBD" />
 
-<!-- Open Graph -->
-<meta property="og:type" content="website" />
-<meta property="og:title" content="SSC  Board স্কুলভিত্তিক বৃত্তি বিশ্লেষণ - " />
-<meta property="og:description" content=" বোর্ড এর কোন স্কুল থেকে কতজন বৃত্তি পেয়েছে, মেধা তালিকা ও গ্রুপভিত্তিক বিস্তারিত ডাটা এনালিটিক্স." />
-
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/dhaka/analysis/" />
+    <meta property="og:title" content="2026 সালের SSC ঢাকা বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD" />
+    <meta property="og:description" content="2026 সালের SSC পরীক্ষার ঢাকা শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।" />
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,6 +40,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <base href="/ssc/scholarship-list/2026/dhaka/analysis/">
+
+    <meta name="google-site-verification" content="HJHEwK2PX8qOsT_9qsvSLazlykM-oACDqSG7UaLx8qE" />
     
     <style>
         @font-face {
@@ -59,46 +61,210 @@
     </style>
 
     
-<!-- Print & PDF Optimization Styles -->
 <style>
+    /* Page-specific styling; global typography, theme and navigation
+       remain controlled by base.html. */
+
+    .scholarship-page {
+        max-width: 1120px;
+    }
+
+    .scholarship-hero {
+        background:
+            radial-gradient(ellipse at 10% 0%, rgba(59,130,246,.13), transparent 42%),
+            radial-gradient(ellipse at 95% 100%, rgba(99,102,241,.10), transparent 38%),
+            var(--fallback-b1, oklch(var(--b1)));
+    }
+
+    .scholarship-panel {
+        background: var(--fallback-b1, oklch(var(--b1)));
+        border: 1px solid var(--fallback-b3, oklch(var(--b3)));
+        border-radius: 1.15rem;
+    }
+
+    .scholarship-muted {
+        color: var(--fallback-bc, oklch(var(--bc)));
+        opacity: .65;
+    }
+
+    .scholarship-table th {
+        white-space: nowrap;
+        font-weight: 700;
+    }
+
+    .school-row {
+        cursor: pointer;
+        transition: background-color .15s ease;
+    }
+
+    .school-row:hover {
+        background: color-mix(in srgb, var(--fallback-p, oklch(var(--p))) 5%, transparent);
+    }
+
+    .school-row:focus-visible {
+        outline: 2px solid var(--fallback-p, oklch(var(--p)));
+        outline-offset: -2px;
+    }
+
+    .metric-card {
+        min-width: 0;
+        border: 1px solid var(--fallback-b3, oklch(var(--b3)));
+        border-radius: 1rem;
+        padding: 1.1rem;
+        background: var(--fallback-b1, oklch(var(--b1)));
+    }
+
+    .metric-value {
+        font-variant-numeric: tabular-nums;
+        letter-spacing: -.035em;
+    }
+
+    .print-brand-header,
+    .print-footer-disclaimer {
+        display: none;
+    }
+
+    @media (max-width: 640px) {
+        .scholarship-table th,
+        .scholarship-table td {
+            padding: .8rem .7rem;
+        }
+    }
+
     @media print {
+        @page {
+            size: A4;
+            margin: 13mm;
+        }
+
+        html,
+        body {
+            background: #fff !important;
+            color: #172033 !important;
+            font-size: 10pt;
+        }
+
         body * {
-            visibility: hidden;
+            visibility: hidden !important;
         }
-        #schoolDetailView, #schoolDetailView * {
-            visibility: visible;
+
+        /* Explicitly override Tailwind's .hidden utility. */
+        #schoolDetailView,
+        #schoolDetailView * {
+            visibility: visible !important;
         }
+
         #schoolDetailView {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            margin: 0;
-            padding: 10mm;
-            background: #ffffff !important;
+            display: block !important;
+            position: absolute !important;
+            inset: 0 auto auto 0 !important;
+            width: 100% !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            background: #fff !important;
         }
-        nav, .btn, button, #pdfExportBtn, #navBackContainer, #navSearchAction {
+
+        #mainDashboardView,
+        #navBackContainer,
+        #navSearchAction,
+        #pdfExportBtn,
+        #detailBackButton,
+        nav,
+        button {
             display: none !important;
         }
+
+        #printableSchoolContent {
+            display: block !important;
+            background: #fff !important;
+        }
+
+        #schoolDetailView header {
+            background: #fff !important;
+            color: #172033 !important;
+            border: 0 !important;
+            border-bottom: 2px solid #1e40af !important;
+            border-radius: 0 !important;
+            box-shadow: none !important;
+            padding: 12px 0 !important;
+        }
+
+        #schoolDetailView header h1,
+        #schoolDetailView header span {
+            color: #172033 !important;
+        }
+
+        #schoolDetailView header .absolute {
+            display: none !important;
+        }
+
+        .print-brand-header {
+            display: flex !important;
+        }
+
+        .print-footer-disclaimer {
+            display: block !important;
+        }
+
+        .metric-card,
+        #printableSchoolContent .rounded-3xl,
+        #printableSchoolContent .rounded-2xl {
+            background: #fff !important;
+            border-color: #dbe2ea !important;
+            box-shadow: none !important;
+            break-inside: avoid;
+        }
+
+        #printableSchoolContent table {
+            width: 100% !important;
+            border-collapse: collapse !important;
+            font-size: 9pt !important;
+        }
+
+        #printableSchoolContent thead {
+            display: table-header-group;
+        }
+
+        #printableSchoolContent tr {
+            break-inside: avoid;
+        }
+
+        #printableSchoolContent th {
+            background: #eaf0fb !important;
+            color: #172033 !important;
+        }
+
+        #printableSchoolContent th,
+        #printableSchoolContent td {
+            border: 1px solid #dbe2ea !important;
+            padding: 7px !important;
+        }
+
+        #printableSchoolContent .badge {
+            border: 1px solid #dbe2ea !important;
+            color: #172033 !important;
+            background: #f8fafc !important;
+        }
+
+        .print-footer-disclaimer {
+            margin-top: 18px;
+            padding-top: 10px;
+            border-top: 1px solid #cbd5e1;
+            color: #64748b !important;
+            font-size: 8pt;
+            text-align: center;
+        }
+
         * {
             -webkit-print-color-adjust: exact !important;
             print-color-adjust: exact !important;
         }
-        @page {
-            size: A4;
-            margin: 12mm 15mm;
-        }
-        tr {
-            page-break-inside: avoid;
-        }
-        thead {
-            display: table-header-group;
-        }
-        .print-brand-header {
-            display: flex !important;
-        }
-        .print-footer-disclaimer {
-            display: block !important;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .school-row {
+            transition: none;
         }
     }
 </style>
@@ -107,749 +273,1494 @@
     <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "fdd1384721074b4ba7879b2139f25d54"}'></script>
     <script src="https://analytics.ahrefs.com/analytics.js" data-key="ZFkOvfLzefkOx9Qs40ZFfQ" async></script>
 </head>
-<body class="flex flex-col min-h-screen bg-base-100 text-base-content antialiased selection:bg-primary selection:text-primary-content transition-colors duration-200">
+<body class="min-h-screen bg-base-100 text-base-content antialiased">
 
-    
+    <div class="drawer drawer-start">
+        <input id="mobile-nav-drawer"
+               type="checkbox"
+               class="drawer-toggle">
 
+        <div class="drawer-content flex min-h-screen flex-col">
 
-
-
-
-<!-- Full Page PWA Drawer Wrapper -->
-<div class="drawer drawer-start">
-    <input id="mobile-nav-drawer" type="checkbox" class="drawer-toggle" />
-    
-    <div class="drawer-content flex flex-col">
-        <!-- Main Navbar Header -->
-        <header class="sticky top-0 z-40 w-full bg-base-100/80 backdrop-blur-xl border-b border-base-200/70 transition-colors duration-200">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="navbar min-h-16 px-0 gap-2">
-                    
-                    <!-- Navbar Start: Logo & PWA Mobile Menu Trigger -->
-                    <div class="navbar-start gap-2">
-                        <label for="mobile-nav-drawer" class="btn btn-ghost btn-circle btn-sm lg:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-primary" aria-label="Open Mobile Menu">
-                            <svg class="w-5 h-5 text-base-content" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                            </svg>
-                        </label>
-
-                        <!-- Brand & Logo -->
-                        <a href="/" class="text-xl font-black tracking-tight text-primary flex items-center gap-2.5 group">
-                            <div class="relative w-8 h-8 rounded-xl bg-primary/10 flex items-center justify-center overflow-hidden border border-primary/20 group-hover:scale-105 transition-transform duration-200">
-                                <img src="/favicon-96x96.png" alt="EduToolsBD Icon" class="w-6 h-6 object-contain" />
-                            </div>
-                            <span class="text-base-content font-extrabold text-lg sm:text-xl">EduTools<span class="text-primary">BD</span></span>
-                        </a>
-                    </div>
-
-                    <!-- Navbar Center: Desktop Horizontal Navigation -->
-                    <div class="navbar-center hidden lg:flex items-center gap-1">
-                        
-                            
-    
-        <!-- Standalone Desktop Link -->
-        <a href="/" class="btn btn-ghost btn-sm rounded-xl font-bold text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200">
-            <span>হোম</span>
             
-        </a>
+
+
+
+
+<style>
+    .site-navbar {
+        height: 68px;
+        border-bottom: 1px solid var(--fallback-bc, oklch(var(--bc) / .09));
+        background: var(--fallback-b1, oklch(var(--b1)));
+    }
+
+    .nav-brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        white-space: nowrap;
+    }
+
+    .nav-brand-icon {
+        width: 36px;
+        height: 36px;
+        border-radius: 11px;
+        display: grid;
+        place-items: center;
+        background: var(--fallback-b2, oklch(var(--b2)));
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / .09));
+    }
+
+    .nav-link {
+        min-height: 40px;
+        padding: 0 12px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        border-radius: 9px;
+        cursor: pointer;
+        list-style: none;
+        color: var(--fallback-bc, oklch(var(--bc) / .76));
+        font-size: 13px;
+        font-weight: 600;
+        white-space: nowrap;
+        transition: background .15s, color .15s;
+    }
+
+    .nav-link::-webkit-details-marker { display: none; }
+    .nav-link::marker { content: ""; }
+
+    .nav-link:hover,
+    .nav-dropdown[open] > .nav-link,
+    .nav-link-active {
+        background: var(--fallback-b2, oklch(var(--b2)));
+        color: var(--fallback-bc, oklch(var(--bc)));
+    }
+
+    .nav-chevron {
+        width: 14px;
+        height: 14px;
+        opacity: .55;
+        transition: transform .2s;
+    }
+
+    .nav-dropdown[open] > .nav-link .nav-chevron {
+        transform: rotate(180deg);
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        z-index: 100;
+        top: calc(100% + 5px);
+        left: 0;
+        width: 250px;
+        padding: 7px;
+        background: var(--fallback-b1, oklch(var(--b1)));
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / .12));
+        border-radius: 13px;
+        box-shadow: 0 12px 32px rgba(0,0,0,.09);
+    }
+
+    .nav-dropdown[open] > .nav-menu {
+        display: block;
+    }
+
+    .nav-menu-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        min-height: 39px;
+        padding: 9px 11px;
+        border-radius: 8px;
+        color: var(--fallback-bc, oklch(var(--bc) / .8));
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        list-style: none;
+        transition: background .15s, color .15s;
+    }
+
+    .nav-menu-link:hover,
+    .nav-subdropdown[open] > .nav-menu-link {
+        background: var(--fallback-b2, oklch(var(--b2)));
+        color: var(--fallback-bc, oklch(var(--bc)));
+    }
+
+    .nav-menu-link::-webkit-details-marker { display: none; }
+    .nav-menu-link::marker { content: ""; }
+
+    .nav-submenu {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: calc(100% + 5px);
+        width: 225px;
+        padding: 7px;
+        background: var(--fallback-b1, oklch(var(--b1)));
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / .12));
+        border-radius: 13px;
+        box-shadow: 0 12px 32px rgba(0,0,0,.09);
+    }
+
+    .nav-subdropdown[open] > .nav-submenu {
+        display: block;
+    }
+
+    .nav-dropdown,
+    .nav-subdropdown {
+        position: relative;
+    }
+
+    .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .nav-icon-btn {
+        width: 37px;
+        height: 37px;
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+        color: var(--fallback-bc, oklch(var(--bc) / .7));
+        transition: background .15s;
+    }
+
+    .nav-icon-btn:hover {
+        background: var(--fallback-b2, oklch(var(--b2)));
+    }
+
+    @media (hover: hover) {
+        .nav-dropdown:hover > .nav-menu,
+        .nav-subdropdown:hover > .nav-submenu {
+            display: block;
+        }
+    }
+
+    @media (max-width: 1023px) {
+        .site-navbar { height: 62px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .nav-link, .nav-chevron, .nav-menu-link { transition: none; }
+    }
+</style>
+
+<header class="site-navbar sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8">
+        <div class="flex h-full items-center justify-between gap-3">
+
+            <!-- Brand -->
+            <div class="flex items-center gap-2.5">
+                <label for="mobile-nav-drawer"
+                       class="nav-icon-btn lg:hidden cursor-pointer"
+                       aria-label="Open navigation menu">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                        <path d="M4 7h16M4 12h16M4 17h16"
+                              stroke="currentColor" stroke-width="1.8"
+                              stroke-linecap="round"/>
+                    </svg>
+                </label>
+
+                <a href="/" class="nav-brand">
+                    <span class="nav-brand-icon">
+                        <img src="/favicon-96x96.png"
+                             alt=""
+                             class="w-6 h-6 object-contain">
+                    </span>
+
+                    <span class="text-lg font-extrabold tracking-tight text-base-content">
+                        EduTools<span class="text-primary">BD</span>
+                    </span>
+                </a>
+            </div>
+
+            <!-- Desktop navigation -->
+            <nav class="hidden lg:flex items-center gap-1"
+                 aria-label="Main navigation">
+                
+                    
+    
+        
+            <a href="/"
+               class="nav-link ">
+                হোম
+                
+            </a>
+        
     
 
-                        
-                            
+                
+                    
     
-        <!-- Desktop Hover Dropdown (Level 1) -->
-        <div class="dropdown dropdown-hover dropdown-bottom">
-            <div tabindex="0" role="button" aria-haspopup="true" class="btn btn-ghost btn-sm rounded-xl font-bold flex items-center gap-1.5 text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200 group">
+        <details class="nav-dropdown group relative">
+            <summary class="nav-link">
                 <span>এসএসসি (SSC)</span>
                 
-                <svg class="w-3.5 h-3.5 opacity-60 transition-transform duration-200 group-hover:rotate-180 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+                <svg class="nav-chevron" viewBox="0 0 20 20" fill="none">
+                    <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                          stroke-width="1.7" stroke-linecap="round"/>
                 </svg>
-            </div>
-            
-            <!-- Level 1 Dropdown Menu -->
-            <ul tabindex="0" class="dropdown-content z-[100] menu p-2 shadow-2xl bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 w-60 space-y-1 text-base-content mt-1">
+            </summary>
+
+            <ul class="nav-menu">
                 
                     
-                        <!-- Direct Child Link -->
                         <li>
-                            <a href="/ssc/scholarship-list/2026/" class="rounded-xl font-medium text-sm text-base-content/90 hover:text-primary hover:bg-base-200/70 flex justify-between items-center py-2 px-3">
-                                <span>SSC বোর্ড বৃত্তি ২০২৬</span>
-                                
-                                    <span class="badge badge-xs badge-secondary font-medium">HOT 🔥</span>
-                                
-                            </a>
+                            
+                                <a href="/ssc/scholarship-list/2026/" class="nav-menu-link">
+                                    SSC বোর্ড বৃত্তি ২০২৬
+                                    
+                                        <span class="badge badge-xs badge-secondary">HOT 🔥</span>
+                                    
+                                </a>
+                            
                         </li>
                     
                 
                     
-                        <!-- Nested Sub-dropdown (Level 2) with fixed hover bridge -->
-                        <li class="relative group/sub">
-                            <a class="font-semibold text-sm rounded-xl hover:bg-base-200/70 hover:text-primary flex justify-between items-center py-2 px-3 cursor-pointer">
-                                <span>SSC বোর্ড বৃত্তি Archive</span>
-                                <div class="flex items-center gap-1.5">
-                                    
-                                    <svg class="w-3.5 h-3.5 opacity-60 group-hover/sub:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        <li>
+                            <details class="nav-subdropdown group/sub">
+                                <summary class="nav-menu-link">
+                                    <span>SSC বোর্ড বৃত্তি Archive</span>
+                                    <svg class="w-4 h-4 opacity-50" viewBox="0 0 20 20" fill="none">
+                                        <path d="m7 4 6 6-6 6" stroke="currentColor"
+                                              stroke-width="1.7" stroke-linecap="round"/>
                                     </svg>
-                                </div>
-                            </a>
-                            <!-- Level 2 Flyout with bridge padding (ml-1) to prevent hover loss -->
-                            <ul class="hidden group-hover/sub:flex flex-col absolute left-full top-0 ml-1 w-56 p-2 bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 shadow-2xl space-y-1 z-[101]">
-                                
-                                    <li>
-                                        <a href="/ssc/scholarship-list/2026/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৬</span>
+                                </summary>
+
+                                <ul class="nav-submenu">
+                                    
+                                        <li>
                                             
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/ssc/scholarship-list/2025/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৫</span>
+                                                <a href="/ssc/scholarship-list/2026/" class="nav-menu-link">
+                                                    ২০২৬
+                                                    
+                                                </a>
                                             
-                                        </a>
-                                    </li>
-                                
-                            </ul>
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="/ssc/scholarship-list/2025/" class="nav-menu-link">
+                                                    ২০২৫
+                                                    
+                                                </a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            </details>
                         </li>
                     
                 
             </ul>
-        </div>
+        </details>
     
 
-                        
-                            
+                
+                    
     
-        <!-- Desktop Hover Dropdown (Level 1) -->
-        <div class="dropdown dropdown-hover dropdown-bottom">
-            <div tabindex="0" role="button" aria-haspopup="true" class="btn btn-ghost btn-sm rounded-xl font-bold flex items-center gap-1.5 text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200 group">
+        <details class="nav-dropdown group relative">
+            <summary class="nav-link">
                 <span>এইচএসসি (HSC)</span>
                 
-                <svg class="w-3.5 h-3.5 opacity-60 transition-transform duration-200 group-hover:rotate-180 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+                <svg class="nav-chevron" viewBox="0 0 20 20" fill="none">
+                    <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                          stroke-width="1.7" stroke-linecap="round"/>
                 </svg>
-            </div>
-            
-            <!-- Level 1 Dropdown Menu -->
-            <ul tabindex="0" class="dropdown-content z-[100] menu p-2 shadow-2xl bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 w-60 space-y-1 text-base-content mt-1">
+            </summary>
+
+            <ul class="nav-menu">
                 
                     
-                        <!-- Nested Sub-dropdown (Level 2) with fixed hover bridge -->
-                        <li class="relative group/sub">
-                            <a class="font-semibold text-sm rounded-xl hover:bg-base-200/70 hover:text-primary flex justify-between items-center py-2 px-3 cursor-pointer">
-                                <span>HSC বোর্ড বৃত্তি Archive</span>
-                                <div class="flex items-center gap-1.5">
-                                    
-                                    <svg class="w-3.5 h-3.5 opacity-60 group-hover/sub:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        <li>
+                            <details class="nav-subdropdown group/sub">
+                                <summary class="nav-menu-link">
+                                    <span>HSC বোর্ড বৃত্তি Archive</span>
+                                    <svg class="w-4 h-4 opacity-50" viewBox="0 0 20 20" fill="none">
+                                        <path d="m7 4 6 6-6 6" stroke="currentColor"
+                                              stroke-width="1.7" stroke-linecap="round"/>
                                     </svg>
-                                </div>
-                            </a>
-                            <!-- Level 2 Flyout with bridge padding (ml-1) to prevent hover loss -->
-                            <ul class="hidden group-hover/sub:flex flex-col absolute left-full top-0 ml-1 w-56 p-2 bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 shadow-2xl space-y-1 z-[101]">
-                                
-                                    <li>
-                                        <a href="/hsc/scholarship-list/2026/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৬</span>
+                                </summary>
+
+                                <ul class="nav-submenu">
+                                    
+                                        <li>
                                             
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/hsc/scholarship-list/2025/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৫</span>
+                                                <a href="/hsc/scholarship-list/2026/" class="nav-menu-link">
+                                                    ২০২৬
+                                                    
+                                                </a>
                                             
-                                        </a>
-                                    </li>
-                                
-                            </ul>
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="/hsc/scholarship-list/2025/" class="nav-menu-link">
+                                                    ২০২৫
+                                                    
+                                                </a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            </details>
                         </li>
                     
                 
             </ul>
-        </div>
+        </details>
     
 
-                        
-                            
+                
+                    
     
-        <!-- Standalone Desktop Link -->
-        <a href="/blog" class="btn btn-ghost btn-sm rounded-xl font-bold text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200">
-            <span>ব্লগ</span>
-            
-        </a>
-    
-
-                        
-                    </div>
-
-                    <!-- Navbar End: Theme Switcher & Actions -->
-                    <div class="navbar-end gap-2">
-                        <!-- PWA Optimized Theme Controller Switcher -->
-                        <label class="btn btn-ghost btn-circle btn-sm text-base-content/80 hover:text-base-content swap swap-rotate" title="Toggle Light/Dark Theme">
-                            <input type="checkbox" id="theme-toggle" class="theme-controller hidden" value="dark" />
-                            
-                            <!-- Sun Icon (Active when dark mode is ON) -->
-                            <svg class="swap-on w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,3.52,6.34l.71.71A1,1,0,0,0,5.64,7.05ZM18.36,17A1,1,0,0,0,17,17.71l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-3.95-5.36a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.41l.71.71a1,1,0,0,0,1.41-0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/>
-                            </svg>
-                            
-                            <!-- Moon Icon (Active when light mode is ON) -->
-                            <svg class="swap-off w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05A1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22a10.17,10.17,0,0,0,5.13,11.34A10.1,10.1,0,0,0,16.27,18,8.11,8.11,0,0,1,12.14,19.69Z"/>
-                            </svg>
-                        </label>
-
-                        
-                            <a href="/ssc/scholarship-list/" class="btn btn-primary btn-sm sm:btn-md text-primary-content rounded-xl font-bold shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02] active:scale-95 transition-all duration-200">
-                                SSC Scholarship Result ➔
-                            </a>
-                        
-                    </div>
-
-                </div>
-            </div>
-        </header>
-    </div>
-
-    <!-- PWA Mobile Off-Canvas Drawer Side -->
-    <div class="drawer-side z-50 lg:hidden">
-        <label for="mobile-nav-drawer" aria-label="close sidebar" class="drawer-overlay bg-base-900/40 backdrop-blur-sm"></label>
         
-        <aside class="w-80 max-w-[85vw] min-h-full bg-base-100 text-base-content flex flex-col shadow-2xl">
-            <!-- Mobile Drawer Header -->
-            <div class="sticky top-0 z-10 flex items-center justify-between px-5 py-4 border-b border-base-200 bg-base-100/90 backdrop-blur-md">
-                <a href="/" class="flex items-center gap-2.5">
-                    <img src="/favicon-96x96.png" alt="EduToolsBD Logo" class="w-7 h-7 object-contain" />
-                    <span class="text-lg font-black tracking-tight text-base-content">EduTools<span class="text-primary">BD</span></span>
-                </a>
-                <label for="mobile-nav-drawer" class="btn btn-ghost btn-circle btn-sm text-base-content/60 hover:text-base-content">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            <a href="/blog"
+               class="nav-link ">
+                ব্লগ
+                
+            </a>
+        
+    
+
+                
+            </nav>
+
+            <!-- Actions -->
+            <div class="nav-actions">
+                <label for="theme-toggle"
+                       class="nav-icon-btn cursor-pointer"
+                       title="Change appearance"
+                       aria-label="Toggle theme">
+                    <svg id="theme-icon-sun" class="w-5 h-5 hidden" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/>
+                        <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"
+                              stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                    <svg id="theme-icon-moon" class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                        <path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"
+                              stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                    </svg>
                 </label>
-            </div>
 
-            <!-- Mobile Navigation Menu Links -->
-            <div class="flex-1 overflow-y-auto p-4">
-                <ul class="menu menu-md w-full p-0 space-y-1">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>হোম</span>
+                <input type="checkbox"
+                       id="theme-toggle"
+                       class="hidden">
+
                 
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        এসএসসি (SSC)
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/ssc/scholarship-list/2026/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>SSC বোর্ড বৃত্তি ২০২৬</span>
-                
-                    <span class="badge badge-xs badge-accent">HOT 🔥</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        SSC বোর্ড বৃত্তি Archive
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/ssc/scholarship-list/2026/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৬</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/ssc/scholarship-list/2025/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৫</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        এইচএসসি (HSC)
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        HSC বোর্ড বৃত্তি Archive
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/hsc/scholarship-list/2026/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৬</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/hsc/scholarship-list/2025/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৫</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/blog" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>ব্লগ</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </div>
-
-            <!-- Mobile Drawer Footer CTA -->
-            
-                <div class="p-4 border-t border-base-200 bg-base-100/50">
-                    <a href="/ssc/scholarship-list/" class="btn btn-primary w-full rounded-xl text-primary-content font-bold shadow-lg shadow-primary/20">
+                    <a href="/ssc/scholarship-list/"
+                       class="btn btn-primary btn-sm rounded-lg px-4 font-semibold">
                         SSC Scholarship Result ➔
                     </a>
-                </div>
-            
-        </aside>
+                
+            </div>
+
+        </div>
     </div>
-</div>
+</header>
 
-<!-- Synchronous Non-Flickering Theme Script -->
 <script>
-    (function() {
-        const toggle = document.getElementById('theme-toggle');
-        const html = document.documentElement;
-        
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        html.setAttribute('data-theme', savedTheme);
-        if (savedTheme === 'dark') {
-            html.classList.add('dark');
-        } else {
-            html.classList.remove('dark');
-        }
+(() => {
+    const html = document.documentElement;
+    const toggle = document.getElementById('theme-toggle');
+    const sun = document.getElementById('theme-icon-sun');
+    const moon = document.getElementById('theme-icon-moon');
 
-        if (toggle) {
-            toggle.checked = (savedTheme === 'dark');
-            toggle.addEventListener('change', function() {
-                const newTheme = this.checked ? 'dark' : 'light';
-                html.setAttribute('data-theme', newTheme);
-                if (newTheme === 'dark') {
-                    html.classList.add('dark');
-                } else {
-                    html.classList.remove('dark');
-                }
-                localStorage.setItem('theme', newTheme);
-            });
-        }
-    })();
+    if (!toggle) return;
+
+    let savedTheme = 'light';
+
+    try {
+        savedTheme = localStorage.getItem('theme') ||
+            (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    } catch (e) {}
+
+    function applyTheme(theme) {
+        html.setAttribute('data-theme', theme);
+        toggle.checked = theme === 'dark';
+
+        sun?.classList.toggle('hidden', theme !== 'dark');
+        moon?.classList.toggle('hidden', theme === 'dark');
+
+        try {
+            localStorage.setItem('theme', theme);
+        } catch (e) {}
+    }
+
+    applyTheme(savedTheme);
+
+    toggle.addEventListener('change', () => {
+        applyTheme(toggle.checked ? 'dark' : 'light');
+    });
+})();
 </script>
 
-    <main class="flex-grow">
-        
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6 font-sans">
+            <main class="flex-1">
+                
+<main class="scholarship-page mx-auto w-full px-4 sm:px-6 py-6 sm:py-8 space-y-6">
 
-    <!-- Top Navigation Bar (Screen Only) -->
-    <nav class="flex flex-wrap items-center justify-between gap-3" aria-label="Page Navigation">
-        <div id="navBackContainer">
-            <a href="/ssc/scholarship-list/2026/" class="btn btn-outline btn-sm sm:btn-md rounded-2xl font-bold border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 transition-all">
-                ← হোম পেজে ফিরে যান
-            </a>
-        </div>
-        <div id="navSearchAction">
-            <a href="/ssc/scholarship-list///" class="btn bg-blue-600 hover:bg-blue-700 text-white border-none btn-sm sm:btn-md rounded-2xl font-bold shadow-md shadow-blue-500/20 transition-all">
-                ফলাফল খুঁজুন 🔍
-            </a>
-        </div>
+    <!-- Page navigation: site navbar and footer are inherited from base.html. -->
+    <nav class="flex flex-wrap items-center justify-between gap-3"
+         aria-label="স্কলারশিপ নেভিগেশন">
+
+        <a id="navBackLink"
+           href="/ssc/scholarship-list/2026/"
+           class="btn btn-sm sm:btn-md btn-ghost border border-base-300 rounded-xl gap-2">
+            <span aria-hidden="true">←</span>
+            <span>স্কলারশিপ পেজ</span>
+        </a>
+
+        <a href="/ssc/scholarship-list///"
+           class="btn btn-sm sm:btn-md btn-primary rounded-xl gap-2">
+            ফলাফল খুঁজুন
+            <span aria-hidden="true">↗</span>
+        </a>
     </nav>
 
-    <!-- ========================================== -->
-    <!-- VIEW A: MAIN DASHBOARD & ANALYTICS (Default) -->
-    <!-- ========================================== -->
-    <div id="mainDashboardView" class="space-y-6">
 
-        <!-- Page Title Header -->
-        <header class="relative overflow-hidden bg-gradient-to-b from-blue-900 via-blue-900/95 to-slate-900 p-6 sm:p-10 rounded-3xl border border-blue-800/50 shadow-xl text-center space-y-3">
-            <div class="absolute -top-10 -left-10 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
-            <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
+    <!-- =====================================================
+         VIEW A: BOARD DASHBOARD
+    ====================================================== -->
+    <section id="mainDashboardView" class="space-y-6">
 
-            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/20 text-xs font-semibold tracking-wide uppercase mb-1">
-                ✨  Board Analytics
+        <!-- Hero -->
+        <header class="scholarship-hero relative overflow-hidden rounded-3xl border border-base-300 px-5 py-8 sm:px-9 sm:py-10">
+
+            <div class="relative z-10 max-w-3xl">
+                <div class="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-3 py-1.5 text-xs font-bold text-primary">
+                    <span class="h-2 w-2 rounded-full bg-primary"></span>
+                     BOARD
+                    <span class="opacity-50">/</span>
+                    ANALYTICS
+                </div>
+
+                <h1 class="mt-5 text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight leading-tight">
+                    ssc  বোর্ড
+                    <span class="text-primary">স্কুলভিত্তিক বৃত্তি বিশ্লেষণ</span>
+                </h1>
+
+                <p class="mt-3 max-w-2xl text-sm sm:text-base scholarship-muted leading-relaxed">
+                     সালের ssc বৃত্তি ফলাফলের স্কুলভিত্তিক পরিসংখ্যান,
+                    শিক্ষার্থী সংখ্যা এবং প্রাপ্ত নম্বরের বিশ্লেষণ।
+                </p>
             </div>
-            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
-                ssc  Board স্কুলভিত্তিক বৃত্তি বিশ্লেষণ <span class="text-blue-400"></span>
-            </h1>
-            <p class="text-blue-100/80 text-sm sm:text-base max-w-2xl mx-auto font-medium">
-                 শিক্ষা বোর্ডের অধীনস্থ স্কুলসমূহের মেধা ও সাধারণ বৃত্তি অর্জনের সার্বিক পরিসংখ্যান ও এনালিটিক্স
-            </p>
+
+            <div class="absolute -right-16 -top-20 h-64 w-64 rounded-full bg-primary/5 blur-3xl pointer-events-none"></div>
+            <div class="absolute -bottom-24 right-24 h-52 w-52 rounded-full bg-secondary/5 blur-3xl pointer-events-none"></div>
         </header>
 
-        <!-- Disclaimer Alert Notice -->
-        <div role="alert" class="alert bg-blue-50/80 border border-blue-200/80 text-blue-950 rounded-2xl p-4 text-xs sm:text-sm flex items-start gap-3 backdrop-blur-sm shadow-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-blue-600 shrink-0 h-5 w-5 mt-0.5" fill="none" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-            </svg>
-            <div>
-                <strong class="font-bold text-blue-900 block mb-0.5">দায়মুক্তির ঘোষণা (Disclaimer):</strong>
-                <span class="text-blue-900/80">
-                    এই পাতায় প্রদর্শিত এনালিটিক্স ডাটা কেবল সাধারণ তথ্যাবগতি ও পরিসংখ্যানগত বিশ্লেষণের জন্য প্রস্তুত করা হয়েছে। তথ্যের নির্ভুলতা নিশ্চিত করার সর্বোচ্চ চেষ্টা করা হলেও, যেকোনো দাপ্তরিক বা চূড়ান্ত তথ্যের জন্য সংশ্লিষ্ট শিক্ষা বোর্ডের অফিশিয়াল গেজেট/বিজ্ঞপ্তি অনুসরণ করার জন্য অনুরোধ করা হচ্ছে।
-                </span>
-            </div>
-        </div>
 
-        <!-- Primary Overview Stats Grid -->
-        <section aria-label="Summary Statistics" class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-blue-300 transition-all">
-                <p class="text-xs sm:text-sm font-semibold text-slate-500">মোট বৃত্তিপ্রাপ্ত</p>
-                <h3 id="statTotalStudents" class="text-2xl sm:text-3xl font-black text-blue-600 mt-1">০</h3>
+        <!-- Disclaimer -->
+        <aside role="note"
+               class="flex items-start gap-3 rounded-2xl border border-info/20 bg-info/5 p-4 text-sm">
+
+            <span class="text-lg text-info" aria-hidden="true">ⓘ</span>
+
+            <div class="min-w-0">
+                <h2 class="font-bold text-base-content">তথ্যসংক্রান্ত ঘোষণা</h2>
+                <p class="mt-1 text-base-content/70 leading-relaxed">
+                    এই পৃষ্ঠার তথ্য পরিসংখ্যানগত বিশ্লেষণের উদ্দেশ্যে প্রদর্শিত হচ্ছে।
+                    তথ্যের নির্ভুলতা নিশ্চিত করার চেষ্টা করা হলেও চূড়ান্ত ও দাপ্তরিক
+                    তথ্যের জন্য সংশ্লিষ্ট শিক্ষা বোর্ডের প্রকাশিত গেজেট বা বিজ্ঞপ্তি
+                    অনুসরণ করুন।
+                </p>
             </div>
-            <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-blue-300 transition-all">
-                <p class="text-xs sm:text-sm font-semibold text-slate-500">মোট অন্তর্ভুক্ত স্কুল</p>
-                <h3 id="statTotalSchools" class="text-2xl sm:text-3xl font-black text-blue-600 mt-1">০</h3>
+        </aside>
+
+
+        <!-- Summary metrics -->
+        <section aria-label="সার্বিক পরিসংখ্যান">
+            <div class="mb-3 flex items-center justify-between gap-3">
+                <h2 class="text-base font-bold">সার্বিক পরিসংখ্যান</h2>
+                <span class="text-xs scholarship-muted">বোর্ডভিত্তিক সারাংশ</span>
             </div>
-            <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-amber-300 transition-all">
-                <p class="text-xs sm:text-sm font-semibold text-slate-500">ট্যালেন্টপুল বৃত্তি</p>
-                <h3 id="statTotalTalentpool" class="text-2xl sm:text-3xl font-black text-amber-600 mt-1">০</h3>
-            </div>
-            <div class="bg-white p-5 rounded-3xl border border-blue-100 shadow-sm text-center hover:shadow-md hover:border-sky-300 transition-all">
-                <p class="text-xs sm:text-sm font-semibold text-slate-500">সাধারণ বৃত্তি</p>
-                <h3 id="statTotalGeneral" class="text-2xl sm:text-3xl font-black text-sky-600 mt-1">০</h3>
+
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+
+                <article class="metric-card">
+                    <p class="text-xs sm:text-sm scholarship-muted font-semibold">
+                        মোট বৃত্তিপ্রাপ্ত
+                    </p>
+                    <p id="statTotalStudents"
+                       class="metric-value mt-2 text-2xl sm:text-3xl font-extrabold text-primary"
+                       aria-live="polite">০</p>
+                </article>
+
+                <article class="metric-card">
+                    <p class="text-xs sm:text-sm scholarship-muted font-semibold">
+                        অন্তর্ভুক্ত স্কুল
+                    </p>
+                    <p id="statTotalSchools"
+                       class="metric-value mt-2 text-2xl sm:text-3xl font-extrabold text-primary">০</p>
+                </article>
+
+                <article class="metric-card">
+                    <p class="text-xs sm:text-sm scholarship-muted font-semibold">
+                        ট্যালেন্টপুল
+                    </p>
+                    <p id="statTotalTalentpool"
+                       class="metric-value mt-2 text-2xl sm:text-3xl font-extrabold text-warning">০</p>
+                </article>
+
+                <article class="metric-card">
+                    <p class="text-xs sm:text-sm scholarship-muted font-semibold">
+                        সাধারণ বৃত্তি
+                    </p>
+                    <p id="statTotalGeneral"
+                       class="metric-value mt-2 text-2xl sm:text-3xl font-extrabold text-info">০</p>
+                </article>
+
             </div>
         </section>
 
-        <!-- Analytics Cards (Groups & Marks Summary) -->
-        <section id="analyticsSections" class="grid grid-cols-1 md:grid-cols-2 gap-6 hidden">
-            <!-- Group Breakdown Container -->
-            <div id="groupSectionCard" class="bg-white p-6 rounded-3xl border border-blue-100 shadow-sm space-y-4 hidden flex-col">
-                <h2 class="text-base sm:text-lg font-bold text-slate-800 border-b border-blue-50 pb-3 flex items-center gap-2">
-                    📊 <span class="text-blue-600">বিভাগভিত্তিক</span> বৃত্তিপ্রাপ্ত শিক্ষার্থী
-                </h2>
-                <div id="groupListContainer" class="space-y-2"></div>
-            </div>
 
-            <!-- Mark Analytics Container -->
-            <div id="markSectionCard" class="bg-white p-6 rounded-3xl border border-blue-100 shadow-sm space-y-4 hidden flex-col">
-                <h2 class="text-base sm:text-lg font-bold text-slate-800 border-b border-blue-50 pb-3 flex items-center gap-2">
-                    📈 প্রাপ্ত নম্বর <span class="text-blue-600">এনালিটিক্স</span>
-                </h2>
+        <!-- Optional analytics -->
+        <section id="analyticsSections"
+                 class="grid grid-cols-1 lg:grid-cols-2 gap-4 hidden"
+                 aria-label="অতিরিক্ত বিশ্লেষণ">
+
+            <article id="groupSectionCard"
+                     class="scholarship-panel p-5 sm:p-6 space-y-4 hidden">
+
+                <div class="flex items-center justify-between border-b border-base-300 pb-3">
+                    <h2 class="font-bold">বিভাগভিত্তিক বৃত্তিপ্রাপ্ত</h2>
+                    <span class="text-primary text-lg" aria-hidden="true">▥</span>
+                </div>
+
+                <div id="groupListContainer" class="space-y-2"></div>
+            </article>
+
+
+            <article id="markSectionCard"
+                     class="scholarship-panel p-5 sm:p-6 space-y-4 hidden">
+
+                <div class="flex items-center justify-between border-b border-base-300 pb-3">
+                    <h2 class="font-bold">প্রাপ্ত নম্বরের বিশ্লেষণ</h2>
+                    <span class="text-primary text-lg" aria-hidden="true">⌁</span>
+                </div>
+
                 <div class="overflow-x-auto">
-                    <table class="table table-zebra w-full text-sm">
+                    <table class="table table-sm w-full">
                         <thead>
-                            <tr class="bg-blue-50/80 text-blue-900">
-                                <th class="rounded-l-xl">ক্যাটাগরি / বিভাগ</th>
-                                <th class="text-center">সর্বোচ্চ মার্কস</th>
-                                <th class="text-center rounded-r-xl">সর্বনিম্ন মার্কস</th>
+                            <tr>
+                                <th>ক্যাটাগরি / বিভাগ</th>
+                                <th class="text-center">সর্বোচ্চ</th>
+                                <th class="text-center">সর্বনিম্ন</th>
                             </tr>
                         </thead>
-                        <tbody id="markSummaryBody" class="divide-y divide-blue-50"></tbody>
+                        <tbody id="markSummaryBody"></tbody>
                     </table>
                 </div>
-            </div>
+            </article>
+
         </section>
 
-        <!-- Search Section -->
-        <div class="bg-white p-4 rounded-3xl border border-blue-100 shadow-sm">
-            <label for="schoolSearch" class="sr-only">স্কুলের নাম দিয়ে খুঁজুন</label>
-            <div class="relative">
-                <span class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-blue-400">🔍</span>
-                <input 
-                    type="text" 
-                    id="schoolSearch" 
-                    placeholder="স্কুলের নাম দিয়ে খুঁজুন (ক্লিক করে বিস্তারিত দেখুন)..." 
-                    oninput="onSearchInput()"
-                    class="input input-bordered w-full pl-11 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 bg-blue-50/30 border-blue-100 transition-all text-sm font-medium"
-                />
-            </div>
-        </div>
 
-        <!-- Top Schools Data Table with Pagination Container -->
-        <section class="bg-white rounded-3xl border border-blue-100 shadow-sm overflow-hidden min-h-[300px]">
+        <!-- School search -->
+        <section class="scholarship-panel p-4 sm:p-5 space-y-3">
+
+            <div>
+                <h2 class="font-bold">স্কুল খুঁজুন</h2>
+                <p class="text-xs scholarship-muted mt-1">
+                    স্কুলের নাম লিখে তালিকা ফিল্টার করুন।
+                </p>
+            </div>
+
+            <label class="input input-bordered w-full flex items-center gap-3 rounded-xl">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     class="h-5 w-5 opacity-50 shrink-0"
+                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <circle cx="11" cy="11" r="7" stroke-width="2"></circle>
+                    <path stroke-width="2" stroke-linecap="round" d="m16 16 4 4"></path>
+                </svg>
+
+                <input id="schoolSearch"
+                       type="search"
+                       class="grow min-w-0"
+                       placeholder="স্কুলের নাম লিখুন..."
+                       autocomplete="off"
+                       aria-label="স্কুলের নাম দিয়ে খুঁজুন">
+            </label>
+        </section>
+
+
+        <!-- School table -->
+        <section class="scholarship-panel overflow-hidden">
+
+            <div class="flex flex-wrap items-center justify-between gap-2 px-4 sm:px-5 py-4 border-b border-base-300">
+                <div>
+                    <h2 class="font-bold">স্কুলভিত্তিক তালিকা</h2>
+                    <p class="text-xs scholarship-muted mt-1">
+                        বিস্তারিত দেখতে স্কুলের নাম নির্বাচন করুন।
+                    </p>
+                </div>
+
+                <span id="schoolCountBadge"
+                      class="badge badge-outline badge-sm">লোড হচ্ছে</span>
+            </div>
+
             <div class="overflow-x-auto">
-                <table class="table w-full text-sm">
-                    <thead class="bg-blue-900 text-white text-sm">
-                        <tr>
-                            <th class="py-4 font-bold text-xs uppercase tracking-wider">র‍্যাংক</th>
-                            <th class="py-4 font-bold text-xs uppercase tracking-wider">স্কুলের নাম (বিস্তারিত দেখতে ক্লিক করুন)</th>
-                            <th class="py-4 font-bold text-xs uppercase tracking-wider text-center">ট্যালেন্টপুল</th>
-                            <th class="py-4 font-bold text-xs uppercase tracking-wider text-center">সাধারণ</th>
-                            <th class="py-4 font-bold text-xs uppercase tracking-wider text-center">মোট বৃত্তি</th>
+                <table class="table table-sm sm:table-md w-full scholarship-table">
+
+                    <thead>
+                        <tr class="bg-base-200/70">
+                            <th class="w-16">অবস্থান</th>
+                            <th>স্কুলের নাম</th>
+                            <th class="text-center">ট্যালেন্টপুল</th>
+                            <th class="text-center">সাধারণ</th>
+                            <th class="text-center">মোট</th>
                         </tr>
                     </thead>
-                    <tbody id="dashTableBody" class="divide-y divide-blue-50">
+
+                    <tbody id="dashTableBody">
                         <tr>
-                            <td colspan="5" class="text-center text-slate-400 py-16">
-                                <div class="flex flex-col items-center justify-center space-y-2">
-                                    <span class="loading loading-spinner loading-md text-blue-600"></span>
-                                    <span class="text-xs font-semibold text-slate-500">ডাটা লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন...</span>
-                                </div>
+                            <td colspan="5" class="py-16 text-center">
+                                <span class="loading loading-spinner loading-md text-primary"></span>
+                                <p class="mt-3 text-sm scholarship-muted">
+                                    তথ্য লোড হচ্ছে...
+                                </p>
                             </td>
                         </tr>
                     </tbody>
+
                 </table>
             </div>
 
-            <!-- Pagination Controls Bar -->
-            <div id="paginationContainer" class="flex flex-col sm:flex-row items-center justify-between gap-4 px-6 py-4 bg-white border-t border-blue-50 hidden">
-                <div id="paginationInfo" class="text-xs sm:text-sm font-semibold text-slate-500">
-                    প্রদর্শিত হচ্ছে...
-                </div>
-                <div id="paginationButtons" class="flex flex-wrap items-center gap-1.5">
-                    <!-- Dynamic Pagination Buttons -->
-                </div>
+
+            <!-- Pagination -->
+            <div id="paginationContainer"
+                 class="hidden flex flex-col sm:flex-row items-center justify-between gap-3 px-4 sm:px-5 py-4 border-t border-base-300">
+
+                <p id="paginationInfo"
+                   class="text-xs scholarship-muted text-center sm:text-left"></p>
+
+                <div id="paginationButtons"
+                     class="flex flex-wrap items-center justify-center gap-1.5"
+                     aria-label="তালিকার পৃষ্ঠা"></div>
             </div>
+
         </section>
 
-    </div>
+        <p class="text-center text-xs scholarship-muted">
+            স্কুলের তালিকা ও পরিসংখ্যান প্রদত্ত ডেটার ভিত্তিতে তৈরি।
+        </p>
 
-    <!-- ========================================== -->
-    <!-- VIEW B: SCHOOL DETAIL PAGE (Loaded via ?school=) -->
-    <!-- ========================================== -->
-    <div id="schoolDetailView" class="space-y-6 hidden">
-        
-        <!-- Print-Only Professional Branding Header -->
-        <div class="print-brand-header hidden flex-col border-b-2 border-blue-900 pb-4 mb-4 space-y-1">
-            <div class="flex justify-between items-center">
-                <span class="text-xl font-black text-blue-900">Edutools<span class="text-blue-600">BD</span> <span class="text-xs font-normal text-slate-500">| আনঅফিশিয়াল স্কলারশিপ এনালিটিক্স রিপোর্ট</span></span>
-                <span class="text-xs text-slate-500 font-semibold" id="printTimestamp">তারিখ: ২০২৬</span>
+    </section>
+
+
+
+    <!-- =====================================================
+         VIEW B: SCHOOL DETAIL
+    ====================================================== -->
+    <section id="schoolDetailView" class="hidden space-y-5">
+
+        <!-- Print-only report branding -->
+        <div class="print-brand-header flex-col border-b-2 border-primary pb-4 mb-4">
+            <div class="flex items-center justify-between gap-3">
+                <div>
+                    <p class="text-xl font-extrabold">
+                        Edutools<span class="text-primary">BD</span>
+                    </p>
+                    <p class="text-xs text-slate-500">
+                        স্কলারশিপ অ্যানালিটিক্স রিপোর্ট
+                    </p>
+                </div>
+
+                <p id="printTimestamp" class="text-xs text-slate-500"></p>
             </div>
-            <p class="text-xs text-slate-600">ssc  শিক্ষা বোর্ড বৃত্তি ফলাফল বিশ্লেষণ - </p>
+
+            <p class="mt-3 text-xs text-slate-600">
+                ssc  শিক্ষা বোর্ড · 
+            </p>
         </div>
 
-        <!-- School Detail Header Card -->
-        <header class="relative overflow-hidden bg-gradient-to-b from-blue-900 via-blue-900/95 to-slate-900 p-6 sm:p-10 rounded-3xl border border-blue-800/50 shadow-xl space-y-4">
-            <div class="absolute -top-10 -left-10 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
-            <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
 
-            <div class="flex flex-wrap items-center justify-between gap-4 relative z-10">
-                <div>
-                    <span id="detailSchoolCode" class="text-xs font-semibold px-3 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/20">স্কুল কোড</span>
-                    <h1 id="detailSchoolName" class="text-xl sm:text-3xl font-black text-white mt-2">স্কুলের নাম</h1>
+        <!-- School detail header -->
+        <header class="scholarship-hero relative overflow-hidden rounded-3xl border border-base-300 p-5 sm:p-8">
+
+            <div class="relative z-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+
+                <div class="min-w-0">
+                    <div id="detailSchoolCode"
+                         class="badge badge-primary badge-outline font-semibold">
+                        স্কুলের তথ্য
+                    </div>
+
+                    <h1 id="detailSchoolName"
+                        class="mt-3 text-xl sm:text-3xl font-extrabold tracking-tight break-words">
+                        স্কুলের নাম
+                    </h1>
+
+                    <p class="mt-2 text-sm scholarship-muted">
+                         শিক্ষা বোর্ড · 
+                    </p>
                 </div>
-                <div>
-                    <button id="pdfExportBtn" onclick="window.print()" class="btn btn-sm sm:btn-md bg-emerald-600 hover:bg-emerald-700 text-white border-none rounded-2xl gap-2 font-bold shadow-md shadow-emerald-500/20">
-                        📥 পিডিএফ ডাউনলোড / প্রিন্ট
-                    </button>
-                </div>
+
+                <button id="pdfExportBtn"
+                        type="button"
+                        onclick="window.print()"
+                        class="btn btn-primary btn-sm sm:btn-md rounded-xl gap-2 shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         class="h-4 w-4"
+                         fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                              d="M12 3v12m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/>
+                    </svg>
+                    PDF / প্রিন্ট
+                </button>
+
             </div>
+
+            <div class="absolute -right-16 -top-20 h-56 w-56 rounded-full bg-primary/5 blur-3xl pointer-events-none"></div>
         </header>
 
-        <!-- Printable School Content Container -->
-        <div id="printableSchoolContent" class="space-y-6 bg-white">
-            <!-- School Summary Metrics Grid -->
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                <div class="bg-blue-50/60 p-4 rounded-2xl border border-blue-100 text-center">
-                    <span class="text-xs font-bold text-slate-500">মোট বৃত্তিপ্রাপ্ত</span>
-                    <h4 id="mStatTotal" class="text-xl sm:text-2xl font-black text-blue-600 mt-1">০</h4>
-                </div>
-                <div class="bg-amber-50/60 p-4 rounded-2xl border border-amber-100 text-center">
-                    <span class="text-xs font-bold text-amber-800">ট্যালেন্টপুল বৃত্তি</span>
-                    <h4 id="mStatTalentpool" class="text-xl sm:text-2xl font-black text-amber-600 mt-1">০</h4>
-                </div>
-                <div class="bg-sky-50/60 p-4 rounded-2xl border border-sky-100 text-center">
-                    <span class="text-xs font-bold text-sky-800">সাধারণ বৃত্তি</span>
-                    <h4 id="mStatGeneral" class="text-xl sm:text-2xl font-black text-sky-600 mt-1">০</h4>
-                </div>
-                <div class="bg-purple-50/60 p-4 rounded-2xl border border-purple-100 text-center">
-                    <span class="text-xs font-bold text-purple-800">ছাত্র ও ছাত্রী অনুপাত</span>
-                    <h4 id="mStatGenderRatio" class="text-sm sm:text-base font-black text-purple-700 mt-2">♂ ০ | ♀ ০</h4>
-                </div>
-            </div>
 
-            <!-- Detailed Students Table -->
-            <div class="bg-white border border-blue-100 rounded-3xl overflow-hidden shadow-sm">
+        <!-- Printable content -->
+        <div id="printableSchoolContent" class="space-y-5">
+
+            <!-- School metrics -->
+            <section aria-label="স্কুলের সারাংশ">
+
+                <div class="mb-3 flex items-center justify-between gap-3">
+                    <h2 class="font-bold">স্কুলের সারাংশ</h2>
+                    <span class="text-xs scholarship-muted">সংক্ষিপ্ত পরিসংখ্যান</span>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+
+                    <article class="metric-card">
+                        <p class="text-xs scholarship-muted font-semibold">মোট বৃত্তিপ্রাপ্ত</p>
+                        <p id="mStatTotal" class="metric-value mt-2 text-2xl font-extrabold text-primary">০</p>
+                    </article>
+
+                    <article class="metric-card">
+                        <p class="text-xs scholarship-muted font-semibold">ট্যালেন্টপুল</p>
+                        <p id="mStatTalentpool" class="metric-value mt-2 text-2xl font-extrabold text-warning">০</p>
+                    </article>
+
+                    <article class="metric-card">
+                        <p class="text-xs scholarship-muted font-semibold">সাধারণ</p>
+                        <p id="mStatGeneral" class="metric-value mt-2 text-2xl font-extrabold text-info">০</p>
+                    </article>
+
+                    <article class="metric-card">
+                        <p class="text-xs scholarship-muted font-semibold">ছাত্র / ছাত্রী</p>
+                        <p id="mStatGenderRatio" class="metric-value mt-2 text-base sm:text-lg font-extrabold">—</p>
+                    </article>
+
+                </div>
+            </section>
+
+
+            <!-- Student listing -->
+            <section class="scholarship-panel overflow-hidden">
+
+                <div class="px-4 sm:px-5 py-4 border-b border-base-300 flex flex-wrap justify-between items-center gap-2">
+                    <div>
+                        <h2 class="font-bold">বৃত্তিপ্রাপ্ত শিক্ষার্থীদের তালিকা</h2>
+                        <p class="text-xs scholarship-muted mt-1">
+                            এই স্কুলের অন্তর্ভুক্ত শিক্ষার্থীদের তথ্য।
+                        </p>
+                    </div>
+
+                    <span id="detailStudentCount"
+                          class="badge badge-outline badge-sm">০ জন</span>
+                </div>
+
                 <div class="overflow-x-auto">
-                    <table class="table w-full text-sm">
-                        <thead class="bg-blue-900 text-white text-xs">
-                            <tr>
-                                <th class="py-3">ক্রম</th>
-                                <th class="py-3">রোল নম্বর</th>
-                                <th class="py-3">শিক্ষার্থীর নাম</th>
-                                <th class="py-3 text-center">বিভাগ</th>
-                                <th class="py-3 text-center">লিঙ্গ</th>
-                                <th class="py-3 text-center">বৃত্তির ধরণ</th>
-                                <th class="py-3 text-center">নম্বর</th>
+                    <table class="table table-sm sm:table-md w-full scholarship-table">
+
+                        <thead>
+                            <tr class="bg-base-200/70">
+                                <th>ক্রম</th>
+                                <th>রোল</th>
+                                <th>শিক্ষার্থীর নাম</th>
+                                <th class="text-center">বিভাগ</th>
+                                <th class="text-center">লিঙ্গ</th>
+                                <th class="text-center">বৃত্তির ধরন</th>
+                                <th class="text-center">নম্বর</th>
                             </tr>
                         </thead>
-                        <tbody id="modalStudentsTableBody" class="divide-y divide-blue-50">
+
+                        <tbody id="modalStudentsTableBody">
                             <tr>
-                                <td colspan="7" class="text-center py-12">
-                                    <div class="flex flex-col items-center justify-center space-y-2">
-                                        <span class="loading loading-spinner loading-md text-blue-600"></span>
-                                        <span class="text-xs font-semibold text-slate-500">শিক্ষার্থীর তথ্য লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন...</span>
-                                    </div>
+                                <td colspan="7" class="py-12 text-center">
+                                    <span class="loading loading-spinner loading-md text-primary"></span>
+                                    <p class="mt-3 text-sm scholarship-muted">
+                                        শিক্ষার্থীর তথ্য লোড হচ্ছে...
+                                    </p>
                                 </td>
                             </tr>
                         </tbody>
+
                     </table>
                 </div>
-            </div>
+            </section>
+
         </div>
 
-        <!-- Print-Only Official Disclaimer Footer -->
-        <div class="print-footer-disclaimer hidden border-t border-slate-300 pt-3 mt-6 text-center text-[10px] text-slate-500 space-y-1">
-            <p><strong>দায়মুক্তির ঘোষণা:</strong> এই রিপোর্টটি EdutoolsBD প্ল্যাটফর্ম থেকে স্বয়ংক্রিয়ভাবে জেনারেট করা হয়েছে। এটি কোনো সরকারি অফিশিয়াল গেজেট নয়। চূড়ান্ত তথ্যের জন্য শিক্ষা বোর্ডের মূল বিজ্ঞপ্তি দেখুন।</p>
-            <p>© 2026 EdutoolsBD — সর্বস্বত্ব সংরক্ষিত। ভিজিট করুন: https://edutoolsbd.vercel.app</p>
-        </div>
 
-        <!-- Back Button at Bottom -->
-        <div class="pt-4">
-            <a href="?" class="btn btn-outline rounded-2xl font-bold px-6 border-blue-200 text-blue-700 hover:bg-blue-50">
-                ← সকল স্কুলের তালিকায় ফিরে যান
+        <!-- Print disclaimer -->
+        <footer class="print-footer-disclaimer">
+            <p>
+                <strong>দায়মুক্তির ঘোষণা:</strong>
+                এই রিপোর্টটি EdutoolsBD প্ল্যাটফর্ম থেকে স্বয়ংক্রিয়ভাবে তৈরি।
+                এটি কোনো সরকারি অফিশিয়াল গেজেট নয়। চূড়ান্ত তথ্যের জন্য সংশ্লিষ্ট
+                শিক্ষা বোর্ডের বিজ্ঞপ্তি অনুসরণ করুন।
+            </p>
+            <p class="mt-1">
+                © 2026 EdutoolsBD · https://edutoolsbd.vercel.app
+            </p>
+        </footer>
+
+
+        <!-- Screen-only back navigation -->
+        <div id="detailBackButton" class="pt-2">
+            <a href="?"
+               class="btn btn-ghost border border-base-300 rounded-xl gap-2">
+                <span aria-hidden="true">←</span>
+                সকল স্কুলের তালিকায় ফিরুন
             </a>
+        </div>
+
+    </section>
+
+</main>
+
+            </main>
+
+            
+<footer class="mt-16 border-t border-base-300 bg-base-200/50">
+
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 pt-12 pb-9">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+
+            <!-- Brand Section -->
+            <div class="sm:col-span-2 lg:col-span-1">
+
+                <a href="/" class="inline-flex items-center gap-2.5 group">
+                    <div class="w-10 h-10 rounded-xl bg-base-100 border border-base-300 flex items-center justify-center">
+                        <img src="/favicon-96x96.png"
+                             alt=""
+                             class="w-7 h-7 object-contain">
+                    </div>
+
+                    <span class="text-xl font-extrabold tracking-tight text-base-content">
+                        EduTools<span class="text-primary">BD</span>
+                    </span>
+                </a>
+
+                <p class="mt-4 max-w-xs text-sm leading-7 text-base-content/65">
+                    বাংলাদেশের শিক্ষার্থীদের জন্য প্রয়োজনীয় শিক্ষামূলক
+                    টুলস, ফলাফল, স্কলারশিপ তথ্য ও ডিজিটাল সেবা —
+                    সবকিছু এক জায়গায়।
+                </p>
+
+                <div class="mt-5 inline-flex items-center gap-2 rounded-lg border border-base-300 bg-base-100 px-3 py-2">
+                    <span class="w-2 h-2 rounded-full bg-success"></span>
+                    <span class="text-xs font-medium text-base-content/70">
+                        শিক্ষার্থীদের জন্য তৈরি
+                    </span>
+                </div>
+
+            </div>
+
+
+            <!-- Tools & Services -->
+            <div>
+
+                <h3 class="text-sm font-bold text-base-content mb-4">
+                    টুলস ও সার্ভিস
+                </h3>
+
+                <ul class="space-y-3 text-sm text-base-content/65">
+
+                    <li>
+                        <a href="/ssc/scholarship-list/2026/"
+                           class="footer-link">
+                            SSC স্কলারশিপ ২০২৬
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/hsc/2026/result"
+                           class="footer-link">
+                            HSC রেজাল্ট ২০২৬
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/tools/"
+                           class="footer-link">
+                            সকল টুলস
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Useful Links -->
+            <div>
+
+                <h3 class="text-sm font-bold text-base-content mb-4">
+                    প্রয়োজনীয় লিংক
+                </h3>
+
+                <ul class="space-y-3 text-sm text-base-content/65">
+
+                    <li>
+                        <a href="/about/" class="footer-link">
+                            আমাদের সম্পর্কে
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/privacy-policy/" class="footer-link">
+                            প্রাইভেসি পলিসি
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/terms/" class="footer-link">
+                            ব্যবহারের শর্তাবলি
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Contact -->
+            <div>
+
+                <h3 class="text-sm font-bold text-base-content mb-4">
+                    যোগাযোগ
+                </h3>
+
+                <p class="text-sm text-base-content/65 leading-6">
+                    কোনো ভুল তথ্য, সমস্যা অথবা পরামর্শ থাকলে আমাদের জানান।
+                </p>
+
+                <a href="mailto:itsmahib.abrar@gmail.com"
+                   class="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-primary hover:underline break-all">
+
+                    <svg class="w-4 h-4 shrink-0"
+                         viewBox="0 0 24 24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="1.8">
+                        <rect x="3" y="5" width="18" height="14" rx="2"/>
+                        <path d="m3 7 9 6 9-6"/>
+                    </svg>
+
+                    itsmahib.abrar@gmail.com
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Disclaimer -->
+        <div class="mt-11 pt-6 border-t border-base-300">
+
+            <div class="flex items-start gap-3">
+
+                <svg class="w-5 h-5 shrink-0 mt-0.5 text-base-content/40"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="1.8">
+                    <circle cx="12" cy="12" r="9"/>
+                    <path d="M12 11v5m0-9h.01"
+                          stroke-linecap="round"/>
+                </svg>
+
+                <p class="text-xs leading-6 text-base-content/55">
+                    EduToolsBD একটি স্বতন্ত্র শিক্ষামূলক প্ল্যাটফর্ম।
+                    এটি বাংলাদেশ শিক্ষা বোর্ড বা কোনো সরকারি প্রতিষ্ঠানের
+                    অফিশিয়াল ওয়েবসাইট নয়। এখানে প্রকাশিত ফলাফল ও তথ্য
+                    সংশ্লিষ্ট উৎসের ভিত্তিতে উপস্থাপন করা হয়।
+                    গুরুত্বপূর্ণ তথ্যের ক্ষেত্রে মূল সরকারি উৎস যাচাই করুন।
+                </p>
+
+            </div>
+
         </div>
 
     </div>
 
+
+    <!-- Copyright Bar -->
+    <div class="border-t border-base-300 bg-base-200/70">
+
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-5">
+
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
+
+                <p class="text-xs text-base-content/55 text-center sm:text-left">
+                    © 2026
+                    EduToolsBD. সর্বস্বত্ব সংরক্ষিত।
+                </p>
+
+                <div class="flex items-center gap-4">
+
+                    <a href="/privacy-policy/"
+                       class="text-xs text-base-content/55 hover:text-primary transition-colors">
+                        Privacy
+                    </a>
+
+                    <span class="w-1 h-1 rounded-full bg-base-content/25"></span>
+
+                    <a href="/terms/"
+                       class="text-xs text-base-content/55 hover:text-primary transition-colors">
+                        Terms
+                    </a>
+
+                    <span class="w-1 h-1 rounded-full bg-base-content/25"></span>
+
+                    <a href="#"
+                       onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;"
+                       class="inline-flex items-center gap-1.5 text-xs font-semibold text-base-content/65 hover:text-primary transition-colors">
+
+                        Back to top
+
+                        <svg class="w-3.5 h-3.5"
+                             viewBox="0 0 24 24"
+                             fill="none"
+                             stroke="currentColor"
+                             stroke-width="2">
+                            <path d="m18 15-6-6-6 6"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"/>
+                        </svg>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<style>
+    .footer-link {
+        display: inline-block;
+        transition: color .15s ease;
+    }
+
+    .footer-link:hover {
+        color: var(--fallback-p, oklch(var(--p)));
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .footer-link {
+            transition: none;
+        }
+    }
+</style>
+
+        </div>
+
+        
+
+
+
+<style>
+    .mobile-drawer-overlay {
+        background-color: rgba(15, 23, 42, 0.45);
+        backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);
+    }
+
+    .mobile-drawer {
+        width: min(340px, 88vw);
+        background-color: #ffffff;
+        color: #0f172a;
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        box-shadow: 8px 0 32px rgba(15, 23, 42, 0.22);
+        border-right: 1px solid rgba(15, 23, 42, 0.08);
+    }
+
+    .mobile-drawer-header {
+        min-height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        background-color: #ffffff;
+        border-bottom: 1px solid rgba(15, 23, 42, 0.09);
+    }
+
+    .mobile-drawer-content {
+        flex: 1;
+        overflow-y: auto;
+        padding: 16px;
+        background-color: #ffffff;
+    }
+
+    .mobile-nav-group > summary,
+    .mobile-nav-link {
+        min-height: 45px;
+        padding: 11px 12px;
+        border-radius: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 14px;
+        font-weight: 550;
+        color: #1e293b;
+        cursor: pointer;
+        list-style: none;
+        transition: background-color .15s, color .15s;
+    }
+
+    .mobile-nav-group > summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .mobile-nav-group > summary::marker {
+        content: "";
+    }
+
+    .mobile-nav-group > summary:hover,
+    .mobile-nav-link:hover {
+        background-color: #f1f5f9;
+        color: #0f172a;
+    }
+
+    .mobile-nav-group > summary:focus-visible,
+    .mobile-nav-link:focus-visible,
+    .mobile-drawer-header label:focus-visible {
+        outline: 2px solid var(--fallback-p, oklch(var(--p)));
+        outline-offset: 2px;
+    }
+
+    .mobile-nav-active {
+        background-color: #eff6ff;
+        color: var(--fallback-p, #1d4ed8);
+        font-weight: 700;
+    }
+
+    .mobile-nav-active:hover {
+        background-color: #dbeafe;
+        color: var(--fallback-p, #1d4ed8);
+    }
+
+    .mobile-chevron {
+        width: 16px;
+        height: 16px;
+        color: #64748b;
+        flex-shrink: 0;
+        transition: transform .2s;
+    }
+
+    .mobile-nav-group[open] > summary .mobile-chevron {
+        transform: rotate(180deg);
+    }
+
+    .mobile-nav-children {
+        margin: 5px 0 7px 12px;
+        padding-left: 12px;
+        border-left: 1.5px solid #cbd5e1;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .mobile-nav-children .mobile-nav-link,
+    .mobile-nav-children .mobile-nav-group > summary {
+        font-size: 13px;
+        min-height: 41px;
+    }
+
+    .mobile-drawer-footer {
+        padding: 16px 20px;
+        background-color: #ffffff;
+        border-top: 1px solid rgba(15, 23, 42, 0.09);
+    }
+</style>
+
+<div class="drawer-side z-50">
+    <label for="mobile-nav-drawer"
+           class="drawer-overlay mobile-drawer-overlay"
+           aria-label="Close navigation"></label>
+
+    <aside class="mobile-drawer"
+           aria-label="Mobile navigation">
+
+        <!-- Drawer heading -->
+        <div class="mobile-drawer-header">
+            <a href="/" class="flex items-center gap-2.5">
+                <img src="/favicon-96x96.png"
+                     alt=""
+                     class="w-8 h-8 object-contain">
+                <span class="font-extrabold text-lg tracking-tight text-slate-900">
+                    EduTools<span class="text-primary">BD</span>
+                </span>
+            </a>
+
+            <label for="mobile-nav-drawer"
+                   class="nav-icon-btn cursor-pointer text-slate-700 hover:bg-slate-100 rounded-lg p-1.5"
+                   aria-label="Close menu">
+                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                    <path d="m6 6 12 12M18 6 6 18"
+                          stroke="currentColor" stroke-width="1.8"
+                          stroke-linecap="round"/>
+                </svg>
+            </label>
+        </div>
+
+        <!-- Navigation -->
+        <div class="mobile-drawer-content">
+            <p class="px-3 mb-3 text-[11px] font-bold tracking-wider uppercase text-slate-400">
+                Navigation
+            </p>
+
+            <ul class="flex flex-col gap-1">
+                
+                    
+    <li>
+        
+            
+                <a href="/"
+                   class="mobile-nav-link ">
+                    <span>হোম</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                
+                    
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>এসএসসি (SSC)</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            
+                <a href="/ssc/scholarship-list/2026/"
+                   class="mobile-nav-link ">
+                    <span>SSC বোর্ড বৃত্তি ২০২৬</span>
+                    
+                        <span class="badge badge-xs badge-secondary">HOT 🔥</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                        
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>SSC বোর্ড বৃত্তি Archive</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            
+                <a href="/ssc/scholarship-list/2026/"
+                   class="mobile-nav-link ">
+                    <span>২০২৬</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                        
+    <li>
+        
+            
+                <a href="/ssc/scholarship-list/2025/"
+                   class="mobile-nav-link ">
+                    <span>২০২৫</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                
+                    
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>এইচএসসি (HSC)</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>HSC বোর্ড বৃত্তি Archive</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            
+                <a href="/hsc/scholarship-list/2026/"
+                   class="mobile-nav-link ">
+                    <span>২০২৬</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                        
+    <li>
+        
+            
+                <a href="/hsc/scholarship-list/2025/"
+                   class="mobile-nav-link ">
+                    <span>২০২৫</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                
+                    
+    <li>
+        
+            
+                <a href="/blog"
+                   class="mobile-nav-link ">
+                    <span>ব্লগ</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="mobile-drawer-footer">
+            
+                <a href="/ssc/scholarship-list/"
+                   class="btn btn-primary w-full rounded-lg font-semibold">
+                    SSC Scholarship Result ➔
+                </a>
+            
+        </div>
+
+    </aside>
 </div>
 
-    </main>
+<script>
+(() => {
+    const drawer = document.getElementById('mobile-nav-drawer');
+    if (!drawer) return;
 
-    <footer class="bg-base-200 border-t border-base-300 mt-16 transition-colors duration-200">
-        <div class="footer max-w-7xl mx-auto p-10 text-base-content grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            <aside class="space-y-3">
-                <a href="/" class="text-2xl font-black tracking-tight text-base-content">
-                    Edutools<span class="text-primary">BD</span>
-                </a>
-                <p class="text-xs sm:text-sm text-base-content/70 leading-relaxed">
-                    বাংলাদেশের শিক্ষার্থীদের জন্য দ্রুততম ও নির্ভরযোগ্য ডিজিটাল শিক্ষামূলক টুলস ও ফলাফল প্ল্যাটফর্ম।
-                </p>
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-base-300/60 text-base-content/80 text-xs font-semibold">
-                    <span class="w-2 h-2 rounded-full bg-success animate-pulse"></span> System Active
-                </div>
-            </aside>
+    // Close drawer after navigation.
+    document.querySelectorAll('.mobile-drawer a[href]').forEach(link => {
+        link.addEventListener('click', () => {
+            drawer.checked = false;
+        });
+    });
 
-            <nav>
-                <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">টুলস ও সার্ভিস</h6>
-                <a href="/ssc/scholarship-list/2026/" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">SSC স্কলারশিপ চেক</a>
-                <a href="/hsc/2026/result" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">HSC রেজাল্ট ২০২৬</a>
-            </nav>
+    // Close drawer with Escape.
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && drawer.checked) {
+            drawer.checked = false;
+        }
+    });
+})();
+</script>
 
-            <nav>
-                <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">তথ্য ও নীতি</h6>
-                <a href="#" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">আমাদের সম্পর্কে</a>
-                <a href="#" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">প্রাইভেসি পলিসি</a>
-            </nav>
-
-            <nav>
-                <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">যোগাযোগ</h6>
-                <a href="mailto:itsmahib.abrar@gmail.com" class="link link-hover text-base-content/70 hover:text-primary text-sm break-all transition-colors">
-                    itsmahib.abrar@gmail.com
-                </a>
-            </nav>
-        </div>
-
-        <div class="border-t border-base-300/60 py-4 text-center text-xs text-base-content/60 bg-base-300/30">
-            <p>© 2026 EdutoolsBD — সর্বস্বত্ব সংরক্ষিত। এটি কোনো অফিশিয়াল সরকারি ওয়েবসাইট নয়।</p>
-        </div>
-    </footer>
+    </div>
 
     <script>
         const storageFileName = `/data/745f31b815f82ac8c7ca120c0e8a2a5887af525ad5f25d63f15f7781c101b0ad.mab`;
@@ -934,405 +1845,771 @@
     </script>
 
     
-<!-- Client-side Execution Script -->
 <script>
+(() => {
+    "use strict";
+
+    /* =====================================================
+       CONFIGURATION
+    ====================================================== */
+
+    const PAGE_SIZE = 15;
+    const params = new URLSearchParams(window.location.search);
+    const targetSchoolQuery = (params.get("school") || "").trim();
+
     let allSchools = [];
     let filteredSchools = [];
     let currentPage = 1;
-    const pageSize = 15; // প্রতি পেজে প্রদর্শিত স্কুলের সংখ্যা
     let debounceTimer = null;
+    let allStudents = null;
 
-    // Set print timestamp dynamically
-    document.getElementById('printTimestamp').innerText = `তারিখ: ${new Date().toLocaleDateString('bn-BD')}`;
+    const $ = (id) => document.getElementById(id);
 
-    function escapeHTML(str) {
-        if (!str) return '';
-        return String(str)
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#039;');
+
+    /* =====================================================
+       HELPERS
+    ====================================================== */
+
+    function text(value, fallback = "-") {
+        if (value === undefined || value === null || value === "") {
+            return fallback;
+        }
+        return String(value);
     }
 
-    function toBengaliNumerals(str) {
-        if (str === undefined || str === null) return '০';
-        const enToBn = {'0':'০','1':'১','2':'২','3':'৩','4':'৪','5':'৫','6':'৬','7':'৭','8':'৮','9':'৯'};
-        return String(str).replace(/[0-9]/g, match => enToBn[match]);
+    function normalize(value) {
+        return text(value, "").trim().toLocaleLowerCase();
+    }
+
+    function toBengaliNumerals(value) {
+        if (value === undefined || value === null || value === "") {
+            return "০";
+        }
+
+        const digits = {
+            "0": "০", "1": "১", "2": "২", "3": "৩", "4": "৪",
+            "5": "৫", "6": "৬", "7": "৭", "8": "৮", "9": "৯"
+        };
+
+        return String(value).replace(/[0-9]/g, digit => digits[digit]);
+    }
+
+    function setText(id, value, fallback = "-") {
+        const element = $(id);
+        if (element) element.textContent = text(value, fallback);
+    }
+
+    function getSchoolName(student) {
+        return text(student.SC || student.school || student.SCHOOL, "");
+    }
+
+    function getScholarshipType(student) {
+        return normalize(
+            student.TY || student.type || student.scholarship_type || "general"
+        );
+    }
+
+    function isTalentpool(student) {
+        const type = getScholarshipType(student);
+        return type.includes("talent") || type.includes("ট্যালেন্ট");
+    }
+
+    function getGender(student) {
+        const value = normalize(student.GE || student.gender || "");
+        if (["m", "male", "boy", "ছাত্র", "পুরুষ"].includes(value)) return "male";
+        if (["f", "female", "girl", "ছাত্রী", "মহিলা"].includes(value)) return "female";
+        return "unknown";
     }
 
     function translateCategoryLabel(key) {
-        if (!key) return '-';
+        if (!key) return "-";
+
         const labels = {
-            'talentpool': 'ট্যালেন্টপুল',
-            'general': 'সাধারণ',
-            'science': 'বিজ্ঞান',
-            'humanities': 'মানবিক',
-            'business studies': 'ব্যবসায় শিক্ষা',
-            'business': 'ব্যবসায় শিক্ষা'
+            "talentpool": "ট্যালেন্টপুল",
+            "general": "সাধারণ",
+            "science": "বিজ্ঞান",
+            "humanities": "মানবিক",
+            "business studies": "ব্যবসায় শিক্ষা",
+            "business": "ব্যবসায় শিক্ষা"
         };
-        return labels[String(key).toLowerCase()] || key;
+
+        return labels[normalize(key)] || String(key);
     }
 
-    // Check URL parameters on page load
-    const urlParams = new URLSearchParams(window.location.search);
-    const targetSchoolQuery = urlParams.get('school');
+    function createElement(tag, className = "", content = null) {
+        const element = document.createElement(tag);
 
-    // Retrieve dashboard JSON file from base.html dataFiles array
-    const dashboardFileUrl = (typeof dataFiles !== 'undefined' && dataFiles.length > 0) ? dataFiles[0] : null;
+        if (className) element.className = className;
+        if (content !== null) element.textContent = String(content);
 
-    if (targetSchoolQuery) {
-        // ==========================================
-        // SCHOOL DETAIL PAGE MODE (?school= present)
-        // ==========================================
-        document.getElementById('mainDashboardView').classList.add('hidden');
-        document.getElementById('schoolDetailView').classList.remove('hidden');
+        return element;
+    }
 
-        document.getElementById('navBackContainer').innerHTML = `
-            <a href="?" class="btn btn-outline btn-sm sm:btn-md rounded-2xl font-bold border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 transition-all">
-                ← সকল স্কুলের তালিকায় ফিরে যান
-            </a>
-        `;
+    function createBadge(label, className) {
+        return createElement(
+            "span",
+            `badge badge-sm font-semibold ${className}`,
+            label
+        );
+    }
 
-        document.getElementById('detailSchoolName').innerText = targetSchoolQuery;
+    function showTableMessage(tbody, colspan, message, isError = false) {
+        tbody.replaceChildren();
 
-        // Fetch dashboard metadata to find school code
-        if (dashboardFileUrl) {
-            fetch(dashboardFileUrl)
-                .then(res => res.json())
-                .then(data => {
-                    const schools = Array.isArray(data.top_schools) ? data.top_schools : [];
-                    const matchedSchool = schools.find(s => s.school && s.school.toLowerCase() === targetSchoolQuery.toLowerCase());
-                    if (matchedSchool) {
-                        document.getElementById('detailSchoolName').innerText = matchedSchool.school;
-                        document.getElementById('detailSchoolCode').innerText = matchedSchool.code ? `কোড: ${toBengaliNumerals(matchedSchool.code)}` : 'স্কুল এনালিটিক্স';
-                    }
-                })
-                .catch(err => console.error('Error fetching dashboard metadata:', err));
-        }
+        const row = document.createElement("tr");
+        const cell = createElement(
+            "td",
+            `text-center py-12 ${isError ? "text-error" : "scholarship-muted"}`,
+            message
+        );
 
-        // Listen for base.html DataReady event to load student data
-        window.addEventListener('DataReady', (e) => {
-            const storages = e.detail;
-            if (!storages || storages.length === 0) {
-                document.getElementById('modalStudentsTableBody').innerHTML = '<tr><td colspan="7" class="text-center text-red-500 font-semibold py-12">শিক্ষার্থীর তথ্য পাওয়া যায়নি।</td></tr>';
-                return;
-            }
+        cell.colSpan = colspan;
+        row.appendChild(cell);
+        tbody.appendChild(row);
+    }
 
-            const allStudents = parse(storages[0]);
-            const filteredStudents = allStudents.filter(s => {
-                let sName = String(s.SC || s.school || '').trim();
-                return sName.toLowerCase() === targetSchoolQuery.toLowerCase();
-            });
+    function getDashboardFileUrl() {
+        return (
+            typeof dataFiles !== "undefined" &&
+            Array.isArray(dataFiles) &&
+            dataFiles.length > 0
+        ) ? dataFiles[0] : null;
+    }
 
-            let total = filteredStudents.length;
-            let talentpool = 0;
-            let general = 0;
-            let maleCount = 0;
-            let femaleCount = 0;
+    function showDashboardError(message) {
+        showTableMessage($("dashTableBody"), 5, message, true);
+        $("schoolCountBadge").textContent = "ত্রুটি";
+    }
 
-            filteredStudents.forEach(s => {
-                let type = String(s.TY || s.type || s.scholarship_type || '').toLowerCase();
-                if (type.includes('talent') || type.includes('ট্যালেন্ট')) {
-                    talentpool++;
-                } else {
-                    general++;
-                }
+    function showDetailError(message) {
+        showTableMessage($("modalStudentsTableBody"), 7, message, true);
+    }
 
-                let gender = String(s.GE || s.gender || '').toLowerCase();
-                if (gender === 'm' || gender === 'male' || gender === 'boy' || gender === 'ছাত্র' || gender === 'পুরুষ') {
-                    maleCount++;
-                } else if (gender === 'f' || gender === 'female' || gender === 'girl' || gender === 'ছাত্রী' || gender === 'মহিলা') {
-                    femaleCount++;
-                }
-            });
 
-            document.getElementById('mStatTotal').innerText = toBengaliNumerals(total);
-            document.getElementById('mStatTalentpool').innerText = toBengaliNumerals(talentpool);
-            document.getElementById('mStatGeneral').innerText = toBengaliNumerals(general);
-            document.getElementById('mStatGenderRatio').innerHTML = `♂ ${toBengaliNumerals(maleCount)} &nbsp;|&nbsp; ♀ ${toBengaliNumerals(femaleCount)}`;
+    /* =====================================================
+       VIEW INITIALIZATION
+    ====================================================== */
 
-            const tbody = document.getElementById('modalStudentsTableBody');
-            tbody.innerHTML = '';
+    function initializeView() {
+        $("printTimestamp").textContent =
+            "তারিখ: " + new Date().toLocaleDateString("bn-BD");
 
-            if (filteredStudents.length === 0) {
-                tbody.innerHTML = `<tr><td colspan="7" class="text-center text-slate-400 py-12 font-medium">এই স্কুলের কোনো শিক্ষার্থী ডাটা পাওয়া যায়নি।</td></tr>`;
-            } else {
-                const fragment = document.createDocumentFragment();
-                filteredStudents.forEach((s, idx) => {
-                    const tr = document.createElement('tr');
-                    tr.className = "hover:bg-blue-50/40 transition-colors";
-                    
-                    let roll = s.RO || s.roll || s.ROLL || '-';
-                    let name = s.NA || s.name || s.NAME || '-';
-                    let group = s.GR || s.group || s.GROUP || '-';
-                    let gender = s.GE || s.gender || '-';
-                    let type = s.TY || s.type || 'General';
-                    let mark = s.TM || s.marks || s.MARK || '-';
+        if (targetSchoolQuery) {
+            $("mainDashboardView").classList.add("hidden");
+            $("schoolDetailView").classList.remove("hidden");
 
-                    let genderBadge = (gender === 'M' || String(gender).toLowerCase().includes('male') || gender === 'ছাত্র') 
-                        ? '<span class="badge badge-sm bg-blue-100 text-blue-700 font-bold border-blue-200">ছাত্র ♂</span>' 
-                        : (gender === "F" || String(gender).toLowerCase().includes('female') || gender === 'ছাত্রী') ? '<span class="badge badge-sm bg-pink-100 text-pink-700 font-bold border-pink-200">ছাত্রী ♀</span>' : "-";
+            $("navBackLink").href = "?";
+            $("navBackLink").querySelector("span:last-child").textContent =
+                "সকল স্কুল";
 
-                    let typeBadge = (String(type).toLowerCase().includes('talent') || String(type).includes('ট্যালেন্ট'))
-                        ? '<span class="badge badge-sm bg-amber-100 text-amber-800 font-bold border-amber-200">ট্যালেন্টপুল</span>'
-                        : '<span class="badge badge-sm bg-sky-100 text-sky-800 font-bold border-sky-200">সাধারণ</span>';
+            setText("detailSchoolName", targetSchoolQuery);
 
-                    tr.innerHTML = `
-                        <td class="font-bold text-slate-500 text-xs">${toBengaliNumerals(idx + 1)}</td>
-                        <td class="font-mono font-semibold text-blue-900">${toBengaliNumerals(roll)}</td>
-                        <td class="font-semibold text-slate-800">${escapeHTML(name)}</td>
-                        <td class="text-center font-medium text-slate-600">${escapeHTML(translateCategoryLabel(group))}</td>
-                        <td class="text-center">${genderBadge}</td>
-                        <td class="text-center">${typeBadge}</td>
-                        <td class="text-center font-bold text-blue-600">${toBengaliNumerals(mark)}</td>
-                    `;
-                    fragment.appendChild(tr);
-                });
-                tbody.appendChild(fragment);
-            }
-        });
+            loadSchoolDetail();
+        } else {
+            $("schoolDetailView").classList.add("hidden");
+            $("mainDashboardView").classList.remove("hidden");
 
-    } else {
-        // ==========================================
-        // MAIN DASHBOARD MODE (?school= NOT present)
-        // ==========================================
-        if (dashboardFileUrl) {
-            fetch(dashboardFileUrl)
-                .then(res => {
-                    if (!res.ok) throw new Error('HTTP status ' + res.status);
-                    return res.json();
-                })
-                .then(data => {
-                    if (data.summary) {
-                        document.getElementById('statTotalStudents').innerText = toBengaliNumerals(data.summary.total_students);
-                        document.getElementById('statTotalSchools').innerText = toBengaliNumerals(data.summary.total_schools);
-                        document.getElementById('statTotalTalentpool').innerText = toBengaliNumerals(data.summary.total_talentpool);
-                        document.getElementById('statTotalGeneral').innerText = toBengaliNumerals(data.summary.total_general);
-                    }
-
-                    const isGroup = !!data.is_group;
-                    const isMark = !!data.is_mark;
-
-                    if (isGroup || isMark) {
-                        const analyticsEl = document.getElementById('analyticsSections');
-                        analyticsEl.classList.remove('hidden');
-                        analyticsEl.classList.add('grid');
-
-                        if (isGroup && data.group_summary) {
-                            renderGroupSummary(data.group_summary);
-                        }
-
-                        if (isMark && data.mark_summary) {
-                            renderMarkSummary(data.mark_summary, isGroup);
-                        }
-                    }
-
-                    allSchools = Array.isArray(data.top_schools) ? data.top_schools : [];
-                    filteredSchools = [...allSchools];
-                    renderPaginatedTable();
-                })
-                .catch((err) => {
-                    console.error('Error fetching dashboard JSON:', err);
-                    document.getElementById('dashTableBody').innerHTML = '<tr><td colspan="5" class="text-center text-red-500 font-semibold py-10">এনালাইসিস ডাটা ফাইল লোড করা সম্ভব হয়নি।</td></tr>';
-                });
+            loadDashboard();
         }
     }
+
+
+    /* =====================================================
+       DASHBOARD DATA
+    ====================================================== */
+
+    async function fetchDashboardData() {
+        const fileUrl = getDashboardFileUrl();
+
+        if (!fileUrl) {
+            throw new Error("Dashboard data file পাওয়া যায়নি।");
+        }
+
+        const response = await fetch(fileUrl);
+
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+
+        return await response.json();
+    }
+
+    async function loadDashboard() {
+        try {
+            const data = await fetchDashboardData();
+
+            if (!data || typeof data !== "object") {
+                throw new Error("Dashboard data format সঠিক নয়।");
+            }
+
+            renderDashboardSummary(data.summary || {});
+
+            const hasGroup = Boolean(data.is_group && data.group_summary);
+            const hasMarks = Boolean(data.is_mark && data.mark_summary);
+
+            if (hasGroup || hasMarks) {
+                $("analyticsSections").classList.remove("hidden");
+            }
+
+            if (hasGroup) {
+                renderGroupSummary(data.group_summary);
+            }
+
+            if (hasMarks) {
+                renderMarkSummary(data.mark_summary, hasGroup);
+            }
+
+            allSchools = Array.isArray(data.top_schools)
+                ? data.top_schools
+                : [];
+
+            // Remove invalid entries and normalize values.
+            allSchools = allSchools.filter(item =>
+                item && typeof item === "object" && item.school
+            );
+
+            filteredSchools = [...allSchools];
+            currentPage = 1;
+
+            renderPaginatedTable();
+
+        } catch (error) {
+            console.error("Dashboard loading failed:", error);
+            showDashboardError(
+                "বিশ্লেষণ ডাটা লোড করা সম্ভব হয়নি। অনুগ্রহ করে পরে আবার চেষ্টা করুন।"
+            );
+        }
+    }
+
+    function renderDashboardSummary(summary) {
+        setText("statTotalStudents", toBengaliNumerals(summary.total_students));
+        setText("statTotalSchools", toBengaliNumerals(summary.total_schools));
+        setText("statTotalTalentpool", toBengaliNumerals(summary.total_talentpool));
+        setText("statTotalGeneral", toBengaliNumerals(summary.total_general));
+    }
+
+
+    /* =====================================================
+       GROUP ANALYTICS
+    ====================================================== */
 
     function renderGroupSummary(groupSummary) {
-        const container = document.getElementById('groupListContainer');
-        container.innerHTML = '';
-        
-        let hasData = false;
+        const container = $("groupListContainer");
+        container.replaceChildren();
+
+        const entries = Object.entries(groupSummary || {});
+
+        if (!entries.length) return;
+
         const fragment = document.createDocumentFragment();
 
-        for (const [groupKey, count] of Object.entries(groupSummary)) {
-            hasData = true;
-            const item = document.createElement('div');
-            item.className = 'flex justify-between items-center p-3.5 bg-blue-50/40 rounded-2xl border border-blue-100';
-            item.innerHTML = `
-                <span class="font-semibold text-slate-700 text-sm">${escapeHTML(translateCategoryLabel(groupKey))}</span>
-                <strong class="text-blue-600">${toBengaliNumerals(count)} জন</strong>
-            `;
-            fragment.appendChild(item);
-        }
+        entries.forEach(([groupKey, count]) => {
+            const item = createElement(
+                "div",
+                "flex items-center justify-between gap-3 rounded-xl border border-base-300 bg-base-200/40 px-4 py-3"
+            );
 
-        if (hasData) {
-            container.appendChild(fragment);
-            const el = document.getElementById('groupSectionCard');
-            el.classList.remove('hidden');
-            el.classList.add('flex');
-        }
+            item.appendChild(createElement(
+                "span",
+                "text-sm font-semibold",
+                translateCategoryLabel(groupKey)
+            ));
+
+            item.appendChild(createElement(
+                "strong",
+                "text-primary text-sm",
+                `${toBengaliNumerals(count)} জন`
+            ));
+
+            fragment.appendChild(item);
+        });
+
+        container.appendChild(fragment);
+        $("groupSectionCard").classList.remove("hidden");
     }
 
-    function renderMarkSummary(markSummary, isGroup) {
-        const tbody = document.getElementById('markSummaryBody');
-        tbody.innerHTML = '';
-        let hasData = false;
-        const fragment = document.createDocumentFragment();
 
-        const createRow = (label, highest, lowest) => {
-            const tr = document.createElement('tr');
-            tr.className = "hover:bg-blue-50/40 transition-colors";
-            tr.innerHTML = `
-                <td class="font-medium text-slate-700">${escapeHTML(label)}</td>
-                <td class="text-center"><strong class="text-blue-600">${highest}</strong></td>
-                <td class="text-center text-slate-600">${lowest}</td>
-            `;
-            return tr;
-        };
+    /* =====================================================
+       MARK ANALYTICS
+    ====================================================== */
+
+    function renderMarkSummary(markSummary, isGroup) {
+        const tbody = $("markSummaryBody");
+        tbody.replaceChildren();
+
+        const fragment = document.createDocumentFragment();
+        let hasData = false;
+
+        function appendRow(label, marks) {
+            if (!marks || typeof marks !== "object") return;
+
+            const row = document.createElement("tr");
+
+            const highest = marks.highest !== undefined
+                ? toBengaliNumerals(marks.highest)
+                : "-";
+
+            const lowest = marks.lowest !== undefined
+                ? toBengaliNumerals(marks.lowest)
+                : "-";
+
+            row.appendChild(createElement(
+                "td",
+                "font-medium",
+                label
+            ));
+
+            row.appendChild(createElement(
+                "td",
+                "text-center font-bold text-primary",
+                highest
+            ));
+
+            row.appendChild(createElement(
+                "td",
+                "text-center",
+                lowest
+            ));
+
+            fragment.appendChild(row);
+            hasData = true;
+        }
 
         if (isGroup) {
-            for (const [typeKey, groupMap] of Object.entries(markSummary)) {
-                if (typeof groupMap === 'object' && groupMap !== null) {
-                    for (const [groupKey, marksObj] of Object.entries(groupMap)) {
-                        hasData = true;
-                        const catLabel = `${translateCategoryLabel(typeKey)} - ${translateCategoryLabel(groupKey)}`;
-                        const highest = marksObj.highest !== undefined ? toBengaliNumerals(marksObj.highest) : '-';
-                        const lowest = marksObj.lowest !== undefined ? toBengaliNumerals(marksObj.lowest) : '-';
-                        fragment.appendChild(createRow(catLabel, highest, lowest));
-                    }
-                }
-            }
+            Object.entries(markSummary || {}).forEach(([typeKey, groupMap]) => {
+                if (!groupMap || typeof groupMap !== "object") return;
+
+                Object.entries(groupMap).forEach(([groupKey, marks]) => {
+                    appendRow(
+                        `${translateCategoryLabel(typeKey)} - ${translateCategoryLabel(groupKey)}`,
+                        marks
+                    );
+                });
+            });
         } else {
-            for (const [typeKey, marksObj] of Object.entries(markSummary)) {
-                if (typeof marksObj === 'object' && marksObj !== null) {
-                    hasData = true;
-                    const catLabel = translateCategoryLabel(typeKey);
-                    const highest = marksObj.highest !== undefined ? toBengaliNumerals(marksObj.highest) : '-';
-                    const lowest = marksObj.lowest !== undefined ? toBengaliNumerals(marksObj.lowest) : '-';
-                    fragment.appendChild(createRow(catLabel, highest, lowest));
-                }
-            }
+            Object.entries(markSummary || {}).forEach(([typeKey, marks]) => {
+                appendRow(translateCategoryLabel(typeKey), marks);
+            });
         }
 
         if (hasData) {
             tbody.appendChild(fragment);
-            const el = document.getElementById('markSectionCard');
-            el.classList.remove('hidden');
-            el.classList.add('flex');
+            $("markSectionCard").classList.remove("hidden");
         }
     }
 
-    // Pagination & Table Rendering Function
-    function renderPaginatedTable() {
-        const tbody = document.getElementById('dashTableBody');
-        const paginationContainer = document.getElementById('paginationContainer');
-        tbody.innerHTML = '';
 
-        if (!filteredSchools || filteredSchools.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="5" class="text-center text-slate-400 py-12">কোনো স্কুলের ডাটা পাওয়া যায়নি।</td></tr>';
-            paginationContainer.classList.add('hidden');
+    /* =====================================================
+       SCHOOL TABLE & PAGINATION
+    ====================================================== */
+
+    function renderPaginatedTable() {
+        const tbody = $("dashTableBody");
+        const pagination = $("paginationContainer");
+
+        tbody.replaceChildren();
+
+        const totalItems = filteredSchools.length;
+
+        $("schoolCountBadge").textContent =
+            `${toBengaliNumerals(totalItems)} টি স্কুল`;
+
+        if (!totalItems) {
+            showTableMessage(
+                tbody,
+                5,
+                "কোনো স্কুলের তথ্য পাওয়া যায়নি।"
+            );
+
+            pagination.classList.add("hidden");
             return;
         }
 
-        paginationContainer.classList.remove('hidden');
+        const totalPages = Math.ceil(totalItems / PAGE_SIZE);
 
-        const totalItems = filteredSchools.length;
-        const totalPages = Math.ceil(totalItems / pageSize);
+        currentPage = Math.min(
+            Math.max(currentPage, 1),
+            totalPages
+        );
 
-        if (currentPage > totalPages) {
-            currentPage = totalPages > 0 ? totalPages : 1;
-        }
+        const startIndex = (currentPage - 1) * PAGE_SIZE;
+        const endIndex = Math.min(startIndex + PAGE_SIZE, totalItems);
 
-        const startIndex = (currentPage - 1) * pageSize;
-        const endIndex = Math.min(startIndex + pageSize, totalItems);
-        const paginatedItems = filteredSchools.slice(startIndex, endIndex);
-
-        // Render table items
         const fragment = document.createDocumentFragment();
 
-        paginatedItems.forEach((item, index) => {
+        filteredSchools.slice(startIndex, endIndex).forEach((item, index) => {
             const absoluteIndex = startIndex + index;
-            const tr = document.createElement('tr');
-            tr.className = "hover:bg-blue-50/50 transition-colors cursor-pointer";
-            tr.title = "ক্লিক করে এই স্কুলের বিস্তারিত শিক্ষার্থী ও অনুপাত দেখুন";
-            
-            tr.addEventListener("click", () => {
-                const schoolName = item.school || '';
-                window.location.href = `?school=${encodeURIComponent(schoolName)}`;
+            const row = document.createElement("tr");
+
+            row.className = "school-row";
+            row.tabIndex = 0;
+            row.setAttribute("role", "link");
+            row.setAttribute(
+                "aria-label",
+                `${item.school} - বিস্তারিত দেখুন`
+            );
+
+            const schoolName = String(item.school);
+
+            function openSchool() {
+                window.location.href =
+                    `?school=${encodeURIComponent(schoolName)}`;
+            }
+
+            row.addEventListener("click", openSchool);
+
+            row.addEventListener("keydown", event => {
+                if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    openSchool();
+                }
             });
 
-            tr.innerHTML = `
-                <td class="font-extrabold text-blue-900/60">#${toBengaliNumerals(absoluteIndex + 1)}</td>
-                <td class="font-semibold text-slate-800 flex items-center gap-2">
-                    <span>${escapeHTML(item.school || '-')}</span>
-                    <span class="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full font-bold">বিস্তারিত ➔</span>
-                </td>
-                <td class="text-center"><span class="badge badge-warning badge-sm font-bold text-amber-900 bg-amber-100 border-amber-300 px-2.5 py-2">${toBengaliNumerals(item.talentpool)}</span></td>
-                <td class="text-center"><span class="badge badge-info badge-sm font-bold text-sky-900 bg-sky-100 border-sky-300 px-2.5 py-2">${toBengaliNumerals(item.general)}</span></td>
-                <td class="text-center font-extrabold text-blue-600">${toBengaliNumerals(item.total)}</td>
-            `;
-            fragment.appendChild(tr);
+            row.appendChild(createElement(
+                "td",
+                "font-bold scholarship-muted",
+                `#${toBengaliNumerals(absoluteIndex + 1)}`
+            ));
+
+            const schoolCell = document.createElement("td");
+            schoolCell.appendChild(createElement(
+                "span",
+                "font-semibold",
+                schoolName
+            ));
+            schoolCell.appendChild(createElement(
+                "span",
+                "block text-xs text-primary mt-1",
+                "বিস্তারিত দেখুন →"
+            ));
+            row.appendChild(schoolCell);
+
+            const talentpoolCell = createElement("td", "text-center");
+            talentpoolCell.appendChild(createBadge(
+                toBengaliNumerals(item.talentpool),
+                "bg-warning/15 text-warning border-warning/30"
+            ));
+            row.appendChild(talentpoolCell);
+
+            const generalCell = createElement("td", "text-center");
+            generalCell.appendChild(createBadge(
+                toBengaliNumerals(item.general),
+                "bg-info/15 text-info border-info/30"
+            ));
+            row.appendChild(generalCell);
+
+            row.appendChild(createElement(
+                "td",
+                "text-center font-extrabold text-primary",
+                toBengaliNumerals(item.total)
+            ));
+
+            fragment.appendChild(row);
         });
 
         tbody.appendChild(fragment);
 
-        // Render Pagination Info & Controls
-        document.getElementById('paginationInfo').innerText = `মোট ${toBengaliNumerals(totalItems)} টি স্কুলের মধ্যে ${toBengaliNumerals(startIndex + 1)} থেকে ${toBengaliNumerals(endIndex)} পর্যন্ত প্রদর্শিত হচ্ছে`;
+        $("paginationInfo").textContent =
+            `মোট ${toBengaliNumerals(totalItems)} টি স্কুলের মধ্যে ` +
+            `${toBengaliNumerals(startIndex + 1)}–${toBengaliNumerals(endIndex)} প্রদর্শিত হচ্ছে`;
 
-        const buttonsWrapper = document.getElementById('paginationButtons');
-        buttonsWrapper.innerHTML = '';
+        renderPaginationButtons(totalPages);
 
-        // Previous Button
-        const prevBtn = document.createElement('button');
-        prevBtn.className = `btn btn-sm rounded-xl font-bold ${currentPage === 1 ? 'btn-disabled opacity-50' : 'btn-outline border-blue-200 text-blue-700 hover:bg-blue-50'}`;
-        prevBtn.innerHTML = '← পূর্ববর্তী';
-        prevBtn.disabled = currentPage === 1;
-        prevBtn.onclick = () => {
-            if (currentPage > 1) {
-                currentPage--;
-                renderPaginatedTable();
-                window.scrollTo({ top: 400, behavior: 'smooth' });
+        pagination.classList.remove("hidden");
+    }
+
+    function renderPaginationButtons(totalPages) {
+        const wrapper = $("paginationButtons");
+        wrapper.replaceChildren();
+
+        function createPageButton(label, page, disabled = false, active = false) {
+            const button = createElement(
+                "button",
+                `btn btn-sm rounded-lg min-w-9 ${
+                    active
+                        ? "btn-primary"
+                        : "btn-ghost border border-base-300"
+                }`,
+                label
+            );
+
+            button.type = "button";
+            button.disabled = disabled;
+
+            if (active) {
+                button.setAttribute("aria-current", "page");
             }
-        };
-        buttonsWrapper.appendChild(prevBtn);
 
-        // Page Numbers Logic (Showing limited page buttons for cleanliness)
+            button.addEventListener("click", () => {
+                if (disabled || page === currentPage) return;
+
+                currentPage = page;
+                renderPaginatedTable();
+
+                document.querySelector("#dashTableBody")
+                    .scrollIntoView({ behavior: "smooth", block: "start" });
+            });
+
+            return button;
+        }
+
+        wrapper.appendChild(createPageButton(
+            "←",
+            currentPage - 1,
+            currentPage === 1
+        ));
+
         let startPage = Math.max(1, currentPage - 2);
         let endPage = Math.min(totalPages, startPage + 4);
+
         if (endPage - startPage < 4) {
             startPage = Math.max(1, endPage - 4);
         }
 
-        for (let i = startPage; i <= endPage; i++) {
-            const pageBtn = document.createElement('button');
-            pageBtn.className = `btn btn-sm rounded-xl font-bold ${i === currentPage ? 'bg-blue-600 text-white border-none shadow-md shadow-blue-500/20' : 'btn-outline border-blue-200 text-blue-700 hover:bg-blue-50'}`;
-            pageBtn.innerText = toBengaliNumerals(i);
-            pageBtn.onclick = () => {
-                currentPage = i;
-                renderPaginatedTable();
-                window.scrollTo({ top: 400, behavior: 'smooth' });
-            };
-            buttonsWrapper.appendChild(pageBtn);
+        for (let page = startPage; page <= endPage; page++) {
+            wrapper.appendChild(createPageButton(
+                toBengaliNumerals(page),
+                page,
+                false,
+                page === currentPage
+            ));
         }
 
-        // Next Button
-        const nextBtn = document.createElement('button');
-        nextBtn.className = `btn btn-sm rounded-xl font-bold ${currentPage === totalPages || totalPages === 0 ? 'btn-disabled opacity-50' : 'btn-outline border-blue-200 text-blue-700 hover:bg-blue-50'}`;
-        nextBtn.innerHTML = 'পরবর্তী →';
-        nextBtn.disabled = currentPage === totalPages || totalPages === 0;
-        nextBtn.onclick = () => {
-            if (currentPage < totalPages) {
-                currentPage++;
-                renderPaginatedTable();
-                window.scrollTo({ top: 400, behavior: 'smooth' });
-            }
-        };
-        buttonsWrapper.appendChild(nextBtn);
+        wrapper.appendChild(createPageButton(
+            "→",
+            currentPage + 1,
+            currentPage === totalPages
+        ));
     }
 
-    function onSearchInput() {
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(filterSchools, 200);
-    }
+
+    /* =====================================================
+       SCHOOL SEARCH
+    ====================================================== */
 
     function filterSchools() {
-        const query = document.getElementById('schoolSearch').value.trim().toLowerCase();
-        filteredSchools = allSchools.filter(s => s.school && s.school.toLowerCase().includes(query));
-        currentPage = 1; // ফিল্টার করলে প্রথম পেজে ফিরে যাবে
+        const query = normalize($("schoolSearch").value);
+
+        filteredSchools = allSchools.filter(school =>
+            normalize(school.school).includes(query)
+        );
+
+        currentPage = 1;
         renderPaginatedTable();
     }
+
+    $("schoolSearch").addEventListener("input", () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(filterSchools, 180);
+    });
+
+
+    /* =====================================================
+       SCHOOL DETAIL
+    ====================================================== */
+
+    function loadSchoolDetail() {
+        /*
+         * Preserve the existing base.html DataReady contract.
+         * The base template is responsible for loading the student
+         * dataset and dispatching DataReady.
+         */
+        window.addEventListener("DataReady", event => {
+            try {
+                const storages = event.detail;
+
+                if (!storages || !storages.length) {
+                    showDetailError("শিক্ষার্থীর তথ্য পাওয়া যায়নি।");
+                    return;
+                }
+
+                // Keep the existing custom parser.
+                const parsed = parse(storages[0]);
+
+                if (!Array.isArray(parsed)) {
+                    throw new Error("Parsed student data is not an array.");
+                }
+
+                allStudents = parsed;
+                renderSchoolDetail();
+
+            } catch (error) {
+                console.error("Student data processing failed:", error);
+                showDetailError(
+                    "শিক্ষার্থীর তথ্য প্রক্রিয়া করা সম্ভব হয়নি।"
+                );
+            }
+        });
+
+        // Fetch the board dashboard metadata separately.
+        // This does not replace the DataReady student data pipeline.
+        fetchDashboardData()
+            .then(data => {
+                const schools = Array.isArray(data.top_schools)
+                    ? data.top_schools
+                    : [];
+
+                const matched = schools.find(school =>
+                    normalize(school.school) === normalize(targetSchoolQuery)
+                );
+
+                if (matched) {
+                    setText("detailSchoolName", matched.school);
+
+                    if (matched.code !== undefined && matched.code !== null) {
+                        setText(
+                            "detailSchoolCode",
+                            `স্কুল কোড: ${toBengaliNumerals(matched.code)}`
+                        );
+                    }
+                }
+            })
+            .catch(error => {
+                console.warn("School metadata unavailable:", error);
+            });
+    }
+
+
+    function renderSchoolDetail() {
+        const tbody = $("modalStudentsTableBody");
+
+        const students = allStudents.filter(student =>
+            normalize(getSchoolName(student)) === normalize(targetSchoolQuery)
+        );
+
+        let talentpool = 0;
+        let general = 0;
+        let maleCount = 0;
+        let femaleCount = 0;
+
+        students.forEach(student => {
+            if (isTalentpool(student)) {
+                talentpool++;
+            } else {
+                general++;
+            }
+
+            const gender = getGender(student);
+
+            if (gender === "male") maleCount++;
+            if (gender === "female") femaleCount++;
+        });
+
+        setText("mStatTotal", toBengaliNumerals(students.length));
+        setText("mStatTalentpool", toBengaliNumerals(talentpool));
+        setText("mStatGeneral", toBengaliNumerals(general));
+
+        setText(
+            "mStatGenderRatio",
+            `${toBengaliNumerals(maleCount)} / ${toBengaliNumerals(femaleCount)}`
+        );
+
+        setText(
+            "detailStudentCount",
+            `${toBengaliNumerals(students.length)} জন`
+        );
+
+        tbody.replaceChildren();
+
+        if (!students.length) {
+            showTableMessage(
+                tbody,
+                7,
+                "এই স্কুলের কোনো শিক্ষার্থীর তথ্য পাওয়া যায়নি।"
+            );
+            return;
+        }
+
+        const fragment = document.createDocumentFragment();
+
+        students.forEach((student, index) => {
+            const row = document.createElement("tr");
+
+            const roll = student.RO || student.roll || student.ROLL;
+            const name = student.NA || student.name || student.NAME;
+            const group = student.GR || student.group || student.GROUP;
+            const type = student.TY || student.type || student.scholarship_type;
+            const marks = student.TM || student.marks || student.MARK;
+            const gender = getGender(student);
+
+            row.appendChild(createElement(
+                "td",
+                "text-xs scholarship-muted font-semibold",
+                toBengaliNumerals(index + 1)
+            ));
+
+            row.appendChild(createElement(
+                "td",
+                "font-mono font-bold",
+                toBengaliNumerals(roll)
+            ));
+
+            row.appendChild(createElement(
+                "td",
+                "font-semibold",
+                name
+            ));
+
+            row.appendChild(createElement(
+                "td",
+                "text-center",
+                translateCategoryLabel(group)
+            ));
+
+            const genderCell = createElement("td", "text-center");
+
+            if (gender === "male") {
+                genderCell.appendChild(createBadge(
+                    "ছাত্র",
+                    "bg-info/15 text-info border-info/30"
+                ));
+            } else if (gender === "female") {
+                genderCell.appendChild(createBadge(
+                    "ছাত্রী",
+                    "bg-secondary/15 text-secondary border-secondary/30"
+                ));
+            } else {
+                genderCell.textContent = "-";
+            }
+
+            row.appendChild(genderCell);
+
+            const typeCell = createElement("td", "text-center");
+
+            if (isTalentpool(student)) {
+                typeCell.appendChild(createBadge(
+                    "ট্যালেন্টপুল",
+                    "bg-warning/15 text-warning border-warning/30"
+                ));
+            } else {
+                typeCell.appendChild(createBadge(
+                    "সাধারণ",
+                    "bg-info/15 text-info border-info/30"
+                ));
+            }
+
+            row.appendChild(typeCell);
+
+            row.appendChild(createElement(
+                "td",
+                "text-center font-bold",
+                toBengaliNumerals(marks)
+            ));
+
+            fragment.appendChild(row);
+        });
+
+        tbody.appendChild(fragment);
+    }
+
+
+    /* =====================================================
+       START
+    ====================================================== */
+
+    initializeView();
+
+})();
 </script>
 
 </body>

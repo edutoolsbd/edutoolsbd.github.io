@@ -14,20 +14,20 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=20261009" />
     <meta name="apple-mobile-web-app-title" content="EduToolsBD" />
     <link rel="manifest" href="/site.webmanifest?v=20261009" />
-    <meta property="og:image" content="https://edutoolsbd.vercel.app/data/media/a6b31b49a6bb.webp" />
+    <meta property="og:image" content="https://edutoolsbd.vercel.app/dist/data/media/a6b31b49a6bb.webp" />
     
     
-    <title>2026 SSC স্কলারশিপ ও বোর্ড রেজাল্ট | EdutoolsBD</title>
-    <meta name="title" content="2026 SSC স্কলারশিপ ও বোর্ড রেজাল্ট | EdutoolsBD" />
+    <title>2026 SSC স্কলারশিপ ও বোর্ড রেজাল্ট | EduToolsBD</title>
+    <meta name="title" content="2026 SSC স্কলারশিপ ও বোর্ড রেজাল্ট | EduToolsBD" />
     <meta name="description" content="2026 সালের SSC পরীক্ষার শিক্ষা বোর্ডভিত্তিক ফলাফল, ট্যালেন্টপুল ও সাধারণ বৃত্তি তালিকা এবং রোল নম্বর দিয়ে তাৎক্ষণিক চেক করার সুবিধা।" />
-    <meta name="keywords" content="2026 ssc result, scholarship result 2026 , education board result bangladesh" />
+    <meta name="keywords" content="2026 ssc result, scholarship result 2026, education board result bangladesh" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="Bengali" />
     <meta name="author" content="EdutoolsBD" />
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/" />
-    <meta property="og:title" content="2026 SSC স্কলারশিপ ও বোর্ড রেজাল্ট | EdutoolsBD" />
+    <meta property="og:title" content="2026 SSC স্কলারশিপ ও বোর্ড রেজাল্ট | EduToolsBD" />
     <meta property="og:description" content="2026 সালের SSC পরীক্ষার শিক্ষা বোর্ডভিত্তিক ফলাফল, ট্যালেন্টপুল ও সাধারণ বৃত্তি তালিকা এবং রোল নম্বর দিয়ে তাৎক্ষণিক চেক করার সুবিধা।" />
     
 
@@ -40,6 +40,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <base href="/ssc/scholarship-list/2026/">
+
+    <meta name="google-site-verification" content="HJHEwK2PX8qOsT_9qsvSLazlykM-oACDqSG7UaLx8qE" />
     
     <style>
         @font-face {
@@ -59,533 +61,1046 @@
     </style>
 
     
+<style>
+    .sch-page {
+        --sch-blue: #2563eb;
+        --sch-blue-hover: #1d4ed8;
+        --sch-surface: var(--fallback-b1, oklch(var(--b1)));
+        --sch-surface-2: var(--fallback-b2, oklch(var(--b2)));
+        --sch-ink: var(--fallback-bc, oklch(var(--bc)));
+        --sch-border: oklch(var(--bc) / .12);
+        --sch-border-strong: oklch(var(--bc) / .20);
+        padding: 28px 0 64px;
+    }
+
+    .sch-container {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .sch-section {
+        margin-top: 38px;
+    }
+
+    .sch-muted {
+        color: oklch(var(--bc) / .62);
+    }
+
+    /* Breadcrumb */
+    .sch-breadcrumb {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        font-size: 12px;
+        color: oklch(var(--bc) / .55);
+        margin-bottom: 22px;
+    }
+
+    .sch-breadcrumb a:hover {
+        color: var(--sch-blue);
+    }
+
+    /* Hero */
+    .sch-hero {
+        position: relative;
+        overflow: hidden;
+        background: #172f55;
+        color: #ffffff;
+        border: 1px solid rgba(255, 255, 255, .10);
+        border-radius: 20px;
+        padding: 38px 36px;
+    }
+
+    .sch-hero::after {
+        content: "";
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border: 1px solid rgba(255, 255, 255, .09);
+        border-radius: 50%;
+        right: -100px;
+        top: -150px;
+        box-shadow:
+            0 0 0 35px rgba(255, 255, 255, .025),
+            0 0 0 70px rgba(255, 255, 255, .02);
+        pointer-events: none;
+    }
+
+    .sch-eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .06em;
+        color: #bfdbfe;
+        text-transform: uppercase;
+    }
+
+    .sch-hero h1 {
+        font-size: clamp(25px, 4vw, 36px);
+        font-weight: 800;
+        line-height: 1.4;
+        margin-top: 13px;
+        max-width: 760px;
+    }
+
+    .sch-hero p {
+        margin-top: 12px;
+        max-width: 680px;
+        color: #dbeafe;
+        font-size: 14px;
+        line-height: 1.9;
+    }
+
+    /* Disclaimer */
+    .sch-disclaimer {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 16px 18px;
+        margin-top: 20px;
+        border: 1px solid #ecd098;
+        background: #fffbeb;
+        color: #78350f;
+        border-radius: 14px;
+    }
+
+    .sch-disclaimer p {
+        font-size: 12px;
+        line-height: 1.8;
+        color: #92400e;
+    }
+
+    /* Search panel */
+    .sch-search-panel {
+        padding: 26px;
+        background: var(--sch-surface);
+        border: 1px solid var(--sch-border);
+        border-radius: 18px;
+        box-shadow: 0 5px 22px rgba(15, 23, 42, .035);
+    }
+
+    .sch-search-heading {
+        display: flex;
+        align-items: flex-start;
+        gap: 13px;
+        margin-bottom: 22px;
+    }
+
+    .sch-search-icon {
+        width: 42px;
+        height: 42px;
+        display: grid;
+        place-items: center;
+        flex-shrink: 0;
+        background: #eff6ff;
+        color: var(--sch-blue);
+        border: 1px solid #dbeafe;
+        border-radius: 12px;
+    }
+
+    .sch-search-form {
+        display: grid;
+        grid-template-columns: 1fr 1.4fr auto;
+        gap: 12px;
+        align-items: end;
+    }
+
+    .sch-field-label {
+        display: block;
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 7px;
+        color: oklch(var(--bc) / .78);
+    }
+
+    .sch-control {
+        width: 100%;
+        height: 48px;
+        min-width: 0;
+        border: 1px solid var(--sch-border-strong);
+        border-radius: 11px;
+        padding: 0 13px;
+        font-size: 13px;
+        background: var(--sch-surface);
+        color: var(--sch-ink);
+        outline: none;
+        transition: border-color .18s ease, box-shadow .18s ease;
+    }
+
+    .sch-control:hover {
+        border-color: oklch(var(--bc) / .32);
+    }
+
+    .sch-control:focus-visible {
+        border-color: var(--sch-blue);
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, .14);
+    }
+
+    .sch-search-button {
+        height: 48px;
+        padding: 0 23px;
+        border: 1px solid var(--sch-blue);
+        border-radius: 11px;
+        background: var(--sch-blue);
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color .18s ease, border-color .18s ease;
+        white-space: nowrap;
+    }
+
+    .sch-search-button:hover {
+        background: var(--sch-blue-hover);
+        border-color: var(--sch-blue-hover);
+    }
+
+    .sch-search-button:focus-visible {
+        outline: 2px solid var(--sch-blue);
+        outline-offset: 2px;
+    }
+
+    /* Section headings */
+    .sch-section-heading {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 16px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--sch-border);
+        margin-bottom: 22px;
+    }
+
+    .sch-section-heading h2 {
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: -.02em;
+    }
+
+    .sch-section-heading p {
+        font-size: 12px;
+        line-height: 1.7;
+        margin-top: 5px;
+        color: oklch(var(--bc) / .58);
+    }
+
+    .sch-count {
+        font-size: 11px;
+        font-weight: 700;
+        padding: 7px 11px;
+        background: var(--sch-surface-2);
+        border: 1px solid var(--sch-border);
+        border-radius: 9px;
+        white-space: nowrap;
+    }
+
+    /* Board cards */
+    .sch-board-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .sch-board-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 0;
+        padding: 19px;
+        border: 1px solid var(--sch-border);
+        border-radius: 16px;
+        background: var(--sch-surface);
+        transition: border-color .18s ease, transform .18s ease, box-shadow .18s ease;
+    }
+
+    .sch-board-card:hover {
+        border-color: #93c5fd;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(15, 23, 42, .05);
+    }
+
+    .sch-board-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .sch-board-code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: .06em;
+        padding: 5px 9px;
+        border-radius: 8px;
+        background: #eff6ff;
+        color: #1d4ed8;
+        border: 1px solid #dbeafe;
+    }
+
+    .sch-status {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 10px;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+
+    .sch-status::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: currentColor;
+    }
+
+    .sch-status.available {
+        color: #059669;
+    }
+
+    .sch-status.pending {
+        color: #b7791f;
+    }
+
+    .sch-board-info {
+        padding: 20px 0 18px;
+    }
+
+    .sch-board-info h3 {
+        font-size: 17px;
+        font-weight: 800;
+        color: var(--sch-ink);
+    }
+
+    .sch-board-info p {
+        font-size: 11px;
+        margin-top: 4px;
+        color: oklch(var(--bc) / .52);
+    }
+
+    .sch-board-date {
+        font-size: 11px;
+        font-weight: 600;
+        color: #b7791f;
+        margin-top: 10px;
+    }
+
+    .sch-board-actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        padding-top: 14px;
+        border-top: 1px solid var(--sch-border);
+    }
+
+    .sch-board-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 37px;
+        padding: 7px 8px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 11px;
+        font-weight: 700;
+        transition: background-color .18s ease, border-color .18s ease, color .18s ease;
+    }
+
+    .sch-board-btn:focus-visible {
+        outline: 2px solid var(--sch-blue);
+        outline-offset: 2px;
+    }
+
+    .sch-board-btn.primary {
+        background: var(--sch-blue);
+        color: #ffffff;
+        border: 1px solid var(--sch-blue);
+    }
+
+    .sch-board-btn.primary:hover {
+        background: var(--sch-blue-hover);
+        border-color: var(--sch-blue-hover);
+    }
+
+    .sch-board-btn.secondary {
+        color: var(--sch-blue);
+        background: #eff6ff;
+        border: 1px solid #bfdbfe;
+    }
+
+    .sch-board-btn.secondary:hover {
+        background: #dbeafe;
+        border-color: #93c5fd;
+    }
+
+    .sch-board-btn.disabled {
+        grid-column: span 2;
+        background: var(--sch-surface-2);
+        color: oklch(var(--bc) / .45);
+        border: 1px solid var(--sch-border);
+        cursor: not-allowed;
+    }
+
+    /* Information section */
+    .sch-info-panel {
+        border: 1px solid var(--sch-border);
+        border-radius: 18px;
+        padding: 25px;
+        background: var(--sch-surface);
+    }
+
+    .sch-info-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 28px;
+    }
+
+    .sch-info-item h3 {
+        font-size: 14px;
+        font-weight: 800;
+        margin-bottom: 9px;
+    }
+
+    .sch-info-item p {
+        font-size: 12px;
+        line-height: 1.9;
+        color: oklch(var(--bc) / .68);
+    }
+
+    .sch-info-dot {
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        background: #3b82f6;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+
+    /* Responsive */
+    @media (max-width: 800px) {
+        .sch-board-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .sch-info-grid {
+            grid-template-columns: 1fr;
+            gap: 22px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .sch-page {
+            padding: 17px 0 52px;
+        }
+
+        .sch-container {
+            padding: 0 15px;
+        }
+
+        .sch-hero {
+            padding: 29px 21px;
+            border-radius: 16px;
+        }
+
+        .sch-hero h1 {
+            font-size: 25px;
+        }
+
+        .sch-hero p {
+            font-size: 12px;
+        }
+
+        .sch-search-panel {
+            padding: 19px;
+            border-radius: 16px;
+        }
+
+        .sch-search-form {
+            grid-template-columns: 1fr;
+            gap: 13px;
+            align-items: stretch;
+        }
+
+        .sch-search-button {
+            width: 100%;
+        }
+
+        .sch-section {
+            margin-top: 30px;
+        }
+
+        .sch-section-heading {
+            align-items: flex-start;
+        }
+
+        .sch-section-heading h2 {
+            font-size: 17px;
+        }
+
+        .sch-board-grid {
+            grid-template-columns: 1fr;
+            gap: 11px;
+        }
+
+        .sch-board-card {
+            padding: 17px;
+            border-radius: 14px;
+        }
+
+        .sch-info-panel {
+            padding: 20px;
+            border-radius: 16px;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .sch-board-card,
+        .sch-board-btn,
+        .sch-control,
+        .sch-search-button {
+            transition: none;
+        }
+    }
+</style>
+
 
     <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "fdd1384721074b4ba7879b2139f25d54"}'></script>
     <script src="https://analytics.ahrefs.com/analytics.js" data-key="ZFkOvfLzefkOx9Qs40ZFfQ" async></script>
 </head>
-<body class="flex flex-col min-h-screen bg-base-100 text-base-content antialiased selection:bg-primary selection:text-primary-content transition-colors duration-200">
+<body class="min-h-screen bg-base-100 text-base-content antialiased">
 
-    
+    <div class="drawer drawer-start">
+        <input id="mobile-nav-drawer"
+               type="checkbox"
+               class="drawer-toggle">
 
+        <div class="drawer-content flex min-h-screen flex-col">
 
-
-
-
-<!-- Full Page PWA Drawer Wrapper -->
-<div class="drawer drawer-start">
-    <input id="mobile-nav-drawer" type="checkbox" class="drawer-toggle" />
-    
-    <div class="drawer-content flex flex-col">
-        <!-- Main Navbar Header -->
-        <header class="sticky top-0 z-40 w-full bg-base-100/80 backdrop-blur-xl border-b border-base-200/70 transition-colors duration-200">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="navbar min-h-16 px-0 gap-2">
-                    
-                    <!-- Navbar Start: Logo & PWA Mobile Menu Trigger -->
-                    <div class="navbar-start gap-2">
-                        <label for="mobile-nav-drawer" class="btn btn-ghost btn-circle btn-sm lg:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-primary" aria-label="Open Mobile Menu">
-                            <svg class="w-5 h-5 text-base-content" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                            </svg>
-                        </label>
-
-                        <!-- Brand & Logo -->
-                        <a href="/" class="text-xl font-black tracking-tight text-primary flex items-center gap-2.5 group">
-                            <div class="relative w-8 h-8 rounded-xl bg-primary/10 flex items-center justify-center overflow-hidden border border-primary/20 group-hover:scale-105 transition-transform duration-200">
-                                <img src="/favicon-96x96.png" alt="EduToolsBD Icon" class="w-6 h-6 object-contain" />
-                            </div>
-                            <span class="text-base-content font-extrabold text-lg sm:text-xl">EduTools<span class="text-primary">BD</span></span>
-                        </a>
-                    </div>
-
-                    <!-- Navbar Center: Desktop Horizontal Navigation -->
-                    <div class="navbar-center hidden lg:flex items-center gap-1">
-                        
-                            
-    
-        <!-- Standalone Desktop Link -->
-        <a href="/" class="btn btn-ghost btn-sm rounded-xl font-bold text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200">
-            <span>হোম</span>
             
-        </a>
+
+
+
+
+<style>
+    .site-navbar {
+        height: 68px;
+        border-bottom: 1px solid var(--fallback-bc, oklch(var(--bc) / .09));
+        background: var(--fallback-b1, oklch(var(--b1)));
+    }
+
+    .nav-brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        white-space: nowrap;
+    }
+
+    .nav-brand-icon {
+        width: 36px;
+        height: 36px;
+        border-radius: 11px;
+        display: grid;
+        place-items: center;
+        background: var(--fallback-b2, oklch(var(--b2)));
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / .09));
+    }
+
+    .nav-link {
+        min-height: 40px;
+        padding: 0 12px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        border-radius: 9px;
+        cursor: pointer;
+        list-style: none;
+        color: var(--fallback-bc, oklch(var(--bc) / .76));
+        font-size: 13px;
+        font-weight: 600;
+        white-space: nowrap;
+        transition: background .15s, color .15s;
+    }
+
+    .nav-link::-webkit-details-marker { display: none; }
+    .nav-link::marker { content: ""; }
+
+    .nav-link:hover,
+    .nav-dropdown[open] > .nav-link,
+    .nav-link-active {
+        background: var(--fallback-b2, oklch(var(--b2)));
+        color: var(--fallback-bc, oklch(var(--bc)));
+    }
+
+    .nav-chevron {
+        width: 14px;
+        height: 14px;
+        opacity: .55;
+        transition: transform .2s;
+    }
+
+    .nav-dropdown[open] > .nav-link .nav-chevron {
+        transform: rotate(180deg);
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        z-index: 100;
+        top: calc(100% + 5px);
+        left: 0;
+        width: 250px;
+        padding: 7px;
+        background: var(--fallback-b1, oklch(var(--b1)));
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / .12));
+        border-radius: 13px;
+        box-shadow: 0 12px 32px rgba(0,0,0,.09);
+    }
+
+    .nav-dropdown[open] > .nav-menu {
+        display: block;
+    }
+
+    .nav-menu-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        min-height: 39px;
+        padding: 9px 11px;
+        border-radius: 8px;
+        color: var(--fallback-bc, oklch(var(--bc) / .8));
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        list-style: none;
+        transition: background .15s, color .15s;
+    }
+
+    .nav-menu-link:hover,
+    .nav-subdropdown[open] > .nav-menu-link {
+        background: var(--fallback-b2, oklch(var(--b2)));
+        color: var(--fallback-bc, oklch(var(--bc)));
+    }
+
+    .nav-menu-link::-webkit-details-marker { display: none; }
+    .nav-menu-link::marker { content: ""; }
+
+    .nav-submenu {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: calc(100% + 5px);
+        width: 225px;
+        padding: 7px;
+        background: var(--fallback-b1, oklch(var(--b1)));
+        border: 1px solid var(--fallback-bc, oklch(var(--bc) / .12));
+        border-radius: 13px;
+        box-shadow: 0 12px 32px rgba(0,0,0,.09);
+    }
+
+    .nav-subdropdown[open] > .nav-submenu {
+        display: block;
+    }
+
+    .nav-dropdown,
+    .nav-subdropdown {
+        position: relative;
+    }
+
+    .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .nav-icon-btn {
+        width: 37px;
+        height: 37px;
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+        color: var(--fallback-bc, oklch(var(--bc) / .7));
+        transition: background .15s;
+    }
+
+    .nav-icon-btn:hover {
+        background: var(--fallback-b2, oklch(var(--b2)));
+    }
+
+    @media (hover: hover) {
+        .nav-dropdown:hover > .nav-menu,
+        .nav-subdropdown:hover > .nav-submenu {
+            display: block;
+        }
+    }
+
+    @media (max-width: 1023px) {
+        .site-navbar { height: 62px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .nav-link, .nav-chevron, .nav-menu-link { transition: none; }
+    }
+</style>
+
+<header class="site-navbar sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8">
+        <div class="flex h-full items-center justify-between gap-3">
+
+            <!-- Brand -->
+            <div class="flex items-center gap-2.5">
+                <label for="mobile-nav-drawer"
+                       class="nav-icon-btn lg:hidden cursor-pointer"
+                       aria-label="Open navigation menu">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                        <path d="M4 7h16M4 12h16M4 17h16"
+                              stroke="currentColor" stroke-width="1.8"
+                              stroke-linecap="round"/>
+                    </svg>
+                </label>
+
+                <a href="/" class="nav-brand">
+                    <span class="nav-brand-icon">
+                        <img src="/favicon-96x96.png"
+                             alt=""
+                             class="w-6 h-6 object-contain">
+                    </span>
+
+                    <span class="text-lg font-extrabold tracking-tight text-base-content">
+                        EduTools<span class="text-primary">BD</span>
+                    </span>
+                </a>
+            </div>
+
+            <!-- Desktop navigation -->
+            <nav class="hidden lg:flex items-center gap-1"
+                 aria-label="Main navigation">
+                
+                    
+    
+        
+            <a href="/"
+               class="nav-link ">
+                হোম
+                
+            </a>
+        
     
 
-                        
-                            
+                
+                    
     
-        <!-- Desktop Hover Dropdown (Level 1) -->
-        <div class="dropdown dropdown-hover dropdown-bottom">
-            <div tabindex="0" role="button" aria-haspopup="true" class="btn btn-ghost btn-sm rounded-xl font-bold flex items-center gap-1.5 text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200 group">
+        <details class="nav-dropdown group relative">
+            <summary class="nav-link">
                 <span>এসএসসি (SSC)</span>
                 
-                <svg class="w-3.5 h-3.5 opacity-60 transition-transform duration-200 group-hover:rotate-180 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+                <svg class="nav-chevron" viewBox="0 0 20 20" fill="none">
+                    <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                          stroke-width="1.7" stroke-linecap="round"/>
                 </svg>
-            </div>
-            
-            <!-- Level 1 Dropdown Menu -->
-            <ul tabindex="0" class="dropdown-content z-[100] menu p-2 shadow-2xl bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 w-60 space-y-1 text-base-content mt-1">
+            </summary>
+
+            <ul class="nav-menu">
                 
                     
-                        <!-- Direct Child Link -->
                         <li>
-                            <a href="/ssc/scholarship-list/2026/" class="rounded-xl font-medium text-sm text-base-content/90 hover:text-primary hover:bg-base-200/70 flex justify-between items-center py-2 px-3">
-                                <span>SSC বোর্ড বৃত্তি ২০২৬</span>
-                                
-                                    <span class="badge badge-xs badge-secondary font-medium">HOT 🔥</span>
-                                
-                            </a>
+                            
+                                <a href="/ssc/scholarship-list/2026/" class="nav-menu-link">
+                                    SSC বোর্ড বৃত্তি ২০২৬
+                                    
+                                        <span class="badge badge-xs badge-secondary">HOT 🔥</span>
+                                    
+                                </a>
+                            
                         </li>
                     
                 
                     
-                        <!-- Nested Sub-dropdown (Level 2) with fixed hover bridge -->
-                        <li class="relative group/sub">
-                            <a class="font-semibold text-sm rounded-xl hover:bg-base-200/70 hover:text-primary flex justify-between items-center py-2 px-3 cursor-pointer">
-                                <span>SSC বোর্ড বৃত্তি Archive</span>
-                                <div class="flex items-center gap-1.5">
-                                    
-                                    <svg class="w-3.5 h-3.5 opacity-60 group-hover/sub:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        <li>
+                            <details class="nav-subdropdown group/sub">
+                                <summary class="nav-menu-link">
+                                    <span>SSC বোর্ড বৃত্তি Archive</span>
+                                    <svg class="w-4 h-4 opacity-50" viewBox="0 0 20 20" fill="none">
+                                        <path d="m7 4 6 6-6 6" stroke="currentColor"
+                                              stroke-width="1.7" stroke-linecap="round"/>
                                     </svg>
-                                </div>
-                            </a>
-                            <!-- Level 2 Flyout with bridge padding (ml-1) to prevent hover loss -->
-                            <ul class="hidden group-hover/sub:flex flex-col absolute left-full top-0 ml-1 w-56 p-2 bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 shadow-2xl space-y-1 z-[101]">
-                                
-                                    <li>
-                                        <a href="/ssc/scholarship-list/2026/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৬</span>
+                                </summary>
+
+                                <ul class="nav-submenu">
+                                    
+                                        <li>
                                             
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/ssc/scholarship-list/2025/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৫</span>
+                                                <a href="/ssc/scholarship-list/2026/" class="nav-menu-link">
+                                                    ২০২৬
+                                                    
+                                                </a>
                                             
-                                        </a>
-                                    </li>
-                                
-                            </ul>
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="/ssc/scholarship-list/2025/" class="nav-menu-link">
+                                                    ২০২৫
+                                                    
+                                                </a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            </details>
                         </li>
                     
                 
             </ul>
-        </div>
+        </details>
     
 
-                        
-                            
+                
+                    
     
-        <!-- Desktop Hover Dropdown (Level 1) -->
-        <div class="dropdown dropdown-hover dropdown-bottom">
-            <div tabindex="0" role="button" aria-haspopup="true" class="btn btn-ghost btn-sm rounded-xl font-bold flex items-center gap-1.5 text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200 group">
+        <details class="nav-dropdown group relative">
+            <summary class="nav-link">
                 <span>এইচএসসি (HSC)</span>
                 
-                <svg class="w-3.5 h-3.5 opacity-60 transition-transform duration-200 group-hover:rotate-180 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+                <svg class="nav-chevron" viewBox="0 0 20 20" fill="none">
+                    <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                          stroke-width="1.7" stroke-linecap="round"/>
                 </svg>
-            </div>
-            
-            <!-- Level 1 Dropdown Menu -->
-            <ul tabindex="0" class="dropdown-content z-[100] menu p-2 shadow-2xl bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 w-60 space-y-1 text-base-content mt-1">
+            </summary>
+
+            <ul class="nav-menu">
                 
                     
-                        <!-- Nested Sub-dropdown (Level 2) with fixed hover bridge -->
-                        <li class="relative group/sub">
-                            <a class="font-semibold text-sm rounded-xl hover:bg-base-200/70 hover:text-primary flex justify-between items-center py-2 px-3 cursor-pointer">
-                                <span>HSC বোর্ড বৃত্তি Archive</span>
-                                <div class="flex items-center gap-1.5">
-                                    
-                                    <svg class="w-3.5 h-3.5 opacity-60 group-hover/sub:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        <li>
+                            <details class="nav-subdropdown group/sub">
+                                <summary class="nav-menu-link">
+                                    <span>HSC বোর্ড বৃত্তি Archive</span>
+                                    <svg class="w-4 h-4 opacity-50" viewBox="0 0 20 20" fill="none">
+                                        <path d="m7 4 6 6-6 6" stroke="currentColor"
+                                              stroke-width="1.7" stroke-linecap="round"/>
                                     </svg>
-                                </div>
-                            </a>
-                            <!-- Level 2 Flyout with bridge padding (ml-1) to prevent hover loss -->
-                            <ul class="hidden group-hover/sub:flex flex-col absolute left-full top-0 ml-1 w-56 p-2 bg-base-100/95 backdrop-blur-xl rounded-2xl border border-base-200/80 shadow-2xl space-y-1 z-[101]">
-                                
-                                    <li>
-                                        <a href="/hsc/scholarship-list/2026/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৬</span>
+                                </summary>
+
+                                <ul class="nav-submenu">
+                                    
+                                        <li>
                                             
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/hsc/scholarship-list/2025/" class="rounded-xl text-xs font-semibold py-2 px-3 hover:text-primary hover:bg-base-200/70 flex justify-between items-center">
-                                            <span>২০২৫</span>
+                                                <a href="/hsc/scholarship-list/2026/" class="nav-menu-link">
+                                                    ২০২৬
+                                                    
+                                                </a>
                                             
-                                        </a>
-                                    </li>
-                                
-                            </ul>
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="/hsc/scholarship-list/2025/" class="nav-menu-link">
+                                                    ২০২৫
+                                                    
+                                                </a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            </details>
                         </li>
                     
                 
             </ul>
-        </div>
+        </details>
     
 
-                        
-                            
+                
+                    
     
-        <!-- Standalone Desktop Link -->
-        <a href="/blog" class="btn btn-ghost btn-sm rounded-xl font-bold text-base-content/90 hover:text-primary hover:bg-base-200/60 transition-all duration-200">
-            <span>ব্লগ</span>
-            
-        </a>
-    
-
-                        
-                    </div>
-
-                    <!-- Navbar End: Theme Switcher & Actions -->
-                    <div class="navbar-end gap-2">
-                        <!-- PWA Optimized Theme Controller Switcher -->
-                        <label class="btn btn-ghost btn-circle btn-sm text-base-content/80 hover:text-base-content swap swap-rotate" title="Toggle Light/Dark Theme">
-                            <input type="checkbox" id="theme-toggle" class="theme-controller hidden" value="dark" />
-                            
-                            <!-- Sun Icon (Active when dark mode is ON) -->
-                            <svg class="swap-on w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,3.52,6.34l.71.71A1,1,0,0,0,5.64,7.05ZM18.36,17A1,1,0,0,0,17,17.71l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-3.95-5.36a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.41l.71.71a1,1,0,0,0,1.41-0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/>
-                            </svg>
-                            
-                            <!-- Moon Icon (Active when light mode is ON) -->
-                            <svg class="swap-off w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05A1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22a10.17,10.17,0,0,0,5.13,11.34A10.1,10.1,0,0,0,16.27,18,8.11,8.11,0,0,1,12.14,19.69Z"/>
-                            </svg>
-                        </label>
-
-                        
-                            <a href="/ssc/scholarship-list/" class="btn btn-primary btn-sm sm:btn-md text-primary-content rounded-xl font-bold shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02] active:scale-95 transition-all duration-200">
-                                SSC Scholarship Result ➔
-                            </a>
-                        
-                    </div>
-
-                </div>
-            </div>
-        </header>
-    </div>
-
-    <!-- PWA Mobile Off-Canvas Drawer Side -->
-    <div class="drawer-side z-50 lg:hidden">
-        <label for="mobile-nav-drawer" aria-label="close sidebar" class="drawer-overlay bg-base-900/40 backdrop-blur-sm"></label>
         
-        <aside class="w-80 max-w-[85vw] min-h-full bg-base-100 text-base-content flex flex-col shadow-2xl">
-            <!-- Mobile Drawer Header -->
-            <div class="sticky top-0 z-10 flex items-center justify-between px-5 py-4 border-b border-base-200 bg-base-100/90 backdrop-blur-md">
-                <a href="/" class="flex items-center gap-2.5">
-                    <img src="/favicon-96x96.png" alt="EduToolsBD Logo" class="w-7 h-7 object-contain" />
-                    <span class="text-lg font-black tracking-tight text-base-content">EduTools<span class="text-primary">BD</span></span>
-                </a>
-                <label for="mobile-nav-drawer" class="btn btn-ghost btn-circle btn-sm text-base-content/60 hover:text-base-content">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            <a href="/blog"
+               class="nav-link ">
+                ব্লগ
+                
+            </a>
+        
+    
+
+                
+            </nav>
+
+            <!-- Actions -->
+            <div class="nav-actions">
+                <label for="theme-toggle"
+                       class="nav-icon-btn cursor-pointer"
+                       title="Change appearance"
+                       aria-label="Toggle theme">
+                    <svg id="theme-icon-sun" class="w-5 h-5 hidden" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/>
+                        <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"
+                              stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                    <svg id="theme-icon-moon" class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                        <path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"
+                              stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                    </svg>
                 </label>
-            </div>
 
-            <!-- Mobile Navigation Menu Links -->
-            <div class="flex-1 overflow-y-auto p-4">
-                <ul class="menu menu-md w-full p-0 space-y-1">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>হোম</span>
+                <input type="checkbox"
+                       id="theme-toggle"
+                       class="hidden">
+
                 
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        এসএসসি (SSC)
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/ssc/scholarship-list/2026/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>SSC বোর্ড বৃত্তি ২০২৬</span>
-                
-                    <span class="badge badge-xs badge-accent">HOT 🔥</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        SSC বোর্ড বৃত্তি Archive
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/ssc/scholarship-list/2026/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৬</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/ssc/scholarship-list/2025/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৫</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        এইচএসসি (HSC)
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Expandable Accordion (Properly handled children recursive capability) -->
-        <li class="py-0.5">
-            <details class="group">
-                <summary class="font-bold text-base text-base-content/90 rounded-xl py-2.5 px-4 hover:bg-base-200/60 hover:text-primary cursor-pointer flex justify-between items-center transition-colors">
-                    <span class="flex items-center gap-2">
-                        HSC বোর্ড বৃত্তি Archive
-                        
-                    </span>
-                    <svg class="w-4 h-4 opacity-60 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                </summary>
-                <ul class="pl-4 my-1 space-y-1 border-l-2 border-base-300/60 ml-4">
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/hsc/scholarship-list/2026/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৬</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/hsc/scholarship-list/2025/" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>২০২৫</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                </ul>
-            </details>
-        </li>
-    
-
-                    
-                        
-    
-        <!-- Mobile Direct Link -->
-        <li class="py-0.5">
-            <a href="/blog" class="font-semibold text-sm text-base-content/80 hover:text-primary active:bg-base-200 rounded-xl py-2 px-4 flex justify-between items-center transition-colors">
-                <span>ব্লগ</span>
-                
-            </a>
-        </li>
-    
-
-                    
-                </ul>
-            </div>
-
-            <!-- Mobile Drawer Footer CTA -->
-            
-                <div class="p-4 border-t border-base-200 bg-base-100/50">
-                    <a href="/ssc/scholarship-list/" class="btn btn-primary w-full rounded-xl text-primary-content font-bold shadow-lg shadow-primary/20">
+                    <a href="/ssc/scholarship-list/"
+                       class="btn btn-primary btn-sm rounded-lg px-4 font-semibold">
                         SSC Scholarship Result ➔
                     </a>
-                </div>
-            
-        </aside>
+                
+            </div>
+
+        </div>
     </div>
-</div>
+</header>
 
-<!-- Synchronous Non-Flickering Theme Script -->
 <script>
-    (function() {
-        const toggle = document.getElementById('theme-toggle');
-        const html = document.documentElement;
-        
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        html.setAttribute('data-theme', savedTheme);
-        if (savedTheme === 'dark') {
-            html.classList.add('dark');
-        } else {
-            html.classList.remove('dark');
-        }
+(() => {
+    const html = document.documentElement;
+    const toggle = document.getElementById('theme-toggle');
+    const sun = document.getElementById('theme-icon-sun');
+    const moon = document.getElementById('theme-icon-moon');
 
-        if (toggle) {
-            toggle.checked = (savedTheme === 'dark');
-            toggle.addEventListener('change', function() {
-                const newTheme = this.checked ? 'dark' : 'light';
-                html.setAttribute('data-theme', newTheme);
-                if (newTheme === 'dark') {
-                    html.classList.add('dark');
-                } else {
-                    html.classList.remove('dark');
-                }
-                localStorage.setItem('theme', newTheme);
-            });
-        }
-    })();
+    if (!toggle) return;
+
+    let savedTheme = 'light';
+
+    try {
+        savedTheme = localStorage.getItem('theme') ||
+            (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    } catch (e) {}
+
+    function applyTheme(theme) {
+        html.setAttribute('data-theme', theme);
+        toggle.checked = theme === 'dark';
+
+        sun?.classList.toggle('hidden', theme !== 'dark');
+        moon?.classList.toggle('hidden', theme === 'dark');
+
+        try {
+            localStorage.setItem('theme', theme);
+        } catch (e) {}
+    }
+
+    applyTheme(savedTheme);
+
+    toggle.addEventListener('change', () => {
+        applyTheme(toggle.checked ? 'dark' : 'light');
+    });
+})();
 </script>
 
-    <main class="flex-grow">
-        
-<section class="py-12 bg-base-100 font-sans">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-        
-        <!-- Hero Section -->
-        <header class="relative overflow-hidden bg-gradient-to-b from-blue-900 via-blue-900/95 to-slate-900 p-6 sm:p-10 rounded-3xl border border-blue-800/50 shadow-xl text-center space-y-3">
-            <div class="absolute -top-10 -left-10 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
-            <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
+            <main class="flex-1">
+                
+<div class="sch-page">
+    <div class="sch-container">
 
-            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/20 text-xs font-semibold tracking-wide uppercase mb-1">
-                ✨ 2026 &bull; SSC Central Result Hub
+        <!-- Breadcrumb -->
+        <nav class="sch-breadcrumb" aria-label="Breadcrumb">
+            <a href="/">হোম</a>
+            <span aria-hidden="true">/</span>
+            <span>SSC 2026</span>
+            <span aria-hidden="true">/</span>
+            <span class="text-base-content font-semibold">স্কলারশিপ ও রেজাল্ট</span>
+        </nav>
+
+        <!-- Hero -->
+        <header class="sch-hero">
+            <div class="relative z-10">
+                <div class="sch-eyebrow">
+                    <span class="w-2 h-2 rounded-full bg-blue-300"></span>
+                    2026 · SSC RESULT PORTAL
+                </div>
+
+                <h1>
+                    2026 সালের SSC শিক্ষা বোর্ড ফলাফল ও বৃত্তি তালিকা
+                </h1>
+
+                <p>
+                    আপনার শিক্ষা বোর্ড নির্বাচন করে পরীক্ষার ফলাফল, ট্যালেন্টপুল ও সাধারণ বৃত্তির তালিকা দেখুন। রোল নম্বর দিয়ে প্রয়োজনীয় তথ্য সহজেই খুঁজে নিন।
+                </p>
             </div>
-            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
-                2026 সালের SSC শিক্ষা বোর্ড ফলাফল ও বৃত্তি তালিকা
-            </h1>
-            <p class="text-blue-100/80 text-sm sm:text-base max-w-2xl mx-auto font-medium">
-                আপনার শিক্ষা বোর্ড নির্বাচন করে রেজাল্ট, বৃত্তিপ্রাপ্ত শিক্ষার্থীদের তালিকা (ট্যালেন্টপুল ও সাধারণ) এবং মার্কশিট যাচাই করুন।
-            </p>
         </header>
 
-        <!-- Disclaimer Box -->
-        <div role="alert" class="alert bg-blue-50/80 border border-blue-200/80 text-blue-950 rounded-2xl text-xs sm:text-sm p-4 backdrop-blur-sm flex items-start gap-3 shadow-sm">
-            <span class="text-lg leading-none mt-0.5">⚠️</span>
+        <!-- Disclaimer -->
+        <div class="sch-disclaimer" role="note">
+            <svg class="w-5 h-5 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 9v4m0 4h.01M10.3 3.9 2.8 17a2 2 0 0 0 1.7 3h15a2 2 0 0 0 1.7-3l-7.5-13.1a2 2 0 0 0-3.4 0Z"/>
+            </svg>
             <div>
-                <strong class="font-bold text-blue-900 block mb-0.5">সতর্কবার্তা / Disclaimer:</strong>
-                <span class="text-blue-900/80">এটি কোনো অফিশিয়াল সরকারি ওয়েবসাইট নয়। শিক্ষা বোর্ডের প্রকাশিত তথ্য থেকে ডাটা প্রসেস করে স্বয়ংক্রিয়ভাবে প্রদর্শন করা হচ্ছে। যেকোনো চূড়ান্ত প্রয়োজনে সংশ্লিষ্ট শিক্ষা বোর্ডের অফিশিয়াল গেজেট অনুসরণ করার অনুরোধ করা হলো।</span>
+                <strong class="block text-xs font-extrabold mb-1">গুরুত্বপূর্ণ তথ্য</strong>
+                <p>
+                    EduToolsBD কোনো সরকারি শিক্ষা বোর্ডের অফিশিয়াল ওয়েবসাইট নয়। প্রদর্শিত তথ্য শিক্ষা বোর্ডের প্রকাশিত উৎস থেকে প্রক্রিয়াকরণ করা হয়। চূড়ান্ত প্রয়োজনে সংশ্লিষ্ট বোর্ডের অফিশিয়াল গেজেট যাচাই করুন।
+                </p>
             </div>
         </div>
 
-        <!-- Quick Roll Search & Board Filter Widget -->
-        <div class="bg-white border border-blue-100 rounded-3xl p-6 sm:p-8 shadow-sm">
-            <div class="max-w-3xl mx-auto space-y-6">
-                <div class="text-center space-y-1">
-                    <h2 class="text-lg sm:text-xl font-bold text-slate-800 flex items-center justify-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        <!-- Quick Search -->
+        <section class="sch-section" aria-labelledby="search-heading">
+            <div class="sch-search-panel">
+                <div class="sch-search-heading">
+                    <div class="sch-search-icon" aria-hidden="true">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <circle cx="11" cy="11" r="7" stroke-width="2"/>
+                            <path d="m16 16 5 5" stroke-width="2" stroke-linecap="round"/>
                         </svg>
-                        রোল নম্বর দিয়ে দ্রুত অনুসন্ধান (Quick Roll Search)
-                    </h2>
-                    <p class="text-xs sm:text-sm text-slate-500">
-                        সরাসরি রোল নম্বর ও বোর্ড সিলেক্ট করে আপনার বা শিক্ষা প্রতিষ্ঠানের ফলাফল দেখুন।
-                    </p>
+                    </div>
+
+                    <div>
+                        <h2 id="search-heading" class="font-extrabold text-base sm:text-lg">
+                            রোল নম্বর দিয়ে ফলাফল খুঁজুন
+                        </h2>
+                        <p class="text-xs sch-muted mt-1">
+                            আপনার শিক্ষা বোর্ড ও রোল নম্বর দিয়ে সরাসরি অনুসন্ধান করুন।
+                        </p>
+                    </div>
                 </div>
 
-                <form id="quickRollSearchForm" class="grid grid-cols-1 sm:grid-cols-12 gap-3" onsubmit="handleQuickSearch(event)">
-                    <!-- Board Selection Dropdown -->
-                    <div class="sm:col-span-4">
-                        <select id="searchBoardSlug" name="board_slug" class="select select-bordered w-full rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 bg-blue-50/30 border-blue-100 text-sm font-medium" required>
-                            <option value="" disabled selected>বোর্ড নির্বাচন করুন...</option>
+                <form id="quickRollSearchForm" class="sch-search-form" onsubmit="handleQuickSearch(event)">
+                    <div>
+                        <label for="searchBoardSlug" class="sch-field-label">
+                            শিক্ষা বোর্ড
+                        </label>
+                        <select id="searchBoardSlug" name="board_slug" class="sch-control" required>
+                            <option value="" disabled selected>বোর্ড নির্বাচন করুন</option>
                             
                                 
-                                    <option value="barishal">Barishal Board</option>
-                                
-                            
-                                
-                                    <option value="chattogram">Chattogram Board</option>
-                                
-                            
-                                
-                                    <option value="dhaka">Dhaka Board</option>
+                                    <option value="barishal">বরিশাল</option>
                                 
                             
                                 
-                                    <option value="dinajpur">Dinajpur Board</option>
+                                    <option value="chattogram">চট্টগ্রাম</option>
                                 
                             
                                 
-                                    <option value="mymensingh">Mymensingh Board</option>
+                                    <option value="dhaka">ঢাকা</option>
                                 
                             
                                 
-                                    <option value="rajshahi">Rajshahi Board</option>
+                                    <option value="dinajpur">দিনাজপুর</option>
                                 
                             
                                 
-                                    <option value="sylhet">Sylhet Board</option>
+                                    <option value="mymensingh">ময়মনসিংহ</option>
+                                
+                            
+                                
+                                    <option value="rajshahi">রাজশাহী</option>
+                                
+                            
+                                
+                                    <option value="sylhet">সিলেট</option>
                                 
                             
                                 
@@ -599,556 +1114,1159 @@
                         </select>
                     </div>
 
-                    <!-- Roll Input -->
-                    <div class="sm:col-span-5">
-                        <input type="number" min="000000" max="99999999" id="searchRoll" name="roll" placeholder="রোল নম্বর লিখুন (যেমন: ১২৩৪৫৬)" class="input input-bordered w-full rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 bg-blue-50/30 border-blue-100 text-sm font-medium" required />
+                    <div>
+                        <label for="searchRoll" class="sch-field-label">
+                            পরীক্ষার রোল নম্বর
+                        </label>
+                        <input
+                            type="text"
+                            inputmode="numeric"
+                            pattern="[0-9০-৯]{1,8}"
+                            maxlength="8"
+                            id="searchRoll"
+                            name="roll"
+                            placeholder="যেমন: ১২৩৪৫৬"
+                            class="sch-control"
+                            required
+                        />
                     </div>
 
-                    <!-- Submit Button -->
-                    <div class="sm:col-span-3">
-                        <button type="submit" class="btn bg-blue-600 hover:bg-blue-700 text-white border-none w-full rounded-2xl font-bold shadow-md shadow-blue-500/20 transition-all">
+                    <button type="submit" class="sch-search-button">
+                        <span class="inline-flex items-center justify-center gap-2">
                             অনুসন্ধান করুন
-                        </button>
-                    </div>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m9 18 6-6-6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </button>
                 </form>
             </div>
-        </div>
+        </section>
 
-        <!-- Education Boards Grid Section -->
-        <div class="space-y-6">
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-blue-100 pb-4">
+        <!-- Board Grid -->
+        <section class="sch-section" aria-labelledby="boards-heading">
+            <div class="sch-section-heading">
                 <div>
-                    <h2 class="text-lg sm:text-xl font-bold text-slate-800">সকল শিক্ষা বোর্ডের ফলাফল ও বিশ্লেষণ</h2>
-                    <p class="text-xs sm:text-sm text-slate-500">বোর্ডভিত্তিক বিস্তারিত রেজাল্ট এবং ট্যালেন্টপুল/সাধারণ বৃত্তি কোটা তালিকা দেখতে নিচে ক্লিক করুন।</p>
+                    <h2 id="boards-heading">
+                        শিক্ষা বোর্ডসমূহ
+                    </h2>
+                    <p>
+                        আপনার বোর্ড নির্বাচন করে ফলাফল ও বৃত্তির বিস্তারিত দেখুন।
+                    </p>
                 </div>
-                <span class="badge bg-blue-50 text-blue-700 border border-blue-200 text-xs font-bold px-3 py-2 rounded-xl">মোট বোর্ড: 11টি</span>
+
+                <span class="sch-count">
+                    11 টি বোর্ড
+                </span>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+            <div class="sch-board-grid">
                 
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
-                        
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    barishal
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                BARISHAL
+                            </span>
+
+                            
+                                <span class="sch-status available">
+                                    সচল
                                 </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-600">
-                                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> সচল (Available)
-                                    </span>
-                                
-                            </div>
-
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    বরিশাল
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Barishal</p>
-                            </div>
-
                             
                         </div>
 
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
-                            
-                                <a href="./barishal" class="btn btn-sm bg-blue-600 hover:bg-blue-700 text-white border-none rounded-xl font-bold w-full transition-all">
-                                    রেজাল্ট দেখুন
-                                </a>
-                                <a href="./barishal/analysis" class="btn btn-sm btn-outline border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 rounded-xl font-bold w-full transition-all">
-                                    অ্যানালিসিস & বৃত্তি
-                                </a>
+                        <div class="sch-board-info">
+                            <h3>বরিশাল</h3>
+                            <p>Barishal</p>
+
                             
                         </div>
-
                     </div>
-                
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
+
+                    <div class="sch-board-actions">
                         
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    chattogram
-                                </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-600">
-                                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> সচল (Available)
-                                    </span>
-                                
-                            </div>
+                            <a href="./barishal/"
+                               class="sch-board-btn primary">
+                                রেজাল্ট দেখুন
+                            </a>
 
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    চট্টগ্রাম
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Chattogram</p>
-                            </div>
-
-                            
-                        </div>
-
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
-                            
-                                <a href="./chattogram" class="btn btn-sm bg-blue-600 hover:bg-blue-700 text-white border-none rounded-xl font-bold w-full transition-all">
-                                    রেজাল্ট দেখুন
-                                </a>
-                                <a href="./chattogram/analysis" class="btn btn-sm btn-outline border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 rounded-xl font-bold w-full transition-all">
-                                    অ্যানালিসিস & বৃত্তি
-                                </a>
-                            
-                        </div>
-
+                            <a href="./barishal/analysis/"
+                               class="sch-board-btn secondary">
+                                অ্যানালিসিস
+                            </a>
+                        
                     </div>
+                </article>
                 
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
-                        
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    dhaka
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                CHATTOGRAM
+                            </span>
+
+                            
+                                <span class="sch-status available">
+                                    সচল
                                 </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-600">
-                                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> সচল (Available)
-                                    </span>
-                                
-                            </div>
-
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    ঢাকা
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Dhaka</p>
-                            </div>
-
                             
                         </div>
 
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
-                            
-                                <a href="./dhaka" class="btn btn-sm bg-blue-600 hover:bg-blue-700 text-white border-none rounded-xl font-bold w-full transition-all">
-                                    রেজাল্ট দেখুন
-                                </a>
-                                <a href="./dhaka/analysis" class="btn btn-sm btn-outline border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 rounded-xl font-bold w-full transition-all">
-                                    অ্যানালিসিস & বৃত্তি
-                                </a>
+                        <div class="sch-board-info">
+                            <h3>চট্টগ্রাম</h3>
+                            <p>Chattogram</p>
+
                             
                         </div>
-
                     </div>
-                
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
+
+                    <div class="sch-board-actions">
                         
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    dinajpur
-                                </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-600">
-                                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> সচল (Available)
-                                    </span>
-                                
-                            </div>
+                            <a href="./chattogram/"
+                               class="sch-board-btn primary">
+                                রেজাল্ট দেখুন
+                            </a>
 
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    দিনাজপুর
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Dinajpur</p>
-                            </div>
-
-                            
-                        </div>
-
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
-                            
-                                <a href="./dinajpur" class="btn btn-sm bg-blue-600 hover:bg-blue-700 text-white border-none rounded-xl font-bold w-full transition-all">
-                                    রেজাল্ট দেখুন
-                                </a>
-                                <a href="./dinajpur/analysis" class="btn btn-sm btn-outline border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 rounded-xl font-bold w-full transition-all">
-                                    অ্যানালিসিস & বৃত্তি
-                                </a>
-                            
-                        </div>
-
+                            <a href="./chattogram/analysis/"
+                               class="sch-board-btn secondary">
+                                অ্যানালিসিস
+                            </a>
+                        
                     </div>
+                </article>
                 
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
-                        
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    mymensingh
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                DHAKA
+                            </span>
+
+                            
+                                <span class="sch-status available">
+                                    সচল
                                 </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-600">
-                                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> সচল (Available)
-                                    </span>
-                                
-                            </div>
-
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    ময়মনসিংহ
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Mymensingh</p>
-                            </div>
-
                             
                         </div>
 
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
-                            
-                                <a href="./mymensingh" class="btn btn-sm bg-blue-600 hover:bg-blue-700 text-white border-none rounded-xl font-bold w-full transition-all">
-                                    রেজাল্ট দেখুন
-                                </a>
-                                <a href="./mymensingh/analysis" class="btn btn-sm btn-outline border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 rounded-xl font-bold w-full transition-all">
-                                    অ্যানালিসিস & বৃত্তি
-                                </a>
+                        <div class="sch-board-info">
+                            <h3>ঢাকা</h3>
+                            <p>Dhaka</p>
+
                             
                         </div>
-
                     </div>
-                
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
+
+                    <div class="sch-board-actions">
                         
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    rajshahi
-                                </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-600">
-                                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> সচল (Available)
-                                    </span>
-                                
-                            </div>
+                            <a href="./dhaka/"
+                               class="sch-board-btn primary">
+                                রেজাল্ট দেখুন
+                            </a>
 
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    রাজশাহী
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Rajshahi</p>
-                            </div>
-
-                            
-                        </div>
-
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
-                            
-                                <a href="./rajshahi" class="btn btn-sm bg-blue-600 hover:bg-blue-700 text-white border-none rounded-xl font-bold w-full transition-all">
-                                    রেজাল্ট দেখুন
-                                </a>
-                                <a href="./rajshahi/analysis" class="btn btn-sm btn-outline border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 rounded-xl font-bold w-full transition-all">
-                                    অ্যানালিসিস & বৃত্তি
-                                </a>
-                            
-                        </div>
-
+                            <a href="./dhaka/analysis/"
+                               class="sch-board-btn secondary">
+                                অ্যানালিসিস
+                            </a>
+                        
                     </div>
+                </article>
                 
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
-                        
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    sylhet
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                DINAJPUR
+                            </span>
+
+                            
+                                <span class="sch-status available">
+                                    সচল
                                 </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-600">
-                                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> সচল (Available)
-                                    </span>
-                                
-                            </div>
-
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    সিলেট
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Sylhet</p>
-                            </div>
-
                             
                         </div>
 
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
-                            
-                                <a href="./sylhet" class="btn btn-sm bg-blue-600 hover:bg-blue-700 text-white border-none rounded-xl font-bold w-full transition-all">
-                                    রেজাল্ট দেখুন
-                                </a>
-                                <a href="./sylhet/analysis" class="btn btn-sm btn-outline border-blue-200 text-blue-700 hover:bg-blue-50 hover:border-blue-300 rounded-xl font-bold w-full transition-all">
-                                    অ্যানালিসিস & বৃত্তি
-                                </a>
+                        <div class="sch-board-info">
+                            <h3>দিনাজপুর</h3>
+                            <p>Dinajpur</p>
+
                             
                         </div>
-
                     </div>
-                
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
-                        
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    cumilla
-                                </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
-                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
-                                    </span>
-                                
-                            </div>
 
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    কুমিল্লা
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Cumilla</p>
-                            </div>
+                    <div class="sch-board-actions">
+                        
+                            <a href="./dinajpur/"
+                               class="sch-board-btn primary">
+                                রেজাল্ট দেখুন
+                            </a>
+
+                            <a href="./dinajpur/analysis/"
+                               class="sch-board-btn secondary">
+                                অ্যানালিসিস
+                            </a>
+                        
+                    </div>
+                </article>
+                
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                MYMENSINGH
+                            </span>
 
                             
-                                <div class="text-xs text-emerald-600 font-semibold pt-1">
+                                <span class="sch-status available">
+                                    সচল
+                                </span>
+                            
+                        </div>
+
+                        <div class="sch-board-info">
+                            <h3>ময়মনসিংহ</h3>
+                            <p>Mymensingh</p>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="sch-board-actions">
+                        
+                            <a href="./mymensingh/"
+                               class="sch-board-btn primary">
+                                রেজাল্ট দেখুন
+                            </a>
+
+                            <a href="./mymensingh/analysis/"
+                               class="sch-board-btn secondary">
+                                অ্যানালিসিস
+                            </a>
+                        
+                    </div>
+                </article>
+                
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                RAJSHAHI
+                            </span>
+
+                            
+                                <span class="sch-status available">
+                                    সচল
+                                </span>
+                            
+                        </div>
+
+                        <div class="sch-board-info">
+                            <h3>রাজশাহী</h3>
+                            <p>Rajshahi</p>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="sch-board-actions">
+                        
+                            <a href="./rajshahi/"
+                               class="sch-board-btn primary">
+                                রেজাল্ট দেখুন
+                            </a>
+
+                            <a href="./rajshahi/analysis/"
+                               class="sch-board-btn secondary">
+                                অ্যানালিসিস
+                            </a>
+                        
+                    </div>
+                </article>
+                
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                SYLHET
+                            </span>
+
+                            
+                                <span class="sch-status available">
+                                    সচল
+                                </span>
+                            
+                        </div>
+
+                        <div class="sch-board-info">
+                            <h3>সিলেট</h3>
+                            <p>Sylhet</p>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="sch-board-actions">
+                        
+                            <a href="./sylhet/"
+                               class="sch-board-btn primary">
+                                রেজাল্ট দেখুন
+                            </a>
+
+                            <a href="./sylhet/analysis/"
+                               class="sch-board-btn secondary">
+                                অ্যানালিসিস
+                            </a>
+                        
+                    </div>
+                </article>
+                
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                CUMILLA
+                            </span>
+
+                            
+                                <span class="sch-status pending">
+                                    অপেক্ষমাণ
+                                </span>
+                            
+                        </div>
+
+                        <div class="sch-board-info">
+                            <h3>কুমিল্লা</h3>
+                            <p>Cumilla</p>
+
+                            
+                                <div class="sch-board-date">
                                     সম্ভাব্য প্রকাশ: Correction Update Not Published Yet in this website.
                                 </div>
                             
                         </div>
+                    </div>
 
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
+                    <div class="sch-board-actions">
+                        
+                            <span class="sch-board-btn disabled" aria-disabled="true">
+                                শীঘ্রই আসছে
+                            </span>
+                        
+                    </div>
+                </article>
+                
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                JASHORE
+                            </span>
+
                             
-                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
-                                    শীঘ্রই আসছে
-                                </button>
+                                <span class="sch-status pending">
+                                    অপেক্ষমাণ
+                                </span>
                             
                         </div>
 
-                    </div>
-                
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
-                        
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    jashore
-                                </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
-                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
-                                    </span>
-                                
-                            </div>
-
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    যশোর
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Jashore</p>
-                            </div>
+                        <div class="sch-board-info">
+                            <h3>যশোর</h3>
+                            <p>Jashore</p>
 
                             
-                                <div class="text-xs text-emerald-600 font-semibold pt-1">
+                                <div class="sch-board-date">
                                     সম্ভাব্য প্রকাশ: 29 OCTOBER
                                 </div>
                             
                         </div>
-
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
-                            
-                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
-                                    শীঘ্রই আসছে
-                                </button>
-                            
-                        </div>
-
                     </div>
-                
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
+
+                    <div class="sch-board-actions">
                         
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    madrasah
-                                </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
-                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
-                                    </span>
-                                
-                            </div>
-
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    মাদ্রাসা
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Madrasah</p>
-                            </div>
-
-                            
-                        </div>
-
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
-                            
-                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
-                                    শীঘ্রই আসছে
-                                </button>
-                            
-                        </div>
-
-                    </div>
-                
-                    <div class="bg-white hover:border-blue-300 border border-blue-100 rounded-3xl p-5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-4 group">
+                            <span class="sch-board-btn disabled" aria-disabled="true">
+                                শীঘ্রই আসছে
+                            </span>
                         
-                        <!-- Board Info -->
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold uppercase px-2.5 py-1 rounded-xl bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                                    technical
-                                </span>
-                                
-                                    <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600">
-                                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> অপেক্ষমাণ
-                                    </span>
-                                
-                            </div>
-
-                            <div>
-                                <h3 class="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                    কারিগরি
-                                </h3>
-                                <p class="text-xs text-slate-400 font-medium">Technical</p>
-                            </div>
-
-                            
-                        </div>
-
-                        <!-- Action Links -->
-                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-blue-50">
-                            
-                                <button class="btn btn-sm btn-disabled w-full col-span-2 rounded-xl">
-                                    শীঘ্রই আসছে
-                                </button>
-                            
-                        </div>
-
                     </div>
+                </article>
+                
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                MADRASAH
+                            </span>
+
+                            
+                                <span class="sch-status pending">
+                                    অপেক্ষমাণ
+                                </span>
+                            
+                        </div>
+
+                        <div class="sch-board-info">
+                            <h3>মাদ্রাসা</h3>
+                            <p>Madrasah</p>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="sch-board-actions">
+                        
+                            <span class="sch-board-btn disabled" aria-disabled="true">
+                                শীঘ্রই আসছে
+                            </span>
+                        
+                    </div>
+                </article>
+                
+                <article class="sch-board-card">
+                    <div>
+                        <div class="sch-board-top">
+                            <span class="sch-board-code">
+                                TECHNICAL
+                            </span>
+
+                            
+                                <span class="sch-status pending">
+                                    অপেক্ষমাণ
+                                </span>
+                            
+                        </div>
+
+                        <div class="sch-board-info">
+                            <h3>কারিগরি</h3>
+                            <p>Technical</p>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="sch-board-actions">
+                        
+                            <span class="sch-board-btn disabled" aria-disabled="true">
+                                শীঘ্রই আসছে
+                            </span>
+                        
+                    </div>
+                </article>
                 
             </div>
-        </div>
+        </section>
 
-        <!-- Informational Section -->
-        <div class="bg-white border border-blue-100 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
-            <div class="border-b border-blue-100 pb-4">
-                <h2 class="text-lg sm:text-xl font-bold text-slate-800">বোর্ড বৃত্তি কি এবং কীভাবে রেজাল্ট দেখবেন?</h2>
-                <p class="text-xs sm:text-sm text-slate-500">EduToolsBD-র এই প্ল্যাটফর্ম সম্পর্কে কিছু গুরুত্বপূর্ণ তথ্য</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-slate-600">
-                <div class="space-y-2">
-                    <h3 class="font-bold text-base text-slate-800 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-blue-600"></span> বোর্ড বৃত্তি কি?
-                    </h3>
-                    <p class="leading-relaxed text-xs sm:text-sm">
-                        SSC & HSC পরীক্ষায় অসাধারণ ফলাফলের ওপর ভিত্তি করে শিক্ষার্থীদের সরকারিভাবে আর্থিক প্রণোদনা ও স্বীকৃতিস্বরূপ ট্যালেন্টপুল এবং সাধারণ গ্রেডে বৃত্তি প্রদান করা হয়।
-                    </p>
-                </div>
-
-                <div class="space-y-2">
-                    <h3 class="font-bold text-base text-slate-800 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-blue-600"></span> কোন কোন বোর্ড প্রকাশ করেছে?
-                    </h3>
-                    <p class="leading-relaxed text-xs sm:text-sm">
-                        ঢাকা, রাজশাহী, কুমিল্লা, যশোর, চট্টগ্রাম, বরিশাল, সিলেট, দিনাজপুর, ময়মনসিংহ এবং মাদরাসা ও কারিগরি শিক্ষা বোর্ড তাদের স্ব স্ব ফলাফল ও বৃত্তি তালিকা পর্যায়ক্রমে প্রকাশ করে থাকে। 
-                    </p>
-                </div>
-
-                <div class="space-y-2">
-                    <h3 class="font-bold text-base text-slate-800 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-blue-600"></span> সহজে রেজাল্ট খোঁজার উপায়
-                    </h3>
-                    <p class="leading-relaxed text-xs sm:text-sm">
-                        সাধারণত শিক্ষা বোর্ডগুলো তাদের অফিশিয়াল ওয়েবসাইটে পিডিএফ (PDF) আকারে মেধা তালিকা প্রকাশ করে। কিন্তু হাজার হাজার পৃষ্ঠার পিডিএফে নিজের রোল খোঁজা বেশ জটিল। শিক্ষার্থীদের এই জটিলতা দূর করতেই EdutoolsBD-তে ১-ক্লিকে রোল নম্বর দিয়ে রেজাল্ট চেক করার ডাটাবেজ তৈরি করা হয়েছে, যা সম্পূর্ণ বিজ্ঞাপন-মুক্ত এবং নিরাপদ।
+        <!-- Information -->
+        <section class="sch-section sch-info-panel" aria-labelledby="info-heading">
+            <div class="sch-section-heading">
+                <div>
+                    <h2 id="info-heading">
+                        এই প্ল্যাটফর্ম সম্পর্কে
+                    </h2>
+                    <p>
+                        ফলাফল ও বৃত্তি অনুসন্ধান সম্পর্কিত কিছু প্রয়োজনীয় তথ্য।
                     </p>
                 </div>
             </div>
+
+            <div class="sch-info-grid">
+                <article class="sch-info-item">
+                    <h3>
+                        <span class="sch-info-dot" aria-hidden="true"></span>
+                        বোর্ড বৃত্তি কী?
+                    </h3>
+                    <p>
+                        SSC ও HSC পরীক্ষার ফলাফলের ভিত্তিতে নির্বাচিত শিক্ষার্থীদের ট্যালেন্টপুল ও সাধারণ গ্রেডে বৃত্তি প্রদান করা হয়। সংশ্লিষ্ট শিক্ষা বোর্ডের প্রকাশিত গেজেটে বৃত্তিপ্রাপ্তদের তালিকা পাওয়া যায়।
+                    </p>
+                </article>
+
+                <article class="sch-info-item">
+                    <h3>
+                        <span class="sch-info-dot" aria-hidden="true"></span>
+                        কোন বোর্ডগুলো অন্তর্ভুক্ত?
+                    </h3>
+                    <p>
+                        ঢাকা, রাজশাহী, কুমিল্লা, যশোর, চট্টগ্রাম, বরিশাল, সিলেট, দিনাজপুর, ময়মনসিংহ এবং মাদরাসা ও কারিগরি শিক্ষা বোর্ডের তথ্য এখানে অন্তর্ভুক্ত করা হয়।
+                    </p>
+                </article>
+
+                <article class="sch-info-item">
+                    <h3>
+                        <span class="sch-info-dot" aria-hidden="true"></span>
+                        কীভাবে ফলাফল খুঁজবেন?
+                    </h3>
+                    <p>
+                        উপরের Quick Search থেকে বোর্ড নির্বাচন করে রোল নম্বর লিখুন। অথবা নিচের বোর্ড তালিকা থেকে নিজের বোর্ড নির্বাচন করে ফলাফল ও বৃত্তির বিস্তারিত দেখুন।
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Bottom help -->
+        <div class="mt-7 text-center px-4">
+            <p class="text-xs sch-muted leading-7">
+                ফলাফল খুঁজে পেতে সমস্যা হচ্ছে?
+                <a href="mailto:itsmahib.abrar@gmail.com"
+                   class="font-bold text-primary hover:underline">
+                    আমাদের জানান
+                </a>
+            </p>
         </div>
 
     </div>
-</section>
+</div>
 
-<!-- Client-side script to manage fast searching via pathways -->
 <script>
+    "use strict";
+
+    function normalizeDigits(value) {
+        const bnDigits = "০১২৩৪৫৬৭৮৯";
+        return value.replace(/[০-৯]/g, ch => String(bnDigits.indexOf(ch)));
+    }
+
     function handleQuickSearch(event) {
         event.preventDefault();
-        const selectElement = document.getElementById('searchBoardSlug');
-        const boardSlug = selectElement.value;
-        const roll = document.getElementById('searchRoll').value.trim();
-        
-        if (!boardSlug || !roll) return;
 
-        // Redirect to the designated board result route with query parameter
-        window.location.href = `./${boardSlug}?roll=${encodeURIComponent(roll)}`;
+        const boardSlug = document.getElementById('searchBoardSlug').value;
+        const rawRoll = document.getElementById('searchRoll').value.trim();
+        const roll = normalizeDigits(rawRoll);
+
+        if (!boardSlug || !/^\d{1,8}$/.test(roll)) {
+            return;
+        }
+
+        window.location.href =
+            `./${encodeURIComponent(boardSlug)}/?roll=${encodeURIComponent(roll)}`;
     }
 </script>
 
-    </main>
+            </main>
 
-    <footer class="bg-base-200 border-t border-base-300 mt-16 transition-colors duration-200">
-        <div class="footer max-w-7xl mx-auto p-10 text-base-content grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            <aside class="space-y-3">
-                <a href="/" class="text-2xl font-black tracking-tight text-base-content">
-                    Edutools<span class="text-primary">BD</span>
+            
+<footer class="mt-16 border-t border-base-300 bg-base-200/50">
+
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 pt-12 pb-9">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+
+            <!-- Brand Section -->
+            <div class="sm:col-span-2 lg:col-span-1">
+
+                <a href="/" class="inline-flex items-center gap-2.5 group">
+                    <div class="w-10 h-10 rounded-xl bg-base-100 border border-base-300 flex items-center justify-center">
+                        <img src="/favicon-96x96.png"
+                             alt=""
+                             class="w-7 h-7 object-contain">
+                    </div>
+
+                    <span class="text-xl font-extrabold tracking-tight text-base-content">
+                        EduTools<span class="text-primary">BD</span>
+                    </span>
                 </a>
-                <p class="text-xs sm:text-sm text-base-content/70 leading-relaxed">
-                    বাংলাদেশের শিক্ষার্থীদের জন্য দ্রুততম ও নির্ভরযোগ্য ডিজিটাল শিক্ষামূলক টুলস ও ফলাফল প্ল্যাটফর্ম।
+
+                <p class="mt-4 max-w-xs text-sm leading-7 text-base-content/65">
+                    বাংলাদেশের শিক্ষার্থীদের জন্য প্রয়োজনীয় শিক্ষামূলক
+                    টুলস, ফলাফল, স্কলারশিপ তথ্য ও ডিজিটাল সেবা —
+                    সবকিছু এক জায়গায়।
                 </p>
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-base-300/60 text-base-content/80 text-xs font-semibold">
-                    <span class="w-2 h-2 rounded-full bg-success animate-pulse"></span> System Active
+
+                <div class="mt-5 inline-flex items-center gap-2 rounded-lg border border-base-300 bg-base-100 px-3 py-2">
+                    <span class="w-2 h-2 rounded-full bg-success"></span>
+                    <span class="text-xs font-medium text-base-content/70">
+                        শিক্ষার্থীদের জন্য তৈরি
+                    </span>
                 </div>
-            </aside>
 
-            <nav>
-                <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">টুলস ও সার্ভিস</h6>
-                <a href="/ssc/scholarship-list/2026/" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">SSC স্কলারশিপ চেক</a>
-                <a href="/hsc/2026/result" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">HSC রেজাল্ট ২০২৬</a>
-            </nav>
+            </div>
 
-            <nav>
-                <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">তথ্য ও নীতি</h6>
-                <a href="#" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">আমাদের সম্পর্কে</a>
-                <a href="#" class="link link-hover text-base-content/70 hover:text-primary text-sm transition-colors">প্রাইভেসি পলিসি</a>
-            </nav>
 
-            <nav>
-                <h6 class="footer-title text-base-content font-bold opacity-100 mb-2">যোগাযোগ</h6>
-                <a href="mailto:itsmahib.abrar@gmail.com" class="link link-hover text-base-content/70 hover:text-primary text-sm break-all transition-colors">
+            <!-- Tools & Services -->
+            <div>
+
+                <h3 class="text-sm font-bold text-base-content mb-4">
+                    টুলস ও সার্ভিস
+                </h3>
+
+                <ul class="space-y-3 text-sm text-base-content/65">
+
+                    <li>
+                        <a href="/ssc/scholarship-list/2026/"
+                           class="footer-link">
+                            SSC স্কলারশিপ ২০২৬
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/hsc/2026/result"
+                           class="footer-link">
+                            HSC রেজাল্ট ২০২৬
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/tools/"
+                           class="footer-link">
+                            সকল টুলস
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Useful Links -->
+            <div>
+
+                <h3 class="text-sm font-bold text-base-content mb-4">
+                    প্রয়োজনীয় লিংক
+                </h3>
+
+                <ul class="space-y-3 text-sm text-base-content/65">
+
+                    <li>
+                        <a href="/about/" class="footer-link">
+                            আমাদের সম্পর্কে
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/privacy-policy/" class="footer-link">
+                            প্রাইভেসি পলিসি
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/terms/" class="footer-link">
+                            ব্যবহারের শর্তাবলি
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Contact -->
+            <div>
+
+                <h3 class="text-sm font-bold text-base-content mb-4">
+                    যোগাযোগ
+                </h3>
+
+                <p class="text-sm text-base-content/65 leading-6">
+                    কোনো ভুল তথ্য, সমস্যা অথবা পরামর্শ থাকলে আমাদের জানান।
+                </p>
+
+                <a href="mailto:itsmahib.abrar@gmail.com"
+                   class="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-primary hover:underline break-all">
+
+                    <svg class="w-4 h-4 shrink-0"
+                         viewBox="0 0 24 24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="1.8">
+                        <rect x="3" y="5" width="18" height="14" rx="2"/>
+                        <path d="m3 7 9 6 9-6"/>
+                    </svg>
+
                     itsmahib.abrar@gmail.com
+
                 </a>
-            </nav>
+
+            </div>
+
         </div>
 
-        <div class="border-t border-base-300/60 py-4 text-center text-xs text-base-content/60 bg-base-300/30">
-            <p>© 2026 EdutoolsBD — সর্বস্বত্ব সংরক্ষিত। এটি কোনো অফিশিয়াল সরকারি ওয়েবসাইট নয়।</p>
+
+        <!-- Disclaimer -->
+        <div class="mt-11 pt-6 border-t border-base-300">
+
+            <div class="flex items-start gap-3">
+
+                <svg class="w-5 h-5 shrink-0 mt-0.5 text-base-content/40"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="1.8">
+                    <circle cx="12" cy="12" r="9"/>
+                    <path d="M12 11v5m0-9h.01"
+                          stroke-linecap="round"/>
+                </svg>
+
+                <p class="text-xs leading-6 text-base-content/55">
+                    EduToolsBD একটি স্বতন্ত্র শিক্ষামূলক প্ল্যাটফর্ম।
+                    এটি বাংলাদেশ শিক্ষা বোর্ড বা কোনো সরকারি প্রতিষ্ঠানের
+                    অফিশিয়াল ওয়েবসাইট নয়। এখানে প্রকাশিত ফলাফল ও তথ্য
+                    সংশ্লিষ্ট উৎসের ভিত্তিতে উপস্থাপন করা হয়।
+                    গুরুত্বপূর্ণ তথ্যের ক্ষেত্রে মূল সরকারি উৎস যাচাই করুন।
+                </p>
+
+            </div>
+
         </div>
-    </footer>
+
+    </div>
+
+
+    <!-- Copyright Bar -->
+    <div class="border-t border-base-300 bg-base-200/70">
+
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-5">
+
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
+
+                <p class="text-xs text-base-content/55 text-center sm:text-left">
+                    © 2026
+                    EduToolsBD. সর্বস্বত্ব সংরক্ষিত।
+                </p>
+
+                <div class="flex items-center gap-4">
+
+                    <a href="/privacy-policy/"
+                       class="text-xs text-base-content/55 hover:text-primary transition-colors">
+                        Privacy
+                    </a>
+
+                    <span class="w-1 h-1 rounded-full bg-base-content/25"></span>
+
+                    <a href="/terms/"
+                       class="text-xs text-base-content/55 hover:text-primary transition-colors">
+                        Terms
+                    </a>
+
+                    <span class="w-1 h-1 rounded-full bg-base-content/25"></span>
+
+                    <a href="#"
+                       onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;"
+                       class="inline-flex items-center gap-1.5 text-xs font-semibold text-base-content/65 hover:text-primary transition-colors">
+
+                        Back to top
+
+                        <svg class="w-3.5 h-3.5"
+                             viewBox="0 0 24 24"
+                             fill="none"
+                             stroke="currentColor"
+                             stroke-width="2">
+                            <path d="m18 15-6-6-6 6"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"/>
+                        </svg>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<style>
+    .footer-link {
+        display: inline-block;
+        transition: color .15s ease;
+    }
+
+    .footer-link:hover {
+        color: var(--fallback-p, oklch(var(--p)));
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .footer-link {
+            transition: none;
+        }
+    }
+</style>
+
+        </div>
+
+        
+
+
+
+<style>
+    .mobile-drawer-overlay {
+        background-color: rgba(15, 23, 42, 0.45);
+        backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);
+    }
+
+    .mobile-drawer {
+        width: min(340px, 88vw);
+        background-color: #ffffff;
+        color: #0f172a;
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        box-shadow: 8px 0 32px rgba(15, 23, 42, 0.22);
+        border-right: 1px solid rgba(15, 23, 42, 0.08);
+    }
+
+    .mobile-drawer-header {
+        min-height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        background-color: #ffffff;
+        border-bottom: 1px solid rgba(15, 23, 42, 0.09);
+    }
+
+    .mobile-drawer-content {
+        flex: 1;
+        overflow-y: auto;
+        padding: 16px;
+        background-color: #ffffff;
+    }
+
+    .mobile-nav-group > summary,
+    .mobile-nav-link {
+        min-height: 45px;
+        padding: 11px 12px;
+        border-radius: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 14px;
+        font-weight: 550;
+        color: #1e293b;
+        cursor: pointer;
+        list-style: none;
+        transition: background-color .15s, color .15s;
+    }
+
+    .mobile-nav-group > summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .mobile-nav-group > summary::marker {
+        content: "";
+    }
+
+    .mobile-nav-group > summary:hover,
+    .mobile-nav-link:hover {
+        background-color: #f1f5f9;
+        color: #0f172a;
+    }
+
+    .mobile-nav-group > summary:focus-visible,
+    .mobile-nav-link:focus-visible,
+    .mobile-drawer-header label:focus-visible {
+        outline: 2px solid var(--fallback-p, oklch(var(--p)));
+        outline-offset: 2px;
+    }
+
+    .mobile-nav-active {
+        background-color: #eff6ff;
+        color: var(--fallback-p, #1d4ed8);
+        font-weight: 700;
+    }
+
+    .mobile-nav-active:hover {
+        background-color: #dbeafe;
+        color: var(--fallback-p, #1d4ed8);
+    }
+
+    .mobile-chevron {
+        width: 16px;
+        height: 16px;
+        color: #64748b;
+        flex-shrink: 0;
+        transition: transform .2s;
+    }
+
+    .mobile-nav-group[open] > summary .mobile-chevron {
+        transform: rotate(180deg);
+    }
+
+    .mobile-nav-children {
+        margin: 5px 0 7px 12px;
+        padding-left: 12px;
+        border-left: 1.5px solid #cbd5e1;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .mobile-nav-children .mobile-nav-link,
+    .mobile-nav-children .mobile-nav-group > summary {
+        font-size: 13px;
+        min-height: 41px;
+    }
+
+    .mobile-drawer-footer {
+        padding: 16px 20px;
+        background-color: #ffffff;
+        border-top: 1px solid rgba(15, 23, 42, 0.09);
+    }
+</style>
+
+<div class="drawer-side z-50">
+    <label for="mobile-nav-drawer"
+           class="drawer-overlay mobile-drawer-overlay"
+           aria-label="Close navigation"></label>
+
+    <aside class="mobile-drawer"
+           aria-label="Mobile navigation">
+
+        <!-- Drawer heading -->
+        <div class="mobile-drawer-header">
+            <a href="/" class="flex items-center gap-2.5">
+                <img src="/favicon-96x96.png"
+                     alt=""
+                     class="w-8 h-8 object-contain">
+                <span class="font-extrabold text-lg tracking-tight text-slate-900">
+                    EduTools<span class="text-primary">BD</span>
+                </span>
+            </a>
+
+            <label for="mobile-nav-drawer"
+                   class="nav-icon-btn cursor-pointer text-slate-700 hover:bg-slate-100 rounded-lg p-1.5"
+                   aria-label="Close menu">
+                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                    <path d="m6 6 12 12M18 6 6 18"
+                          stroke="currentColor" stroke-width="1.8"
+                          stroke-linecap="round"/>
+                </svg>
+            </label>
+        </div>
+
+        <!-- Navigation -->
+        <div class="mobile-drawer-content">
+            <p class="px-3 mb-3 text-[11px] font-bold tracking-wider uppercase text-slate-400">
+                Navigation
+            </p>
+
+            <ul class="flex flex-col gap-1">
+                
+                    
+    <li>
+        
+            
+                <a href="/"
+                   class="mobile-nav-link ">
+                    <span>হোম</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                
+                    
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>এসএসসি (SSC)</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            
+                <a href="/ssc/scholarship-list/2026/"
+                   class="mobile-nav-link mobile-nav-active">
+                    <span>SSC বোর্ড বৃত্তি ২০২৬</span>
+                    
+                        <span class="badge badge-xs badge-secondary">HOT 🔥</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                        
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>SSC বোর্ড বৃত্তি Archive</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            
+                <a href="/ssc/scholarship-list/2026/"
+                   class="mobile-nav-link mobile-nav-active">
+                    <span>২০২৬</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                        
+    <li>
+        
+            
+                <a href="/ssc/scholarship-list/2025/"
+                   class="mobile-nav-link ">
+                    <span>২০২৫</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                
+                    
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>এইচএসসি (HSC)</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            <details class="mobile-nav-group">
+                <summary>
+                    <span>HSC বোর্ড বৃত্তি Archive</span>
+                    
+                    <svg class="mobile-chevron" viewBox="0 0 20 20" fill="none">
+                        <path d="m5 7.5 5 5 5-5" stroke="currentColor"
+                              stroke-width="1.7" stroke-linecap="round"/>
+                    </svg>
+                </summary>
+
+                <ul class="mobile-nav-children">
+                    
+                        
+    <li>
+        
+            
+                <a href="/hsc/scholarship-list/2026/"
+                   class="mobile-nav-link ">
+                    <span>২০২৬</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                        
+    <li>
+        
+            
+                <a href="/hsc/scholarship-list/2025/"
+                   class="mobile-nav-link ">
+                    <span>২০২৫</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                    
+                </ul>
+            </details>
+        
+    </li>
+
+                
+                    
+    <li>
+        
+            
+                <a href="/blog"
+                   class="mobile-nav-link ">
+                    <span>ব্লগ</span>
+                    
+                </a>
+            
+        
+    </li>
+
+                
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="mobile-drawer-footer">
+            
+                <a href="/ssc/scholarship-list/"
+                   class="btn btn-primary w-full rounded-lg font-semibold">
+                    SSC Scholarship Result ➔
+                </a>
+            
+        </div>
+
+    </aside>
+</div>
+
+<script>
+(() => {
+    const drawer = document.getElementById('mobile-nav-drawer');
+    if (!drawer) return;
+
+    // Close drawer after navigation.
+    document.querySelectorAll('.mobile-drawer a[href]').forEach(link => {
+        link.addEventListener('click', () => {
+            drawer.checked = false;
+        });
+    });
+
+    // Close drawer with Escape.
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && drawer.checked) {
+            drawer.checked = false;
+        }
+    });
+})();
+</script>
+
+    </div>
 
     <script>
         const storageFileName = `DEFAULT`;
