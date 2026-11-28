@@ -1,0 +1,67 @@
+# Edutoolsbd
+
+> A platform providing SSC/HSC scholarship results, board notices, and educational digital tools for students in Bangladesh. Additonally platform will create some exclusive features in future.
+
+## Main
+
+- [EduToolsBD | শিক্ষার্থীদের প্রয়োজনীয় টুলস ও রেজাল্ট](https://edutoolsbd.vercel.app/): EduToolsBD-তে খুব সহজেই এসএসসি (SSC) ও এইচএসসি (HSC) পরীক্ষার বৃত্তি মেধা তালিকা, বোর্ড নোটিশ এবং শিক্ষামূলক ডিজিটাল টুলস এক ক্লিকে খুঁজুন।
+
+## Tools
+
+- [সকল অনলাইন টুলস — EduToolsBD](https://edutoolsbd.vercel.app/tools): শিক্ষার্থীদের জন্য GPA Calculator, শিক্ষামূলক টুলস, PDF utilities এবং প্রয়োজনীয় অনলাইন সেবা এক জায়গায়।
+
+## Blog
+
+- [শিক্ষামূলক ব্লগ ও গাইডলাইন — EduToolsBD](https://edutoolsbd.vercel.app/blog): শিক্ষা সংক্রান্ত তথ্য, এসএসসি/এইচএসসি বোর্ড বৃত্তি গাইডলাইন, সেরা স্কুলের তালিকা ও গুরুত্বপূর্ণ নোটিশের বিস্তারিত ব্লগ দেখুন EduToolsBD-তে।
+- [কীভাবে সহজেই এসএসসি ২০২৬ বৃত্তি ফলাফল চেক করবেন?](https://edutoolsbd.vercel.app/blog/ssc-scholarship-result-2026-how-to-check): কীভাবে সহজেই এসএসসি ২০২৬ বৃত্তি ফলাফল চেক করবেন? — EduToolsBD-এর শিক্ষামূলক ব্লগ ও গাইডলাইন।
+
+## Company
+
+- [EduToolsBD সম্পর্কে — শিক্ষার্থী ও শিক্ষা বোর্ড টুলস প্ল্যাটফর্ম](https://edutoolsbd.vercel.app/about): EduToolsBD হলো বাংলাদেশের শিক্ষার্থীদের জন্য তৈরি একটি দ্রুত ও সহজ শিক্ষা টুলস প্ল্যাটফর্ম, যেখানে SSC ও HSC বোর্ড ফলাফল, বৃত্তি তালিকা এবং অ্যানালিসিস পাওয়া যায়।
+
+## Hsc
+
+- [HSC Result 2026 | রেজাল্ট কাউন্টডাউন](https://edutoolsbd.vercel.app/hsc): Easily get all board links HSC RESULT 2026 - EduToolsBD
+- [HSC স্কলারশিপ রেজাল্ট - বছরের তালিকা | EdutoolsBD](https://edutoolsbd.vercel.app/hsc/scholarship-list): HSC পরীক্ষার বৃত্তির ফলাফল এবং মেরিট লিস্টের সালভিত্তিক তালিকা। আপনার কাঙ্ক্ষিত সাল নির্বাচন করে রেজাল্ট দেখুন।
+- [2025 HSC স্কলারশিপ ও বোর্ড রেজাল্ট | EduToolsBD](https://edutoolsbd.vercel.app/hsc/scholarship-list/2025): 2025 সালের HSC পরীক্ষার শিক্ষা বোর্ডভিত্তিক ফলাফল, ট্যালেন্টপুল ও সাধারণ বৃত্তি তালিকা এবং রোল নম্বর দিয়ে তাৎক্ষণিক চেক করার সুবিধা।
+- [2026 HSC স্কলারশিপ ও বোর্ড রেজাল্ট | EduToolsBD](https://edutoolsbd.vercel.app/hsc/scholarship-list/2026): 2026 সালের HSC পরীক্ষার শিক্ষা বোর্ডভিত্তিক ফলাফল, ট্যালেন্টপুল ও সাধারণ বৃত্তি তালিকা এবং রোল নম্বর দিয়ে তাৎক্ষণিক চেক করার সুবিধা।
+- [2025 সালের HSC ঢাকা বোর্ড বৃত্তি ফলাফল | EduToolsBD](https://edutoolsbd.vercel.app/hsc/scholarship-list/2025/dhaka): 2025 সালের HSC পরীক্ষার ঢাকা শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল দেখুন। রোল নম্বর বা শিক্ষার্থীর নাম দিয়ে সহজেই অনুসন্ধান করুন।
+- [2025 সালের HSC ঢাকা বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD](https://edutoolsbd.vercel.app/hsc/scholarship-list/2025/dhaka/analysis): 2025 সালের HSC পরীক্ষার ঢাকা শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।
+
+## Institutes
+
+- [বরিশাল ক্যাডেট কলেজ | EIIN 100443 | EduToolsBD](https://edutoolsbd.vercel.app/institutes/barishal/barisal/babuganj/barisal-cadet-college-100443): বরিশাল ক্যাডেট কলেজ এর EIIN, ঠিকানা, শিক্ষা বোর্ড এবং বিগত বছরের SSC ও HSC পরীক্ষার ফলাফল দেখুন।
+- [ইসলামী আদর্শ উচ্চ বিদ্যালয় | EIIN 108190 | EduToolsBD](https://edutoolsbd.vercel.app/institutes/dhaka/dhaka-mahanagari/mirpur/islamia-adarsha-high-school-108190): ইসলামী আদর্শ উচ্চ বিদ্যালয় এর EIIN, ঠিকানা, শিক্ষা বোর্ড এবং বিগত বছরের SSC ও HSC পরীক্ষার ফলাফল দেখুন।
+- [মিরপুর ডেভেলপমেন্ট কমিটি (এম.ডি.সি) মডেল স্কুল এন্ড কলেজ | EIIN 108191 | EduToolsBD](https://edutoolsbd.vercel.app/institutes/dhaka/dhaka-mahanagari/mirpur/m-d-c-model-institute-108191): মিরপুর ডেভেলপমেন্ট কমিটি (এম.ডি.সি) মডেল স্কুল এন্ড কলেজ এর EIIN, ঠিকানা, শিক্ষা বোর্ড এবং বিগত বছরের SSC ও HSC পরীক্ষার ফলাফল দেখুন।
+
+## Ssc
+
+- [SSC স্কলারশিপ রেজাল্ট - বছরের তালিকা | EdutoolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list): SSC পরীক্ষার বৃত্তির ফলাফল এবং মেরিট লিস্টের সালভিত্তিক তালিকা। আপনার কাঙ্ক্ষিত সাল নির্বাচন করে রেজাল্ট দেখুন।
+- [2026 SSC স্কলারশিপ ও বোর্ড রেজাল্ট | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026): 2026 সালের SSC পরীক্ষার শিক্ষা বোর্ডভিত্তিক ফলাফল, ট্যালেন্টপুল ও সাধারণ বৃত্তি তালিকা এবং রোল নম্বর দিয়ে তাৎক্ষণিক চেক করার সুবিধা।
+- [2025 SSC স্কলারশিপ ও বোর্ড রেজাল্ট | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2025): 2025 সালের SSC পরীক্ষার শিক্ষা বোর্ডভিত্তিক ফলাফল, ট্যালেন্টপুল ও সাধারণ বৃত্তি তালিকা এবং রোল নম্বর দিয়ে তাৎক্ষণিক চেক করার সুবিধা।
+- [2026 সালের SSC দিনাজপুর বোর্ড বৃত্তি ফলাফল | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/dinajpur): 2026 সালের SSC পরীক্ষার দিনাজপুর শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল দেখুন। রোল নম্বর বা শিক্ষার্থীর নাম দিয়ে সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC ময়মনসিংহ বোর্ড বৃত্তি ফলাফল | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/mymensingh): 2026 সালের SSC পরীক্ষার ময়মনসিংহ শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল দেখুন। রোল নম্বর বা শিক্ষার্থীর নাম দিয়ে সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC ঢাকা বোর্ড বৃত্তি ফলাফল | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/dhaka): 2026 সালের SSC পরীক্ষার ঢাকা শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল দেখুন। রোল নম্বর বা শিক্ষার্থীর নাম দিয়ে সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC রাজশাহী বোর্ড বৃত্তি ফলাফল | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/rajshahi): 2026 সালের SSC পরীক্ষার রাজশাহী শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল দেখুন। রোল নম্বর বা শিক্ষার্থীর নাম দিয়ে সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC বরিশাল বোর্ড বৃত্তি ফলাফল | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/barishal): 2026 সালের SSC পরীক্ষার বরিশাল শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল দেখুন। রোল নম্বর বা শিক্ষার্থীর নাম দিয়ে সহজেই অনুসন্ধান করুন।
+- [2025 সালের SSC ঢাকা বোর্ড বৃত্তি ফলাফল | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2025/dhaka): 2025 সালের SSC পরীক্ষার ঢাকা শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল দেখুন। রোল নম্বর বা শিক্ষার্থীর নাম দিয়ে সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC সিলেট বোর্ড বৃত্তি ফলাফল | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/sylhet): 2026 সালের SSC পরীক্ষার সিলেট শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল দেখুন। রোল নম্বর বা শিক্ষার্থীর নাম দিয়ে সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC চট্টগ্রাম বোর্ড বৃত্তি ফলাফল | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/chattogram): 2026 সালের SSC পরীক্ষার চট্টগ্রাম শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল দেখুন। রোল নম্বর বা শিক্ষার্থীর নাম দিয়ে সহজেই অনুসন্ধান করুন।
+- [2025 সালের SSC মাদ্রাসা বোর্ড বৃত্তি ফলাফল | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2025/madrasah): 2025 সালের SSC পরীক্ষার মাদ্রাসা শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল দেখুন। রোল নম্বর বা শিক্ষার্থীর নাম দিয়ে সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC ঢাকা বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/dhaka/analysis): 2026 সালের SSC পরীক্ষার ঢাকা শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC দিনাজপুর বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/dinajpur/analysis): 2026 সালের SSC পরীক্ষার দিনাজপুর শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।
+- [2025 সালের SSC মাদ্রাসা বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2025/madrasah/analysis): 2025 সালের SSC পরীক্ষার মাদ্রাসা শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC বরিশাল বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/barishal/analysis): 2026 সালের SSC পরীক্ষার বরিশাল শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC ময়মনসিংহ বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/mymensingh/analysis): 2026 সালের SSC পরীক্ষার ময়মনসিংহ শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC রাজশাহী বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/rajshahi/analysis): 2026 সালের SSC পরীক্ষার রাজশাহী শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC সিলেট বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/sylhet/analysis): 2026 সালের SSC পরীক্ষার সিলেট শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।
+- [2025 সালের SSC ঢাকা বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2025/dhaka/analysis): 2025 সালের SSC পরীক্ষার ঢাকা শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।
+- [2026 সালের SSC চট্টগ্রাম বোর্ড বৃত্তি ফলাফল SchoolWise | EduToolsBD](https://edutoolsbd.vercel.app/ssc/scholarship-list/2026/chattogram/analysis): 2026 সালের SSC পরীক্ষার চট্টগ্রাম শিক্ষা বোর্ডের ট্যালেন্টপুল ও সাধারণ বৃত্তির ফলাফল SchoolWise দেখুন. সহজেই অনুসন্ধান করুন।
+
+## More
+
+- [Privacy Policy ও তথ্য সুরক্ষা নীতিমালা | EduToolsBD](https://edutoolsbd.vercel.app/privacy-policy): EduToolsBD-এর Privacy Policy, ডেটা ব্যবহার নীতিমালা, Google Search Console ও Ahrefs ট্র্যাকার এবং বৃত্তি তালিকা থেকে নাম হাইড করার নির্দেশনা।
+
+## Optional
+
+- [ব্যবহারের শর্তাবলি — EduToolsBD](https://edutoolsbd.vercel.app/terms): EduToolsBD ওয়েবসাইট ও এর বিভিন্ন অনলাইন টুলস ব্যবহারের নিয়ম, শর্তাবলি, ব্যবহারকারীর দায়িত্ব এবং নীতিমালা সম্পর্কে জানুন।
